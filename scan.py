@@ -156,7 +156,7 @@ CMD echo "Hello world"
 
         # 4 calculate statistics (media, T-test whatever!)
 
-    writeFile("FOO.json", json.dumps(plotData))
+    writeFile("results/BASIC.json", json.dumps(plotData))
     writeChartImage(plotData)
     die("done")
 

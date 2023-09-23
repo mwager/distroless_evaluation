@@ -67,7 +67,7 @@ for filepath in files:
 
     FINAL.append(data)
 
-writeFile("FINAL.json", json.dumps(FINAL, indent=2))
+writeFile("results/FINAL.json", json.dumps(FINAL, indent=2))
 
 
 print("========================")
