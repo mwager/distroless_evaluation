@@ -1,5 +1,5 @@
 """
-Some helpers used in main.py
+Some helpers used in other files
 """
 import json, unittest, requests, os
 import plotly.express as px

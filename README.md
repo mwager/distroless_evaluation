@@ -1,6 +1,14 @@
-# Readme
+# Distroless Evaluation
 
-This is the source code related to my master thesis "Evaluating the security of software containers through reduction of potentially vulnerable components"
+This is the source code related to my master thesis "Evaluating the security of software containers through reduction of potentially vulnerable components".
+
+## Download
+
+```
+$ git clone https://github.com/mwager/distroless_evaluation.git
+$ cd distroless_evaluation
+$ ls
+```
 
 ## Files & Folders
 
@@ -22,9 +30,19 @@ $ vagrant up
 # ssh into the machine
 $ vagrant ssh
 
-# example:
+# How to:
+# -------
 $ cd /src
+# Execute the python files in this order:
+$ python3 scan.py
+$ python3 analysis.py
 $ python3 results.py
+```
+
+### Remove all images:
+
+```
+$ sudo docker rmi -f $(sudo docker images -a -q)
 ```
 
 ### Downloading twistcli
@@ -38,7 +56,7 @@ For twistcli an accesskey and secret is needed.
 - ./twistcli images scan ...
 ```
 
-## Scanning
+### Scanning
 
 twistcli:
 
@@ -51,7 +69,3 @@ Trivy:
 ```
 $ sudo trivy image -f json -o trivy-results.json $IMAGE_NAME
 ```
-
-## Remove all images:
-
-$ sudo docker rmi -f $(sudo docker images -a -q)
