@@ -1,0 +1,4522 @@
+{
+	"results": [
+		{
+			"id": "sha256:0931076bbc765b4127b1cbb5c3f2d5e6b34895ca2e965db73ae3fad9378a3856",
+			"name": "registry.access.redhat.com-ubi8-nodejs-18-minimal_latest:latest",
+			"distro": "Red Hat Enterprise Linux release 8.8 (Ootpa)",
+			"distroRelease": "RHEL8",
+			"collections": [
+				"All"
+			],
+			"packages": [
+				{
+					"type": "os",
+					"name": "crypto-policies",
+					"version": "20221215-1.gitece0092.el8",
+					"licenses": [
+						"LGPLv2+"
+					]
+				},
+				{
+					"type": "os",
+					"name": "redhat-release",
+					"version": "8.8-0.8.el8",
+					"licenses": [
+						"GPLv2"
+					]
+				},
+				{
+					"type": "os",
+					"name": "filesystem",
+					"version": "3.8-6.el8",
+					"licenses": [
+						"Public Domain"
+					]
+				},
+				{
+					"type": "os",
+					"name": "publicsuffix-list-dafsa",
+					"version": "20180723-1.el8",
+					"licenses": [
+						"MPLv2.0"
+					]
+				},
+				{
+					"type": "os",
+					"name": "pcre2",
+					"version": "10.32-3.el8_6",
+					"licenses": [
+						"BSD"
+					]
+				},
+				{
+					"type": "os",
+					"name": "ncurses-libs",
+					"version": "6.1-9.20180224.el8_8.1",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "os",
+					"name": "glibc-common",
+					"version": "2.28-225.el8",
+					"licenses": [
+						"LGPLv2+ and LGPLv2+ with exceptions and GPLv2+ and GPLv2+ with exceptions and BSD and Inner-Net and ISC and Public Domain and GFDL"
+					]
+				},
+				{
+					"type": "os",
+					"name": "bash",
+					"version": "4.4.20-4.el8_6",
+					"licenses": [
+						"GPLv3+"
+					]
+				},
+				{
+					"type": "os",
+					"name": "zlib",
+					"version": "1.2.11-21.el8_7",
+					"licenses": [
+						"zlib and Boost"
+					]
+				},
+				{
+					"type": "os",
+					"name": "xz-libs",
+					"version": "5.2.4-4.el8_6",
+					"licenses": [
+						"Public Domain"
+					]
+				},
+				{
+					"type": "os",
+					"name": "bzip2-libs",
+					"version": "1.0.6-26.el8",
+					"licenses": [
+						"BSD"
+					]
+				},
+				{
+					"type": "os",
+					"name": "gmp",
+					"version": "6.1.2-10.el8",
+					"licenses": [
+						"LGPLv3+ or GPLv2+"
+					]
+				},
+				{
+					"type": "os",
+					"name": "libcom_err",
+					"version": "1.45.6-5.el8",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "os",
+					"name": "libunistring",
+					"version": "0.9.9-3.el8",
+					"licenses": [
+						"GPLv2+ or LGPLv3+"
+					]
+				},
+				{
+					"type": "os",
+					"name": "libxml2",
+					"version": "2.9.7-16.el8_8.1",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "os",
+					"name": "p11-kit",
+					"version": "0.23.22-1.el8",
+					"licenses": [
+						"BSD"
+					]
+				},
+				{
+					"type": "os",
+					"name": "readline",
+					"version": "7.0-10.el8",
+					"licenses": [
+						"GPLv3+"
+					]
+				},
+				{
+					"type": "os",
+					"name": "libgcrypt",
+					"version": "1.8.5-7.el8_6",
+					"licenses": [
+						"LGPLv2+"
+					]
+				},
+				{
+					"type": "os",
+					"name": "libattr",
+					"version": "2.4.48-3.el8",
+					"licenses": [
+						"LGPLv2+"
+					]
+				},
+				{
+					"type": "os",
+					"name": "coreutils-single",
+					"version": "8.30-15.el8",
+					"licenses": [
+						"GPLv3+"
+					]
+				},
+				{
+					"type": "os",
+					"name": "libsmartcols",
+					"version": "2.32.1-42.el8_8",
+					"licenses": [
+						"LGPLv2+"
+					]
+				},
+				{
+					"type": "os",
+					"name": "libuuid",
+					"version": "2.32.1-42.el8_8",
+					"licenses": [
+						"BSD"
+					]
+				},
+				{
+					"type": "os",
+					"name": "lz4-libs",
+					"version": "1.8.3-3.el8_4",
+					"licenses": [
+						"GPLv2+ and BSD"
+					]
+				},
+				{
+					"type": "os",
+					"name": "grep",
+					"version": "3.1-6.el8",
+					"licenses": [
+						"GPLv3+"
+					]
+				},
+				{
+					"type": "os",
+					"name": "libmount",
+					"version": "2.32.1-42.el8_8",
+					"licenses": [
+						"LGPLv2+"
+					]
+				},
+				{
+					"type": "os",
+					"name": "libusbx",
+					"version": "1.0.23-4.el8",
+					"licenses": [
+						"LGPLv2+"
+					]
+				},
+				{
+					"type": "os",
+					"name": "p11-kit-trust",
+					"version": "0.23.22-1.el8",
+					"licenses": [
+						"BSD"
+					]
+				},
+				{
+					"type": "os",
+					"name": "openssl-libs",
+					"version": "1.1.1k-9.el8_7",
+					"licenses": [
+						"OpenSSL and ASL 2.0"
+					]
+				},
+				{
+					"type": "os",
+					"name": "libdb-utils",
+					"version": "5.3.28-42.el8_4",
+					"licenses": [
+						"BSD and LGPLv2 and Sleepycat"
+					]
+				},
+				{
+					"type": "os",
+					"name": "libpsl",
+					"version": "0.20.2-6.el8",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "os",
+					"name": "nettle",
+					"version": "3.4.1-7.el8",
+					"licenses": [
+						"LGPLv3+ or GPLv2+"
+					]
+				},
+				{
+					"type": "os",
+					"name": "glib2",
+					"version": "2.56.4-161.el8",
+					"licenses": [
+						"LGPLv2+"
+					]
+				},
+				{
+					"type": "os",
+					"name": "librhsm",
+					"version": "0.0.3-5.el8",
+					"licenses": [
+						"LGPLv2+"
+					]
+				},
+				{
+					"type": "os",
+					"name": "libpeas",
+					"version": "1.22.0-6.el8",
+					"licenses": [
+						"LGPLv2+"
+					]
+				},
+				{
+					"type": "os",
+					"name": "file-libs",
+					"version": "5.33-24.el8",
+					"licenses": [
+						"BSD"
+					]
+				},
+				{
+					"type": "os",
+					"name": "json-c",
+					"version": "0.13.1-3.el8",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "os",
+					"name": "libcap-ng",
+					"version": "0.7.11-1.el8",
+					"licenses": [
+						"LGPLv2+"
+					]
+				},
+				{
+					"type": "os",
+					"name": "libnghttp2",
+					"version": "1.33.0-3.el8_2.1",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "os",
+					"name": "gawk",
+					"version": "4.2.1-4.el8",
+					"licenses": [
+						"GPLv3+ and GPLv2+ and LGPLv2+ and BSD"
+					]
+				},
+				{
+					"type": "os",
+					"name": "libverto",
+					"version": "0.3.2-2.el8",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "os",
+					"name": "libxcrypt",
+					"version": "4.1.1-6.el8",
+					"licenses": [
+						"LGPLv2+ and BSD and Public Domain"
+					]
+				},
+				{
+					"type": "os",
+					"name": "openldap",
+					"version": "2.4.46-18.el8",
+					"licenses": [
+						"OpenLDAP"
+					]
+				},
+				{
+					"type": "os",
+					"name": "npth",
+					"version": "1.5-4.el8",
+					"licenses": [
+						"LGPLv2+"
+					]
+				},
+				{
+					"type": "os",
+					"name": "gpgme",
+					"version": "1.13.1-11.el8",
+					"licenses": [
+						"LGPLv2+ and GPLv3+"
+					]
+				},
+				{
+					"type": "os",
+					"name": "libssh",
+					"version": "0.9.6-10.el8_8",
+					"licenses": [
+						"LGPLv2+"
+					]
+				},
+				{
+					"type": "os",
+					"name": "curl",
+					"version": "7.61.1-30.el8_8.3",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "os",
+					"name": "rpm-libs",
+					"version": "4.14.3-26.el8",
+					"licenses": [
+						"GPLv2+ and LGPLv2+ with exceptions"
+					]
+				},
+				{
+					"type": "os",
+					"name": "libsolv",
+					"version": "0.7.20-4.el8",
+					"licenses": [
+						"BSD"
+					]
+				},
+				{
+					"type": "os",
+					"name": "libdnf",
+					"version": "0.63.0-14.el8_8",
+					"licenses": [
+						"LGPLv2+"
+					]
+				},
+				{
+					"type": "os",
+					"name": "langpacks-en",
+					"version": "1.0-12.el8",
+					"licenses": [
+						"GPLv2+"
+					]
+				},
+				{
+					"type": "os",
+					"name": "gpg-pubkey",
+					"version": "fd431d51-4ae0493b",
+					"licenses": [
+						"pubkey"
+					]
+				},
+				{
+					"type": "os",
+					"name": "openssl",
+					"version": "1.1.1k-9.el8_7",
+					"licenses": [
+						"OpenSSL and ASL 2.0"
+					]
+				},
+				{
+					"type": "os",
+					"name": "nodejs",
+					"version": "18.16.1-1.module+el8.8.0+19438+94e84959",
+					"licenses": [
+						"MIT and ASL 2.0 and ISC and BSD"
+					]
+				},
+				{
+					"type": "os",
+					"name": "nodejs-nodemon",
+					"version": "2.0.20-2.module+el8.8.0+18432+27f188ac",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "os",
+					"name": "tar",
+					"version": "1.30-9.el8",
+					"licenses": [
+						"GPLv3+"
+					]
+				},
+				{
+					"type": "os",
+					"name": "libgcc",
+					"version": "8.5.0-18.el8",
+					"licenses": [
+						"GPLv3+ and GPLv3+ with exceptions and GPLv2+ with exceptions and LGPLv2+ and BSD"
+					]
+				},
+				{
+					"type": "os",
+					"name": "tzdata",
+					"version": "2023c-1.el8",
+					"licenses": [
+						"Public Domain"
+					]
+				},
+				{
+					"type": "os",
+					"name": "setup",
+					"version": "2.12.2-9.el8",
+					"licenses": [
+						"Public Domain"
+					]
+				},
+				{
+					"type": "os",
+					"name": "basesystem",
+					"version": "11-5.el8",
+					"licenses": [
+						"Public Domain"
+					]
+				},
+				{
+					"type": "os",
+					"name": "ncurses-base",
+					"version": "6.1-9.20180224.el8_8.1",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "os",
+					"name": "libselinux",
+					"version": "2.9-8.el8",
+					"licenses": [
+						"Public Domain"
+					]
+				},
+				{
+					"type": "os",
+					"name": "glibc-minimal-langpack",
+					"version": "2.28-225.el8",
+					"licenses": [
+						"LGPLv2+ and LGPLv2+ with exceptions and GPLv2+ and GPLv2+ with exceptions and BSD and Inner-Net and ISC and Public Domain and GFDL"
+					]
+				},
+				{
+					"type": "os",
+					"name": "glibc",
+					"version": "2.28-225.el8",
+					"licenses": [
+						"LGPLv2+ and LGPLv2+ with exceptions and GPLv2+ and GPLv2+ with exceptions and BSD and Inner-Net and ISC and Public Domain and GFDL"
+					]
+				},
+				{
+					"type": "os",
+					"name": "libsepol",
+					"version": "2.9-3.el8",
+					"licenses": [
+						"LGPLv2+"
+					]
+				},
+				{
+					"type": "os",
+					"name": "libgpg-error",
+					"version": "1.31-1.el8",
+					"licenses": [
+						"LGPLv2+"
+					]
+				},
+				{
+					"type": "os",
+					"name": "info",
+					"version": "6.5-7.el8",
+					"licenses": [
+						"GPLv3+"
+					]
+				},
+				{
+					"type": "os",
+					"name": "sqlite-libs",
+					"version": "3.26.0-18.el8_8",
+					"licenses": [
+						"Public Domain"
+					]
+				},
+				{
+					"type": "os",
+					"name": "libcap",
+					"version": "2.48-5.el8_8",
+					"licenses": [
+						"BSD or GPLv2"
+					]
+				},
+				{
+					"type": "os",
+					"name": "libzstd",
+					"version": "1.4.4-1.el8",
+					"licenses": [
+						"BSD and GPLv2"
+					]
+				},
+				{
+					"type": "os",
+					"name": "libidn2",
+					"version": "2.2.0-1.el8",
+					"licenses": [
+						"(GPLv2+ or LGPLv3+) and GPLv3+"
+					]
+				},
+				{
+					"type": "os",
+					"name": "libffi",
+					"version": "3.1-24.el8",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "os",
+					"name": "popt",
+					"version": "1.18-1.el8",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "os",
+					"name": "libassuan",
+					"version": "2.5.1-3.el8",
+					"licenses": [
+						"LGPLv2+ and GPLv3+"
+					]
+				},
+				{
+					"type": "os",
+					"name": "elfutils-libelf",
+					"version": "0.188-3.el8",
+					"licenses": [
+						"GPLv2+ or LGPLv3+"
+					]
+				},
+				{
+					"type": "os",
+					"name": "libacl",
+					"version": "2.2.53-1.el8",
+					"licenses": [
+						"LGPLv2+"
+					]
+				},
+				{
+					"type": "os",
+					"name": "sed",
+					"version": "4.5-5.el8",
+					"licenses": [
+						"GPLv3+"
+					]
+				},
+				{
+					"type": "os",
+					"name": "libtasn1",
+					"version": "4.13-4.el8_7",
+					"licenses": [
+						"GPLv3+ and LGPLv2+"
+					]
+				},
+				{
+					"type": "os",
+					"name": "lua-libs",
+					"version": "5.3.4-12.el8",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "os",
+					"name": "pcre",
+					"version": "8.42-6.el8",
+					"licenses": [
+						"BSD"
+					]
+				},
+				{
+					"type": "os",
+					"name": "libblkid",
+					"version": "2.32.1-42.el8_8",
+					"licenses": [
+						"LGPLv2+"
+					]
+				},
+				{
+					"type": "os",
+					"name": "systemd-libs",
+					"version": "239-74.el8_8.5",
+					"licenses": [
+						"LGPLv2+ and MIT"
+					]
+				},
+				{
+					"type": "os",
+					"name": "chkconfig",
+					"version": "1.19.1-1.el8",
+					"licenses": [
+						"GPLv2"
+					]
+				},
+				{
+					"type": "os",
+					"name": "ca-certificates",
+					"version": "2023.2.60_v7.0.306-80.0.el8_8",
+					"licenses": [
+						"Public Domain"
+					]
+				},
+				{
+					"type": "os",
+					"name": "libdb",
+					"version": "5.3.28-42.el8_4",
+					"licenses": [
+						"BSD and LGPLv2 and Sleepycat"
+					]
+				},
+				{
+					"type": "os",
+					"name": "libarchive",
+					"version": "3.3.3-5.el8",
+					"licenses": [
+						"BSD"
+					]
+				},
+				{
+					"type": "os",
+					"name": "mpfr",
+					"version": "3.1.6-1.el8",
+					"licenses": [
+						"LGPLv3+ and GPLv3+ and GFDL"
+					]
+				},
+				{
+					"type": "os",
+					"name": "gnutls",
+					"version": "3.6.16-6.el8_7",
+					"licenses": [
+						"GPLv3+ and LGPLv2+"
+					]
+				},
+				{
+					"type": "os",
+					"name": "json-glib",
+					"version": "1.4.4-1.el8",
+					"licenses": [
+						"LGPLv2+"
+					]
+				},
+				{
+					"type": "os",
+					"name": "gobject-introspection",
+					"version": "1.56.1-1.el8",
+					"licenses": [
+						"GPLv2+, LGPLv2+, MIT"
+					]
+				},
+				{
+					"type": "os",
+					"name": "libksba",
+					"version": "1.3.5-9.el8_7",
+					"licenses": [
+						"(LGPLv3+ or GPLv2+) and GPLv3+"
+					]
+				},
+				{
+					"type": "os",
+					"name": "brotli",
+					"version": "1.0.6-3.el8",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "os",
+					"name": "keyutils-libs",
+					"version": "1.5.10-9.el8",
+					"licenses": [
+						"GPLv2+ and LGPLv2+"
+					]
+				},
+				{
+					"type": "os",
+					"name": "audit-libs",
+					"version": "3.0.7-4.el8",
+					"licenses": [
+						"LGPLv2+"
+					]
+				},
+				{
+					"type": "os",
+					"name": "libsigsegv",
+					"version": "2.11-5.el8",
+					"licenses": [
+						"GPLv2+"
+					]
+				},
+				{
+					"type": "os",
+					"name": "libstdc++",
+					"version": "8.5.0-18.el8",
+					"licenses": [
+						"GPLv3+ and GPLv3+ with exceptions and GPLv2+ with exceptions and LGPLv2+ and BSD"
+					]
+				},
+				{
+					"type": "os",
+					"name": "krb5-libs",
+					"version": "1.18.2-25.el8_8",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "os",
+					"name": "cyrus-sasl-lib",
+					"version": "2.1.27-6.el8_5",
+					"licenses": [
+						"BSD with advertising"
+					]
+				},
+				{
+					"type": "os",
+					"name": "libyaml",
+					"version": "0.1.7-5.el8",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "os",
+					"name": "gnupg2",
+					"version": "2.2.20-3.el8_6",
+					"licenses": [
+						"GPLv3+"
+					]
+				},
+				{
+					"type": "os",
+					"name": "libssh-config",
+					"version": "0.9.6-10.el8_8",
+					"licenses": [
+						"LGPLv2+"
+					]
+				},
+				{
+					"type": "os",
+					"name": "libcurl",
+					"version": "7.61.1-30.el8_8.3",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "os",
+					"name": "rpm",
+					"version": "4.14.3-26.el8",
+					"licenses": [
+						"GPLv2+"
+					]
+				},
+				{
+					"type": "os",
+					"name": "libmodulemd",
+					"version": "2.13.0-1.el8",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "os",
+					"name": "librepo",
+					"version": "1.14.2-4.el8",
+					"licenses": [
+						"LGPLv2+"
+					]
+				},
+				{
+					"type": "os",
+					"name": "microdnf",
+					"version": "3.8.0-2.el8",
+					"licenses": [
+						"GPLv2+"
+					]
+				},
+				{
+					"type": "os",
+					"name": "rootfiles",
+					"version": "8.1-22.el8",
+					"licenses": [
+						"Public Domain"
+					]
+				},
+				{
+					"type": "os",
+					"name": "gpg-pubkey",
+					"version": "d4082792-5b32db75",
+					"licenses": [
+						"pubkey"
+					]
+				},
+				{
+					"type": "os",
+					"name": "nodejs-full-i18n",
+					"version": "18.16.1-1.module+el8.8.0+19438+94e84959",
+					"licenses": [
+						"MIT and ASL 2.0 and ISC and BSD"
+					]
+				},
+				{
+					"type": "os",
+					"name": "npm",
+					"version": "9.5.1-1.18.16.1.1.module+el8.8.0+19438+94e84959",
+					"licenses": [
+						"MIT and ASL 2.0 and ISC and BSD"
+					]
+				},
+				{
+					"type": "os",
+					"name": "findutils",
+					"version": "4.6.0-20.el8_8.1",
+					"licenses": [
+						"GPLv3+"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "minimatch",
+					"version": "3.1.2",
+					"path": "/usr/lib/node_modules/npm/node_modules/rimraf/node_modules/minimatch",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "aggregate-error",
+					"version": "3.1.0",
+					"path": "/usr/lib/node_modules/npm/node_modules/aggregate-error",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "minipass-collect",
+					"version": "1.0.2",
+					"path": "/usr/lib/node_modules/npm/node_modules/minipass-collect",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "parse-conflict-json",
+					"version": "3.0.0",
+					"path": "/usr/lib/node_modules/npm/node_modules/parse-conflict-json",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "postcss-selector-parser",
+					"version": "6.0.11",
+					"path": "/usr/lib/node_modules/npm/node_modules/postcss-selector-parser",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "ssri",
+					"version": "10.0.1",
+					"path": "/usr/lib/node_modules/npm/node_modules/ssri",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "once",
+					"version": "1.4.0",
+					"path": "/usr/lib/node_modules/npm/node_modules/once",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "emoji-regex",
+					"version": "8.0.0",
+					"path": "/usr/lib/node_modules/npm/node_modules/emoji-regex",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "minipass",
+					"version": "4.0.3",
+					"path": "/usr/lib/node_modules/npm/node_modules/minipass",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "npm-package-arg",
+					"version": "10.1.0",
+					"path": "/usr/lib/node_modules/npm/node_modules/npm-package-arg",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "readable-stream",
+					"version": "4.3.0",
+					"path": "/usr/lib/node_modules/npm/node_modules/readable-stream",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "spdx-correct",
+					"version": "3.1.1",
+					"path": "/usr/lib/node_modules/npm/node_modules/spdx-correct",
+					"licenses": [
+						"Apache-2.0"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "readdirp",
+					"version": "3.6.0",
+					"path": "/usr/lib/node_modules/nodemon/node_modules/readdirp",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "infer-owner",
+					"version": "1.0.4",
+					"path": "/usr/lib/node_modules/npm/node_modules/infer-owner",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "unique-filename",
+					"version": "2.0.1",
+					"path": "/usr/lib/node_modules/npm/node_modules/node-gyp/node_modules/unique-filename",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "promise-inflight",
+					"version": "1.0.1",
+					"path": "/usr/lib/node_modules/npm/node_modules/promise-inflight",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "inflight",
+					"version": "1.0.6",
+					"path": "/usr/lib/node_modules/npm/node_modules/inflight",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "libnpmdiff",
+					"version": "5.0.11",
+					"path": "/usr/lib/node_modules/npm/node_modules/libnpmdiff",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "which",
+					"version": "2.0.2",
+					"path": "/usr/lib/node_modules/npm/node_modules/node-gyp/node_modules/which",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "process",
+					"version": "0.11.10",
+					"path": "/usr/lib/node_modules/npm/node_modules/process",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "sigstore",
+					"version": "1.0.0",
+					"path": "/usr/lib/node_modules/npm/node_modules/sigstore",
+					"licenses": [
+						"Apache-2.0"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "https-proxy-agent",
+					"version": "5.0.1",
+					"path": "/usr/lib/node_modules/npm/node_modules/https-proxy-agent",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "iconv-lite",
+					"version": "0.6.3",
+					"path": "/usr/lib/node_modules/npm/node_modules/iconv-lite",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "@npmcli/fs",
+					"version": "2.1.2",
+					"path": "/usr/lib/node_modules/npm/node_modules/node-gyp/node_modules/@npmcli/fs",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "is-glob",
+					"version": "4.0.3",
+					"path": "/usr/lib/node_modules/nodemon/node_modules/is-glob",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "function-bind",
+					"version": "1.1.1",
+					"path": "/usr/lib/node_modules/npm/node_modules/function-bind",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "are-we-there-yet",
+					"version": "3.0.1",
+					"path": "/usr/lib/node_modules/npm/node_modules/node-gyp/node_modules/are-we-there-yet",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "util-deprecate",
+					"version": "1.0.2",
+					"path": "/usr/lib/node_modules/npm/node_modules/util-deprecate",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "debug",
+					"version": "3.2.7",
+					"path": "/usr/lib/node_modules/nodemon/node_modules/debug",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "fill-range",
+					"version": "7.0.1",
+					"path": "/usr/lib/node_modules/nodemon/node_modules/fill-range",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "is-binary-path",
+					"version": "2.1.0",
+					"path": "/usr/lib/node_modules/nodemon/node_modules/is-binary-path",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "@npmcli/fs",
+					"version": "3.1.0",
+					"path": "/usr/lib/node_modules/npm/node_modules/@npmcli/fs",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "fs.realpath",
+					"version": "1.0.0",
+					"path": "/usr/lib/node_modules/npm/node_modules/fs.realpath",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "has-unicode",
+					"version": "2.0.1",
+					"path": "/usr/lib/node_modules/npm/node_modules/has-unicode",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "npm-audit-report",
+					"version": "4.0.0",
+					"path": "/usr/lib/node_modules/npm/node_modules/npm-audit-report",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "text-table",
+					"version": "0.2.0",
+					"path": "/usr/lib/node_modules/npm/node_modules/text-table",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "unique-slug",
+					"version": "4.0.0",
+					"path": "/usr/lib/node_modules/npm/node_modules/unique-slug",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "@npmcli/config",
+					"version": "6.1.3",
+					"path": "/usr/lib/node_modules/npm/node_modules/@npmcli/config",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "color-name",
+					"version": "1.1.4",
+					"path": "/usr/lib/node_modules/npm/node_modules/color-name",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "ieee754",
+					"version": "1.2.1",
+					"path": "/usr/lib/node_modules/npm/node_modules/ieee754",
+					"licenses": [
+						"BSD-3-Clause"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "mute-stream",
+					"version": "1.0.0",
+					"path": "/usr/lib/node_modules/npm/node_modules/mute-stream",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "npm-profile",
+					"version": "7.0.1",
+					"path": "/usr/lib/node_modules/npm/node_modules/npm-profile",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "lru-cache",
+					"version": "6.0.0",
+					"path": "/usr/lib/node_modules/npm/node_modules/semver/node_modules/lru-cache",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "supports-color",
+					"version": "7.2.0",
+					"path": "/usr/lib/node_modules/npm/node_modules/supports-color",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "nopt",
+					"version": "1.0.10",
+					"path": "/usr/lib/node_modules/nodemon/node_modules/nopt",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "supports-color",
+					"version": "5.5.0",
+					"path": "/usr/lib/node_modules/nodemon/node_modules/supports-color",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "base64-js",
+					"version": "1.5.1",
+					"path": "/usr/lib/node_modules/npm/node_modules/base64-js",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "minipass-sized",
+					"version": "1.0.3",
+					"path": "/usr/lib/node_modules/npm/node_modules/minipass-sized",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "make-fetch-happen",
+					"version": "10.2.1",
+					"path": "/usr/lib/node_modules/npm/node_modules/node-gyp/node_modules/make-fetch-happen",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "binary-extensions",
+					"version": "2.2.0",
+					"path": "/usr/lib/node_modules/npm/node_modules/binary-extensions",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "@isaacs/string-locale-compare",
+					"version": "1.1.0",
+					"path": "/usr/lib/node_modules/npm/node_modules/@isaacs/string-locale-compare",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "libnpmversion",
+					"version": "4.0.2",
+					"path": "/usr/lib/node_modules/npm/node_modules/libnpmversion",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "cacache",
+					"version": "16.1.3",
+					"path": "/usr/lib/node_modules/npm/node_modules/node-gyp/node_modules/cacache",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "npm-install-checks",
+					"version": "6.0.0",
+					"path": "/usr/lib/node_modules/npm/node_modules/npm-install-checks",
+					"licenses": [
+						"BSD-2-Clause"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "promzard",
+					"version": "1.0.0",
+					"path": "/usr/lib/node_modules/npm/node_modules/promzard",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "fs-minipass",
+					"version": "3.0.1",
+					"path": "/usr/lib/node_modules/npm/node_modules/fs-minipass",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "gauge",
+					"version": "5.0.0",
+					"path": "/usr/lib/node_modules/npm/node_modules/gauge",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "gauge",
+					"version": "4.0.4",
+					"path": "/usr/lib/node_modules/npm/node_modules/node-gyp/node_modules/gauge",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "encoding",
+					"version": "0.1.13",
+					"path": "/usr/lib/node_modules/npm/node_modules/encoding",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "is-fullwidth-code-point",
+					"version": "3.0.0",
+					"path": "/usr/lib/node_modules/npm/node_modules/is-fullwidth-code-point",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "npm-packlist",
+					"version": "7.0.4",
+					"path": "/usr/lib/node_modules/npm/node_modules/npm-packlist",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "semver",
+					"version": "5.7.1",
+					"path": "/usr/lib/node_modules/nodemon/node_modules/semver",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "libnpmsearch",
+					"version": "6.0.2",
+					"path": "/usr/lib/node_modules/npm/node_modules/libnpmsearch",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "validate-npm-package-name",
+					"version": "5.0.0",
+					"path": "/usr/lib/node_modules/npm/node_modules/validate-npm-package-name",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "wrappy",
+					"version": "1.0.2",
+					"path": "/usr/lib/node_modules/npm/node_modules/wrappy",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "fastest-levenshtein",
+					"version": "1.0.16",
+					"path": "/usr/lib/node_modules/npm/node_modules/fastest-levenshtein",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "http-cache-semantics",
+					"version": "4.1.1",
+					"path": "/usr/lib/node_modules/npm/node_modules/http-cache-semantics",
+					"licenses": [
+						"BSD-2-Clause"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "imurmurhash",
+					"version": "0.1.4",
+					"path": "/usr/lib/node_modules/npm/node_modules/imurmurhash",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "@npmcli/metavuln-calculator",
+					"version": "5.0.0",
+					"path": "/usr/lib/node_modules/npm/node_modules/@npmcli/metavuln-calculator",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "events",
+					"version": "3.3.0",
+					"path": "/usr/lib/node_modules/npm/node_modules/events",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "lru-cache",
+					"version": "7.16.2",
+					"path": "/usr/lib/node_modules/npm/node_modules/lru-cache",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "signal-exit",
+					"version": "3.0.7",
+					"path": "/usr/lib/node_modules/npm/node_modules/signal-exit",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "buffer",
+					"version": "6.0.3",
+					"path": "/usr/lib/node_modules/npm/node_modules/buffer",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "columnify",
+					"version": "1.6.0",
+					"path": "/usr/lib/node_modules/npm/node_modules/columnify",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "minipass",
+					"version": "3.3.6",
+					"path": "/usr/lib/node_modules/npm/node_modules/tar/node_modules/fs-minipass/node_modules/minipass",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "ignore-by-default",
+					"version": "1.0.1",
+					"path": "/usr/lib/node_modules/nodemon/node_modules/ignore-by-default",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "picomatch",
+					"version": "2.3.1",
+					"path": "/usr/lib/node_modules/nodemon/node_modules/picomatch",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "@npmcli/package-json",
+					"version": "3.0.0",
+					"path": "/usr/lib/node_modules/npm/node_modules/@npmcli/package-json",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "just-diff",
+					"version": "5.2.0",
+					"path": "/usr/lib/node_modules/npm/node_modules/just-diff",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "ms",
+					"version": "2.1.3",
+					"path": "/usr/lib/node_modules/npm/node_modules/ms",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "has-flag",
+					"version": "4.0.0",
+					"path": "/usr/lib/node_modules/npm/node_modules/has-flag",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "proc-log",
+					"version": "3.0.0",
+					"path": "/usr/lib/node_modules/npm/node_modules/proc-log",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "bin-links",
+					"version": "4.0.1",
+					"path": "/usr/lib/node_modules/npm/node_modules/bin-links",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "is-lambda",
+					"version": "1.0.1",
+					"path": "/usr/lib/node_modules/npm/node_modules/is-lambda",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "yallist",
+					"version": "4.0.0",
+					"path": "/usr/lib/node_modules/npm/node_modules/yallist",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "are-we-there-yet",
+					"version": "4.0.0",
+					"path": "/usr/lib/node_modules/npm/node_modules/are-we-there-yet",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "minimatch",
+					"version": "5.1.6",
+					"path": "/usr/lib/node_modules/npm/node_modules/node-gyp/node_modules/cacache/node_modules/minimatch",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "minipass-fetch",
+					"version": "2.1.2",
+					"path": "/usr/lib/node_modules/npm/node_modules/node-gyp/node_modules/minipass-fetch",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "nopt",
+					"version": "7.0.0",
+					"path": "/usr/lib/node_modules/npm/node_modules/nopt",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "is-extglob",
+					"version": "2.1.1",
+					"path": "/usr/lib/node_modules/nodemon/node_modules/is-extglob",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "@colors/colors",
+					"version": "1.5.0",
+					"path": "/usr/lib/node_modules/npm/node_modules/@colors/colors",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "@npmcli/map-workspaces",
+					"version": "3.0.2",
+					"path": "/usr/lib/node_modules/npm/node_modules/@npmcli/map-workspaces",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "color-convert",
+					"version": "2.0.1",
+					"path": "/usr/lib/node_modules/npm/node_modules/color-convert",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "err-code",
+					"version": "2.0.3",
+					"path": "/usr/lib/node_modules/npm/node_modules/err-code",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "@npmcli/move-file",
+					"version": "2.0.1",
+					"path": "/usr/lib/node_modules/npm/node_modules/@npmcli/move-file",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "brace-expansion",
+					"version": "2.0.1",
+					"path": "/usr/lib/node_modules/npm/node_modules/node-gyp/node_modules/cacache/node_modules/brace-expansion",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "cacache",
+					"version": "17.0.4",
+					"path": "/usr/lib/node_modules/npm/node_modules/cacache",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "unique-slug",
+					"version": "3.0.0",
+					"path": "/usr/lib/node_modules/npm/node_modules/node-gyp/node_modules/unique-slug",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "smart-buffer",
+					"version": "4.2.0",
+					"path": "/usr/lib/node_modules/npm/node_modules/smart-buffer",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "pstree.remy",
+					"version": "1.1.8",
+					"path": "/usr/lib/node_modules/nodemon/node_modules/pstree.remy",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "cmd-shim",
+					"version": "6.0.1",
+					"path": "/usr/lib/node_modules/npm/node_modules/cmd-shim",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "env-paths",
+					"version": "2.2.1",
+					"path": "/usr/lib/node_modules/npm/node_modules/env-paths",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "humanize-ms",
+					"version": "1.2.1",
+					"path": "/usr/lib/node_modules/npm/node_modules/humanize-ms",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "json-parse-even-better-errors",
+					"version": "3.0.0",
+					"path": "/usr/lib/node_modules/npm/node_modules/json-parse-even-better-errors",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "write-file-atomic",
+					"version": "5.0.0",
+					"path": "/usr/lib/node_modules/npm/node_modules/write-file-atomic",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "npm-normalize-package-bin",
+					"version": "3.0.0",
+					"path": "/usr/lib/node_modules/npm/node_modules/npm-normalize-package-bin",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "validate-npm-package-license",
+					"version": "3.0.4",
+					"path": "/usr/lib/node_modules/npm/node_modules/validate-npm-package-license",
+					"licenses": [
+						"Apache-2.0"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "defaults",
+					"version": "1.0.4",
+					"path": "/usr/lib/node_modules/npm/node_modules/defaults",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "libnpmpack",
+					"version": "5.0.11",
+					"path": "/usr/lib/node_modules/npm/node_modules/libnpmpack",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "minipass-flush",
+					"version": "1.0.5",
+					"path": "/usr/lib/node_modules/npm/node_modules/minipass-flush",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "p-map",
+					"version": "4.0.0",
+					"path": "/usr/lib/node_modules/npm/node_modules/p-map",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "socks",
+					"version": "2.7.1",
+					"path": "/usr/lib/node_modules/npm/node_modules/socks",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "string-width",
+					"version": "4.2.3",
+					"path": "/usr/lib/node_modules/npm/node_modules/string-width",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "npm",
+					"version": "9.5.1",
+					"path": "/usr/lib/node_modules/npm",
+					"licenses": [
+						"Artistic-2.0"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "ansi-regex",
+					"version": "5.0.1",
+					"path": "/usr/lib/node_modules/npm/node_modules/ansi-regex",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "init-package-json",
+					"version": "5.0.0",
+					"path": "/usr/lib/node_modules/npm/node_modules/init-package-json",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "minipass-json-stream",
+					"version": "1.0.1",
+					"path": "/usr/lib/node_modules/npm/node_modules/minipass-json-stream",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "mkdirp",
+					"version": "1.0.4",
+					"path": "/usr/lib/node_modules/npm/node_modules/mkdirp",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "glob",
+					"version": "7.2.3",
+					"path": "/usr/lib/node_modules/npm/node_modules/rimraf/node_modules/glob",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "spdx-exceptions",
+					"version": "2.3.0",
+					"path": "/usr/lib/node_modules/npm/node_modules/spdx-exceptions",
+					"licenses": [
+						"CC-BY-3.0"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "@npmcli/node-gyp",
+					"version": "3.0.0",
+					"path": "/usr/lib/node_modules/npm/node_modules/@npmcli/node-gyp",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "read-package-json",
+					"version": "6.0.0",
+					"path": "/usr/lib/node_modules/npm/node_modules/read-package-json",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "glob-parent",
+					"version": "5.1.2",
+					"path": "/usr/lib/node_modules/nodemon/node_modules/glob-parent",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "common-ancestor-path",
+					"version": "1.0.1",
+					"path": "/usr/lib/node_modules/npm/node_modules/common-ancestor-path",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "libnpmhook",
+					"version": "9.0.3",
+					"path": "/usr/lib/node_modules/npm/node_modules/libnpmhook",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "npm-registry-fetch",
+					"version": "14.0.3",
+					"path": "/usr/lib/node_modules/npm/node_modules/npm-registry-fetch",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "brace-expansion",
+					"version": "1.1.11",
+					"path": "/usr/lib/node_modules/npm/node_modules/rimraf/node_modules/brace-expansion",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "clean-stack",
+					"version": "2.2.0",
+					"path": "/usr/lib/node_modules/npm/node_modules/clean-stack",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "is-cidr",
+					"version": "4.0.2",
+					"path": "/usr/lib/node_modules/npm/node_modules/is-cidr",
+					"licenses": [
+						"BSD-2-Clause"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "ssri",
+					"version": "9.0.1",
+					"path": "/usr/lib/node_modules/npm/node_modules/node-gyp/node_modules/ssri",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "node-gyp",
+					"version": "9.3.1",
+					"path": "/usr/lib/node_modules/npm/node_modules/node-gyp",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "read-package-json-fast",
+					"version": "3.0.2",
+					"path": "/usr/lib/node_modules/npm/node_modules/read-package-json-fast",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "rimraf",
+					"version": "3.0.2",
+					"path": "/usr/lib/node_modules/npm/node_modules/rimraf",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "braces",
+					"version": "3.0.2",
+					"path": "/usr/lib/node_modules/nodemon/node_modules/braces",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "agent-base",
+					"version": "6.0.2",
+					"path": "/usr/lib/node_modules/npm/node_modules/agent-base",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "color-support",
+					"version": "1.1.3",
+					"path": "/usr/lib/node_modules/npm/node_modules/color-support",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "set-blocking",
+					"version": "2.0.0",
+					"path": "/usr/lib/node_modules/npm/node_modules/set-blocking",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "spdx-expression-parse",
+					"version": "3.0.1",
+					"path": "/usr/lib/node_modules/npm/node_modules/spdx-expression-parse",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "ci-info",
+					"version": "3.8.0",
+					"path": "/usr/lib/node_modules/npm/node_modules/ci-info",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "err-code",
+					"version": "1.1.1",
+					"path": "/usr/lib/node_modules/npm/node_modules/err-code",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "libnpmteam",
+					"version": "5.0.3",
+					"path": "/usr/lib/node_modules/npm/node_modules/libnpmteam",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "make-fetch-happen",
+					"version": "11.0.3",
+					"path": "/usr/lib/node_modules/npm/node_modules/make-fetch-happen",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "diff",
+					"version": "5.1.0",
+					"path": "/usr/lib/node_modules/npm/node_modules/diff",
+					"licenses": [
+						"BSD-3-Clause"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "isexe",
+					"version": "2.0.0",
+					"path": "/usr/lib/node_modules/npm/node_modules/isexe",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "libnpmexec",
+					"version": "5.0.11",
+					"path": "/usr/lib/node_modules/npm/node_modules/libnpmexec",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "retry",
+					"version": "0.12.0",
+					"path": "/usr/lib/node_modules/npm/node_modules/retry",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "clone",
+					"version": "1.0.4",
+					"path": "/usr/lib/node_modules/npm/node_modules/clone",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "libnpmaccess",
+					"version": "7.0.2",
+					"path": "/usr/lib/node_modules/npm/node_modules/libnpmaccess",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "libnpmfund",
+					"version": "4.0.11",
+					"path": "/usr/lib/node_modules/npm/node_modules/libnpmfund",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "nopt",
+					"version": "6.0.0",
+					"path": "/usr/lib/node_modules/npm/node_modules/node-gyp/node_modules/nopt",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "npm-pick-manifest",
+					"version": "8.0.1",
+					"path": "/usr/lib/node_modules/npm/node_modules/npm-pick-manifest",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "socks-proxy-agent",
+					"version": "7.0.0",
+					"path": "/usr/lib/node_modules/npm/node_modules/socks-proxy-agent",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "tiny-relative-date",
+					"version": "1.3.0",
+					"path": "/usr/lib/node_modules/npm/node_modules/tiny-relative-date",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "semver",
+					"version": "7.0.0",
+					"path": "/usr/lib/node_modules/nodemon/node_modules/simple-update-notifier/node_modules/semver",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "chownr",
+					"version": "2.0.0",
+					"path": "/usr/lib/node_modules/npm/node_modules/chownr",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "cssesc",
+					"version": "3.0.0",
+					"path": "/usr/lib/node_modules/npm/node_modules/cssesc",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "is-core-module",
+					"version": "2.11.0",
+					"path": "/usr/lib/node_modules/npm/node_modules/is-core-module",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "pacote",
+					"version": "15.1.1",
+					"path": "/usr/lib/node_modules/npm/node_modules/pacote",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "qrcode-terminal",
+					"version": "0.12.0",
+					"path": "/usr/lib/node_modules/npm/node_modules/qrcode-terminal",
+					"licenses": [
+						"Apache 2.0"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "normalize-path",
+					"version": "3.0.0",
+					"path": "/usr/lib/node_modules/nodemon/node_modules/normalize-path",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "@npmcli/query",
+					"version": "3.0.0",
+					"path": "/usr/lib/node_modules/npm/node_modules/@npmcli/query",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "console-control-strings",
+					"version": "1.1.0",
+					"path": "/usr/lib/node_modules/npm/node_modules/console-control-strings",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "promise-all-reject-late",
+					"version": "1.0.1",
+					"path": "/usr/lib/node_modules/npm/node_modules/promise-all-reject-late",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "debug",
+					"version": "4.3.4",
+					"path": "/usr/lib/node_modules/npm/node_modules/debug",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "balanced-match",
+					"version": "1.0.2",
+					"path": "/usr/lib/node_modules/npm/node_modules/balanced-match",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "abort-controller",
+					"version": "3.0.0",
+					"path": "/usr/lib/node_modules/npm/node_modules/abort-controller",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "@npmcli/installed-package-contents",
+					"version": "2.0.1",
+					"path": "/usr/lib/node_modules/npm/node_modules/@npmcli/installed-package-contents",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "ansi-styles",
+					"version": "4.3.0",
+					"path": "/usr/lib/node_modules/npm/node_modules/ansi-styles",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "inherits",
+					"version": "2.0.4",
+					"path": "/usr/lib/node_modules/npm/node_modules/inherits",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "minimatch",
+					"version": "6.2.0",
+					"path": "/usr/lib/node_modules/npm/node_modules/minimatch",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "normalize-package-data",
+					"version": "5.0.0",
+					"path": "/usr/lib/node_modules/npm/node_modules/normalize-package-data",
+					"licenses": [
+						"BSD-2-Clause"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "path-is-absolute",
+					"version": "1.0.1",
+					"path": "/usr/lib/node_modules/npm/node_modules/path-is-absolute",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "tuf-js",
+					"version": "1.0.0",
+					"path": "/usr/lib/node_modules/npm/node_modules/tuf-js",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "walk-up-path",
+					"version": "1.0.0",
+					"path": "/usr/lib/node_modules/npm/node_modules/walk-up-path",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "chokidar",
+					"version": "3.5.3",
+					"path": "/usr/lib/node_modules/nodemon/node_modules/chokidar",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "event-target-shim",
+					"version": "5.0.1",
+					"path": "/usr/lib/node_modules/npm/node_modules/event-target-shim",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "ip",
+					"version": "2.0.0",
+					"path": "/usr/lib/node_modules/npm/node_modules/ip",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "safe-buffer",
+					"version": "5.1.2",
+					"path": "/usr/lib/node_modules/npm/node_modules/safe-buffer",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "wide-align",
+					"version": "1.1.5",
+					"path": "/usr/lib/node_modules/npm/node_modules/wide-align",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "@npmcli/disparity-colors",
+					"version": "3.0.0",
+					"path": "/usr/lib/node_modules/npm/node_modules/@npmcli/disparity-colors",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "semver",
+					"version": "7.3.8",
+					"path": "/usr/lib/node_modules/npm/node_modules/semver",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "concat-map",
+					"version": "0.0.1",
+					"path": "/usr/lib/node_modules/npm/node_modules/concat-map",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "ip-regex",
+					"version": "4.3.0",
+					"path": "/usr/lib/node_modules/npm/node_modules/ip-regex",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "strip-ansi",
+					"version": "6.0.1",
+					"path": "/usr/lib/node_modules/npm/node_modules/strip-ansi",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "@gar/promisify",
+					"version": "1.1.3",
+					"path": "/usr/lib/node_modules/npm/node_modules/@gar/promisify",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "@npmcli/run-script",
+					"version": "6.0.0",
+					"path": "/usr/lib/node_modules/npm/node_modules/@npmcli/run-script",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "agentkeepalive",
+					"version": "4.2.1",
+					"path": "/usr/lib/node_modules/npm/node_modules/agentkeepalive",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "ini",
+					"version": "3.0.1",
+					"path": "/usr/lib/node_modules/npm/node_modules/ini",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "npm-bundled",
+					"version": "3.0.0",
+					"path": "/usr/lib/node_modules/npm/node_modules/npm-bundled",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "read",
+					"version": "2.0.0",
+					"path": "/usr/lib/node_modules/npm/node_modules/read",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "undefsafe",
+					"version": "2.0.5",
+					"path": "/usr/lib/node_modules/nodemon/node_modules/undefsafe",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "corepack",
+					"version": "0.17.0",
+					"path": "/usr/lib/node_modules/corepack",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "@tootallnate/once",
+					"version": "2.0.0",
+					"path": "/usr/lib/node_modules/npm/node_modules/@tootallnate/once",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "builtins",
+					"version": "5.0.1",
+					"path": "/usr/lib/node_modules/npm/node_modules/builtins",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "cli-columns",
+					"version": "4.0.0",
+					"path": "/usr/lib/node_modules/npm/node_modules/cli-columns",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "delegates",
+					"version": "1.0.0",
+					"path": "/usr/lib/node_modules/npm/node_modules/delegates",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "minizlib",
+					"version": "2.1.2",
+					"path": "/usr/lib/node_modules/npm/node_modules/minizlib",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "is-number",
+					"version": "7.0.0",
+					"path": "/usr/lib/node_modules/nodemon/node_modules/is-number",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "chalk",
+					"version": "4.1.2",
+					"path": "/usr/lib/node_modules/npm/node_modules/chalk",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "depd",
+					"version": "1.1.2",
+					"path": "/usr/lib/node_modules/npm/node_modules/depd",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "glob",
+					"version": "8.1.0",
+					"path": "/usr/lib/node_modules/npm/node_modules/node-gyp/node_modules/cacache/node_modules/glob",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "minipass-pipeline",
+					"version": "1.2.4",
+					"path": "/usr/lib/node_modules/npm/node_modules/minipass-pipeline",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "promise-retry",
+					"version": "2.0.1",
+					"path": "/usr/lib/node_modules/npm/node_modules/promise-retry",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "abbrev",
+					"version": "2.0.0",
+					"path": "/usr/lib/node_modules/npm/node_modules/abbrev",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "http-proxy-agent",
+					"version": "5.0.0",
+					"path": "/usr/lib/node_modules/npm/node_modules/http-proxy-agent",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "fs-minipass",
+					"version": "2.1.0",
+					"path": "/usr/lib/node_modules/npm/node_modules/tar/node_modules/fs-minipass",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "unique-filename",
+					"version": "3.0.0",
+					"path": "/usr/lib/node_modules/npm/node_modules/unique-filename",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "cidr-regex",
+					"version": "3.1.1",
+					"path": "/usr/lib/node_modules/npm/node_modules/cidr-regex",
+					"licenses": [
+						"BSD-2-Clause"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "ms",
+					"version": "2.1.2",
+					"path": "/usr/lib/node_modules/npm/node_modules/debug/node_modules/ms",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "npm-user-validate",
+					"version": "2.0.0",
+					"path": "/usr/lib/node_modules/npm/node_modules/npm-user-validate",
+					"licenses": [
+						"BSD-2-Clause"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "anymatch",
+					"version": "3.1.2",
+					"path": "/usr/lib/node_modules/nodemon/node_modules/anymatch",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "hosted-git-info",
+					"version": "6.1.1",
+					"path": "/usr/lib/node_modules/npm/node_modules/hosted-git-info",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "json-stringify-nice",
+					"version": "1.1.4",
+					"path": "/usr/lib/node_modules/npm/node_modules/json-stringify-nice",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "tar",
+					"version": "6.1.13",
+					"path": "/usr/lib/node_modules/npm/node_modules/tar",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "negotiator",
+					"version": "0.6.3",
+					"path": "/usr/lib/node_modules/npm/node_modules/negotiator",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "spdx-license-ids",
+					"version": "3.0.12",
+					"path": "/usr/lib/node_modules/npm/node_modules/spdx-license-ids",
+					"licenses": [
+						"CC0-1.0"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "has-flag",
+					"version": "3.0.0",
+					"path": "/usr/lib/node_modules/nodemon/node_modules/has-flag",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "npmlog",
+					"version": "6.0.2",
+					"path": "/usr/lib/node_modules/npm/node_modules/node-gyp/node_modules/npmlog",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "readable-stream",
+					"version": "3.6.0",
+					"path": "/usr/lib/node_modules/npm/node_modules/node-gyp/node_modules/readable-stream",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "which",
+					"version": "3.0.0",
+					"path": "/usr/lib/node_modules/npm/node_modules/which",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "simple-update-notifier",
+					"version": "1.0.7",
+					"path": "/usr/lib/node_modules/nodemon/node_modules/simple-update-notifier",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "touch",
+					"version": "3.1.0",
+					"path": "/usr/lib/node_modules/nodemon/node_modules/touch",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "nodemon",
+					"version": "2.0.20",
+					"path": "/usr/lib/node_modules/nodemon",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "@npmcli/name-from-folder",
+					"version": "2.0.0",
+					"path": "/usr/lib/node_modules/npm/node_modules/@npmcli/name-from-folder",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "@npmcli/promise-spawn",
+					"version": "6.0.2",
+					"path": "/usr/lib/node_modules/npm/node_modules/@npmcli/promise-spawn",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "libnpmorg",
+					"version": "5.0.3",
+					"path": "/usr/lib/node_modules/npm/node_modules/libnpmorg",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "npmlog",
+					"version": "7.0.1",
+					"path": "/usr/lib/node_modules/npm/node_modules/npmlog",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "promise-call-limit",
+					"version": "1.0.1",
+					"path": "/usr/lib/node_modules/npm/node_modules/promise-call-limit",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "wcwidth",
+					"version": "1.0.1",
+					"path": "/usr/lib/node_modules/npm/node_modules/wcwidth",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "aproba",
+					"version": "2.0.0",
+					"path": "/usr/lib/node_modules/npm/node_modules/aproba",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "has",
+					"version": "1.0.3",
+					"path": "/usr/lib/node_modules/npm/node_modules/has",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "jsonparse",
+					"version": "1.3.1",
+					"path": "/usr/lib/node_modules/npm/node_modules/jsonparse",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "to-regex-range",
+					"version": "5.0.1",
+					"path": "/usr/lib/node_modules/nodemon/node_modules/to-regex-range",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "archy",
+					"version": "1.0.0",
+					"path": "/usr/lib/node_modules/npm/node_modules/archy",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "ignore-walk",
+					"version": "6.0.1",
+					"path": "/usr/lib/node_modules/npm/node_modules/ignore-walk",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "minipass-fetch",
+					"version": "3.0.1",
+					"path": "/usr/lib/node_modules/npm/node_modules/minipass-fetch",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "string_decoder",
+					"version": "1.1.1",
+					"path": "/usr/lib/node_modules/npm/node_modules/string_decoder",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "treeverse",
+					"version": "3.0.0",
+					"path": "/usr/lib/node_modules/npm/node_modules/treeverse",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "abbrev",
+					"version": "1.1.1",
+					"path": "/usr/lib/node_modules/npm/node_modules/node-gyp/node_modules/abbrev",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "just-diff-apply",
+					"version": "5.5.0",
+					"path": "/usr/lib/node_modules/npm/node_modules/just-diff-apply",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "@npmcli/arborist",
+					"version": "6.2.3",
+					"path": "/usr/lib/node_modules/npm/node_modules/@npmcli/arborist",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "@npmcli/git",
+					"version": "4.0.3",
+					"path": "/usr/lib/node_modules/npm/node_modules/@npmcli/git",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "libnpmpublish",
+					"version": "7.1.0",
+					"path": "/usr/lib/node_modules/npm/node_modules/libnpmpublish",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "read-cmd-shim",
+					"version": "4.0.0",
+					"path": "/usr/lib/node_modules/npm/node_modules/read-cmd-shim",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "cli-table3",
+					"version": "0.6.3",
+					"path": "/usr/lib/node_modules/npm/node_modules/cli-table3",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "graceful-fs",
+					"version": "4.2.10",
+					"path": "/usr/lib/node_modules/npm/node_modules/graceful-fs",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "indent-string",
+					"version": "4.0.0",
+					"path": "/usr/lib/node_modules/npm/node_modules/indent-string",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "safer-buffer",
+					"version": "2.1.2",
+					"path": "/usr/lib/node_modules/npm/node_modules/safer-buffer",
+					"licenses": [
+						"MIT"
+					]
+				}
+			],
+			"applications": [
+				{
+					"name": "node",
+					"version": "18.16.1",
+					"path": "/usr/bin/node"
+				}
+			],
+			"complianceDistribution": {
+				"critical": 0,
+				"high": 0,
+				"medium": 0,
+				"low": 0,
+				"total": 0
+			},
+			"complianceScanPassed": true,
+			"vulnerabilities": [
+				{
+					"id": "CVE-2023-32002",
+					"status": "affected",
+					"cvss": 9.8,
+					"vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+					"description": "The use of `Module._load()` can bypass the policy mechanism and require modules outside of the policy.json definition for a given module.  This vulnerability affects all users using the experimental policy mechanism in all active release lines: 16.x, 18.x and, 20.x.  Please note that at the time this CVE was issued, the policy is an experimental feature of Node.js.",
+					"severity": "important",
+					"packageName": "npm",
+					"packageVersion": "9.5.1-1.18.16.1.1.module+el8.8.0+19438+94e84959",
+					"link": "https://access.redhat.com/security/cve/CVE-2023-32002",
+					"riskFactors": [
+						"Attack vector: network",
+						"DoS - High",
+						"High severity",
+						"Recent vulnerability",
+						"Attack complexity: low"
+					],
+					"impactedVersions": [
+						"*"
+					],
+					"publishedDate": "2023-08-21T17:15:00Z",
+					"discoveredDate": "2023-09-23T10:59:16Z",
+					"layerTime": "2023-09-13T15:46:49Z",
+					"layerInstruction": "USER 1001"
+				},
+				{
+					"id": "CVE-2023-32002",
+					"status": "affected",
+					"cvss": 9.8,
+					"vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+					"description": "The use of `Module._load()` can bypass the policy mechanism and require modules outside of the policy.json definition for a given module.  This vulnerability affects all users using the experimental policy mechanism in all active release lines: 16.x, 18.x and, 20.x.  Please note that at the time this CVE was issued, the policy is an experimental feature of Node.js.",
+					"severity": "important",
+					"packageName": "nodejs-full-i18n",
+					"packageVersion": "18.16.1-1.module+el8.8.0+19438+94e84959",
+					"link": "https://access.redhat.com/security/cve/CVE-2023-32002",
+					"riskFactors": [
+						"Attack complexity: low",
+						"Attack vector: network",
+						"DoS - High",
+						"High severity",
+						"Recent vulnerability"
+					],
+					"impactedVersions": [
+						"*"
+					],
+					"publishedDate": "2023-08-21T17:15:00Z",
+					"discoveredDate": "2023-09-23T10:59:16Z",
+					"layerTime": "2023-09-13T15:46:49Z",
+					"layerInstruction": "USER 1001"
+				},
+				{
+					"id": "CVE-2023-32002",
+					"status": "affected",
+					"cvss": 9.8,
+					"vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+					"description": "The use of `Module._load()` can bypass the policy mechanism and require modules outside of the policy.json definition for a given module.  This vulnerability affects all users using the experimental policy mechanism in all active release lines: 16.x, 18.x and, 20.x.  Please note that at the time this CVE was issued, the policy is an experimental feature of Node.js.",
+					"severity": "important",
+					"packageName": "nodejs",
+					"packageVersion": "18.16.1-1.module+el8.8.0+19438+94e84959",
+					"link": "https://access.redhat.com/security/cve/CVE-2023-32002",
+					"riskFactors": [
+						"Recent vulnerability",
+						"Attack complexity: low",
+						"Attack vector: network",
+						"DoS - High",
+						"High severity"
+					],
+					"impactedVersions": [
+						"*"
+					],
+					"publishedDate": "2023-08-21T17:15:00Z",
+					"discoveredDate": "2023-09-23T10:59:16Z",
+					"layerTime": "2023-09-13T15:46:49Z",
+					"layerInstruction": "USER 1001"
+				},
+				{
+					"id": "CVE-2023-32002",
+					"status": "affected",
+					"cvss": 9.8,
+					"vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+					"description": "The use of `Module._load()` can bypass the policy mechanism and require modules outside of the policy.json definition for a given module.  This vulnerability affects all users using the experimental policy mechanism in all active release lines: 16.x, 18.x and, 20.x.  Please note that at the time this CVE was issued, the policy is an experimental feature of Node.js.",
+					"severity": "important",
+					"packageName": "nodejs-nodemon",
+					"packageVersion": "2.0.20-2.module+el8.8.0+18432+27f188ac",
+					"link": "https://access.redhat.com/security/cve/CVE-2023-32002",
+					"riskFactors": [
+						"Attack complexity: low",
+						"Attack vector: network",
+						"DoS - High",
+						"High severity",
+						"Recent vulnerability"
+					],
+					"impactedVersions": [
+						"*"
+					],
+					"publishedDate": "2023-08-21T17:15:00Z",
+					"discoveredDate": "2023-09-23T10:59:16Z",
+					"layerTime": "2023-09-13T15:46:49Z",
+					"layerInstruction": "USER 1001"
+				},
+				{
+					"id": "CVE-2022-38900",
+					"status": "fixed in 2.0.20-3.module+el8.7.0+18531+81d21ca6",
+					"cvss": 7.5,
+					"vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+					"description": "decode-uri-component 0.2.0 is vulnerable to Improper Input Validation resulting in DoS.",
+					"severity": "important",
+					"packageName": "nodejs-nodemon",
+					"packageVersion": "2.0.20-2.module+el8.8.0+18432+27f188ac",
+					"link": "https://access.redhat.com/errata/RHSA-2023:1743",
+					"riskFactors": [
+						"Attack vector: network",
+						"DoS - High",
+						"Has fix",
+						"High severity",
+						"Attack complexity: low"
+					],
+					"impactedVersions": [
+						"\u003c2.0.20-3.module+el8.7.0+18531+81d21ca6"
+					],
+					"publishedDate": "2022-11-28T00:00:00Z",
+					"discoveredDate": "2023-09-23T10:59:16Z",
+					"fixDate": "2023-04-12T00:00:00Z",
+					"layerTime": "2023-09-13T15:46:49Z",
+					"layerInstruction": "USER 1001"
+				},
+				{
+					"id": "CVE-2023-32559",
+					"status": "affected",
+					"cvss": 7.5,
+					"vector": "CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H",
+					"description": "A privilege escalation vulnerability exists in the experimental policy mechanism in all active release lines: 16.x, 18.x and, 20.x. The use of the deprecated API `process.binding()` can bypass the policy mechanism by requiring internal modules and eventually take advantage of `process.binding(\\'spawn_sync\\')` run arbitrary code, outside of the limits defined in a `policy.json` file. Please note that at the time this CVE was issued, the policy is an experimental feature of Node.js.",
+					"severity": "moderate",
+					"packageName": "nodejs-nodemon",
+					"packageVersion": "2.0.20-2.module+el8.8.0+18432+27f188ac",
+					"link": "https://access.redhat.com/security/cve/CVE-2023-32559",
+					"riskFactors": [
+						"Recent vulnerability",
+						"Attack vector: network",
+						"DoS - High",
+						"Exploit exists - POC",
+						"Medium severity"
+					],
+					"impactedVersions": [
+						"*"
+					],
+					"publishedDate": "2023-08-24T02:15:00Z",
+					"discoveredDate": "2023-09-23T10:59:16Z",
+					"layerTime": "2023-09-13T15:46:49Z",
+					"layerInstruction": "USER 1001"
+				},
+				{
+					"id": "CVE-2023-32559",
+					"status": "affected",
+					"cvss": 7.5,
+					"vector": "CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H",
+					"description": "A privilege escalation vulnerability exists in the experimental policy mechanism in all active release lines: 16.x, 18.x and, 20.x. The use of the deprecated API `process.binding()` can bypass the policy mechanism by requiring internal modules and eventually take advantage of `process.binding(\\'spawn_sync\\')` run arbitrary code, outside of the limits defined in a `policy.json` file. Please note that at the time this CVE was issued, the policy is an experimental feature of Node.js.",
+					"severity": "moderate",
+					"packageName": "nodejs",
+					"packageVersion": "18.16.1-1.module+el8.8.0+19438+94e84959",
+					"link": "https://access.redhat.com/security/cve/CVE-2023-32559",
+					"riskFactors": [
+						"Medium severity",
+						"Recent vulnerability",
+						"Attack vector: network",
+						"DoS - High",
+						"Exploit exists - POC"
+					],
+					"impactedVersions": [
+						"*"
+					],
+					"publishedDate": "2023-08-24T02:15:00Z",
+					"discoveredDate": "2023-09-23T10:59:16Z",
+					"layerTime": "2023-09-13T15:46:49Z",
+					"layerInstruction": "USER 1001"
+				},
+				{
+					"id": "CVE-2023-32559",
+					"status": "affected",
+					"cvss": 7.5,
+					"vector": "CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H",
+					"description": "A privilege escalation vulnerability exists in the experimental policy mechanism in all active release lines: 16.x, 18.x and, 20.x. The use of the deprecated API `process.binding()` can bypass the policy mechanism by requiring internal modules and eventually take advantage of `process.binding(\\'spawn_sync\\')` run arbitrary code, outside of the limits defined in a `policy.json` file. Please note that at the time this CVE was issued, the policy is an experimental feature of Node.js.",
+					"severity": "moderate",
+					"packageName": "npm",
+					"packageVersion": "9.5.1-1.18.16.1.1.module+el8.8.0+19438+94e84959",
+					"link": "https://access.redhat.com/security/cve/CVE-2023-32559",
+					"riskFactors": [
+						"DoS - High",
+						"Exploit exists - POC",
+						"Medium severity",
+						"Recent vulnerability",
+						"Attack vector: network"
+					],
+					"impactedVersions": [
+						"*"
+					],
+					"publishedDate": "2023-08-24T02:15:00Z",
+					"discoveredDate": "2023-09-23T10:59:16Z",
+					"layerTime": "2023-09-13T15:46:49Z",
+					"layerInstruction": "USER 1001"
+				},
+				{
+					"id": "CVE-2023-32559",
+					"status": "affected",
+					"cvss": 7.5,
+					"vector": "CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H",
+					"description": "A privilege escalation vulnerability exists in the experimental policy mechanism in all active release lines: 16.x, 18.x and, 20.x. The use of the deprecated API `process.binding()` can bypass the policy mechanism by requiring internal modules and eventually take advantage of `process.binding(\\'spawn_sync\\')` run arbitrary code, outside of the limits defined in a `policy.json` file. Please note that at the time this CVE was issued, the policy is an experimental feature of Node.js.",
+					"severity": "moderate",
+					"packageName": "nodejs-full-i18n",
+					"packageVersion": "18.16.1-1.module+el8.8.0+19438+94e84959",
+					"link": "https://access.redhat.com/security/cve/CVE-2023-32559",
+					"riskFactors": [
+						"Medium severity",
+						"Recent vulnerability",
+						"Attack vector: network",
+						"DoS - High",
+						"Exploit exists - POC"
+					],
+					"impactedVersions": [
+						"*"
+					],
+					"publishedDate": "2023-08-24T02:15:00Z",
+					"discoveredDate": "2023-09-23T10:59:16Z",
+					"layerTime": "2023-09-13T15:46:49Z",
+					"layerInstruction": "USER 1001"
+				},
+				{
+					"id": "CVE-2022-29244",
+					"status": "affected",
+					"cvss": 7.5,
+					"vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N",
+					"description": "npm pack ignores root-level .gitignore and .npmignore file exclusion directives when run in a workspace or with a workspace flag (ie. `--workspaces`, `--workspace=\u003cname\u003e`). Anyone who has run `npm pack` or `npm publish` inside a workspace, as of v7.9.0 and v7.13.0 respectively, may be affected and have published files into the npm registry they did not intend to include. Users should upgrade to the latest, patched version of npm v8.11.0, run: npm i -g npm@latest . Node.js versions v16.15.1, v17.19.1, and v18.3.0 include the patched v8.11.0 version of npm.",
+					"severity": "moderate",
+					"packageName": "nodejs-full-i18n",
+					"packageVersion": "18.16.1-1.module+el8.8.0+19438+94e84959",
+					"link": "https://access.redhat.com/security/cve/CVE-2022-29244",
+					"riskFactors": [
+						"Attack complexity: low",
+						"Attack vector: network",
+						"Medium severity"
+					],
+					"impactedVersions": [
+						"*"
+					],
+					"publishedDate": "2022-06-13T00:00:00Z",
+					"discoveredDate": "2023-09-23T10:59:16Z",
+					"layerTime": "2023-09-13T15:46:49Z",
+					"layerInstruction": "USER 1001"
+				},
+				{
+					"id": "CVE-2022-29244",
+					"status": "affected",
+					"cvss": 7.5,
+					"vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N",
+					"description": "npm pack ignores root-level .gitignore and .npmignore file exclusion directives when run in a workspace or with a workspace flag (ie. `--workspaces`, `--workspace=\u003cname\u003e`). Anyone who has run `npm pack` or `npm publish` inside a workspace, as of v7.9.0 and v7.13.0 respectively, may be affected and have published files into the npm registry they did not intend to include. Users should upgrade to the latest, patched version of npm v8.11.0, run: npm i -g npm@latest . Node.js versions v16.15.1, v17.19.1, and v18.3.0 include the patched v8.11.0 version of npm.",
+					"severity": "moderate",
+					"packageName": "nodejs-nodemon",
+					"packageVersion": "2.0.20-2.module+el8.8.0+18432+27f188ac",
+					"link": "https://access.redhat.com/security/cve/CVE-2022-29244",
+					"riskFactors": [
+						"Attack complexity: low",
+						"Attack vector: network",
+						"Medium severity"
+					],
+					"impactedVersions": [
+						"*"
+					],
+					"publishedDate": "2022-06-13T00:00:00Z",
+					"discoveredDate": "2023-09-23T10:59:16Z",
+					"layerTime": "2023-09-13T15:46:49Z",
+					"layerInstruction": "USER 1001"
+				},
+				{
+					"id": "CVE-2022-29244",
+					"status": "affected",
+					"cvss": 7.5,
+					"vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N",
+					"description": "npm pack ignores root-level .gitignore and .npmignore file exclusion directives when run in a workspace or with a workspace flag (ie. `--workspaces`, `--workspace=\u003cname\u003e`). Anyone who has run `npm pack` or `npm publish` inside a workspace, as of v7.9.0 and v7.13.0 respectively, may be affected and have published files into the npm registry they did not intend to include. Users should upgrade to the latest, patched version of npm v8.11.0, run: npm i -g npm@latest . Node.js versions v16.15.1, v17.19.1, and v18.3.0 include the patched v8.11.0 version of npm.",
+					"severity": "moderate",
+					"packageName": "nodejs",
+					"packageVersion": "18.16.1-1.module+el8.8.0+19438+94e84959",
+					"link": "https://access.redhat.com/security/cve/CVE-2022-29244",
+					"riskFactors": [
+						"Attack complexity: low",
+						"Attack vector: network",
+						"Medium severity"
+					],
+					"impactedVersions": [
+						"*"
+					],
+					"publishedDate": "2022-06-13T00:00:00Z",
+					"discoveredDate": "2023-09-23T10:59:16Z",
+					"layerTime": "2023-09-13T15:46:49Z",
+					"layerInstruction": "USER 1001"
+				},
+				{
+					"id": "CVE-2022-29244",
+					"status": "affected",
+					"cvss": 7.5,
+					"vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N",
+					"description": "npm pack ignores root-level .gitignore and .npmignore file exclusion directives when run in a workspace or with a workspace flag (ie. `--workspaces`, `--workspace=\u003cname\u003e`). Anyone who has run `npm pack` or `npm publish` inside a workspace, as of v7.9.0 and v7.13.0 respectively, may be affected and have published files into the npm registry they did not intend to include. Users should upgrade to the latest, patched version of npm v8.11.0, run: npm i -g npm@latest . Node.js versions v16.15.1, v17.19.1, and v18.3.0 include the patched v8.11.0 version of npm.",
+					"severity": "moderate",
+					"packageName": "npm",
+					"packageVersion": "9.5.1-1.18.16.1.1.module+el8.8.0+19438+94e84959",
+					"link": "https://access.redhat.com/security/cve/CVE-2022-29244",
+					"riskFactors": [
+						"Medium severity",
+						"Attack complexity: low",
+						"Attack vector: network"
+					],
+					"impactedVersions": [
+						"*"
+					],
+					"publishedDate": "2022-06-13T00:00:00Z",
+					"discoveredDate": "2023-09-23T10:59:16Z",
+					"layerTime": "2023-09-13T15:46:49Z",
+					"layerInstruction": "USER 1001"
+				},
+				{
+					"id": "CVE-2022-25883",
+					"status": "affected",
+					"cvss": 7.5,
+					"vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+					"description": "Versions of the package semver before 7.5.2 are vulnerable to Regular Expression Denial of Service (ReDoS) via the function new Range, when untrusted user data is provided as a range.\\r\\r\\r",
+					"severity": "moderate",
+					"packageName": "npm",
+					"packageVersion": "9.5.1-1.18.16.1.1.module+el8.8.0+19438+94e84959",
+					"link": "https://access.redhat.com/security/cve/CVE-2022-25883",
+					"riskFactors": [
+						"DoS - High",
+						"Medium severity",
+						"Recent vulnerability",
+						"Attack complexity: low",
+						"Attack vector: network"
+					],
+					"impactedVersions": [
+						"*"
+					],
+					"publishedDate": "2023-06-21T05:15:00Z",
+					"discoveredDate": "2023-09-23T10:59:16Z",
+					"layerTime": "2023-09-13T15:46:49Z",
+					"layerInstruction": "USER 1001"
+				},
+				{
+					"id": "CVE-2022-25883",
+					"status": "affected",
+					"cvss": 7.5,
+					"vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+					"description": "Versions of the package semver before 7.5.2 are vulnerable to Regular Expression Denial of Service (ReDoS) via the function new Range, when untrusted user data is provided as a range.\\r\\r\\r",
+					"severity": "moderate",
+					"packageName": "nodejs-full-i18n",
+					"packageVersion": "18.16.1-1.module+el8.8.0+19438+94e84959",
+					"link": "https://access.redhat.com/security/cve/CVE-2022-25883",
+					"riskFactors": [
+						"Attack vector: network",
+						"DoS - High",
+						"Medium severity",
+						"Recent vulnerability",
+						"Attack complexity: low"
+					],
+					"impactedVersions": [
+						"*"
+					],
+					"publishedDate": "2023-06-21T05:15:00Z",
+					"discoveredDate": "2023-09-23T10:59:16Z",
+					"layerTime": "2023-09-13T15:46:49Z",
+					"layerInstruction": "USER 1001"
+				},
+				{
+					"id": "CVE-2022-25883",
+					"status": "affected",
+					"cvss": 7.5,
+					"vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+					"description": "Versions of the package semver before 7.5.2 are vulnerable to Regular Expression Denial of Service (ReDoS) via the function new Range, when untrusted user data is provided as a range.\\r\\r\\r",
+					"severity": "moderate",
+					"packageName": "nodejs",
+					"packageVersion": "18.16.1-1.module+el8.8.0+19438+94e84959",
+					"link": "https://access.redhat.com/security/cve/CVE-2022-25883",
+					"riskFactors": [
+						"Attack complexity: low",
+						"Attack vector: network",
+						"DoS - High",
+						"Medium severity",
+						"Recent vulnerability"
+					],
+					"impactedVersions": [
+						"*"
+					],
+					"publishedDate": "2023-06-21T05:15:00Z",
+					"discoveredDate": "2023-09-23T10:59:16Z",
+					"layerTime": "2023-09-13T15:46:49Z",
+					"layerInstruction": "USER 1001"
+				},
+				{
+					"id": "CVE-2022-25883",
+					"status": "affected",
+					"cvss": 7.5,
+					"vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+					"description": "Versions of the package semver before 7.5.2 are vulnerable to Regular Expression Denial of Service (ReDoS) via the function new Range, when untrusted user data is provided as a range.\\r\\r\\r",
+					"severity": "moderate",
+					"packageName": "nodejs-nodemon",
+					"packageVersion": "2.0.20-2.module+el8.8.0+18432+27f188ac",
+					"link": "https://access.redhat.com/security/cve/CVE-2022-25883",
+					"riskFactors": [
+						"Recent vulnerability",
+						"Attack complexity: low",
+						"Attack vector: network",
+						"DoS - High",
+						"Medium severity"
+					],
+					"impactedVersions": [
+						"*"
+					],
+					"publishedDate": "2023-06-21T05:15:00Z",
+					"discoveredDate": "2023-09-23T10:59:16Z",
+					"layerTime": "2023-09-13T15:46:49Z",
+					"layerInstruction": "USER 1001"
+				},
+				{
+					"id": "CVE-2023-32006",
+					"status": "affected",
+					"cvss": 7.1,
+					"vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+					"description": "The use of `module.constructor.createRequire()` can bypass the policy mechanism and require modules outside of the policy.json definition for a given module.  This vulnerability affects all users using the experimental policy mechanism in all active release lines: 16.x, 18.x, and, 20.x.  Please note that at the time this CVE was issued, the policy is an experimental feature of Node.js.",
+					"severity": "moderate",
+					"packageName": "npm",
+					"packageVersion": "9.5.1-1.18.16.1.1.module+el8.8.0+19438+94e84959",
+					"link": "https://access.redhat.com/security/cve/CVE-2023-32006",
+					"riskFactors": [
+						"Attack complexity: low",
+						"Attack vector: network",
+						"Medium severity",
+						"Recent vulnerability"
+					],
+					"impactedVersions": [
+						"*"
+					],
+					"publishedDate": "2023-08-15T16:15:00Z",
+					"discoveredDate": "2023-09-23T10:59:16Z",
+					"layerTime": "2023-09-13T15:46:49Z",
+					"layerInstruction": "USER 1001"
+				},
+				{
+					"id": "CVE-2023-32006",
+					"status": "affected",
+					"cvss": 7.1,
+					"vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+					"description": "The use of `module.constructor.createRequire()` can bypass the policy mechanism and require modules outside of the policy.json definition for a given module.  This vulnerability affects all users using the experimental policy mechanism in all active release lines: 16.x, 18.x, and, 20.x.  Please note that at the time this CVE was issued, the policy is an experimental feature of Node.js.",
+					"severity": "moderate",
+					"packageName": "nodejs-nodemon",
+					"packageVersion": "2.0.20-2.module+el8.8.0+18432+27f188ac",
+					"link": "https://access.redhat.com/security/cve/CVE-2023-32006",
+					"riskFactors": [
+						"Attack complexity: low",
+						"Attack vector: network",
+						"Medium severity",
+						"Recent vulnerability"
+					],
+					"impactedVersions": [
+						"*"
+					],
+					"publishedDate": "2023-08-15T16:15:00Z",
+					"discoveredDate": "2023-09-23T10:59:16Z",
+					"layerTime": "2023-09-13T15:46:49Z",
+					"layerInstruction": "USER 1001"
+				},
+				{
+					"id": "CVE-2023-32006",
+					"status": "affected",
+					"cvss": 7.1,
+					"vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+					"description": "The use of `module.constructor.createRequire()` can bypass the policy mechanism and require modules outside of the policy.json definition for a given module.  This vulnerability affects all users using the experimental policy mechanism in all active release lines: 16.x, 18.x, and, 20.x.  Please note that at the time this CVE was issued, the policy is an experimental feature of Node.js.",
+					"severity": "moderate",
+					"packageName": "nodejs-full-i18n",
+					"packageVersion": "18.16.1-1.module+el8.8.0+19438+94e84959",
+					"link": "https://access.redhat.com/security/cve/CVE-2023-32006",
+					"riskFactors": [
+						"Attack complexity: low",
+						"Attack vector: network",
+						"Medium severity",
+						"Recent vulnerability"
+					],
+					"impactedVersions": [
+						"*"
+					],
+					"publishedDate": "2023-08-15T16:15:00Z",
+					"discoveredDate": "2023-09-23T10:59:16Z",
+					"layerTime": "2023-09-13T15:46:49Z",
+					"layerInstruction": "USER 1001"
+				},
+				{
+					"id": "CVE-2023-32006",
+					"status": "affected",
+					"cvss": 7.1,
+					"vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+					"description": "The use of `module.constructor.createRequire()` can bypass the policy mechanism and require modules outside of the policy.json definition for a given module.  This vulnerability affects all users using the experimental policy mechanism in all active release lines: 16.x, 18.x, and, 20.x.  Please note that at the time this CVE was issued, the policy is an experimental feature of Node.js.",
+					"severity": "moderate",
+					"packageName": "nodejs",
+					"packageVersion": "18.16.1-1.module+el8.8.0+19438+94e84959",
+					"link": "https://access.redhat.com/security/cve/CVE-2023-32006",
+					"riskFactors": [
+						"Attack vector: network",
+						"Medium severity",
+						"Recent vulnerability",
+						"Attack complexity: low"
+					],
+					"impactedVersions": [
+						"*"
+					],
+					"publishedDate": "2023-08-15T16:15:00Z",
+					"discoveredDate": "2023-09-23T10:59:16Z",
+					"layerTime": "2023-09-13T15:46:49Z",
+					"layerInstruction": "USER 1001"
+				},
+				{
+					"id": "CVE-2023-4527",
+					"status": "affected",
+					"cvss": 6.5,
+					"vector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:N/A:H",
+					"description": "A flaw was found in glibc. When the getaddrinfo function is called with the AF_UNSPEC address family and the system is configured with no-aaaa mode via /etc/resolv.conf, a DNS response via TCP larger than 2048 bytes can potentially disclose stack contents through the function returned address data, and may cause a crash.",
+					"severity": "moderate",
+					"packageName": "glibc",
+					"packageVersion": "2.28-225.el8",
+					"link": "https://access.redhat.com/security/cve/CVE-2023-4527",
+					"riskFactors": [
+						"Recent vulnerability",
+						"Attack vector: network",
+						"DoS - High",
+						"Medium severity"
+					],
+					"impactedVersions": [
+						"*"
+					],
+					"publishedDate": "2023-09-18T17:15:00Z",
+					"discoveredDate": "2023-09-23T10:59:16Z",
+					"layerTime": "2023-09-13T02:18:51Z",
+					"layerInstruction": "RUN mv -fZ /tmp/ubi.repo /etc/yum.repos.d/ubi.repo || :"
+				},
+				{
+					"id": "CVE-2023-4527",
+					"status": "affected",
+					"cvss": 6.5,
+					"vector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:N/A:H",
+					"description": "A flaw was found in glibc. When the getaddrinfo function is called with the AF_UNSPEC address family and the system is configured with no-aaaa mode via /etc/resolv.conf, a DNS response via TCP larger than 2048 bytes can potentially disclose stack contents through the function returned address data, and may cause a crash.",
+					"severity": "moderate",
+					"packageName": "glibc-common",
+					"packageVersion": "2.28-225.el8",
+					"link": "https://access.redhat.com/security/cve/CVE-2023-4527",
+					"riskFactors": [
+						"Recent vulnerability",
+						"Attack vector: network",
+						"DoS - High",
+						"Medium severity"
+					],
+					"impactedVersions": [
+						"*"
+					],
+					"publishedDate": "2023-09-18T17:15:00Z",
+					"discoveredDate": "2023-09-23T10:59:16Z",
+					"layerTime": "2023-09-13T02:18:51Z",
+					"layerInstruction": "RUN mv -fZ /tmp/ubi.repo /etc/yum.repos.d/ubi.repo || :"
+				},
+				{
+					"id": "CVE-2023-4527",
+					"status": "affected",
+					"cvss": 6.5,
+					"vector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:N/A:H",
+					"description": "A flaw was found in glibc. When the getaddrinfo function is called with the AF_UNSPEC address family and the system is configured with no-aaaa mode via /etc/resolv.conf, a DNS response via TCP larger than 2048 bytes can potentially disclose stack contents through the function returned address data, and may cause a crash.",
+					"severity": "moderate",
+					"packageName": "glibc-minimal-langpack",
+					"packageVersion": "2.28-225.el8",
+					"link": "https://access.redhat.com/security/cve/CVE-2023-4527",
+					"riskFactors": [
+						"Medium severity",
+						"Recent vulnerability",
+						"Attack vector: network",
+						"DoS - High"
+					],
+					"impactedVersions": [
+						"*"
+					],
+					"publishedDate": "2023-09-18T17:15:00Z",
+					"discoveredDate": "2023-09-23T10:59:16Z",
+					"layerTime": "2023-09-13T02:18:51Z",
+					"layerInstruction": "RUN mv -fZ /tmp/ubi.repo /etc/yum.repos.d/ubi.repo || :"
+				},
+				{
+					"id": "CVE-2020-19190",
+					"status": "affected",
+					"cvss": 6.5,
+					"vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H",
+					"description": "Buffer Overflow vulnerability in _nc_find_entry in tinfo/comp_hash.c:70 in ncurses 6.1 allows remote attackers to cause a denial of service via crafted command.",
+					"severity": "moderate",
+					"packageName": "ncurses-libs",
+					"packageVersion": "6.1-9.20180224.el8_8.1",
+					"link": "https://access.redhat.com/security/cve/CVE-2020-19190",
+					"riskFactors": [
+						"Recent vulnerability",
+						"Attack complexity: low",
+						"Attack vector: network",
+						"DoS - High",
+						"Medium severity"
+					],
+					"impactedVersions": [
+						"*"
+					],
+					"publishedDate": "2023-08-22T19:16:00Z",
+					"discoveredDate": "2023-09-23T10:59:16Z",
+					"layerTime": "2023-09-13T02:18:51Z",
+					"layerInstruction": "RUN mv -fZ /tmp/ubi.repo /etc/yum.repos.d/ubi.repo || :"
+				},
+				{
+					"id": "CVE-2020-19190",
+					"status": "affected",
+					"cvss": 6.5,
+					"vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H",
+					"description": "Buffer Overflow vulnerability in _nc_find_entry in tinfo/comp_hash.c:70 in ncurses 6.1 allows remote attackers to cause a denial of service via crafted command.",
+					"severity": "moderate",
+					"packageName": "ncurses-base",
+					"packageVersion": "6.1-9.20180224.el8_8.1",
+					"link": "https://access.redhat.com/security/cve/CVE-2020-19190",
+					"riskFactors": [
+						"DoS - High",
+						"Medium severity",
+						"Recent vulnerability",
+						"Attack complexity: low",
+						"Attack vector: network"
+					],
+					"impactedVersions": [
+						"*"
+					],
+					"publishedDate": "2023-08-22T19:16:00Z",
+					"discoveredDate": "2023-09-23T10:59:16Z",
+					"layerTime": "2023-09-13T02:18:51Z",
+					"layerInstruction": "RUN mv -fZ /tmp/ubi.repo /etc/yum.repos.d/ubi.repo || :"
+				},
+				{
+					"id": "CVE-2020-19189",
+					"status": "affected",
+					"cvss": 6.5,
+					"vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H",
+					"description": "Buffer Overflow vulnerability in postprocess_terminfo function in tinfo/parse_entry.c:997 in ncurses 6.1 allows remote attackers to cause a denial of service via crafted command.",
+					"severity": "moderate",
+					"packageName": "ncurses-libs",
+					"packageVersion": "6.1-9.20180224.el8_8.1",
+					"link": "https://access.redhat.com/security/cve/CVE-2020-19189",
+					"riskFactors": [
+						"DoS - High",
+						"Medium severity",
+						"Recent vulnerability",
+						"Attack complexity: low",
+						"Attack vector: network"
+					],
+					"impactedVersions": [
+						"*"
+					],
+					"publishedDate": "2023-08-22T19:16:00Z",
+					"discoveredDate": "2023-09-23T10:59:16Z",
+					"layerTime": "2023-09-13T02:18:51Z",
+					"layerInstruction": "RUN mv -fZ /tmp/ubi.repo /etc/yum.repos.d/ubi.repo || :"
+				},
+				{
+					"id": "CVE-2020-19189",
+					"status": "affected",
+					"cvss": 6.5,
+					"vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H",
+					"description": "Buffer Overflow vulnerability in postprocess_terminfo function in tinfo/parse_entry.c:997 in ncurses 6.1 allows remote attackers to cause a denial of service via crafted command.",
+					"severity": "moderate",
+					"packageName": "ncurses-base",
+					"packageVersion": "6.1-9.20180224.el8_8.1",
+					"link": "https://access.redhat.com/security/cve/CVE-2020-19189",
+					"riskFactors": [
+						"Recent vulnerability",
+						"Attack complexity: low",
+						"Attack vector: network",
+						"DoS - High",
+						"Medium severity"
+					],
+					"impactedVersions": [
+						"*"
+					],
+					"publishedDate": "2023-08-22T19:16:00Z",
+					"discoveredDate": "2023-09-23T10:59:16Z",
+					"layerTime": "2023-09-13T02:18:51Z",
+					"layerInstruction": "RUN mv -fZ /tmp/ubi.repo /etc/yum.repos.d/ubi.repo || :"
+				},
+				{
+					"id": "CVE-2020-19188",
+					"status": "affected",
+					"cvss": 6.5,
+					"vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H",
+					"description": "Buffer Overflow vulnerability in fmt_entry function in progs/dump_entry.c:1116 in ncurses 6.1 allows remote attackers to cause a denial of service via crafted command.",
+					"severity": "moderate",
+					"packageName": "ncurses-libs",
+					"packageVersion": "6.1-9.20180224.el8_8.1",
+					"link": "https://access.redhat.com/security/cve/CVE-2020-19188",
+					"riskFactors": [
+						"Medium severity",
+						"Recent vulnerability",
+						"Attack complexity: low",
+						"Attack vector: network",
+						"DoS - High"
+					],
+					"impactedVersions": [
+						"*"
+					],
+					"publishedDate": "2023-08-22T19:16:00Z",
+					"discoveredDate": "2023-09-23T10:59:16Z",
+					"layerTime": "2023-09-13T02:18:51Z",
+					"layerInstruction": "RUN mv -fZ /tmp/ubi.repo /etc/yum.repos.d/ubi.repo || :"
+				},
+				{
+					"id": "CVE-2020-19188",
+					"status": "affected",
+					"cvss": 6.5,
+					"vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H",
+					"description": "Buffer Overflow vulnerability in fmt_entry function in progs/dump_entry.c:1116 in ncurses 6.1 allows remote attackers to cause a denial of service via crafted command.",
+					"severity": "moderate",
+					"packageName": "ncurses-base",
+					"packageVersion": "6.1-9.20180224.el8_8.1",
+					"link": "https://access.redhat.com/security/cve/CVE-2020-19188",
+					"riskFactors": [
+						"Attack complexity: low",
+						"Attack vector: network",
+						"DoS - High",
+						"Medium severity",
+						"Recent vulnerability"
+					],
+					"impactedVersions": [
+						"*"
+					],
+					"publishedDate": "2023-08-22T19:16:00Z",
+					"discoveredDate": "2023-09-23T10:59:16Z",
+					"layerTime": "2023-09-13T02:18:51Z",
+					"layerInstruction": "RUN mv -fZ /tmp/ubi.repo /etc/yum.repos.d/ubi.repo || :"
+				},
+				{
+					"id": "CVE-2020-19187",
+					"status": "affected",
+					"cvss": 6.5,
+					"vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H",
+					"description": "Buffer Overflow vulnerability in fmt_entry function in progs/dump_entry.c:1100 in ncurses 6.1 allows remote attackers to cause a denial of service via crafted command.",
+					"severity": "moderate",
+					"packageName": "ncurses-libs",
+					"packageVersion": "6.1-9.20180224.el8_8.1",
+					"link": "https://access.redhat.com/security/cve/CVE-2020-19187",
+					"riskFactors": [
+						"Attack complexity: low",
+						"Attack vector: network",
+						"DoS - High",
+						"Medium severity",
+						"Recent vulnerability"
+					],
+					"impactedVersions": [
+						"*"
+					],
+					"publishedDate": "2023-08-22T19:15:00Z",
+					"discoveredDate": "2023-09-23T10:59:16Z",
+					"layerTime": "2023-09-13T02:18:51Z",
+					"layerInstruction": "RUN mv -fZ /tmp/ubi.repo /etc/yum.repos.d/ubi.repo || :"
+				},
+				{
+					"id": "CVE-2020-19187",
+					"status": "affected",
+					"cvss": 6.5,
+					"vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H",
+					"description": "Buffer Overflow vulnerability in fmt_entry function in progs/dump_entry.c:1100 in ncurses 6.1 allows remote attackers to cause a denial of service via crafted command.",
+					"severity": "moderate",
+					"packageName": "ncurses-base",
+					"packageVersion": "6.1-9.20180224.el8_8.1",
+					"link": "https://access.redhat.com/security/cve/CVE-2020-19187",
+					"riskFactors": [
+						"Attack complexity: low",
+						"Attack vector: network",
+						"DoS - High",
+						"Medium severity",
+						"Recent vulnerability"
+					],
+					"impactedVersions": [
+						"*"
+					],
+					"publishedDate": "2023-08-22T19:15:00Z",
+					"discoveredDate": "2023-09-23T10:59:16Z",
+					"layerTime": "2023-09-13T02:18:51Z",
+					"layerInstruction": "RUN mv -fZ /tmp/ubi.repo /etc/yum.repos.d/ubi.repo || :"
+				},
+				{
+					"id": "CVE-2020-19186",
+					"status": "affected",
+					"cvss": 6.5,
+					"vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H",
+					"description": "Buffer Overflow vulnerability in _nc_find_entry function in tinfo/comp_hash.c:66 in ncurses 6.1 allows remote attackers to cause a denial of service via crafted command.",
+					"severity": "moderate",
+					"packageName": "ncurses-libs",
+					"packageVersion": "6.1-9.20180224.el8_8.1",
+					"link": "https://access.redhat.com/security/cve/CVE-2020-19186",
+					"riskFactors": [
+						"Attack complexity: low",
+						"Attack vector: network",
+						"DoS - High",
+						"Medium severity",
+						"Recent vulnerability"
+					],
+					"impactedVersions": [
+						"*"
+					],
+					"publishedDate": "2023-08-22T19:15:00Z",
+					"discoveredDate": "2023-09-23T10:59:16Z",
+					"layerTime": "2023-09-13T02:18:51Z",
+					"layerInstruction": "RUN mv -fZ /tmp/ubi.repo /etc/yum.repos.d/ubi.repo || :"
+				},
+				{
+					"id": "CVE-2020-19186",
+					"status": "affected",
+					"cvss": 6.5,
+					"vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H",
+					"description": "Buffer Overflow vulnerability in _nc_find_entry function in tinfo/comp_hash.c:66 in ncurses 6.1 allows remote attackers to cause a denial of service via crafted command.",
+					"severity": "moderate",
+					"packageName": "ncurses-base",
+					"packageVersion": "6.1-9.20180224.el8_8.1",
+					"link": "https://access.redhat.com/security/cve/CVE-2020-19186",
+					"riskFactors": [
+						"Attack complexity: low",
+						"Attack vector: network",
+						"DoS - High",
+						"Medium severity",
+						"Recent vulnerability"
+					],
+					"impactedVersions": [
+						"*"
+					],
+					"publishedDate": "2023-08-22T19:15:00Z",
+					"discoveredDate": "2023-09-23T10:59:16Z",
+					"layerTime": "2023-09-13T02:18:51Z",
+					"layerInstruction": "RUN mv -fZ /tmp/ubi.repo /etc/yum.repos.d/ubi.repo || :"
+				},
+				{
+					"id": "CVE-2020-19185",
+					"status": "affected",
+					"cvss": 6.5,
+					"vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H",
+					"description": "Buffer Overflow vulnerability in one_one_mapping function in progs/dump_entry.c:1373 in ncurses 6.1 allows remote attackers to cause a denial of service via crafted command.",
+					"severity": "moderate",
+					"packageName": "ncurses-libs",
+					"packageVersion": "6.1-9.20180224.el8_8.1",
+					"link": "https://access.redhat.com/security/cve/CVE-2020-19185",
+					"riskFactors": [
+						"Attack complexity: low",
+						"Attack vector: network",
+						"DoS - High",
+						"Medium severity",
+						"Recent vulnerability"
+					],
+					"impactedVersions": [
+						"*"
+					],
+					"publishedDate": "2023-08-22T19:15:00Z",
+					"discoveredDate": "2023-09-23T10:59:16Z",
+					"layerTime": "2023-09-13T02:18:51Z",
+					"layerInstruction": "RUN mv -fZ /tmp/ubi.repo /etc/yum.repos.d/ubi.repo || :"
+				},
+				{
+					"id": "CVE-2020-19185",
+					"status": "affected",
+					"cvss": 6.5,
+					"vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H",
+					"description": "Buffer Overflow vulnerability in one_one_mapping function in progs/dump_entry.c:1373 in ncurses 6.1 allows remote attackers to cause a denial of service via crafted command.",
+					"severity": "moderate",
+					"packageName": "ncurses-base",
+					"packageVersion": "6.1-9.20180224.el8_8.1",
+					"link": "https://access.redhat.com/security/cve/CVE-2020-19185",
+					"riskFactors": [
+						"Recent vulnerability",
+						"Attack complexity: low",
+						"Attack vector: network",
+						"DoS - High",
+						"Medium severity"
+					],
+					"impactedVersions": [
+						"*"
+					],
+					"publishedDate": "2023-08-22T19:15:00Z",
+					"discoveredDate": "2023-09-23T10:59:16Z",
+					"layerTime": "2023-09-13T02:18:51Z",
+					"layerInstruction": "RUN mv -fZ /tmp/ubi.repo /etc/yum.repos.d/ubi.repo || :"
+				},
+				{
+					"id": "CVE-2023-4813",
+					"status": "affected",
+					"cvss": 5.9,
+					"vector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H",
+					"description": "A flaw was found in glibc. In an uncommon situation, the gaih_inet function may use memory that has been freed, resulting in an application crash. This issue is only exploitable when the getaddrinfo function is called and the hosts database in /etc/nsswitch.conf is configured with SUCCESS=continue or SUCCESS=merge.",
+					"severity": "moderate",
+					"packageName": "glibc-common",
+					"packageVersion": "2.28-225.el8",
+					"link": "https://access.redhat.com/security/cve/CVE-2023-4813",
+					"riskFactors": [
+						"Recent vulnerability",
+						"Attack vector: network",
+						"DoS - High",
+						"Medium severity"
+					],
+					"impactedVersions": [
+						"*"
+					],
+					"publishedDate": "2023-09-12T22:15:00Z",
+					"discoveredDate": "2023-09-23T10:59:16Z",
+					"layerTime": "2023-09-13T02:18:51Z",
+					"layerInstruction": "RUN mv -fZ /tmp/ubi.repo /etc/yum.repos.d/ubi.repo || :"
+				},
+				{
+					"id": "CVE-2023-4813",
+					"status": "affected",
+					"cvss": 5.9,
+					"vector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H",
+					"description": "A flaw was found in glibc. In an uncommon situation, the gaih_inet function may use memory that has been freed, resulting in an application crash. This issue is only exploitable when the getaddrinfo function is called and the hosts database in /etc/nsswitch.conf is configured with SUCCESS=continue or SUCCESS=merge.",
+					"severity": "moderate",
+					"packageName": "glibc-minimal-langpack",
+					"packageVersion": "2.28-225.el8",
+					"link": "https://access.redhat.com/security/cve/CVE-2023-4813",
+					"riskFactors": [
+						"Attack vector: network",
+						"DoS - High",
+						"Medium severity",
+						"Recent vulnerability"
+					],
+					"impactedVersions": [
+						"*"
+					],
+					"publishedDate": "2023-09-12T22:15:00Z",
+					"discoveredDate": "2023-09-23T10:59:16Z",
+					"layerTime": "2023-09-13T02:18:51Z",
+					"layerInstruction": "RUN mv -fZ /tmp/ubi.repo /etc/yum.repos.d/ubi.repo || :"
+				},
+				{
+					"id": "CVE-2023-4813",
+					"status": "affected",
+					"cvss": 5.9,
+					"vector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H",
+					"description": "A flaw was found in glibc. In an uncommon situation, the gaih_inet function may use memory that has been freed, resulting in an application crash. This issue is only exploitable when the getaddrinfo function is called and the hosts database in /etc/nsswitch.conf is configured with SUCCESS=continue or SUCCESS=merge.",
+					"severity": "moderate",
+					"packageName": "glibc",
+					"packageVersion": "2.28-225.el8",
+					"link": "https://access.redhat.com/security/cve/CVE-2023-4813",
+					"riskFactors": [
+						"Medium severity",
+						"Recent vulnerability",
+						"Attack vector: network",
+						"DoS - High"
+					],
+					"impactedVersions": [
+						"*"
+					],
+					"publishedDate": "2023-09-12T22:15:00Z",
+					"discoveredDate": "2023-09-23T10:59:16Z",
+					"layerTime": "2023-09-13T02:18:51Z",
+					"layerInstruction": "RUN mv -fZ /tmp/ubi.repo /etc/yum.repos.d/ubi.repo || :"
+				},
+				{
+					"id": "CVE-2023-4806",
+					"status": "affected",
+					"cvss": 5.9,
+					"vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+					"description": "A flaw was found in glibc. In an extremely rare situation, the getaddrinfo function may access memory that has been freed, resulting in an application crash. This issue is only exploitable when a NSS module implements only the _nss_*_gethostbyname2_r and _nss_*_getcanonname_r hooks without implementing the _nss_*_gethostbyname3_r hook. The resolved name should return a large number of IPv6 and IPv4, and the call to the getaddrinfo function should have the AF_INET6 address family with AI_CANONNAME, AI_ALL and AI_V4MAPPED as flags.",
+					"severity": "moderate",
+					"packageName": "glibc-minimal-langpack",
+					"packageVersion": "2.28-225.el8",
+					"link": "https://access.redhat.com/security/cve/CVE-2023-4806",
+					"riskFactors": [
+						"Medium severity",
+						"Recent vulnerability",
+						"Attack vector: network",
+						"DoS - High"
+					],
+					"impactedVersions": [
+						"*"
+					],
+					"publishedDate": "2023-09-18T17:15:00Z",
+					"discoveredDate": "2023-09-23T10:59:16Z",
+					"layerTime": "2023-09-13T02:18:51Z",
+					"layerInstruction": "RUN mv -fZ /tmp/ubi.repo /etc/yum.repos.d/ubi.repo || :"
+				},
+				{
+					"id": "CVE-2023-4806",
+					"status": "affected",
+					"cvss": 5.9,
+					"vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+					"description": "A flaw was found in glibc. In an extremely rare situation, the getaddrinfo function may access memory that has been freed, resulting in an application crash. This issue is only exploitable when a NSS module implements only the _nss_*_gethostbyname2_r and _nss_*_getcanonname_r hooks without implementing the _nss_*_gethostbyname3_r hook. The resolved name should return a large number of IPv6 and IPv4, and the call to the getaddrinfo function should have the AF_INET6 address family with AI_CANONNAME, AI_ALL and AI_V4MAPPED as flags.",
+					"severity": "moderate",
+					"packageName": "glibc",
+					"packageVersion": "2.28-225.el8",
+					"link": "https://access.redhat.com/security/cve/CVE-2023-4806",
+					"riskFactors": [
+						"Medium severity",
+						"Recent vulnerability",
+						"Attack vector: network",
+						"DoS - High"
+					],
+					"impactedVersions": [
+						"*"
+					],
+					"publishedDate": "2023-09-18T17:15:00Z",
+					"discoveredDate": "2023-09-23T10:59:16Z",
+					"layerTime": "2023-09-13T02:18:51Z",
+					"layerInstruction": "RUN mv -fZ /tmp/ubi.repo /etc/yum.repos.d/ubi.repo || :"
+				},
+				{
+					"id": "CVE-2023-4806",
+					"status": "affected",
+					"cvss": 5.9,
+					"vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+					"description": "A flaw was found in glibc. In an extremely rare situation, the getaddrinfo function may access memory that has been freed, resulting in an application crash. This issue is only exploitable when a NSS module implements only the _nss_*_gethostbyname2_r and _nss_*_getcanonname_r hooks without implementing the _nss_*_gethostbyname3_r hook. The resolved name should return a large number of IPv6 and IPv4, and the call to the getaddrinfo function should have the AF_INET6 address family with AI_CANONNAME, AI_ALL and AI_V4MAPPED as flags.",
+					"severity": "moderate",
+					"packageName": "glibc-common",
+					"packageVersion": "2.28-225.el8",
+					"link": "https://access.redhat.com/security/cve/CVE-2023-4806",
+					"riskFactors": [
+						"Attack vector: network",
+						"DoS - High",
+						"Medium severity",
+						"Recent vulnerability"
+					],
+					"impactedVersions": [
+						"*"
+					],
+					"publishedDate": "2023-09-18T17:15:00Z",
+					"discoveredDate": "2023-09-23T10:59:16Z",
+					"layerTime": "2023-09-13T02:18:51Z",
+					"layerInstruction": "RUN mv -fZ /tmp/ubi.repo /etc/yum.repos.d/ubi.repo || :"
+				},
+				{
+					"id": "CVE-2023-4039",
+					"status": "affected",
+					"cvss": 4.8,
+					"vector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:N",
+					"description": "  A failure in the -fstack-protector feature in GCC-based toolchains  that target AArch64 allows an attacker to exploit an existing buffer  overflow in dynamically-sized local variables in your application  without this being detected. This stack-protector failure only applies  to C99-style dynamically-sized local variables or those created using  alloca(). The stack-protector operates as intended for statically-sized  local variables.  The default behavior when the stack-protector  detects an overflow is to terminate your application, resulting in  controlled loss of availability. An attacker who can exploit a buffer  overflow without triggering the stack-protector might be able to change  program flow control to cause an uncontrolled loss of availability or to  go further and affect confidentiality or integrity.      ",
+					"severity": "moderate",
+					"packageName": "libgcc",
+					"packageVersion": "8.5.0-18.el8",
+					"link": "https://access.redhat.com/security/cve/CVE-2023-4039",
+					"riskFactors": [
+						"Attack vector: network",
+						"Medium severity",
+						"Recent vulnerability"
+					],
+					"impactedVersions": [
+						"*"
+					],
+					"publishedDate": "2023-09-13T09:15:00Z",
+					"discoveredDate": "2023-09-23T10:59:16Z",
+					"layerTime": "2023-09-13T02:18:51Z",
+					"layerInstruction": "RUN mv -fZ /tmp/ubi.repo /etc/yum.repos.d/ubi.repo || :"
+				},
+				{
+					"id": "CVE-2023-4039",
+					"status": "affected",
+					"cvss": 4.8,
+					"vector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:N",
+					"description": "  A failure in the -fstack-protector feature in GCC-based toolchains  that target AArch64 allows an attacker to exploit an existing buffer  overflow in dynamically-sized local variables in your application  without this being detected. This stack-protector failure only applies  to C99-style dynamically-sized local variables or those created using  alloca(). The stack-protector operates as intended for statically-sized  local variables.  The default behavior when the stack-protector  detects an overflow is to terminate your application, resulting in  controlled loss of availability. An attacker who can exploit a buffer  overflow without triggering the stack-protector might be able to change  program flow control to cause an uncontrolled loss of availability or to  go further and affect confidentiality or integrity.      ",
+					"severity": "moderate",
+					"packageName": "libstdc++",
+					"packageVersion": "8.5.0-18.el8",
+					"link": "https://access.redhat.com/security/cve/CVE-2023-4039",
+					"riskFactors": [
+						"Attack vector: network",
+						"Medium severity",
+						"Recent vulnerability"
+					],
+					"impactedVersions": [
+						"*"
+					],
+					"publishedDate": "2023-09-13T09:15:00Z",
+					"discoveredDate": "2023-09-23T10:59:16Z",
+					"layerTime": "2023-09-13T02:18:51Z",
+					"layerInstruction": "RUN mv -fZ /tmp/ubi.repo /etc/yum.repos.d/ubi.repo || :"
+				},
+				{
+					"id": "CVE-2023-3446",
+					"status": "affected",
+					"cvss": 5.3,
+					"vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L",
+					"description": "Issue summary: Checking excessively long DH keys or parameters may be very slow.  Impact summary: Applications that use the functions DH_check(), DH_check_ex() or EVP_PKEY_param_check() to check a DH key or DH parameters may experience long delays. Where the key or parameters that are being checked have been obtained from an untrusted source this may lead to a Denial of Service.  The function DH_check() performs various checks on DH parameters. One of those checks confirms that the modulus (\\'p\\' parameter) is not too large. Trying to use a very large modulus is slow and OpenSSL will not normally use a modulus which is over 10,000 bits in length.  However the DH_check() function checks numerous aspects of the key or parameters that have been supplied. Some of those checks use the supplied modulus value even if it has already been found to be too large.  An application that calls DH_check() and supplies a key or parameters obtained from an untrusted source could be vulernable to a Denial of Service attack.  The function DH_check() is itself called by a number of other OpenSSL functions. An application calling any of those other functions may similarly be affected. The other functions affected by this are DH_check_ex() and EVP_PKEY_param_check().  Also vulnerable are the OpenSSL dhparam and pkeyparam command line applications when using the \\'-check\\' option.  The OpenSSL SSL/TLS imp",
+					"severity": "low",
+					"packageName": "openssl-libs",
+					"packageVersion": "1.1.1k-9.el8_7",
+					"link": "https://access.redhat.com/security/cve/CVE-2023-3446",
+					"riskFactors": [
+						"Attack complexity: low",
+						"Attack vector: network",
+						"DoS - Low",
+						"Recent vulnerability"
+					],
+					"impactedVersions": [
+						"*"
+					],
+					"publishedDate": "2023-07-19T12:15:00Z",
+					"discoveredDate": "2023-09-23T10:59:16Z",
+					"layerTime": "2023-09-13T02:18:51Z",
+					"layerInstruction": "RUN mv -fZ /tmp/ubi.repo /etc/yum.repos.d/ubi.repo || :"
+				},
+				{
+					"id": "CVE-2023-3446",
+					"status": "affected",
+					"cvss": 5.3,
+					"vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L",
+					"description": "Issue summary: Checking excessively long DH keys or parameters may be very slow.  Impact summary: Applications that use the functions DH_check(), DH_check_ex() or EVP_PKEY_param_check() to check a DH key or DH parameters may experience long delays. Where the key or parameters that are being checked have been obtained from an untrusted source this may lead to a Denial of Service.  The function DH_check() performs various checks on DH parameters. One of those checks confirms that the modulus (\\'p\\' parameter) is not too large. Trying to use a very large modulus is slow and OpenSSL will not normally use a modulus which is over 10,000 bits in length.  However the DH_check() function checks numerous aspects of the key or parameters that have been supplied. Some of those checks use the supplied modulus value even if it has already been found to be too large.  An application that calls DH_check() and supplies a key or parameters obtained from an untrusted source could be vulernable to a Denial of Service attack.  The function DH_check() is itself called by a number of other OpenSSL functions. An application calling any of those other functions may similarly be affected. The other functions affected by this are DH_check_ex() and EVP_PKEY_param_check().  Also vulnerable are the OpenSSL dhparam and pkeyparam command line applications when using the \\'-check\\' option.  The OpenSSL SSL/TLS imp",
+					"severity": "low",
+					"packageName": "openssl",
+					"packageVersion": "1.1.1k-9.el8_7",
+					"link": "https://access.redhat.com/security/cve/CVE-2023-3446",
+					"riskFactors": [
+						"Recent vulnerability",
+						"Attack complexity: low",
+						"Attack vector: network",
+						"DoS - Low"
+					],
+					"impactedVersions": [
+						"*"
+					],
+					"publishedDate": "2023-07-19T12:15:00Z",
+					"discoveredDate": "2023-09-23T10:59:16Z",
+					"layerTime": "2023-09-13T15:46:49Z",
+					"layerInstruction": "USER 1001"
+				},
+				{
+					"id": "CVE-2023-28322",
+					"status": "affected",
+					"cvss": 3.7,
+					"vector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:N/A:N",
+					"description": "An information disclosure vulnerability exists in curl \u003cv8.1.0 when doing HTTP(S) transfers, libcurl might erroneously use the read callback (`CURLOPT_READFUNCTION`) to ask for data to send, even when the `CURLOPT_POSTFIELDS` option has been set, if the same handle previously wasused to issue a `PUT` request which used that callback. This flaw may surprise the application and cause it to misbehave and either send off the wrong data or use memory after free or similar in the second transfer. The problem exists in the logic for a reused handle when it is (expected to be) changed from a PUT to a POST.",
+					"severity": "low",
+					"packageName": "curl",
+					"packageVersion": "7.61.1-30.el8_8.3",
+					"link": "https://access.redhat.com/security/cve/CVE-2023-28322",
+					"riskFactors": [
+						"Attack vector: network",
+						"Exploit exists - POC",
+						"Recent vulnerability"
+					],
+					"impactedVersions": [
+						"*"
+					],
+					"publishedDate": "2023-05-26T21:15:00Z",
+					"discoveredDate": "2023-09-23T10:59:16Z",
+					"layerTime": "2023-09-13T02:18:51Z",
+					"layerInstruction": "RUN mv -fZ /tmp/ubi.repo /etc/yum.repos.d/ubi.repo || :"
+				},
+				{
+					"id": "CVE-2023-28322",
+					"status": "affected",
+					"cvss": 3.7,
+					"vector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:N/A:N",
+					"description": "An information disclosure vulnerability exists in curl \u003cv8.1.0 when doing HTTP(S) transfers, libcurl might erroneously use the read callback (`CURLOPT_READFUNCTION`) to ask for data to send, even when the `CURLOPT_POSTFIELDS` option has been set, if the same handle previously wasused to issue a `PUT` request which used that callback. This flaw may surprise the application and cause it to misbehave and either send off the wrong data or use memory after free or similar in the second transfer. The problem exists in the logic for a reused handle when it is (expected to be) changed from a PUT to a POST.",
+					"severity": "low",
+					"packageName": "libcurl",
+					"packageVersion": "7.61.1-30.el8_8.3",
+					"link": "https://access.redhat.com/security/cve/CVE-2023-28322",
+					"riskFactors": [
+						"Attack vector: network",
+						"Exploit exists - POC",
+						"Recent vulnerability"
+					],
+					"impactedVersions": [
+						"*"
+					],
+					"publishedDate": "2023-05-26T21:15:00Z",
+					"discoveredDate": "2023-09-23T10:59:16Z",
+					"layerTime": "2023-09-13T02:18:51Z",
+					"layerInstruction": "RUN mv -fZ /tmp/ubi.repo /etc/yum.repos.d/ubi.repo || :"
+				}
+			],
+			"vulnerabilityDistribution": {
+				"critical": 0,
+				"high": 5,
+				"medium": 39,
+				"low": 4,
+				"total": 48
+			},
+			"vulnerabilityScanPassed": false,
+			"history": [
+				{
+					"created": "2023-09-13T02:18:46Z",
+					"instruction": "ADD file:c5525b3d0375a6117c1870b84a140152f3e7dbf3dc24ff6afbd5a96086e905b6 in / "
+				},
+				{
+					"created": "2023-09-13T02:18:47Z",
+					"instruction": "RUN mv -f /etc/yum.repos.d/ubi.repo /tmp || :"
+				},
+				{
+					"created": "2023-09-13T02:18:47Z",
+					"instruction": "ADD file:ecc29a1455ca1b7c82018555e16e2e802135974523df6748e431f8707e759ddd in /tmp/tls-ca-bundle.pem "
+				},
+				{
+					"created": "2023-09-13T02:18:47Z",
+					"instruction": "ADD multi:59145b743432123f4025fa3d9781044953a12764ef7a1b981d973fa9cbe6738b in /etc/yum.repos.d/ "
+				},
+				{
+					"created": "2023-09-13T02:18:47Z",
+					"instruction": "LABEL maintainer=\"Red Hat, Inc.\""
+				},
+				{
+					"created": "2023-09-13T02:18:47Z",
+					"instruction": "LABEL com.redhat.component=\"ubi8-minimal-contai..."
+				},
+				{
+					"created": "2023-09-13T02:18:47Z",
+					"instruction": "LABEL com.redhat.license_terms=\"https://www.red..."
+				},
+				{
+					"created": "2023-09-13T02:18:47Z",
+					"instruction": "LABEL summary=\"Provides the latest release of t..."
+				},
+				{
+					"created": "2023-09-13T02:18:47Z",
+					"instruction": "LABEL description=\"The Universal Base Image Min..."
+				},
+				{
+					"created": "2023-09-13T02:18:47Z",
+					"instruction": "LABEL io.k8s.display-name=\"Red Hat Universal Ba..."
+				},
+				{
+					"created": "2023-09-13T02:18:47Z",
+					"instruction": "LABEL io.openshift.expose-services=\"\""
+				},
+				{
+					"created": "2023-09-13T02:18:47Z",
+					"instruction": "LABEL io.openshift.tags=\"minimal rhel8\""
+				},
+				{
+					"created": "2023-09-13T02:18:47Z",
+					"instruction": "ENV container oci"
+				},
+				{
+					"created": "2023-09-13T02:18:47Z",
+					"instruction": "ENV PATH /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin"
+				},
+				{
+					"created": "2023-09-13T02:18:47Z",
+					"instruction": "CMD [\"/bin/bash\"]"
+				},
+				{
+					"created": "2023-09-13T02:18:48Z",
+					"instruction": "RUN rm -rf /var/log/*"
+				},
+				{
+					"created": "2023-09-13T02:18:48Z",
+					"instruction": "LABEL release=1072"
+				},
+				{
+					"created": "2023-09-13T02:18:48Z",
+					"instruction": "ADD file:361966c0fef2536c74b8650a6ebf064744ff384b92c579b7c36f9dc32abfbe5f in /root/buildinfo/content_manifests/ubi8-minimal-container-8.8-1072.json "
+				},
+				{
+					"created": "2023-09-13T02:18:48Z",
+					"instruction": "ADD file:01ab30ccb9e7075b089c950f14c3922b9562a15acd3c5f50689d5598d4112f45 in /root/buildinfo/Dockerfile-ubi8-minimal-8.8-1072 "
+				},
+				{
+					"created": "2023-09-13T02:18:48Z",
+					"instruction": "LABEL \"distribution-scope\"=\"public\" \"vendor\"=\"R..."
+				},
+				{
+					"created": "2023-09-13T02:18:49Z",
+					"instruction": "RUN rm -f '/etc/yum.repos.d/repo-50050.repo' '/etc/yum.repos.d/repo-b842f.repo'"
+				},
+				{
+					"created": "2023-09-13T02:18:49Z",
+					"instruction": "RUN rm -f /tmp/tls-ca-bundle.pem"
+				},
+				{
+					"created": "2023-09-13T02:18:51Z",
+					"instruction": "RUN mv -fZ /tmp/ubi.repo /etc/yum.repos.d/ubi.repo || :"
+				},
+				{
+					"created": "2023-09-13T15:45:50Z",
+					"instruction": "RUN mv -f /etc/yum.repos.d/ubi.repo /tmp || :"
+				},
+				{
+					"created": "2023-09-13T15:45:51Z",
+					"instruction": "ADD file:ecc29a1455ca1b7c82018555e16e2e802135974523df6748e431f8707e759ddd in /tmp/tls-ca-bundle.pem "
+				},
+				{
+					"created": "2023-09-13T15:45:51Z",
+					"instruction": "ADD multi:519085577cf13cf167586891ce54724e8a4ea609be662b17bb77cf82a378a637 in /etc/yum.repos.d/ "
+				},
+				{
+					"created": "2023-09-13T15:45:51Z",
+					"instruction": "EXPOSE 8080"
+				},
+				{
+					"created": "2023-09-13T15:45:51Z",
+					"instruction": "ENV APP_ROOT=/opt/app-root     HOME=/opt/app-root/src     NPM_RUN=start     PLATFORM=\"el8\"     NODEJS_VERSION=18     NPM_RUN=start     NAME=nodejs"
+				},
+				{
+					"created": "2023-09-13T15:45:51Z",
+					"instruction": "ENV SUMMARY=\"Minimal image for running Node.js $NODEJS_VERSION applications\"     DESCRIPTION=\"Node.js $NODEJS_VERSION available as container is a base platform for running various Node.js $NODEJS_VERSION applications and frameworks. Node.js is a platform built on Chrome's JavaScript runtime for easily building fast, scalable network applications. Node.js uses an event-driven, non-blocking I/O model that makes it lightweight and efficient, perfect for data-intensive real-time applications that run across distributed devices.\"     NPM_CONFIG_PREFIX=$HOME/.npm-global     PATH=$HOME/node_modules/.bin/:$HOME/.npm-global/bin/:$PATH"
+				},
+				{
+					"created": "2023-09-13T15:45:51Z",
+					"instruction": "LABEL summary=\"$SUMMARY\"       description=\"$DE..."
+				},
+				{
+					"created": "2023-09-13T15:46:43Z",
+					"instruction": "RUN INSTALL_PKGS=\"nodejs nodejs-nodemon nodejs-full-i18n npm findutils tar\" \u0026\u0026     microdnf -y module disable nodejs \u0026\u0026     microdnf -y module enable nodejs:$NODEJS_VERSION \u0026\u0026     microdnf --nodocs --setopt=install_weak_deps=0 install $INSTALL_PKGS \u0026\u0026     node -v | grep -qe \"^v$NODEJS_VERSION\\.\" \u0026\u0026 echo \"Found VERSION $NODEJS_VERSION\" \u0026\u0026     microdnf clean all \u0026\u0026     rm -rf /mnt/rootfs/var/cache/* /mnt/rootfs/var/log/dnf* /mnt/rootfs/var/log/yum.*"
+				},
+				{
+					"created": "2023-09-13T15:46:43Z",
+					"instruction": "COPY dir:b5a1f1317e0040e7a730c0b1d8cf8a9fa419afa1662d666632dac699455512f1 in /usr/libexec/s2i "
+				},
+				{
+					"created": "2023-09-13T15:46:43Z",
+					"instruction": "COPY dir:fe4e9034259501521ced258ae36b98bc6cc475e0e34364c8a17e53447c145be1 in / "
+				},
+				{
+					"created": "2023-09-13T15:46:44Z",
+					"instruction": "RUN mkdir -p \"$HOME\" \u0026\u0026 chown -R 1001:0 \"$APP_ROOT\" \u0026\u0026 chmod -R ug+rwx \"$APP_ROOT\""
+				},
+				{
+					"created": "2023-09-13T15:46:44Z",
+					"instruction": "WORKDIR \"$HOME\""
+				},
+				{
+					"created": "2023-09-13T15:46:44Z",
+					"instruction": "USER 1001"
+				},
+				{
+					"created": "2023-09-13T15:46:44Z",
+					"instruction": "LABEL release=75"
+				},
+				{
+					"created": "2023-09-13T15:46:44Z",
+					"instruction": "ADD file:5f85226fcbf1f3848d3682f4ad4cd04e2b27ede2fc861eed703cb6d46ea802a5 in /help.1 "
+				},
+				{
+					"created": "2023-09-13T15:46:45Z",
+					"instruction": "ADD file:ab0a976d6362e2d37070155a4a1ae80a400e2f051b5f28ca37aff4fb68b8651b in /root/buildinfo/content_manifests/nodejs-18-minimal-container-1-75.json "
+				},
+				{
+					"created": "2023-09-13T15:46:45Z",
+					"instruction": "ADD file:ce931f158b0178ed6cadb401c8c0f949711e507f7b1aafee9c2da2f53fc8d658 in /root/buildinfo/Dockerfile-ubi8-nodejs-18-minimal-1-75 "
+				},
+				{
+					"created": "2023-09-13T15:46:45Z",
+					"instruction": "LABEL \"distribution-scope\"=\"public\" \"vendor\"=\"R..."
+				},
+				{
+					"created": "2023-09-13T15:46:45Z",
+					"instruction": "USER root"
+				},
+				{
+					"created": "2023-09-13T15:46:46Z",
+					"instruction": "RUN rm -f '/etc/yum.repos.d/odcs-2356042-75baf.repo' '/etc/yum.repos.d/repo-50050.repo' '/etc/yum.repos.d/repo-b842f.repo'"
+				},
+				{
+					"created": "2023-09-13T15:46:47Z",
+					"instruction": "RUN rm -f /tmp/tls-ca-bundle.pem"
+				},
+				{
+					"created": "2023-09-13T15:46:47Z",
+					"instruction": "USER 1001"
+				},
+				{
+					"created": "2023-09-13T15:46:47Z",
+					"instruction": "USER root"
+				},
+				{
+					"created": "2023-09-13T15:46:48Z",
+					"instruction": "RUN mv -fZ /tmp/ubi.repo /etc/yum.repos.d/ubi.repo || :"
+				},
+				{
+					"created": "2023-09-13T15:46:49Z",
+					"instruction": "USER 1001"
+				},
+				{
+					"created": "2023-09-13T15:46:49Z",
+					"instruction": "CMD [\"/bin/sh\" \"-c\" \"echo \\\"Hello world\\\"\"]"
+				}
+			],
+			"scanTime": "2023-09-23T10:59:20.359496634Z"
+		}
+	],
+	"consoleURL": "https://app.eu.prismacloud.io/compute?computeState=/monitor/vulnerabilities/images/ci?search=sha256%3A0931076bbc765b4127b1cbb5c3f2d5e6b34895ca2e965db73ae3fad9378a3856"
+}

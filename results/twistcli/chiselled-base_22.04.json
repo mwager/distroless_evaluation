@@ -1,0 +1,51 @@
+{
+	"results": [
+		{
+			"id": "sha256:c618d048f91d94b9d0d9e75fa7b922914301ce027df0470abad56afebf28b0ed",
+			"name": "chiselled-base_22.04:latest",
+			"distro": "Ubuntu 22.04.3 LTS",
+			"distroRelease": "jammy",
+			"collections": [
+				"All"
+			],
+			"compliances": [
+				{
+					"id": 41,
+					"title": "(CIS_Docker_v1.5.0 - 4.1) Image should be created with a non-root user",
+					"severity": "high",
+					"description": "It is a good practice to run the container as a non-root user, if possible. Though user\nnamespace mapping is now available, if a user is already defined in the container image, the\ncontainer is run as that user by default and specific user namespace remapping is not\nrequired",
+					"layerTime": "1970-01-01T00:00:00Z",
+					"category": "Docker"
+				}
+			],
+			"complianceDistribution": {
+				"critical": 0,
+				"high": 1,
+				"medium": 0,
+				"low": 0,
+				"total": 1
+			},
+			"complianceScanPassed": true,
+			"vulnerabilityDistribution": {
+				"critical": 0,
+				"high": 0,
+				"medium": 0,
+				"low": 0,
+				"total": 0
+			},
+			"vulnerabilityScanPassed": true,
+			"history": [
+				{
+					"created": "2023-09-14T11:44:51Z",
+					"instruction": "COPY /staging/ / # buildkit"
+				},
+				{
+					"created": "2023-09-14T11:44:51Z",
+					"instruction": "CMD [\"/bin/sh\" \"-c\" \"echo \\\"Hello world\\\"\"]"
+				}
+			],
+			"scanTime": "2023-09-23T10:58:52.001492382Z"
+		}
+	],
+	"consoleURL": "https://app.eu.prismacloud.io/compute?computeState=/monitor/vulnerabilities/images/ci?search=sha256%3Ac618d048f91d94b9d0d9e75fa7b922914301ce027df0470abad56afebf28b0ed"
+}

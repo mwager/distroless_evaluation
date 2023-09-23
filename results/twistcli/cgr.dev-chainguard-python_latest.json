@@ -1,0 +1,171 @@
+{
+	"results": [
+		{
+			"id": "sha256:b321e26dd90655a94488761173114b0d14bbd6a5ecd7acfbd3d4750eb748acb8",
+			"name": "cgr.dev-chainguard-python_latest:latest",
+			"distro": "Wolfi",
+			"distroRelease": "20230201",
+			"collections": [
+				"All"
+			],
+			"packages": [
+				{
+					"type": "os",
+					"name": "python-3.11",
+					"version": "3.11.5-r2",
+					"licenses": [
+						"PSF-2.0"
+					]
+				},
+				{
+					"type": "os",
+					"name": "zlib",
+					"version": "1.3-r0",
+					"licenses": [
+						"MPL-2.0 AND MIT"
+					]
+				},
+				{
+					"type": "os",
+					"name": "readline",
+					"version": "8.2-r2",
+					"licenses": [
+						"GPL-3.0-or-later"
+					]
+				},
+				{
+					"type": "os",
+					"name": "xz",
+					"version": "5.4.4-r0",
+					"licenses": [
+						"GPL-3.0-or-later"
+					]
+				},
+				{
+					"type": "os",
+					"name": "mpdecimal",
+					"version": "2.5.1-r3",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "os",
+					"name": "libffi",
+					"version": "3.4.4-r2",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "os",
+					"name": "gdbm",
+					"version": "1.23-r3",
+					"licenses": [
+						"GPL-3.0-or-later"
+					]
+				},
+				{
+					"type": "os",
+					"name": "wolfi-baselayout",
+					"version": "20230201-r6",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "os",
+					"name": "sqlite",
+					"version": "3.43.0-r0",
+					"licenses": [
+						"blessing"
+					]
+				},
+				{
+					"type": "os",
+					"name": "ncurses",
+					"version": "6.4-r2",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "os",
+					"name": "gcc",
+					"version": "13.2.0-r3",
+					"licenses": [
+						"GPL-3.0-or-later"
+					]
+				},
+				{
+					"type": "os",
+					"name": "openssl",
+					"version": "3.1.3-r0",
+					"licenses": [
+						"Apache-2.0"
+					]
+				},
+				{
+					"type": "os",
+					"name": "expat",
+					"version": "2.5.0-r4",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "os",
+					"name": "glibc",
+					"version": "2.38-r2",
+					"licenses": [
+						"GPL-3.0-or-later"
+					]
+				},
+				{
+					"type": "os",
+					"name": "bzip2",
+					"version": "1.0.8-r5",
+					"licenses": [
+						"MPL-2.0 AND MIT"
+					]
+				},
+				{
+					"type": "os",
+					"name": "ca-certificates",
+					"version": "20230506-r0",
+					"licenses": [
+						"MPL-2.0 AND MIT"
+					]
+				}
+			],
+			"complianceDistribution": {
+				"critical": 0,
+				"high": 0,
+				"medium": 0,
+				"low": 0,
+				"total": 0
+			},
+			"complianceScanPassed": true,
+			"vulnerabilityDistribution": {
+				"critical": 0,
+				"high": 0,
+				"medium": 0,
+				"low": 0,
+				"total": 0
+			},
+			"vulnerabilityScanPassed": true,
+			"history": [
+				{
+					"created": "2023-09-22T16:33:27Z",
+					"instruction": "RUN apko"
+				},
+				{
+					"created": "2023-09-22T16:33:27Z",
+					"instruction": "CMD [\"/bin/sh\" \"-c\" \"echo \\\"Hello world\\\"\"]"
+				}
+			],
+			"scanTime": "2023-09-23T10:59:39.232819741Z"
+		}
+	],
+	"consoleURL": "https://app.eu.prismacloud.io/compute?computeState=/monitor/vulnerabilities/images/ci?search=sha256%3Ab321e26dd90655a94488761173114b0d14bbd6a5ecd7acfbd3d4750eb748acb8"
+}

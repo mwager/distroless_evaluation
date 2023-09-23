@@ -1,0 +1,178 @@
+{
+	"results": [
+		{
+			"id": "sha256:467d69a00613441f4bbaa566665899a250c7fc20dfd976750067f9b769c434c8",
+			"name": "cgr.dev-chainguard-php_latest:latest",
+			"distro": "Wolfi",
+			"distroRelease": "20230201",
+			"collections": [
+				"All"
+			],
+			"packages": [
+				{
+					"type": "os",
+					"name": "readline",
+					"version": "8.2-r2",
+					"licenses": [
+						"GPL-3.0-or-later"
+					]
+				},
+				{
+					"type": "os",
+					"name": "oniguruma",
+					"version": "6.9.8-r2",
+					"licenses": [
+						"BSD-2-Clause"
+					]
+				},
+				{
+					"type": "os",
+					"name": "libxml2",
+					"version": "2.11.5-r0",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "os",
+					"name": "xz",
+					"version": "5.4.4-r0",
+					"licenses": [
+						"GPL-3.0-or-later"
+					]
+				},
+				{
+					"type": "os",
+					"name": "libsodium",
+					"version": "1.0.18-r2",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "os",
+					"name": "zlib",
+					"version": "1.3-r0",
+					"licenses": [
+						"MPL-2.0 AND MIT"
+					]
+				},
+				{
+					"type": "os",
+					"name": "wolfi-baselayout",
+					"version": "20230201-r6",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "os",
+					"name": "openssl",
+					"version": "3.1.3-r0",
+					"licenses": [
+						"Apache-2.0"
+					]
+				},
+				{
+					"type": "os",
+					"name": "glibc",
+					"version": "2.38-r2",
+					"licenses": [
+						"GPL-3.0-or-later"
+					]
+				},
+				{
+					"type": "os",
+					"name": "curl",
+					"version": "8.3.0-r1",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "os",
+					"name": "nghttp2",
+					"version": "1.56.0-r0",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "os",
+					"name": "brotli",
+					"version": "1.1.0-r0",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "os",
+					"name": "ca-certificates",
+					"version": "20230506-r0",
+					"licenses": [
+						"MPL-2.0 AND MIT"
+					]
+				},
+				{
+					"type": "os",
+					"name": "php-8.2",
+					"version": "8.2.10-r4",
+					"licenses": [
+						"PHP-3.01"
+					]
+				},
+				{
+					"type": "os",
+					"name": "sqlite",
+					"version": "3.43.0-r0",
+					"licenses": [
+						"blessing"
+					]
+				},
+				{
+					"type": "os",
+					"name": "ncurses",
+					"version": "6.4-r2",
+					"licenses": [
+						"MIT"
+					]
+				}
+			],
+			"applications": [
+				{
+					"name": "php",
+					"version": "8.2.10",
+					"path": "/usr/bin/php"
+				}
+			],
+			"complianceDistribution": {
+				"critical": 0,
+				"high": 0,
+				"medium": 0,
+				"low": 0,
+				"total": 0
+			},
+			"complianceScanPassed": true,
+			"vulnerabilityDistribution": {
+				"critical": 0,
+				"high": 0,
+				"medium": 0,
+				"low": 0,
+				"total": 0
+			},
+			"vulnerabilityScanPassed": true,
+			"history": [
+				{
+					"created": "2023-09-22T16:33:27Z",
+					"instruction": "RUN apko"
+				},
+				{
+					"created": "2023-09-22T16:33:27Z",
+					"instruction": "CMD [\"/bin/sh\" \"-c\" \"echo \\\"Hello world\\\"\"]"
+				}
+			],
+			"scanTime": "2023-09-23T10:59:34.498634207Z"
+		}
+	],
+	"consoleURL": "https://app.eu.prismacloud.io/compute?computeState=/monitor/vulnerabilities/images/ci?search=sha256%3A467d69a00613441f4bbaa566665899a250c7fc20dfd976750067f9b769c434c8"
+}

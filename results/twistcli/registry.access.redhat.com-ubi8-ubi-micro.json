@@ -1,0 +1,111 @@
+{
+	"results": [
+		{
+			"id": "sha256:69ac6dbda1477efdcdab40d6282726df24c8feb3b213ce10ae1ceac1f77298c5",
+			"name": "registry.access.redhat.com-ubi8-ubi-micro:latest",
+			"distro": "Red Hat Enterprise Linux release 8.8 (Ootpa)",
+			"distroRelease": "RHEL8",
+			"collections": [
+				"All"
+			],
+			"compliances": [
+				{
+					"id": 41,
+					"title": "(CIS_Docker_v1.5.0 - 4.1) Image should be created with a non-root user",
+					"severity": "high",
+					"description": "It is a good practice to run the container as a non-root user, if possible. Though user\nnamespace mapping is now available, if a user is already defined in the container image, the\ncontainer is run as that user by default and specific user namespace remapping is not\nrequired",
+					"layerTime": "1970-01-01T00:00:00Z",
+					"category": "Docker"
+				}
+			],
+			"complianceDistribution": {
+				"critical": 0,
+				"high": 1,
+				"medium": 0,
+				"low": 0,
+				"total": 1
+			},
+			"complianceScanPassed": true,
+			"vulnerabilityDistribution": {
+				"critical": 0,
+				"high": 0,
+				"medium": 0,
+				"low": 0,
+				"total": 0
+			},
+			"vulnerabilityScanPassed": true,
+			"history": [
+				{
+					"created": "2023-09-13T15:48:06Z",
+					"instruction": "LABEL maintainer=\"Red Hat, Inc.\""
+				},
+				{
+					"created": "2023-09-13T15:48:06Z",
+					"instruction": "LABEL com.redhat.component=\"ubi8-micro-container\""
+				},
+				{
+					"created": "2023-09-13T15:48:06Z",
+					"instruction": "LABEL name=\"ubi8/ubi-micro\""
+				},
+				{
+					"created": "2023-09-13T15:48:06Z",
+					"instruction": "LABEL version=\"8.8\""
+				},
+				{
+					"created": "2023-09-13T15:48:06Z",
+					"instruction": "LABEL com.redhat.license_terms=\"https://www.red..."
+				},
+				{
+					"created": "2023-09-13T15:48:06Z",
+					"instruction": "LABEL summary=\"ubi8 micro image\""
+				},
+				{
+					"created": "2023-09-13T15:48:06Z",
+					"instruction": "LABEL description=\"Very small image which doesn..."
+				},
+				{
+					"created": "2023-09-13T15:48:06Z",
+					"instruction": "LABEL io.k8s.display-name=\"Ubi8-micro\""
+				},
+				{
+					"created": "2023-09-13T15:48:06Z",
+					"instruction": "LABEL io.openshift.expose-services=\"\""
+				},
+				{
+					"created": "2023-09-13T15:48:06Z",
+					"instruction": "COPY dir:4fabb8b0200d249fe1622272790cf075ca5d3de34b3185f0634aca89df6a2355 in / "
+				},
+				{
+					"created": "2023-09-13T15:48:07Z",
+					"instruction": "COPY file:8a1c814f171edd8bd75797f42a80d00fa3b97b7ccc394c89c8a8cc591966bdfe in /etc/yum.repos.d/ubi.repo "
+				},
+				{
+					"created": "2023-09-13T15:48:07Z",
+					"instruction": "CMD /bin/sh"
+				},
+				{
+					"created": "2023-09-13T15:48:07Z",
+					"instruction": "LABEL release=7"
+				},
+				{
+					"created": "2023-09-13T15:48:07Z",
+					"instruction": "ADD file:770cf458c93504dca03eaa2b8ccfbbd0f2c760c7527a86818001818a179ea003 in /root/buildinfo/content_manifests/ubi8-micro-container-8.8-7.json "
+				},
+				{
+					"created": "2023-09-13T15:48:07Z",
+					"instruction": "ADD file:93f9203fdc4303b74b9d8c41511e3a320611cfe3b51d0f5dabf31aaff60fa233 in /root/buildinfo/Dockerfile-ubi8-ubi-micro-8.8-7 "
+				},
+				{
+					"created": "2023-09-13T15:48:08Z",
+					"instruction": "LABEL \"distribution-scope\"=\"public\" \"vendor\"=\"R..."
+				},
+				{
+					"created": "2023-09-13T15:48:08Z",
+					"instruction": "CMD [\"/bin/sh\" \"-c\" \"echo \\\"Hello world\\\"\"]"
+				}
+			],
+			"scanTime": "2023-09-23T10:58:57.840955105Z"
+		}
+	],
+	"consoleURL": "https://app.eu.prismacloud.io/compute?computeState=/monitor/vulnerabilities/images/ci?search=sha256%3A69ac6dbda1477efdcdab40d6282726df24c8feb3b213ce10ae1ceac1f77298c5"
+}
