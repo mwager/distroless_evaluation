@@ -6,8 +6,6 @@ This is the source code related to my master thesis "Evaluating the security of 
 
 ```
 $ git clone https://github.com/mwager/distroless_evaluation.git
-$ cd distroless_evaluation
-$ ls
 ```
 
 ## Files & Folders
@@ -18,6 +16,7 @@ $ ls
 - `helpers.py` - implements common helper functions used by the other scripts
 - `Dockerfiles/` This folder contains all (automatically created) Dockerfiles used to build the images which are scanned for evaluation
 - `results/` This folder contains the generated files from the scanner twistcli with the scan results, to be parsed by python
+- `app/` This folder contains all nodejs sources for the implemented webapp to support vulnerability assessments
 
 ## Vagrant setup
 

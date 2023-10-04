@@ -56,12 +56,23 @@ def writeChartImage(data):
 # Fetch CVE data from NIST NVD API
 def fetch_cve_data(cve_id):
     try:
-        response = requests.get(f'https://services.nvd.nist.gov/rest/json/cves/2.0?cveId={cve_id}')
+        # request API KEY to get 50 reqs within 30secs https://nvd.nist.gov/developers/request-an-api-key
+        headers = {'content-type': 'application/json', 'apiKey': "11b20c32-c8ea-4ef7-b74b-48094a8a750b"}
+        response = requests.get(f'https://services.nvd.nist.gov/rest/json/cves/2.0?cveId={cve_id}', headers=headers)
+
+        # CVE_ID could be "PRISMA-123" ...
+        if response.status_code != 200:
+            print("CVE STATUS CODE ", cve_id, response.status_code)
+            return None
+
+        # response = requests.get(f'https://cve.circl.lu/api/cve/${cve_id}')
+
         return response.json()
     except requests.exceptions.RequestException as error:
         print(f'Failed to fetch CVE data for {cve_id}: {error}')
         return None
     except:
+        response.json()
         return None
 
 def execute_command(command):
@@ -78,10 +89,9 @@ def execute_command(command):
         return result.stdout or result.stderr
     except subprocess.CalledProcessError as e:
         # If the command exits with a non-zero status code, you can handle the error here
-        print(f"Error executing command: {e}")
-        return e.stderr
-    except:
-        return None
+        print(f"Error fetching CVE: ", e)
+    except Exception as e:
+        print("ERROR fetching cve data: ", e)
 
 
 # Fetch exploits using searchsploit
@@ -168,6 +178,23 @@ def readTwistcliFile(path):
 
     return results
 
+# print a table for inclusion into latex
+def printImageTable(data):
+    # TODO order first!
+
+
+
+    print("\\begin{tabular}{||l|l|l|l|l|l||}")
+    print("Image & total & critical & high & medium & low \\\\")
+
+    for image in data:
+        distribution = image["vulnerabilityDistribution"]
+
+        imagename = (image["meta"]["name"]).replace("_", "\\_").replace('gcr.io-distroless-', 'distroless-').replace('cgr.dev-chainguard-', 'chainguard-').replace('registry.access.redhat.com-', 'redhat-')
+
+        print(imagename + " & " + str(distribution["total"]) + ' & ' + str(distribution["critical"]) + ' & ' + str(distribution["high"]) + ' & ' + str(distribution["medium"]) + ' & ' + str(distribution["low"]) + '\\\\')
+
+    print("\end{tabular}")
 
 # Class is just used for unit testing when this script is executed directly (python3 helpers.py)
 class TestHelpers(unittest.TestCase):

@@ -864,30 +864,6 @@
 					"packageVersion": "2.28-225.el8",
 					"link": "https://access.redhat.com/security/cve/CVE-2023-4527",
 					"riskFactors": [
-						"Attack vector: network",
-						"DoS - High",
-						"Medium severity",
-						"Recent vulnerability"
-					],
-					"impactedVersions": [
-						"*"
-					],
-					"publishedDate": "2023-09-18T17:15:00Z",
-					"discoveredDate": "2023-09-23T10:59:00Z",
-					"layerTime": "2023-09-13T02:18:51Z",
-					"layerInstruction": "RUN mv -fZ /tmp/ubi.repo /etc/yum.repos.d/ubi.repo || :"
-				},
-				{
-					"id": "CVE-2023-4527",
-					"status": "affected",
-					"cvss": 6.5,
-					"vector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:N/A:H",
-					"description": "A flaw was found in glibc. When the getaddrinfo function is called with the AF_UNSPEC address family and the system is configured with no-aaaa mode via /etc/resolv.conf, a DNS response via TCP larger than 2048 bytes can potentially disclose stack contents through the function returned address data, and may cause a crash.",
-					"severity": "moderate",
-					"packageName": "glibc-common",
-					"packageVersion": "2.28-225.el8",
-					"link": "https://access.redhat.com/security/cve/CVE-2023-4527",
-					"riskFactors": [
 						"Recent vulnerability",
 						"Attack vector: network",
 						"DoS - High",
@@ -897,7 +873,7 @@
 						"*"
 					],
 					"publishedDate": "2023-09-18T17:15:00Z",
-					"discoveredDate": "2023-09-23T10:59:00Z",
+					"discoveredDate": "2023-09-26T03:39:36Z",
 					"layerTime": "2023-09-13T02:18:51Z",
 					"layerInstruction": "RUN mv -fZ /tmp/ubi.repo /etc/yum.repos.d/ubi.repo || :"
 				},
@@ -912,41 +888,40 @@
 					"packageVersion": "2.28-225.el8",
 					"link": "https://access.redhat.com/security/cve/CVE-2023-4527",
 					"riskFactors": [
-						"Recent vulnerability",
 						"Attack vector: network",
 						"DoS - High",
-						"Medium severity"
+						"Medium severity",
+						"Recent vulnerability"
 					],
 					"impactedVersions": [
 						"*"
 					],
 					"publishedDate": "2023-09-18T17:15:00Z",
-					"discoveredDate": "2023-09-23T10:59:00Z",
+					"discoveredDate": "2023-09-26T03:39:36Z",
 					"layerTime": "2023-09-13T02:18:51Z",
 					"layerInstruction": "RUN mv -fZ /tmp/ubi.repo /etc/yum.repos.d/ubi.repo || :"
 				},
 				{
-					"id": "CVE-2020-19190",
+					"id": "CVE-2023-4527",
 					"status": "affected",
 					"cvss": 6.5,
-					"vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H",
-					"description": "Buffer Overflow vulnerability in _nc_find_entry in tinfo/comp_hash.c:70 in ncurses 6.1 allows remote attackers to cause a denial of service via crafted command.",
+					"vector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:N/A:H",
+					"description": "A flaw was found in glibc. When the getaddrinfo function is called with the AF_UNSPEC address family and the system is configured with no-aaaa mode via /etc/resolv.conf, a DNS response via TCP larger than 2048 bytes can potentially disclose stack contents through the function returned address data, and may cause a crash.",
 					"severity": "moderate",
-					"packageName": "ncurses-base",
-					"packageVersion": "6.1-9.20180224.el8_8.1",
-					"link": "https://access.redhat.com/security/cve/CVE-2020-19190",
+					"packageName": "glibc-common",
+					"packageVersion": "2.28-225.el8",
+					"link": "https://access.redhat.com/security/cve/CVE-2023-4527",
 					"riskFactors": [
-						"Medium severity",
-						"Recent vulnerability",
-						"Attack complexity: low",
 						"Attack vector: network",
-						"DoS - High"
+						"DoS - High",
+						"Medium severity",
+						"Recent vulnerability"
 					],
 					"impactedVersions": [
 						"*"
 					],
-					"publishedDate": "2023-08-22T19:16:00Z",
-					"discoveredDate": "2023-09-23T10:59:00Z",
+					"publishedDate": "2023-09-18T17:15:00Z",
+					"discoveredDate": "2023-09-26T03:39:36Z",
 					"layerTime": "2023-09-13T02:18:51Z",
 					"layerInstruction": "RUN mv -fZ /tmp/ubi.repo /etc/yum.repos.d/ubi.repo || :"
 				},
@@ -971,7 +946,57 @@
 						"*"
 					],
 					"publishedDate": "2023-08-22T19:16:00Z",
-					"discoveredDate": "2023-09-23T10:59:00Z",
+					"discoveredDate": "2023-09-26T03:39:36Z",
+					"layerTime": "2023-09-13T02:18:51Z",
+					"layerInstruction": "RUN mv -fZ /tmp/ubi.repo /etc/yum.repos.d/ubi.repo || :"
+				},
+				{
+					"id": "CVE-2020-19190",
+					"status": "affected",
+					"cvss": 6.5,
+					"vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H",
+					"description": "Buffer Overflow vulnerability in _nc_find_entry in tinfo/comp_hash.c:70 in ncurses 6.1 allows remote attackers to cause a denial of service via crafted command.",
+					"severity": "moderate",
+					"packageName": "ncurses-base",
+					"packageVersion": "6.1-9.20180224.el8_8.1",
+					"link": "https://access.redhat.com/security/cve/CVE-2020-19190",
+					"riskFactors": [
+						"Attack complexity: low",
+						"Attack vector: network",
+						"DoS - High",
+						"Medium severity",
+						"Recent vulnerability"
+					],
+					"impactedVersions": [
+						"*"
+					],
+					"publishedDate": "2023-08-22T19:16:00Z",
+					"discoveredDate": "2023-09-26T03:39:36Z",
+					"layerTime": "2023-09-13T02:18:51Z",
+					"layerInstruction": "RUN mv -fZ /tmp/ubi.repo /etc/yum.repos.d/ubi.repo || :"
+				},
+				{
+					"id": "CVE-2020-19189",
+					"status": "affected",
+					"cvss": 6.5,
+					"vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H",
+					"description": "Buffer Overflow vulnerability in postprocess_terminfo function in tinfo/parse_entry.c:997 in ncurses 6.1 allows remote attackers to cause a denial of service via crafted command.",
+					"severity": "moderate",
+					"packageName": "ncurses-libs",
+					"packageVersion": "6.1-9.20180224.el8_8.1",
+					"link": "https://access.redhat.com/security/cve/CVE-2020-19189",
+					"riskFactors": [
+						"Attack complexity: low",
+						"Attack vector: network",
+						"DoS - High",
+						"Medium severity",
+						"Recent vulnerability"
+					],
+					"impactedVersions": [
+						"*"
+					],
+					"publishedDate": "2023-08-22T19:16:00Z",
+					"discoveredDate": "2023-09-26T03:39:36Z",
 					"layerTime": "2023-09-13T02:18:51Z",
 					"layerInstruction": "RUN mv -fZ /tmp/ubi.repo /etc/yum.repos.d/ubi.repo || :"
 				},
@@ -996,32 +1021,7 @@
 						"*"
 					],
 					"publishedDate": "2023-08-22T19:16:00Z",
-					"discoveredDate": "2023-09-23T10:59:00Z",
-					"layerTime": "2023-09-13T02:18:51Z",
-					"layerInstruction": "RUN mv -fZ /tmp/ubi.repo /etc/yum.repos.d/ubi.repo || :"
-				},
-				{
-					"id": "CVE-2020-19189",
-					"status": "affected",
-					"cvss": 6.5,
-					"vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H",
-					"description": "Buffer Overflow vulnerability in postprocess_terminfo function in tinfo/parse_entry.c:997 in ncurses 6.1 allows remote attackers to cause a denial of service via crafted command.",
-					"severity": "moderate",
-					"packageName": "ncurses-libs",
-					"packageVersion": "6.1-9.20180224.el8_8.1",
-					"link": "https://access.redhat.com/security/cve/CVE-2020-19189",
-					"riskFactors": [
-						"DoS - High",
-						"Medium severity",
-						"Recent vulnerability",
-						"Attack complexity: low",
-						"Attack vector: network"
-					],
-					"impactedVersions": [
-						"*"
-					],
-					"publishedDate": "2023-08-22T19:16:00Z",
-					"discoveredDate": "2023-09-23T10:59:00Z",
+					"discoveredDate": "2023-09-26T03:39:36Z",
 					"layerTime": "2023-09-13T02:18:51Z",
 					"layerInstruction": "RUN mv -fZ /tmp/ubi.repo /etc/yum.repos.d/ubi.repo || :"
 				},
@@ -1035,81 +1035,6 @@
 					"packageName": "ncurses-libs",
 					"packageVersion": "6.1-9.20180224.el8_8.1",
 					"link": "https://access.redhat.com/security/cve/CVE-2020-19188",
-					"riskFactors": [
-						"DoS - High",
-						"Medium severity",
-						"Recent vulnerability",
-						"Attack complexity: low",
-						"Attack vector: network"
-					],
-					"impactedVersions": [
-						"*"
-					],
-					"publishedDate": "2023-08-22T19:16:00Z",
-					"discoveredDate": "2023-09-23T10:59:00Z",
-					"layerTime": "2023-09-13T02:18:51Z",
-					"layerInstruction": "RUN mv -fZ /tmp/ubi.repo /etc/yum.repos.d/ubi.repo || :"
-				},
-				{
-					"id": "CVE-2020-19188",
-					"status": "affected",
-					"cvss": 6.5,
-					"vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H",
-					"description": "Buffer Overflow vulnerability in fmt_entry function in progs/dump_entry.c:1116 in ncurses 6.1 allows remote attackers to cause a denial of service via crafted command.",
-					"severity": "moderate",
-					"packageName": "ncurses-base",
-					"packageVersion": "6.1-9.20180224.el8_8.1",
-					"link": "https://access.redhat.com/security/cve/CVE-2020-19188",
-					"riskFactors": [
-						"Attack complexity: low",
-						"Attack vector: network",
-						"DoS - High",
-						"Medium severity",
-						"Recent vulnerability"
-					],
-					"impactedVersions": [
-						"*"
-					],
-					"publishedDate": "2023-08-22T19:16:00Z",
-					"discoveredDate": "2023-09-23T10:59:00Z",
-					"layerTime": "2023-09-13T02:18:51Z",
-					"layerInstruction": "RUN mv -fZ /tmp/ubi.repo /etc/yum.repos.d/ubi.repo || :"
-				},
-				{
-					"id": "CVE-2020-19187",
-					"status": "affected",
-					"cvss": 6.5,
-					"vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H",
-					"description": "Buffer Overflow vulnerability in fmt_entry function in progs/dump_entry.c:1100 in ncurses 6.1 allows remote attackers to cause a denial of service via crafted command.",
-					"severity": "moderate",
-					"packageName": "ncurses-base",
-					"packageVersion": "6.1-9.20180224.el8_8.1",
-					"link": "https://access.redhat.com/security/cve/CVE-2020-19187",
-					"riskFactors": [
-						"Attack complexity: low",
-						"Attack vector: network",
-						"DoS - High",
-						"Medium severity",
-						"Recent vulnerability"
-					],
-					"impactedVersions": [
-						"*"
-					],
-					"publishedDate": "2023-08-22T19:15:00Z",
-					"discoveredDate": "2023-09-23T10:59:00Z",
-					"layerTime": "2023-09-13T02:18:51Z",
-					"layerInstruction": "RUN mv -fZ /tmp/ubi.repo /etc/yum.repos.d/ubi.repo || :"
-				},
-				{
-					"id": "CVE-2020-19187",
-					"status": "affected",
-					"cvss": 6.5,
-					"vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H",
-					"description": "Buffer Overflow vulnerability in fmt_entry function in progs/dump_entry.c:1100 in ncurses 6.1 allows remote attackers to cause a denial of service via crafted command.",
-					"severity": "moderate",
-					"packageName": "ncurses-libs",
-					"packageVersion": "6.1-9.20180224.el8_8.1",
-					"link": "https://access.redhat.com/security/cve/CVE-2020-19187",
 					"riskFactors": [
 						"Recent vulnerability",
 						"Attack complexity: low",
@@ -1120,21 +1045,21 @@
 					"impactedVersions": [
 						"*"
 					],
-					"publishedDate": "2023-08-22T19:15:00Z",
-					"discoveredDate": "2023-09-23T10:59:00Z",
+					"publishedDate": "2023-08-22T19:16:00Z",
+					"discoveredDate": "2023-09-26T03:39:36Z",
 					"layerTime": "2023-09-13T02:18:51Z",
 					"layerInstruction": "RUN mv -fZ /tmp/ubi.repo /etc/yum.repos.d/ubi.repo || :"
 				},
 				{
-					"id": "CVE-2020-19186",
+					"id": "CVE-2020-19188",
 					"status": "affected",
 					"cvss": 6.5,
 					"vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H",
-					"description": "Buffer Overflow vulnerability in _nc_find_entry function in tinfo/comp_hash.c:66 in ncurses 6.1 allows remote attackers to cause a denial of service via crafted command.",
+					"description": "Buffer Overflow vulnerability in fmt_entry function in progs/dump_entry.c:1116 in ncurses 6.1 allows remote attackers to cause a denial of service via crafted command.",
 					"severity": "moderate",
 					"packageName": "ncurses-base",
 					"packageVersion": "6.1-9.20180224.el8_8.1",
-					"link": "https://access.redhat.com/security/cve/CVE-2020-19186",
+					"link": "https://access.redhat.com/security/cve/CVE-2020-19188",
 					"riskFactors": [
 						"Medium severity",
 						"Recent vulnerability",
@@ -1145,8 +1070,58 @@
 					"impactedVersions": [
 						"*"
 					],
+					"publishedDate": "2023-08-22T19:16:00Z",
+					"discoveredDate": "2023-09-26T03:39:36Z",
+					"layerTime": "2023-09-13T02:18:51Z",
+					"layerInstruction": "RUN mv -fZ /tmp/ubi.repo /etc/yum.repos.d/ubi.repo || :"
+				},
+				{
+					"id": "CVE-2020-19187",
+					"status": "affected",
+					"cvss": 6.5,
+					"vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H",
+					"description": "Buffer Overflow vulnerability in fmt_entry function in progs/dump_entry.c:1100 in ncurses 6.1 allows remote attackers to cause a denial of service via crafted command.",
+					"severity": "moderate",
+					"packageName": "ncurses-libs",
+					"packageVersion": "6.1-9.20180224.el8_8.1",
+					"link": "https://access.redhat.com/security/cve/CVE-2020-19187",
+					"riskFactors": [
+						"Attack complexity: low",
+						"Attack vector: network",
+						"DoS - High",
+						"Medium severity",
+						"Recent vulnerability"
+					],
+					"impactedVersions": [
+						"*"
+					],
 					"publishedDate": "2023-08-22T19:15:00Z",
-					"discoveredDate": "2023-09-23T10:59:00Z",
+					"discoveredDate": "2023-09-26T03:39:36Z",
+					"layerTime": "2023-09-13T02:18:51Z",
+					"layerInstruction": "RUN mv -fZ /tmp/ubi.repo /etc/yum.repos.d/ubi.repo || :"
+				},
+				{
+					"id": "CVE-2020-19187",
+					"status": "affected",
+					"cvss": 6.5,
+					"vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H",
+					"description": "Buffer Overflow vulnerability in fmt_entry function in progs/dump_entry.c:1100 in ncurses 6.1 allows remote attackers to cause a denial of service via crafted command.",
+					"severity": "moderate",
+					"packageName": "ncurses-base",
+					"packageVersion": "6.1-9.20180224.el8_8.1",
+					"link": "https://access.redhat.com/security/cve/CVE-2020-19187",
+					"riskFactors": [
+						"DoS - High",
+						"Medium severity",
+						"Recent vulnerability",
+						"Attack complexity: low",
+						"Attack vector: network"
+					],
+					"impactedVersions": [
+						"*"
+					],
+					"publishedDate": "2023-08-22T19:15:00Z",
+					"discoveredDate": "2023-09-26T03:39:36Z",
 					"layerTime": "2023-09-13T02:18:51Z",
 					"layerInstruction": "RUN mv -fZ /tmp/ubi.repo /etc/yum.repos.d/ubi.repo || :"
 				},
@@ -1161,6 +1136,31 @@
 					"packageVersion": "6.1-9.20180224.el8_8.1",
 					"link": "https://access.redhat.com/security/cve/CVE-2020-19186",
 					"riskFactors": [
+						"Medium severity",
+						"Recent vulnerability",
+						"Attack complexity: low",
+						"Attack vector: network",
+						"DoS - High"
+					],
+					"impactedVersions": [
+						"*"
+					],
+					"publishedDate": "2023-08-22T19:15:00Z",
+					"discoveredDate": "2023-09-26T03:39:36Z",
+					"layerTime": "2023-09-13T02:18:51Z",
+					"layerInstruction": "RUN mv -fZ /tmp/ubi.repo /etc/yum.repos.d/ubi.repo || :"
+				},
+				{
+					"id": "CVE-2020-19186",
+					"status": "affected",
+					"cvss": 6.5,
+					"vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H",
+					"description": "Buffer Overflow vulnerability in _nc_find_entry function in tinfo/comp_hash.c:66 in ncurses 6.1 allows remote attackers to cause a denial of service via crafted command.",
+					"severity": "moderate",
+					"packageName": "ncurses-base",
+					"packageVersion": "6.1-9.20180224.el8_8.1",
+					"link": "https://access.redhat.com/security/cve/CVE-2020-19186",
+					"riskFactors": [
 						"Attack complexity: low",
 						"Attack vector: network",
 						"DoS - High",
@@ -1171,7 +1171,7 @@
 						"*"
 					],
 					"publishedDate": "2023-08-22T19:15:00Z",
-					"discoveredDate": "2023-09-23T10:59:00Z",
+					"discoveredDate": "2023-09-26T03:39:36Z",
 					"layerTime": "2023-09-13T02:18:51Z",
 					"layerInstruction": "RUN mv -fZ /tmp/ubi.repo /etc/yum.repos.d/ubi.repo || :"
 				},
@@ -1182,21 +1182,21 @@
 					"vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H",
 					"description": "Buffer Overflow vulnerability in one_one_mapping function in progs/dump_entry.c:1373 in ncurses 6.1 allows remote attackers to cause a denial of service via crafted command.",
 					"severity": "moderate",
-					"packageName": "ncurses-base",
+					"packageName": "ncurses-libs",
 					"packageVersion": "6.1-9.20180224.el8_8.1",
 					"link": "https://access.redhat.com/security/cve/CVE-2020-19185",
 					"riskFactors": [
-						"Recent vulnerability",
 						"Attack complexity: low",
 						"Attack vector: network",
 						"DoS - High",
-						"Medium severity"
+						"Medium severity",
+						"Recent vulnerability"
 					],
 					"impactedVersions": [
 						"*"
 					],
 					"publishedDate": "2023-08-22T19:15:00Z",
-					"discoveredDate": "2023-09-23T10:59:00Z",
+					"discoveredDate": "2023-09-26T03:39:36Z",
 					"layerTime": "2023-09-13T02:18:51Z",
 					"layerInstruction": "RUN mv -fZ /tmp/ubi.repo /etc/yum.repos.d/ubi.repo || :"
 				},
@@ -1207,7 +1207,7 @@
 					"vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H",
 					"description": "Buffer Overflow vulnerability in one_one_mapping function in progs/dump_entry.c:1373 in ncurses 6.1 allows remote attackers to cause a denial of service via crafted command.",
 					"severity": "moderate",
-					"packageName": "ncurses-libs",
+					"packageName": "ncurses-base",
 					"packageVersion": "6.1-9.20180224.el8_8.1",
 					"link": "https://access.redhat.com/security/cve/CVE-2020-19185",
 					"riskFactors": [
@@ -1221,7 +1221,55 @@
 						"*"
 					],
 					"publishedDate": "2023-08-22T19:15:00Z",
-					"discoveredDate": "2023-09-23T10:59:00Z",
+					"discoveredDate": "2023-09-26T03:39:36Z",
+					"layerTime": "2023-09-13T02:18:51Z",
+					"layerInstruction": "RUN mv -fZ /tmp/ubi.repo /etc/yum.repos.d/ubi.repo || :"
+				},
+				{
+					"id": "CVE-2023-4813",
+					"status": "affected",
+					"cvss": 5.9,
+					"vector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H",
+					"description": "A flaw was found in glibc. In an uncommon situation, the gaih_inet function may use memory that has been freed, resulting in an application crash. This issue is only exploitable when the getaddrinfo function is called and the hosts database in /etc/nsswitch.conf is configured with SUCCESS=continue or SUCCESS=merge.",
+					"severity": "moderate",
+					"packageName": "glibc-common",
+					"packageVersion": "2.28-225.el8",
+					"link": "https://access.redhat.com/security/cve/CVE-2023-4813",
+					"riskFactors": [
+						"Attack vector: network",
+						"DoS - High",
+						"Medium severity",
+						"Recent vulnerability"
+					],
+					"impactedVersions": [
+						"*"
+					],
+					"publishedDate": "2023-09-12T22:15:00Z",
+					"discoveredDate": "2023-09-26T03:39:36Z",
+					"layerTime": "2023-09-13T02:18:51Z",
+					"layerInstruction": "RUN mv -fZ /tmp/ubi.repo /etc/yum.repos.d/ubi.repo || :"
+				},
+				{
+					"id": "CVE-2023-4813",
+					"status": "affected",
+					"cvss": 5.9,
+					"vector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H",
+					"description": "A flaw was found in glibc. In an uncommon situation, the gaih_inet function may use memory that has been freed, resulting in an application crash. This issue is only exploitable when the getaddrinfo function is called and the hosts database in /etc/nsswitch.conf is configured with SUCCESS=continue or SUCCESS=merge.",
+					"severity": "moderate",
+					"packageName": "glibc-minimal-langpack",
+					"packageVersion": "2.28-225.el8",
+					"link": "https://access.redhat.com/security/cve/CVE-2023-4813",
+					"riskFactors": [
+						"Recent vulnerability",
+						"Attack vector: network",
+						"DoS - High",
+						"Medium severity"
+					],
+					"impactedVersions": [
+						"*"
+					],
+					"publishedDate": "2023-09-12T22:15:00Z",
+					"discoveredDate": "2023-09-26T03:39:36Z",
 					"layerTime": "2023-09-13T02:18:51Z",
 					"layerInstruction": "RUN mv -fZ /tmp/ubi.repo /etc/yum.repos.d/ubi.repo || :"
 				},
@@ -1245,44 +1293,20 @@
 						"*"
 					],
 					"publishedDate": "2023-09-12T22:15:00Z",
-					"discoveredDate": "2023-09-23T10:59:00Z",
+					"discoveredDate": "2023-09-26T03:39:36Z",
 					"layerTime": "2023-09-13T02:18:51Z",
 					"layerInstruction": "RUN mv -fZ /tmp/ubi.repo /etc/yum.repos.d/ubi.repo || :"
 				},
 				{
-					"id": "CVE-2023-4813",
+					"id": "CVE-2023-4806",
 					"status": "affected",
 					"cvss": 5.9,
-					"vector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H",
-					"description": "A flaw was found in glibc. In an uncommon situation, the gaih_inet function may use memory that has been freed, resulting in an application crash. This issue is only exploitable when the getaddrinfo function is called and the hosts database in /etc/nsswitch.conf is configured with SUCCESS=continue or SUCCESS=merge.",
+					"vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+					"description": "A flaw was found in glibc. In an extremely rare situation, the getaddrinfo function may access memory that has been freed, resulting in an application crash. This issue is only exploitable when a NSS module implements only the _nss_*_gethostbyname2_r and _nss_*_getcanonname_r hooks without implementing the _nss_*_gethostbyname3_r hook. The resolved name should return a large number of IPv6 and IPv4, and the call to the getaddrinfo function should have the AF_INET6 address family with AI_CANONNAME, AI_ALL and AI_V4MAPPED as flags.",
 					"severity": "moderate",
-					"packageName": "glibc-minimal-langpack",
+					"packageName": "glibc",
 					"packageVersion": "2.28-225.el8",
-					"link": "https://access.redhat.com/security/cve/CVE-2023-4813",
-					"riskFactors": [
-						"Attack vector: network",
-						"DoS - High",
-						"Medium severity",
-						"Recent vulnerability"
-					],
-					"impactedVersions": [
-						"*"
-					],
-					"publishedDate": "2023-09-12T22:15:00Z",
-					"discoveredDate": "2023-09-23T10:59:00Z",
-					"layerTime": "2023-09-13T02:18:51Z",
-					"layerInstruction": "RUN mv -fZ /tmp/ubi.repo /etc/yum.repos.d/ubi.repo || :"
-				},
-				{
-					"id": "CVE-2023-4813",
-					"status": "affected",
-					"cvss": 5.9,
-					"vector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H",
-					"description": "A flaw was found in glibc. In an uncommon situation, the gaih_inet function may use memory that has been freed, resulting in an application crash. This issue is only exploitable when the getaddrinfo function is called and the hosts database in /etc/nsswitch.conf is configured with SUCCESS=continue or SUCCESS=merge.",
-					"severity": "moderate",
-					"packageName": "glibc-common",
-					"packageVersion": "2.28-225.el8",
-					"link": "https://access.redhat.com/security/cve/CVE-2023-4813",
+					"link": "https://access.redhat.com/security/cve/CVE-2023-4806",
 					"riskFactors": [
 						"DoS - High",
 						"Medium severity",
@@ -1292,8 +1316,8 @@
 					"impactedVersions": [
 						"*"
 					],
-					"publishedDate": "2023-09-12T22:15:00Z",
-					"discoveredDate": "2023-09-23T10:59:00Z",
+					"publishedDate": "2023-09-18T17:15:00Z",
+					"discoveredDate": "2023-09-26T03:39:36Z",
 					"layerTime": "2023-09-13T02:18:51Z",
 					"layerInstruction": "RUN mv -fZ /tmp/ubi.repo /etc/yum.repos.d/ubi.repo || :"
 				},
@@ -1317,7 +1341,7 @@
 						"*"
 					],
 					"publishedDate": "2023-09-18T17:15:00Z",
-					"discoveredDate": "2023-09-23T10:59:00Z",
+					"discoveredDate": "2023-09-26T03:39:36Z",
 					"layerTime": "2023-09-13T02:18:51Z",
 					"layerInstruction": "RUN mv -fZ /tmp/ubi.repo /etc/yum.repos.d/ubi.repo || :"
 				},
@@ -1332,40 +1356,16 @@
 					"packageVersion": "2.28-225.el8",
 					"link": "https://access.redhat.com/security/cve/CVE-2023-4806",
 					"riskFactors": [
-						"Attack vector: network",
-						"DoS - High",
 						"Medium severity",
-						"Recent vulnerability"
+						"Recent vulnerability",
+						"Attack vector: network",
+						"DoS - High"
 					],
 					"impactedVersions": [
 						"*"
 					],
 					"publishedDate": "2023-09-18T17:15:00Z",
-					"discoveredDate": "2023-09-23T10:59:00Z",
-					"layerTime": "2023-09-13T02:18:51Z",
-					"layerInstruction": "RUN mv -fZ /tmp/ubi.repo /etc/yum.repos.d/ubi.repo || :"
-				},
-				{
-					"id": "CVE-2023-4806",
-					"status": "affected",
-					"cvss": 5.9,
-					"vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
-					"description": "A flaw was found in glibc. In an extremely rare situation, the getaddrinfo function may access memory that has been freed, resulting in an application crash. This issue is only exploitable when a NSS module implements only the _nss_*_gethostbyname2_r and _nss_*_getcanonname_r hooks without implementing the _nss_*_gethostbyname3_r hook. The resolved name should return a large number of IPv6 and IPv4, and the call to the getaddrinfo function should have the AF_INET6 address family with AI_CANONNAME, AI_ALL and AI_V4MAPPED as flags.",
-					"severity": "moderate",
-					"packageName": "glibc",
-					"packageVersion": "2.28-225.el8",
-					"link": "https://access.redhat.com/security/cve/CVE-2023-4806",
-					"riskFactors": [
-						"Attack vector: network",
-						"DoS - High",
-						"Medium severity",
-						"Recent vulnerability"
-					],
-					"impactedVersions": [
-						"*"
-					],
-					"publishedDate": "2023-09-18T17:15:00Z",
-					"discoveredDate": "2023-09-23T10:59:00Z",
+					"discoveredDate": "2023-09-26T03:39:36Z",
 					"layerTime": "2023-09-13T02:18:51Z",
 					"layerInstruction": "RUN mv -fZ /tmp/ubi.repo /etc/yum.repos.d/ubi.repo || :"
 				},
@@ -1380,15 +1380,15 @@
 					"packageVersion": "8.5.0-18.el8",
 					"link": "https://access.redhat.com/security/cve/CVE-2023-4039",
 					"riskFactors": [
+						"Recent vulnerability",
 						"Attack vector: network",
-						"Medium severity",
-						"Recent vulnerability"
+						"Medium severity"
 					],
 					"impactedVersions": [
 						"*"
 					],
 					"publishedDate": "2023-09-13T09:15:00Z",
-					"discoveredDate": "2023-09-23T10:59:00Z",
+					"discoveredDate": "2023-09-26T03:39:36Z",
 					"layerTime": "2023-09-13T02:18:51Z",
 					"layerInstruction": "RUN mv -fZ /tmp/ubi.repo /etc/yum.repos.d/ubi.repo || :"
 				},
@@ -1403,15 +1403,84 @@
 					"packageVersion": "8.5.0-18.el8",
 					"link": "https://access.redhat.com/security/cve/CVE-2023-4039",
 					"riskFactors": [
+						"Recent vulnerability",
 						"Attack vector: network",
+						"Medium severity"
+					],
+					"impactedVersions": [
+						"*"
+					],
+					"publishedDate": "2023-09-13T09:15:00Z",
+					"discoveredDate": "2023-09-26T03:39:36Z",
+					"layerTime": "2023-09-13T02:18:51Z",
+					"layerInstruction": "RUN mv -fZ /tmp/ubi.repo /etc/yum.repos.d/ubi.repo || :"
+				},
+				{
+					"id": "CVE-2023-5156",
+					"status": "affected",
+					"cvss": 3.7,
+					"description": "A flaw was found in the GNU C Library. A recent fix for CVE-2023-4806 introduced the potential for a memory leak, which may result in an application crash.",
+					"severity": "moderate",
+					"packageName": "glibc",
+					"packageVersion": "2.28-225.el8",
+					"link": "https://access.redhat.com/security/cve/CVE-2023-5156",
+					"riskFactors": [
+						"DoS - Low",
+						"Medium severity",
+						"Recent vulnerability",
+						"Attack vector: network"
+					],
+					"impactedVersions": [
+						"*"
+					],
+					"publishedDate": "2023-09-25T16:15:00Z",
+					"discoveredDate": "2023-09-26T03:39:36Z",
+					"layerTime": "2023-09-13T02:18:51Z",
+					"layerInstruction": "RUN mv -fZ /tmp/ubi.repo /etc/yum.repos.d/ubi.repo || :"
+				},
+				{
+					"id": "CVE-2023-5156",
+					"status": "affected",
+					"cvss": 3.7,
+					"description": "A flaw was found in the GNU C Library. A recent fix for CVE-2023-4806 introduced the potential for a memory leak, which may result in an application crash.",
+					"severity": "moderate",
+					"packageName": "glibc-minimal-langpack",
+					"packageVersion": "2.28-225.el8",
+					"link": "https://access.redhat.com/security/cve/CVE-2023-5156",
+					"riskFactors": [
+						"Attack vector: network",
+						"DoS - Low",
 						"Medium severity",
 						"Recent vulnerability"
 					],
 					"impactedVersions": [
 						"*"
 					],
-					"publishedDate": "2023-09-13T09:15:00Z",
-					"discoveredDate": "2023-09-23T10:59:00Z",
+					"publishedDate": "2023-09-25T16:15:00Z",
+					"discoveredDate": "2023-09-26T03:39:36Z",
+					"layerTime": "2023-09-13T02:18:51Z",
+					"layerInstruction": "RUN mv -fZ /tmp/ubi.repo /etc/yum.repos.d/ubi.repo || :"
+				},
+				{
+					"id": "CVE-2023-5156",
+					"status": "affected",
+					"cvss": 3.7,
+					"description": "A flaw was found in the GNU C Library. A recent fix for CVE-2023-4806 introduced the potential for a memory leak, which may result in an application crash.",
+					"severity": "moderate",
+					"packageName": "glibc-common",
+					"packageVersion": "2.28-225.el8",
+					"link": "https://access.redhat.com/security/cve/CVE-2023-5156",
+					"riskFactors": [
+						"Attack vector: network",
+						"DoS - Low",
+						"Medium severity",
+						"Recent vulnerability"
+					],
+					"impactedVersions": [
+						"*"
+					],
+					"publishedDate": "2023-09-25T16:15:00Z",
+					"discoveredDate": "2023-09-26T03:39:36Z",
 					"layerTime": "2023-09-13T02:18:51Z",
 					"layerInstruction": "RUN mv -fZ /tmp/ubi.repo /etc/yum.repos.d/ubi.repo || :"
 				},
@@ -1435,30 +1504,7 @@
 						"*"
 					],
 					"publishedDate": "2023-07-19T12:15:00Z",
-					"discoveredDate": "2023-09-23T10:59:00Z",
-					"layerTime": "2023-09-13T02:18:51Z",
-					"layerInstruction": "RUN mv -fZ /tmp/ubi.repo /etc/yum.repos.d/ubi.repo || :"
-				},
-				{
-					"id": "CVE-2023-28322",
-					"status": "affected",
-					"cvss": 3.7,
-					"vector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:N/A:N",
-					"description": "An information disclosure vulnerability exists in curl \u003cv8.1.0 when doing HTTP(S) transfers, libcurl might erroneously use the read callback (`CURLOPT_READFUNCTION`) to ask for data to send, even when the `CURLOPT_POSTFIELDS` option has been set, if the same handle previously wasused to issue a `PUT` request which used that callback. This flaw may surprise the application and cause it to misbehave and either send off the wrong data or use memory after free or similar in the second transfer. The problem exists in the logic for a reused handle when it is (expected to be) changed from a PUT to a POST.",
-					"severity": "low",
-					"packageName": "curl",
-					"packageVersion": "7.61.1-30.el8_8.3",
-					"link": "https://access.redhat.com/security/cve/CVE-2023-28322",
-					"riskFactors": [
-						"Attack vector: network",
-						"Exploit exists - POC",
-						"Recent vulnerability"
-					],
-					"impactedVersions": [
-						"*"
-					],
-					"publishedDate": "2023-05-26T21:15:00Z",
-					"discoveredDate": "2023-09-23T10:59:00Z",
+					"discoveredDate": "2023-09-26T03:39:36Z",
 					"layerTime": "2023-09-13T02:18:51Z",
 					"layerInstruction": "RUN mv -fZ /tmp/ubi.repo /etc/yum.repos.d/ubi.repo || :"
 				},
@@ -1481,7 +1527,30 @@
 						"*"
 					],
 					"publishedDate": "2023-05-26T21:15:00Z",
-					"discoveredDate": "2023-09-23T10:59:00Z",
+					"discoveredDate": "2023-09-26T03:39:36Z",
+					"layerTime": "2023-09-13T02:18:51Z",
+					"layerInstruction": "RUN mv -fZ /tmp/ubi.repo /etc/yum.repos.d/ubi.repo || :"
+				},
+				{
+					"id": "CVE-2023-28322",
+					"status": "affected",
+					"cvss": 3.7,
+					"vector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:N/A:N",
+					"description": "An information disclosure vulnerability exists in curl \u003cv8.1.0 when doing HTTP(S) transfers, libcurl might erroneously use the read callback (`CURLOPT_READFUNCTION`) to ask for data to send, even when the `CURLOPT_POSTFIELDS` option has been set, if the same handle previously wasused to issue a `PUT` request which used that callback. This flaw may surprise the application and cause it to misbehave and either send off the wrong data or use memory after free or similar in the second transfer. The problem exists in the logic for a reused handle when it is (expected to be) changed from a PUT to a POST.",
+					"severity": "low",
+					"packageName": "curl",
+					"packageVersion": "7.61.1-30.el8_8.3",
+					"link": "https://access.redhat.com/security/cve/CVE-2023-28322",
+					"riskFactors": [
+						"Attack vector: network",
+						"Exploit exists - POC",
+						"Recent vulnerability"
+					],
+					"impactedVersions": [
+						"*"
+					],
+					"publishedDate": "2023-05-26T21:15:00Z",
+					"discoveredDate": "2023-09-26T03:39:36Z",
 					"layerTime": "2023-09-13T02:18:51Z",
 					"layerInstruction": "RUN mv -fZ /tmp/ubi.repo /etc/yum.repos.d/ubi.repo || :"
 				}
@@ -1489,9 +1558,9 @@
 			"vulnerabilityDistribution": {
 				"critical": 0,
 				"high": 0,
-				"medium": 23,
+				"medium": 26,
 				"low": 3,
-				"total": 26
+				"total": 29
 			},
 			"vulnerabilityScanPassed": true,
 			"history": [
@@ -1592,7 +1661,7 @@
 					"instruction": "CMD [\"/bin/sh\" \"-c\" \"echo \\\"Hello world\\\"\"]"
 				}
 			],
-			"scanTime": "2023-09-23T10:59:02.288680823Z"
+			"scanTime": "2023-09-26T03:39:38.807947331Z"
 		}
 	],
 	"consoleURL": "https://app.eu.prismacloud.io/compute?computeState=/monitor/vulnerabilities/images/ci?search=sha256%3A3671af934314034920606f4ec45c476c4252889b2f3050abbd2ce708bac9e556"

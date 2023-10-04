@@ -1,0 +1,360 @@
+{
+	"results": [
+		{
+			"id": "sha256:0401372b4f11f5e88d94719b1b530fc91d1ea64c2d67cd97418f78e82d42da67",
+			"name": "gcr.io-distroless-python3-debian12:latest",
+			"distro": "Distroless (based on Debian GNU/Linux 12)",
+			"distroRelease": "12.1",
+			"collections": [
+				"All"
+			],
+			"packages": [
+				{
+					"type": "os",
+					"name": "netbase",
+					"version": "6.4",
+					"licenses": [
+						"GPL-2"
+					]
+				},
+				{
+					"type": "os",
+					"name": "tzdata",
+					"version": "2023c-5"
+				},
+				{
+					"type": "os",
+					"name": "base-files",
+					"version": "12.4+deb12u1",
+					"licenses": [
+						"GPL"
+					]
+				},
+				{
+					"type": "os",
+					"name": "dash",
+					"version": "0.5.12-2",
+					"licenses": [
+						"BSD-3-Clause"
+					]
+				},
+				{
+					"type": "os",
+					"name": "util-linux",
+					"version": "2.38.1-5",
+					"licenses": [
+						"GPL-2+"
+					]
+				},
+				{
+					"type": "os",
+					"name": "openssl",
+					"version": "3.0.9-1",
+					"licenses": [
+						"Apache-2.0"
+					]
+				},
+				{
+					"type": "os",
+					"name": "ncurses",
+					"version": "6.4-4",
+					"licenses": [
+						"MIT/X11"
+					]
+				},
+				{
+					"type": "os",
+					"name": "libnsl",
+					"version": "1.3.0-2",
+					"licenses": [
+						"LGPL-2.1+"
+					]
+				},
+				{
+					"type": "os",
+					"name": "gcc-12",
+					"version": "12.2.0-14"
+				},
+				{
+					"type": "os",
+					"name": "db5.3",
+					"version": "5.3.28+dfsg2-1",
+					"licenses": [
+						"BSD-3-clause"
+					]
+				},
+				{
+					"type": "os",
+					"name": "e2fsprogs",
+					"version": "1.47.0-2",
+					"licenses": [
+						"GPL-2"
+					]
+				},
+				{
+					"type": "os",
+					"name": "python3-stdlib-extensions",
+					"version": "3.11.2-3"
+				},
+				{
+					"type": "os",
+					"name": "xz-utils",
+					"version": "5.4.1-0.2",
+					"licenses": [
+						"GPL-2+"
+					]
+				},
+				{
+					"type": "os",
+					"name": "python3.11",
+					"version": "3.11.2-6",
+					"licenses": [
+						"GPL-2"
+					]
+				},
+				{
+					"type": "os",
+					"name": "zlib",
+					"version": "1:1.2.13.dfsg-1"
+				},
+				{
+					"type": "os",
+					"name": "readline",
+					"version": "8.2-1.3",
+					"licenses": [
+						"GPL-3+"
+					]
+				},
+				{
+					"type": "os",
+					"name": "krb5",
+					"version": "1.20.1-2",
+					"licenses": [
+						"GPL-2"
+					]
+				},
+				{
+					"type": "os",
+					"name": "libffi",
+					"version": "3.4.4-1",
+					"licenses": [
+						"GPL-2+"
+					]
+				},
+				{
+					"type": "os",
+					"name": "bzip2",
+					"version": "1.0.8-5",
+					"licenses": [
+						"BSD-variant"
+					]
+				},
+				{
+					"type": "os",
+					"name": "glibc",
+					"version": "2.36-9+deb12u1",
+					"licenses": [
+						"LGPL-2.1"
+					]
+				},
+				{
+					"type": "os",
+					"name": "keyutils",
+					"version": "1.6.3-2",
+					"licenses": [
+						"GPL-2+"
+					]
+				},
+				{
+					"type": "os",
+					"name": "libxcrypt",
+					"version": "1:4.4.33-2"
+				},
+				{
+					"type": "os",
+					"name": "libtirpc",
+					"version": "1.3.3+ds-1",
+					"licenses": [
+						"BSD-3-Clause"
+					]
+				},
+				{
+					"type": "os",
+					"name": "expat",
+					"version": "2.5.0-1",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "os",
+					"name": "sqlite3",
+					"version": "3.40.1-2",
+					"licenses": [
+						"GPL-2+"
+					]
+				}
+			],
+			"compliances": [
+				{
+					"id": 41,
+					"title": "(CIS_Docker_v1.5.0 - 4.1) Image should be created with a non-root user",
+					"severity": "high",
+					"description": "It is a good practice to run the container as a non-root user, if possible. Though user\nnamespace mapping is now available, if a user is already defined in the container image, the\ncontainer is run as that user by default and specific user namespace remapping is not\nrequired",
+					"layerTime": "1970-01-01T00:00:00Z",
+					"category": "Docker"
+				}
+			],
+			"complianceDistribution": {
+				"critical": 0,
+				"high": 1,
+				"medium": 0,
+				"low": 0,
+				"total": 1
+			},
+			"complianceScanPassed": true,
+			"vulnerabilityDistribution": {
+				"critical": 0,
+				"high": 0,
+				"medium": 0,
+				"low": 0,
+				"total": 0
+			},
+			"vulnerabilityScanPassed": true,
+			"history": [
+				{
+					"created": "0001-01-01T00:00:00Z"
+				},
+				{
+					"created": "0001-01-01T00:00:00Z"
+				},
+				{
+					"created": "0001-01-01T00:00:00Z"
+				},
+				{
+					"created": "0001-01-01T00:00:00Z"
+				},
+				{
+					"created": "0001-01-01T00:00:00Z"
+				},
+				{
+					"created": "0001-01-01T00:00:00Z"
+				},
+				{
+					"created": "0001-01-01T00:00:00Z"
+				},
+				{
+					"created": "0001-01-01T00:00:00Z"
+				},
+				{
+					"created": "0001-01-01T00:00:00Z"
+				},
+				{
+					"created": "0001-01-01T00:00:00Z"
+				},
+				{
+					"created": "0001-01-01T00:00:00Z"
+				},
+				{
+					"created": "0001-01-01T00:00:00Z"
+				},
+				{
+					"created": "0001-01-01T00:00:00Z"
+				},
+				{
+					"created": "0001-01-01T00:00:00Z"
+				},
+				{
+					"created": "0001-01-01T00:00:00Z"
+				},
+				{
+					"created": "0001-01-01T00:00:00Z"
+				},
+				{
+					"created": "0001-01-01T00:00:00Z"
+				},
+				{
+					"created": "0001-01-01T00:00:00Z"
+				},
+				{
+					"created": "0001-01-01T00:00:00Z"
+				},
+				{
+					"created": "0001-01-01T00:00:00Z"
+				},
+				{
+					"created": "0001-01-01T00:00:00Z"
+				},
+				{
+					"created": "0001-01-01T00:00:00Z"
+				},
+				{
+					"created": "0001-01-01T00:00:00Z"
+				},
+				{
+					"created": "0001-01-01T00:00:00Z"
+				},
+				{
+					"created": "0001-01-01T00:00:00Z"
+				},
+				{
+					"created": "0001-01-01T00:00:00Z"
+				},
+				{
+					"created": "0001-01-01T00:00:00Z"
+				},
+				{
+					"created": "0001-01-01T00:00:00Z"
+				},
+				{
+					"created": "0001-01-01T00:00:00Z"
+				},
+				{
+					"created": "0001-01-01T00:00:00Z"
+				},
+				{
+					"created": "0001-01-01T00:00:00Z"
+				},
+				{
+					"created": "0001-01-01T00:00:00Z"
+				},
+				{
+					"created": "0001-01-01T00:00:00Z"
+				},
+				{
+					"created": "0001-01-01T00:00:00Z"
+				},
+				{
+					"created": "0001-01-01T00:00:00Z"
+				},
+				{
+					"created": "0001-01-01T00:00:00Z"
+				},
+				{
+					"created": "0001-01-01T00:00:00Z"
+				},
+				{
+					"created": "0001-01-01T00:00:00Z"
+				},
+				{
+					"created": "0001-01-01T00:00:00Z"
+				},
+				{
+					"created": "0001-01-01T00:00:00Z"
+				},
+				{
+					"created": "0001-01-01T00:00:00Z"
+				},
+				{
+					"created": "0001-01-01T00:00:00Z"
+				},
+				{
+					"created": "0001-01-01T00:00:00Z",
+					"instruction": "CMD [\"/bin/sh\" \"-c\" \"echo \\\"Hello world\\\"\"]"
+				}
+			],
+			"scanTime": "2023-09-26T03:37:52.28785808Z"
+		}
+	],
+	"consoleURL": "https://app.eu.prismacloud.io/compute?computeState=/monitor/vulnerabilities/images/ci?search=sha256%3A0401372b4f11f5e88d94719b1b530fc91d1ea64c2d67cd97418f78e82d42da67"
+}

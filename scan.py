@@ -1,3 +1,10 @@
+"""
+This file defines all relevant base images which shall be analysed in the thesis.
+
+First a simple docker file will be generated in order to build each image.
+
+Then all images will be scanned and the scan results will be written to disk (json files).
+"""
 import os, json, configparser, requests
 from helpers import die, writeFile, readFile, readTwistcliFile, prettyPrint, writeChartImage
 import subprocess
@@ -5,15 +12,10 @@ import subprocess
 config = configparser.ConfigParser(allow_no_value = True)
 config.read('./config.txt')
 
+# if you dont have prisma cloud credentials, just use trivy, grype or another scanner
 PRISMA_URI = config["PrismaCloud"]["URI"]
 PRISMA_KEY = config["PrismaCloud"]["AccessKey"]
 PRISMA_SEC = config["PrismaCloud"]["Secret"]
-
-"""
-TODO:
-- automate scans and do some compare logic!!
-- plot: just generate images with 2-way sync!!!
-"""
 
 # TODO: der epos dude, interview?
 # <https://teams.microsoft.com/l/message/19:WG0O_NCxEsOwPI39mYBssH8y-zmYFYeBWIOyaefkLCg1@thread.tacv2/1690191682241?tenantId=9744600e-3e04-492e-baa1-25ec245c6f10&amp;groupId=806c092e-2cc4-446a-ad2f-61c0b53907a4&amp;parentMessageId=1689836447011&amp;teamName=Security Champions Network&amp;channelName=General&amp;createdTime=1690191682241&amp;allowXTenantAccess=false>
@@ -49,19 +51,21 @@ BASE_IMAGES = [
     'amazonlinux:2',
 
     'alpine:latest',
-    'node:20-alpine',
+    'node:20-alpine', # -> TODO: check diff to alpine:latest. only node related issues?
+    # java alpine? https://stackoverflow.com/questions/60014845/how-to-install-oracle-jdk11-in-alpine-linux-docker-image
+    # -> no, bc we test alpine already
 
     # all relevant google distroless images
-    'gcr.io/distroless/static-debian11',
-    'gcr.io/distroless/base-debian11',
-    'gcr.io/distroless/cc-debian11',
-    'gcr.io/distroless/python3-debian11',
-    'gcr.io/distroless/java-base-debian11',
+    'gcr.io/distroless/static-debian12',
+    'gcr.io/distroless/base-debian12',
+    'gcr.io/distroless/cc-debian12',
+    'gcr.io/distroless/python3-debian12',
+    'gcr.io/distroless/java-base-debian12',
     'gcr.io/distroless/java11-debian11',
-    'gcr.io/distroless/java17-debian11',
+    'gcr.io/distroless/java17-debian12',
     # 'gcr.io/distroless/nodejs16-debian11', # deprecated
-    'gcr.io/distroless/nodejs18-debian11',
-    'gcr.io/distroless/nodejs20-debian11',
+    'gcr.io/distroless/nodejs18-debian12',
+    'gcr.io/distroless/nodejs20-debian12',
 
     # all relevant "Ubuntu chisel" images (some of them *manually built locally* before running this script! see /Dockerfiles/chisel)
     # They have no explicit nodejs & python support as of sep 2023

@@ -1,7 +1,7 @@
 {
 	"results": [
 		{
-			"id": "sha256:ebaee258b1ba05818eb660e0580372ca42f80e0bd58340ecd8e41ce9fbd7cbbd",
+			"id": "sha256:faaf1d1a31dfb685305d4958e78db6958468e8333731c174161e963ccb86fd53",
 			"name": "ubuntu-jre_17-22.04_edge:latest",
 			"distro": "",
 			"collections": [
@@ -40,44 +40,44 @@
 			"vulnerabilityScanPassed": true,
 			"history": [
 				{
-					"created": "2023-09-13T05:42:47Z",
+					"created": "2023-09-25T19:18:10Z",
 					"instruction": "ARG USER"
 				},
 				{
-					"created": "2023-09-13T05:42:47Z",
+					"created": "2023-09-25T19:18:10Z",
 					"instruction": "ARG UID"
 				},
 				{
-					"created": "2023-09-13T05:42:47Z",
+					"created": "2023-09-25T19:18:10Z",
 					"instruction": "ARG GID"
 				},
 				{
-					"created": "2023-09-13T05:42:47Z",
+					"created": "2023-09-25T19:18:10Z",
 					"instruction": "USER 101:101"
 				},
 				{
-					"created": "2023-09-13T05:42:47Z",
+					"created": "2023-09-25T19:18:10Z",
 					"instruction": "COPY /rootfs / # buildkit"
 				},
 				{
-					"created": "2023-09-13T05:42:48Z",
+					"created": "2023-09-25T19:18:10Z",
 					"instruction": "COPY /rootfs/home/app /home/app # buildkit"
 				},
 				{
-					"created": "2023-09-13T05:42:48Z",
+					"created": "2023-09-25T19:18:10Z",
 					"instruction": "ENV JAVA_HOME=/opt/java/"
 				},
 				{
-					"created": "2023-09-13T05:42:48Z",
+					"created": "2023-09-25T19:18:10Z",
 					"instruction": "ENTRYPOINT [\"/opt/java/bin/java\"]"
 				},
 				{
-					"created": "2023-09-13T05:42:48Z",
+					"created": "2023-09-25T19:18:10Z",
 					"instruction": "CMD [\"/bin/sh\" \"-c\" \"echo \\\"Hello world\\\"\"]"
 				}
 			],
-			"scanTime": "2023-09-23T10:58:46.939956829Z"
+			"scanTime": "2023-09-26T03:39:15.535471487Z"
 		}
 	],
-	"consoleURL": "https://app.eu.prismacloud.io/compute?computeState=/monitor/vulnerabilities/images/ci?search=sha256%3Aebaee258b1ba05818eb660e0580372ca42f80e0bd58340ecd8e41ce9fbd7cbbd"
+	"consoleURL": "https://app.eu.prismacloud.io/compute?computeState=/monitor/vulnerabilities/images/ci?search=sha256%3Afaaf1d1a31dfb685305d4958e78db6958468e8333731c174161e963ccb86fd53"
 }

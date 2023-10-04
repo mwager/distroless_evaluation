@@ -75,6 +75,30 @@
 				},
 				{
 					"type": "os",
+					"name": "glibc",
+					"version": "2.38-r2",
+					"licenses": [
+						"GPL-3.0-or-later"
+					]
+				},
+				{
+					"type": "os",
+					"name": "bzip2",
+					"version": "1.0.8-r5",
+					"licenses": [
+						"MPL-2.0 AND MIT"
+					]
+				},
+				{
+					"type": "os",
+					"name": "ca-certificates",
+					"version": "20230506-r0",
+					"licenses": [
+						"MPL-2.0 AND MIT"
+					]
+				},
+				{
+					"type": "os",
 					"name": "sqlite",
 					"version": "3.43.0-r0",
 					"licenses": [
@@ -112,30 +136,6 @@
 					"licenses": [
 						"MIT"
 					]
-				},
-				{
-					"type": "os",
-					"name": "glibc",
-					"version": "2.38-r2",
-					"licenses": [
-						"GPL-3.0-or-later"
-					]
-				},
-				{
-					"type": "os",
-					"name": "bzip2",
-					"version": "1.0.8-r5",
-					"licenses": [
-						"MPL-2.0 AND MIT"
-					]
-				},
-				{
-					"type": "os",
-					"name": "ca-certificates",
-					"version": "20230506-r0",
-					"licenses": [
-						"MPL-2.0 AND MIT"
-					]
 				}
 			],
 			"complianceDistribution": {
@@ -164,7 +164,7 @@
 					"instruction": "CMD [\"/bin/sh\" \"-c\" \"echo \\\"Hello world\\\"\"]"
 				}
 			],
-			"scanTime": "2023-09-23T10:59:39.232819741Z"
+			"scanTime": "2023-09-26T03:40:16.439665566Z"
 		}
 	],
 	"consoleURL": "https://app.eu.prismacloud.io/compute?computeState=/monitor/vulnerabilities/images/ci?search=sha256%3Ab321e26dd90655a94488761173114b0d14bbd6a5ecd7acfbd3d4750eb748acb8"

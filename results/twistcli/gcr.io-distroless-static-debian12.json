@@ -1,0 +1,97 @@
+{
+	"results": [
+		{
+			"id": "sha256:13d42235c7854e067d2dd4178e2ff6937a2bb322a0d84a56479c162f9b6241e5",
+			"name": "gcr.io-distroless-static-debian12:latest",
+			"distro": "Distroless (based on Debian GNU/Linux 12)",
+			"distroRelease": "12.1",
+			"collections": [
+				"All"
+			],
+			"packages": [
+				{
+					"type": "os",
+					"name": "base-files",
+					"version": "12.4+deb12u1",
+					"licenses": [
+						"GPL"
+					]
+				},
+				{
+					"type": "os",
+					"name": "netbase",
+					"version": "6.4",
+					"licenses": [
+						"GPL-2"
+					]
+				},
+				{
+					"type": "os",
+					"name": "tzdata",
+					"version": "2023c-5"
+				}
+			],
+			"compliances": [
+				{
+					"id": 41,
+					"title": "(CIS_Docker_v1.5.0 - 4.1) Image should be created with a non-root user",
+					"severity": "high",
+					"description": "It is a good practice to run the container as a non-root user, if possible. Though user\nnamespace mapping is now available, if a user is already defined in the container image, the\ncontainer is run as that user by default and specific user namespace remapping is not\nrequired",
+					"layerTime": "1970-01-01T00:00:00Z",
+					"category": "Docker"
+				}
+			],
+			"complianceDistribution": {
+				"critical": 0,
+				"high": 1,
+				"medium": 0,
+				"low": 0,
+				"total": 1
+			},
+			"complianceScanPassed": true,
+			"vulnerabilityDistribution": {
+				"critical": 0,
+				"high": 0,
+				"medium": 0,
+				"low": 0,
+				"total": 0
+			},
+			"vulnerabilityScanPassed": true,
+			"history": [
+				{
+					"created": "0001-01-01T00:00:00Z"
+				},
+				{
+					"created": "0001-01-01T00:00:00Z"
+				},
+				{
+					"created": "0001-01-01T00:00:00Z"
+				},
+				{
+					"created": "0001-01-01T00:00:00Z"
+				},
+				{
+					"created": "0001-01-01T00:00:00Z"
+				},
+				{
+					"created": "0001-01-01T00:00:00Z"
+				},
+				{
+					"created": "0001-01-01T00:00:00Z"
+				},
+				{
+					"created": "0001-01-01T00:00:00Z"
+				},
+				{
+					"created": "0001-01-01T00:00:00Z"
+				},
+				{
+					"created": "0001-01-01T00:00:00Z",
+					"instruction": "CMD [\"/bin/sh\" \"-c\" \"echo \\\"Hello world\\\"\"]"
+				}
+			],
+			"scanTime": "2023-09-26T03:37:41.147599367Z"
+		}
+	],
+	"consoleURL": "https://app.eu.prismacloud.io/compute?computeState=/monitor/vulnerabilities/images/ci?search=sha256%3A13d42235c7854e067d2dd4178e2ff6937a2bb322a0d84a56479c162f9b6241e5"
+}

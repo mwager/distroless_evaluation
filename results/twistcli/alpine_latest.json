@@ -35,14 +35,6 @@
 				},
 				{
 					"type": "os",
-					"name": "ca-certificates",
-					"version": "20230506-r0",
-					"licenses": [
-						"MPL-2.0 AND MIT"
-					]
-				},
-				{
-					"type": "os",
 					"name": "alpine-baselayout",
 					"version": "3.4.3-r1",
 					"licenses": [
@@ -79,6 +71,14 @@
 					"version": "3.1.2-r0",
 					"licenses": [
 						"Apache-2.0"
+					]
+				},
+				{
+					"type": "os",
+					"name": "ca-certificates",
+					"version": "20230506-r0",
+					"licenses": [
+						"MPL-2.0 AND MIT"
 					]
 				}
 			],
@@ -129,7 +129,7 @@
 					"instruction": "CMD [\"/bin/sh\" \"-c\" \"echo \\\"Hello world\\\"\"]"
 				}
 			],
-			"scanTime": "2023-09-23T10:57:59.653340305Z"
+			"scanTime": "2023-09-26T03:37:30.268212676Z"
 		}
 	],
 	"consoleURL": "https://app.eu.prismacloud.io/compute?computeState=/monitor/vulnerabilities/images/ci?search=sha256%3Abd946adf45c46eaae19a6c4f9f6f5def08567af7d8fa195f177cb3de8b4f92e8"

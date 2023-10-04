@@ -11,96 +11,8 @@
 			"packages": [
 				{
 					"type": "os",
-					"name": "base-passwd",
-					"version": "3.5.52build1",
-					"licenses": [
-						"GPL-2"
-					]
-				},
-				{
-					"type": "os",
-					"name": "libcap2",
-					"version": "1:2.44-1ubuntu0.22.04.1",
-					"licenses": [
-						"BSD-3-clause or GPL-2"
-					]
-				},
-				{
-					"type": "os",
-					"name": "gzip",
-					"version": "1.10-4ubuntu4.1",
-					"licenses": [
-						"GPL-3+"
-					]
-				},
-				{
-					"type": "os",
-					"name": "ubuntu-keyring",
-					"version": "2021.03.26",
-					"licenses": [
-						"GPL"
-					]
-				},
-				{
-					"type": "os",
-					"name": "libtasn1-6",
-					"version": "4.18.0-4build1",
-					"licenses": [
-						"LGPL"
-					]
-				},
-				{
-					"type": "os",
-					"name": "findutils",
-					"version": "4.8.0-1ubuntu3",
-					"licenses": [
-						"GPL-3"
-					]
-				},
-				{
-					"type": "os",
-					"name": "wget",
-					"version": "1.21.2-2ubuntu1",
-					"licenses": [
-						"GPL-3"
-					]
-				},
-				{
-					"type": "os",
-					"name": "dpkg",
-					"version": "1.21.1ubuntu2.2",
-					"licenses": [
-						"GPL-2+"
-					]
-				},
-				{
-					"type": "os",
-					"name": "usrmerge",
-					"version": "25ubuntu2",
-					"licenses": [
-						"GPL v2 or later (please see /usr/share/common-licenses/GPL-2)."
-					]
-				},
-				{
-					"type": "os",
-					"name": "dash",
-					"version": "0.5.11+git20210903+057cd650a4ed-3build1",
-					"licenses": [
-						"BSD-3-Clause"
-					]
-				},
-				{
-					"type": "os",
-					"name": "sed",
-					"version": "4.8-1ubuntu2",
-					"licenses": [
-						"GPL-3"
-					]
-				},
-				{
-					"type": "os",
-					"name": "bash",
-					"version": "5.1-6ubuntu1",
+					"name": "coreutils",
+					"version": "8.32-4.1ubuntu1",
 					"licenses": [
 						"GPL-3"
 					]
@@ -115,18 +27,34 @@
 				},
 				{
 					"type": "os",
-					"name": "ca-certificates",
-					"version": "20230311ubuntu0.22.04.1",
+					"name": "tar",
+					"version": "1.34+dfsg-1ubuntu0.1.22.04.1",
 					"licenses": [
-						"GPL-2+"
+						"GPL-3"
 					]
 				},
 				{
 					"type": "os",
-					"name": "mawk",
-					"version": "1.3.4.20200120-3",
+					"name": "libcap2",
+					"version": "1:2.44-1ubuntu0.22.04.1",
 					"licenses": [
-						"GPL-2"
+						"BSD-3-clause or GPL-2"
+					]
+				},
+				{
+					"type": "os",
+					"name": "dash",
+					"version": "0.5.11+git20210903+057cd650a4ed-3build1",
+					"licenses": [
+						"BSD-3-Clause"
+					]
+				},
+				{
+					"type": "os",
+					"name": "gzip",
+					"version": "1.10-4ubuntu4.1",
+					"licenses": [
+						"GPL-3+"
 					]
 				},
 				{
@@ -147,6 +75,30 @@
 				},
 				{
 					"type": "os",
+					"name": "ca-certificates",
+					"version": "20230311ubuntu0.22.04.1",
+					"licenses": [
+						"GPL-2+"
+					]
+				},
+				{
+					"type": "os",
+					"name": "dpkg",
+					"version": "1.21.1ubuntu2.2",
+					"licenses": [
+						"GPL-2+"
+					]
+				},
+				{
+					"type": "os",
+					"name": "sed",
+					"version": "4.8-1ubuntu2",
+					"licenses": [
+						"GPL-3"
+					]
+				},
+				{
+					"type": "os",
 					"name": "sensible-utils",
 					"version": "0.0.17",
 					"licenses": [
@@ -155,8 +107,24 @@
 				},
 				{
 					"type": "os",
-					"name": "hostname",
-					"version": "3.23ubuntu2",
+					"name": "usrmerge",
+					"version": "25ubuntu2",
+					"licenses": [
+						"GPL v2 or later (please see /usr/share/common-licenses/GPL-2)."
+					]
+				},
+				{
+					"type": "os",
+					"name": "debconf",
+					"version": "1.5.79ubuntu1",
+					"licenses": [
+						"BSD-2-clause"
+					]
+				},
+				{
+					"type": "os",
+					"name": "mawk",
+					"version": "1.3.4.20200120-3",
 					"licenses": [
 						"GPL-2"
 					]
@@ -171,18 +139,10 @@
 				},
 				{
 					"type": "os",
-					"name": "tar",
-					"version": "1.34+dfsg-1ubuntu0.1.22.04.1",
+					"name": "init-system-helpers",
+					"version": "1.62",
 					"licenses": [
-						"GPL-3"
-					]
-				},
-				{
-					"type": "os",
-					"name": "coreutils",
-					"version": "8.32-4.1ubuntu1",
-					"licenses": [
-						"GPL-3"
+						"BSD-3-clause"
 					]
 				},
 				{
@@ -195,18 +155,50 @@
 				},
 				{
 					"type": "os",
-					"name": "init-system-helpers",
-					"version": "1.62",
+					"name": "ubuntu-keyring",
+					"version": "2021.03.26",
 					"licenses": [
-						"BSD-3-clause"
+						"GPL"
 					]
 				},
 				{
 					"type": "os",
-					"name": "debconf",
-					"version": "1.5.79ubuntu1",
+					"name": "libtasn1-6",
+					"version": "4.18.0-4build1",
 					"licenses": [
-						"BSD-2-clause"
+						"LGPL"
+					]
+				},
+				{
+					"type": "os",
+					"name": "hostname",
+					"version": "3.23ubuntu2",
+					"licenses": [
+						"GPL-2"
+					]
+				},
+				{
+					"type": "os",
+					"name": "wget",
+					"version": "1.21.2-2ubuntu1",
+					"licenses": [
+						"GPL-3"
+					]
+				},
+				{
+					"type": "os",
+					"name": "bash",
+					"version": "5.1-6ubuntu1",
+					"licenses": [
+						"GPL-3"
+					]
+				},
+				{
+					"type": "os",
+					"name": "findutils",
+					"version": "4.8.0-1ubuntu3",
+					"licenses": [
+						"GPL-3"
 					]
 				},
 				{
@@ -219,233 +211,10 @@
 				},
 				{
 					"type": "os",
-					"name": "nettle",
-					"version": "3.7.3-1build2",
-					"licenses": [
-						"LGPL-3+ or GPL-2+"
-					]
-				},
-				{
-					"type": "os",
-					"name": "keyutils",
-					"version": "1.6.1-2ubuntu3",
-					"licenses": [
-						"GPL-2+"
-					]
-				},
-				{
-					"type": "os",
-					"name": "zlib",
-					"version": "1:1.2.11.dfsg-2ubuntu9.2"
-				},
-				{
-					"type": "os",
-					"name": "cdebconf",
-					"version": "0.261ubuntu1"
-				},
-				{
-					"type": "os",
-					"name": "libxcrypt",
-					"version": "1:4.4.27-1"
-				},
-				{
-					"type": "os",
-					"name": "openssl",
-					"version": "3.0.2-0ubuntu1.10",
-					"licenses": [
-						"Apache-2.0"
-					]
-				},
-				{
-					"type": "os",
-					"name": "procps",
-					"version": "2:3.3.17-6ubuntu2",
-					"licenses": [
-						"LGPL-2.1+"
-					]
-				},
-				{
-					"type": "os",
-					"name": "util-linux",
-					"version": "2.37.2-4ubuntu3",
-					"licenses": [
-						"GPL-2+"
-					]
-				},
-				{
-					"type": "os",
-					"name": "xxhash",
-					"version": "0.8.1-1",
-					"licenses": [
-						"BSD-2-clause"
-					]
-				},
-				{
-					"type": "os",
-					"name": "apt",
-					"version": "2.4.10",
-					"licenses": [
-						"GPLv2+"
-					]
-				},
-				{
-					"type": "os",
-					"name": "libpsl",
-					"version": "0.21.0-1.2build2",
-					"licenses": [
-						"MIT"
-					]
-				},
-				{
-					"type": "os",
-					"name": "libseccomp",
-					"version": "2.5.3-2ubuntu2",
-					"licenses": [
-						"LGPL-2.1"
-					]
-				},
-				{
-					"type": "os",
-					"name": "lz4",
-					"version": "1.9.3-2build2",
-					"licenses": [
-						"BSD-2-clause"
-					]
-				},
-				{
-					"type": "os",
-					"name": "krb5",
-					"version": "1.19.2-2ubuntu0.2",
+					"name": "base-passwd",
+					"version": "3.5.52build1",
 					"licenses": [
 						"GPL-2"
-					]
-				},
-				{
-					"type": "os",
-					"name": "libsepol",
-					"version": "3.3-1build1",
-					"licenses": [
-						"LGPL"
-					]
-				},
-				{
-					"type": "os",
-					"name": "libcap-ng",
-					"version": "0.7.9-2.2build3",
-					"licenses": [
-						"LGPL-2.1"
-					]
-				},
-				{
-					"type": "os",
-					"name": "gnutls28",
-					"version": "3.7.3-4ubuntu1.2",
-					"licenses": [
-						"LGPL"
-					]
-				},
-				{
-					"type": "os",
-					"name": "libidn2",
-					"version": "2.3.2-2build1",
-					"licenses": [
-						"GPL-3+"
-					]
-				},
-				{
-					"type": "os",
-					"name": "acl",
-					"version": "2.3.1-1",
-					"licenses": [
-						"GPL-2+"
-					]
-				},
-				{
-					"type": "os",
-					"name": "libgpg-error",
-					"version": "1.43-3",
-					"licenses": [
-						"LGPL-2.1+"
-					]
-				},
-				{
-					"type": "os",
-					"name": "libselinux",
-					"version": "3.3-1build2",
-					"licenses": [
-						"LGPL-2.1"
-					]
-				},
-				{
-					"type": "os",
-					"name": "gcc-12",
-					"version": "12.3.0-1ubuntu1~22.04",
-					"licenses": [
-						"GPL"
-					]
-				},
-				{
-					"type": "os",
-					"name": "libffi",
-					"version": "3.4.2-4",
-					"licenses": [
-						"GPL"
-					]
-				},
-				{
-					"type": "os",
-					"name": "shadow",
-					"version": "1:4.8.1-2ubuntu2.1",
-					"licenses": [
-						"GPL-2"
-					]
-				},
-				{
-					"type": "os",
-					"name": "libunistring",
-					"version": "1.0-1",
-					"licenses": [
-						"LGPL-3+ or GPL-2+"
-					]
-				},
-				{
-					"type": "os",
-					"name": "gmp",
-					"version": "2:6.2.1+dfsg-3ubuntu1",
-					"licenses": [
-						"LGPL-3"
-					]
-				},
-				{
-					"type": "os",
-					"name": "lsb",
-					"version": "11.1.0ubuntu4",
-					"licenses": [
-						"GPL-2"
-					]
-				},
-				{
-					"type": "os",
-					"name": "pam",
-					"version": "1.4.0-11ubuntu2.3",
-					"licenses": [
-						"GPL"
-					]
-				},
-				{
-					"type": "os",
-					"name": "p11-kit",
-					"version": "0.24.0-6build1",
-					"licenses": [
-						"BSD-3-Clause"
-					]
-				},
-				{
-					"type": "os",
-					"name": "sysvinit",
-					"version": "3.01-1ubuntu1",
-					"licenses": [
-						"GPL-2+"
 					]
 				},
 				{
@@ -458,8 +227,90 @@
 				},
 				{
 					"type": "os",
+					"name": "keyutils",
+					"version": "1.6.1-2ubuntu3",
+					"licenses": [
+						"GPL-2+"
+					]
+				},
+				{
+					"type": "os",
+					"name": "nettle",
+					"version": "3.7.3-1build2",
+					"licenses": [
+						"LGPL-3+ or GPL-2+"
+					]
+				},
+				{
+					"type": "os",
 					"name": "pcre2",
 					"version": "10.39-3ubuntu0.1"
+				},
+				{
+					"type": "os",
+					"name": "pam",
+					"version": "1.4.0-11ubuntu2.3",
+					"licenses": [
+						"GPL"
+					]
+				},
+				{
+					"type": "os",
+					"name": "libxcrypt",
+					"version": "1:4.4.27-1"
+				},
+				{
+					"type": "os",
+					"name": "gnupg2",
+					"version": "2.2.27-3ubuntu2.1",
+					"licenses": [
+						"GPL-3+"
+					]
+				},
+				{
+					"type": "os",
+					"name": "glibc",
+					"version": "2.35-0ubuntu3.1",
+					"licenses": [
+						"LGPL-2.1"
+					]
+				},
+				{
+					"type": "os",
+					"name": "p11-kit",
+					"version": "0.24.0-6build1",
+					"licenses": [
+						"BSD-3-Clause"
+					]
+				},
+				{
+					"type": "os",
+					"name": "apt",
+					"version": "2.4.10",
+					"licenses": [
+						"GPLv2+"
+					]
+				},
+				{
+					"type": "os",
+					"name": "libseccomp",
+					"version": "2.5.3-2ubuntu2",
+					"licenses": [
+						"LGPL-2.1"
+					]
+				},
+				{
+					"type": "os",
+					"name": "gmp",
+					"version": "2:6.2.1+dfsg-3ubuntu1",
+					"licenses": [
+						"LGPL-3"
+					]
+				},
+				{
+					"type": "os",
+					"name": "pcre3",
+					"version": "2:8.39-13ubuntu0.22.04.1"
 				},
 				{
 					"type": "os",
@@ -479,8 +330,58 @@
 				},
 				{
 					"type": "os",
+					"name": "gnutls28",
+					"version": "3.7.3-4ubuntu1.2",
+					"licenses": [
+						"LGPL"
+					]
+				},
+				{
+					"type": "os",
+					"name": "libgpg-error",
+					"version": "1.43-3",
+					"licenses": [
+						"LGPL-2.1+"
+					]
+				},
+				{
+					"type": "os",
+					"name": "procps",
+					"version": "2:3.3.17-6ubuntu2",
+					"licenses": [
+						"LGPL-2.1+"
+					]
+				},
+				{
+					"type": "os",
+					"name": "zlib",
+					"version": "1:1.2.11.dfsg-2ubuntu9.2"
+				},
+				{
+					"type": "os",
 					"name": "audit",
 					"version": "1:3.0.7-1build1",
+					"licenses": [
+						"GPL-2"
+					]
+				},
+				{
+					"type": "os",
+					"name": "cdebconf",
+					"version": "0.261ubuntu1"
+				},
+				{
+					"type": "os",
+					"name": "libidn2",
+					"version": "2.3.2-2build1",
+					"licenses": [
+						"GPL-3+"
+					]
+				},
+				{
+					"type": "os",
+					"name": "krb5",
+					"version": "1.19.2-2ubuntu0.2",
 					"licenses": [
 						"GPL-2"
 					]
@@ -495,8 +396,51 @@
 				},
 				{
 					"type": "os",
-					"name": "db5.3",
-					"version": "5.3.28+dfsg1-0.8ubuntu3"
+					"name": "libnsl",
+					"version": "1.3.0-2build2",
+					"licenses": [
+						"LGPL-2.1+"
+					]
+				},
+				{
+					"type": "os",
+					"name": "shadow",
+					"version": "1:4.8.1-2ubuntu2.1",
+					"licenses": [
+						"GPL-2"
+					]
+				},
+				{
+					"type": "os",
+					"name": "openssl",
+					"version": "3.0.2-0ubuntu1.10",
+					"licenses": [
+						"Apache-2.0"
+					]
+				},
+				{
+					"type": "os",
+					"name": "lz4",
+					"version": "1.9.3-2build2",
+					"licenses": [
+						"BSD-2-clause"
+					]
+				},
+				{
+					"type": "os",
+					"name": "libunistring",
+					"version": "1.0-1",
+					"licenses": [
+						"LGPL-3+ or GPL-2+"
+					]
+				},
+				{
+					"type": "os",
+					"name": "libtirpc",
+					"version": "1.3.2-2ubuntu0.1",
+					"licenses": [
+						"BSD-3-Clause"
+					]
 				},
 				{
 					"type": "os",
@@ -508,31 +452,26 @@
 				},
 				{
 					"type": "os",
-					"name": "perl",
-					"version": "5.34.0-3ubuntu1.2",
+					"name": "sysvinit",
+					"version": "3.01-1ubuntu1",
 					"licenses": [
-						"GPL-1+ or Artistic"
+						"GPL-2+"
 					]
 				},
 				{
 					"type": "os",
-					"name": "gnupg2",
-					"version": "2.2.27-3ubuntu2.1",
+					"name": "libffi",
+					"version": "3.4.2-4",
 					"licenses": [
-						"GPL-3+"
+						"GPL"
 					]
 				},
 				{
 					"type": "os",
-					"name": "pcre3",
-					"version": "2:8.39-13ubuntu0.22.04.1"
-				},
-				{
-					"type": "os",
-					"name": "libtirpc",
-					"version": "1.3.2-2ubuntu0.1",
+					"name": "libsepol",
+					"version": "3.3-1build1",
 					"licenses": [
-						"BSD-3-Clause"
+						"LGPL"
 					]
 				},
 				{
@@ -545,26 +484,18 @@
 				},
 				{
 					"type": "os",
-					"name": "libzstd",
-					"version": "1.4.8+dfsg-3build1",
+					"name": "perl",
+					"version": "5.34.0-3ubuntu1.2",
 					"licenses": [
-						"BSD-3-clause and GPL-2"
+						"GPL-1+ or Artistic"
 					]
 				},
 				{
 					"type": "os",
-					"name": "glibc",
-					"version": "2.35-0ubuntu3.1",
+					"name": "lsb",
+					"version": "11.1.0ubuntu4",
 					"licenses": [
-						"LGPL-2.1"
-					]
-				},
-				{
-					"type": "os",
-					"name": "libnsl",
-					"version": "1.3.0-2build2",
-					"licenses": [
-						"LGPL-2.1+"
+						"GPL-2"
 					]
 				},
 				{
@@ -576,28 +507,73 @@
 					]
 				},
 				{
-					"type": "jar",
-					"name": "ibmkeycert",
-					"version": "1.0",
-					"path": "/opt/ibm/java/jre/lib/ext/ibmkeycert.jar"
+					"type": "os",
+					"name": "acl",
+					"version": "2.3.1-1",
+					"licenses": [
+						"GPL-2+"
+					]
 				},
 				{
-					"type": "jar",
-					"name": "ibmxmldsigprovider",
-					"version": "1.00,",
-					"path": "/opt/ibm/java/jre/lib/ext/ibmxmldsigprovider.jar"
+					"type": "os",
+					"name": "libselinux",
+					"version": "3.3-1build2",
+					"licenses": [
+						"LGPL-2.1"
+					]
 				},
 				{
-					"type": "jar",
-					"name": "resources",
-					"version": "1.8.0",
-					"path": "/opt/ibm/java/jre/lib/resources.jar"
+					"type": "os",
+					"name": "xxhash",
+					"version": "0.8.1-1",
+					"licenses": [
+						"BSD-2-clause"
+					]
 				},
 				{
-					"type": "jar",
-					"name": "ibmjcefips",
-					"version": "1.71",
-					"path": "/opt/ibm/java/jre/lib/ext/ibmjcefips.jar"
+					"type": "os",
+					"name": "libpsl",
+					"version": "0.21.0-1.2build2",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "os",
+					"name": "db5.3",
+					"version": "5.3.28+dfsg1-0.8ubuntu3"
+				},
+				{
+					"type": "os",
+					"name": "libcap-ng",
+					"version": "0.7.9-2.2build3",
+					"licenses": [
+						"LGPL-2.1"
+					]
+				},
+				{
+					"type": "os",
+					"name": "libzstd",
+					"version": "1.4.8+dfsg-3build1",
+					"licenses": [
+						"BSD-3-clause and GPL-2"
+					]
+				},
+				{
+					"type": "os",
+					"name": "util-linux",
+					"version": "2.37.2-4ubuntu3",
+					"licenses": [
+						"GPL-2+"
+					]
+				},
+				{
+					"type": "os",
+					"name": "gcc-12",
+					"version": "12.3.0-1ubuntu1~22.04",
+					"licenses": [
+						"GPL"
+					]
 				},
 				{
 					"type": "jar",
@@ -607,57 +583,15 @@
 				},
 				{
 					"type": "jar",
-					"name": "ibmpkcs11impl",
-					"version": "8.0",
-					"path": "/opt/ibm/java/jre/lib/ext/ibmpkcs11impl.jar"
-				},
-				{
-					"type": "jar",
-					"name": "zipfs",
-					"version": "1.8.0",
-					"path": "/opt/ibm/java/jre/lib/ext/zipfs.jar"
-				},
-				{
-					"type": "jar",
-					"name": "ibmjsseprovider2",
-					"version": "8.0",
-					"path": "/opt/ibm/java/jre/lib/ibmjsseprovider2.jar"
-				},
-				{
-					"type": "jar",
-					"name": "CmpCrmf",
+					"name": "ibmxmldsigprovider",
 					"version": "1.00,",
-					"path": "/opt/ibm/java/jre/lib/ext/CmpCrmf.jar"
+					"path": "/opt/ibm/java/jre/lib/ext/ibmxmldsigprovider.jar"
 				},
 				{
 					"type": "jar",
-					"name": "ibmcmsprovider",
-					"version": "2.0",
-					"path": "/opt/ibm/java/jre/lib/ext/ibmcmsprovider.jar"
-				},
-				{
-					"type": "jar",
-					"name": "xmldsigfw",
+					"name": "xmlencfw",
 					"version": "1.00,",
-					"path": "/opt/ibm/java/jre/lib/xmldsigfw.jar"
-				},
-				{
-					"type": "jar",
-					"name": "ibmjceplus",
-					"version": "8.0",
-					"path": "/opt/ibm/java/jre/fips140-3/lib/ext/ibmjceplus.jar"
-				},
-				{
-					"type": "jar",
-					"name": "ibmcertpathprovider",
-					"version": "8.0",
-					"path": "/opt/ibm/java/jre/lib/ibmcertpathprovider.jar"
-				},
-				{
-					"type": "jar",
-					"name": "ibmpkcs",
-					"version": "8.0",
-					"path": "/opt/ibm/java/jre/lib/ibmpkcs.jar"
+					"path": "/opt/ibm/java/jre/lib/ext/xmlencfw.jar"
 				},
 				{
 					"type": "jar",
@@ -667,9 +601,81 @@
 				},
 				{
 					"type": "jar",
+					"name": "ibmxmlcrypto",
+					"version": "8.0",
+					"path": "/opt/ibm/java/jre/lib/ext/ibmxmlcrypto.jar"
+				},
+				{
+					"type": "jar",
+					"name": "ibmjssefw",
+					"version": "8.0",
+					"path": "/opt/ibm/java/jre/lib/ibmjssefw.jar"
+				},
+				{
+					"type": "jar",
+					"name": "ibmcertpathprovider",
+					"version": "8.0",
+					"path": "/opt/ibm/java/jre/lib/ibmcertpathprovider.jar"
+				},
+				{
+					"type": "jar",
+					"name": "CmpCrmf",
+					"version": "1.00,",
+					"path": "/opt/ibm/java/jre/lib/ext/CmpCrmf.jar"
+				},
+				{
+					"type": "jar",
 					"name": "gskikm",
 					"version": "8.0",
 					"path": "/opt/ibm/java/jre/lib/ext/gskikm.jar"
+				},
+				{
+					"type": "jar",
+					"name": "nashorn",
+					"version": "1.8.0-foreman_2023_06_30_16_39-b00",
+					"path": "/opt/ibm/java/jre/lib/ext/nashorn.jar"
+				},
+				{
+					"type": "jar",
+					"name": "ibmpkcs",
+					"version": "8.0",
+					"path": "/opt/ibm/java/jre/lib/ibmpkcs.jar"
+				},
+				{
+					"type": "jar",
+					"name": "ibmsaslfw",
+					"version": "8.0",
+					"path": "/opt/ibm/java/jre/lib/ibmsaslfw.jar"
+				},
+				{
+					"type": "jar",
+					"name": "vm",
+					"version": "2.9",
+					"path": "/opt/ibm/java/jre/lib/amd64/default/jclSC180/vm.jar"
+				},
+				{
+					"type": "jar",
+					"name": "ibmjcefips",
+					"version": "1.71",
+					"path": "/opt/ibm/java/jre/lib/ext/ibmjcefips.jar"
+				},
+				{
+					"type": "jar",
+					"name": "tcp.channel.impl_ibmcfw",
+					"version": "CCX.CF",
+					"path": "/opt/ibm/java/jre/lib/ibmcfw.jar"
+				},
+				{
+					"type": "jar",
+					"name": "xmldsigfw",
+					"version": "1.00,",
+					"path": "/opt/ibm/java/jre/lib/xmldsigfw.jar"
+				},
+				{
+					"type": "jar",
+					"name": "ibmcmsprovider",
+					"version": "2.0",
+					"path": "/opt/ibm/java/jre/lib/ext/ibmcmsprovider.jar"
 				},
 				{
 					"type": "jar",
@@ -685,9 +691,27 @@
 				},
 				{
 					"type": "jar",
-					"name": "vm",
-					"version": "2.9",
-					"path": "/opt/ibm/java/jre/lib/amd64/default/jclSC180/vm.jar"
+					"name": "zipfs",
+					"version": "1.8.0",
+					"path": "/opt/ibm/java/jre/lib/ext/zipfs.jar"
+				},
+				{
+					"type": "jar",
+					"name": "ibmcertpathfw",
+					"version": "1.1",
+					"path": "/opt/ibm/java/jre/lib/ibmcertpathfw.jar"
+				},
+				{
+					"type": "jar",
+					"name": "resources",
+					"version": "1.8.0",
+					"path": "/opt/ibm/java/jre/lib/resources.jar"
+				},
+				{
+					"type": "jar",
+					"name": "ibmkeycert",
+					"version": "1.0",
+					"path": "/opt/ibm/java/jre/lib/ext/ibmkeycert.jar"
 				},
 				{
 					"type": "jar",
@@ -697,27 +721,9 @@
 				},
 				{
 					"type": "jar",
-					"name": "ibmjssefw",
+					"name": "ibmjgssfw",
 					"version": "8.0",
-					"path": "/opt/ibm/java/jre/lib/ibmjssefw.jar"
-				},
-				{
-					"type": "jar",
-					"name": "xmlencfw",
-					"version": "1.00,",
-					"path": "/opt/ibm/java/jre/lib/ext/xmlencfw.jar"
-				},
-				{
-					"type": "jar",
-					"name": "ibmsaslfw",
-					"version": "8.0",
-					"path": "/opt/ibm/java/jre/lib/ibmsaslfw.jar"
-				},
-				{
-					"type": "jar",
-					"name": "tcp.channel.impl_ibmcfw",
-					"version": "CCX.CF",
-					"path": "/opt/ibm/java/jre/lib/ibmcfw.jar"
+					"path": "/opt/ibm/java/jre/lib/ibmjgssfw.jar"
 				},
 				{
 					"type": "jar",
@@ -727,33 +733,27 @@
 				},
 				{
 					"type": "jar",
-					"name": "ibmjgssfw",
-					"version": "8.0",
-					"path": "/opt/ibm/java/jre/lib/ibmjgssfw.jar"
-				},
-				{
-					"type": "jar",
 					"name": "ibmjgssprovider",
 					"version": "8.0",
 					"path": "/opt/ibm/java/jre/lib/ibmjgssprovider.jar"
 				},
 				{
 					"type": "jar",
-					"name": "ibmxmlcrypto",
+					"name": "ibmjceplus",
 					"version": "8.0",
-					"path": "/opt/ibm/java/jre/lib/ext/ibmxmlcrypto.jar"
+					"path": "/opt/ibm/java/jre/fips140-3/lib/ext/ibmjceplus.jar"
 				},
 				{
 					"type": "jar",
-					"name": "nashorn",
-					"version": "1.8.0-foreman_2023_06_30_16_39-b00",
-					"path": "/opt/ibm/java/jre/lib/ext/nashorn.jar"
+					"name": "ibmjsseprovider2",
+					"version": "8.0",
+					"path": "/opt/ibm/java/jre/lib/ibmjsseprovider2.jar"
 				},
 				{
 					"type": "jar",
-					"name": "ibmcertpathfw",
-					"version": "1.1",
-					"path": "/opt/ibm/java/jre/lib/ibmcertpathfw.jar"
+					"name": "ibmpkcs11impl",
+					"version": "8.0",
+					"path": "/opt/ibm/java/jre/lib/ext/ibmpkcs11impl.jar"
 				}
 			],
 			"applications": [
@@ -793,18 +793,18 @@
 					"packageVersion": "5.34.0-3ubuntu1.2",
 					"link": "https://ubuntu.com/security/CVE-2022-48522",
 					"riskFactors": [
-						"Attack vector: network",
-						"DoS - High",
-						"Medium severity",
 						"Recent vulnerability",
 						"Remote execution",
-						"Attack complexity: low"
+						"Attack complexity: low",
+						"Attack vector: network",
+						"DoS - High",
+						"Medium severity"
 					],
 					"impactedVersions": [
 						"*"
 					],
 					"publishedDate": "2023-08-22T19:16:00Z",
-					"discoveredDate": "2023-09-23T10:57:19Z",
+					"discoveredDate": "2023-09-26T03:36:48Z",
 					"layerTime": "2023-08-16T06:01:54Z",
 					"layerInstruction": "ADD file:aa9b51e9f0067860cebbc9930374452d1384ec3c59badb5e4733130eedc90329 in / "
 				},
@@ -819,17 +819,17 @@
 					"packageVersion": "1.19.2-2ubuntu0.2",
 					"link": "https://ubuntu.com/security/CVE-2023-36054",
 					"riskFactors": [
-						"Medium severity",
-						"Recent vulnerability",
 						"Attack complexity: low",
 						"Attack vector: network",
-						"DoS - High"
+						"DoS - High",
+						"Medium severity",
+						"Recent vulnerability"
 					],
 					"impactedVersions": [
 						"*"
 					],
 					"publishedDate": "2023-08-07T19:15:00Z",
-					"discoveredDate": "2023-09-23T10:57:19Z",
+					"discoveredDate": "2023-09-26T03:36:48Z",
 					"layerTime": "2023-08-16T06:01:54Z",
 					"layerInstruction": "ADD file:aa9b51e9f0067860cebbc9930374452d1384ec3c59badb5e4733130eedc90329 in / "
 				},
@@ -844,15 +844,15 @@
 					"packageVersion": "1.21.2-2ubuntu1",
 					"link": "https://ubuntu.com/security/CVE-2021-31879",
 					"riskFactors": [
-						"Attack complexity: low",
 						"Attack vector: network",
-						"Medium severity"
+						"Medium severity",
+						"Attack complexity: low"
 					],
 					"impactedVersions": [
 						"*"
 					],
 					"publishedDate": "2021-04-29T05:15:00Z",
-					"discoveredDate": "2023-09-23T10:57:19Z",
+					"discoveredDate": "2023-09-26T03:36:48Z",
 					"layerTime": "2023-09-02T00:56:28Z",
 					"layerInstruction": "RUN apt-get update     \u0026\u0026 apt-get install -y --no-install-recommends wget ca-certificates     \u0026\u0026 rm -rf /var/lib/apt/lists/*"
 				},
@@ -867,14 +867,14 @@
 					"packageVersion": "5.1-6ubuntu1",
 					"link": "https://ubuntu.com/security/CVE-2022-3715",
 					"riskFactors": [
-						"Attack complexity: low",
-						"DoS - High"
+						"DoS - High",
+						"Attack complexity: low"
 					],
 					"impactedVersions": [
 						"*"
 					],
 					"publishedDate": "2023-01-05T15:15:00Z",
-					"discoveredDate": "2023-09-23T10:57:19Z",
+					"discoveredDate": "2023-09-26T03:36:48Z",
 					"layerTime": "2023-08-16T06:01:54Z",
 					"layerInstruction": "ADD file:aa9b51e9f0067860cebbc9930374452d1384ec3c59badb5e4733130eedc90329 in / "
 				},
@@ -889,16 +889,16 @@
 					"packageVersion": "1.4.8+dfsg-3build1",
 					"link": "https://ubuntu.com/security/CVE-2022-4899",
 					"riskFactors": [
-						"DoS - High",
 						"Recent vulnerability",
 						"Attack complexity: low",
-						"Attack vector: network"
+						"Attack vector: network",
+						"DoS - High"
 					],
 					"impactedVersions": [
 						"*"
 					],
 					"publishedDate": "2023-03-31T20:15:00Z",
-					"discoveredDate": "2023-09-23T10:57:19Z",
+					"discoveredDate": "2023-09-26T03:36:48Z",
 					"layerTime": "2023-08-16T06:01:54Z",
 					"layerInstruction": "ADD file:aa9b51e9f0067860cebbc9930374452d1384ec3c59badb5e4733130eedc90329 in / "
 				},
@@ -919,7 +919,7 @@
 						"*"
 					],
 					"publishedDate": "2017-02-07T15:59:00Z",
-					"discoveredDate": "2023-09-23T10:57:19Z",
+					"discoveredDate": "2023-09-26T03:36:48Z",
 					"layerTime": "2023-08-16T06:01:54Z",
 					"layerInstruction": "ADD file:aa9b51e9f0067860cebbc9930374452d1384ec3c59badb5e4733130eedc90329 in / "
 				},
@@ -942,7 +942,7 @@
 						"*"
 					],
 					"publishedDate": "2023-08-02T05:15:00Z",
-					"discoveredDate": "2023-09-23T10:57:19Z",
+					"discoveredDate": "2023-09-26T03:36:48Z",
 					"layerTime": "2023-08-16T06:01:54Z",
 					"layerInstruction": "ADD file:aa9b51e9f0067860cebbc9930374452d1384ec3c59badb5e4733130eedc90329 in / "
 				},
@@ -957,14 +957,14 @@
 					"packageVersion": "12.3.0-1ubuntu1~22.04",
 					"link": "https://ubuntu.com/security/CVE-2022-27943",
 					"riskFactors": [
-						"Attack complexity: low",
-						"DoS - High"
+						"DoS - High",
+						"Attack complexity: low"
 					],
 					"impactedVersions": [
 						"*"
 					],
 					"publishedDate": "2022-03-26T13:15:00Z",
-					"discoveredDate": "2023-09-23T10:57:19Z",
+					"discoveredDate": "2023-09-26T03:36:48Z",
 					"layerTime": "2023-08-16T06:01:54Z",
 					"layerInstruction": "ADD file:aa9b51e9f0067860cebbc9930374452d1384ec3c59badb5e4733130eedc90329 in / "
 				},
@@ -987,7 +987,7 @@
 						"*"
 					],
 					"publishedDate": "2023-07-14T12:15:00Z",
-					"discoveredDate": "2023-09-23T10:57:19Z",
+					"discoveredDate": "2023-09-26T03:36:48Z",
 					"layerTime": "2023-08-16T06:01:54Z",
 					"layerInstruction": "ADD file:aa9b51e9f0067860cebbc9930374452d1384ec3c59badb5e4733130eedc90329 in / "
 				},
@@ -1009,7 +1009,7 @@
 						"*"
 					],
 					"publishedDate": "2023-04-14T22:15:00Z",
-					"discoveredDate": "2023-09-23T10:57:19Z",
+					"discoveredDate": "2023-09-26T03:36:48Z",
 					"layerTime": "2023-08-16T06:01:54Z",
 					"layerInstruction": "ADD file:aa9b51e9f0067860cebbc9930374452d1384ec3c59badb5e4733130eedc90329 in / "
 				},
@@ -1031,7 +1031,7 @@
 						"*"
 					],
 					"publishedDate": "2023-02-23T20:15:00Z",
-					"discoveredDate": "2023-09-23T10:57:19Z",
+					"discoveredDate": "2023-09-26T03:36:48Z",
 					"layerTime": "2023-08-16T06:01:54Z",
 					"layerInstruction": "ADD file:aa9b51e9f0067860cebbc9930374452d1384ec3c59badb5e4733130eedc90329 in / "
 				}
@@ -1094,7 +1094,7 @@
 					"instruction": "CMD [\"/bin/sh\" \"-c\" \"echo \\\"Hello world\\\"\"]"
 				}
 			],
-			"scanTime": "2023-09-23T10:57:23.457006609Z"
+			"scanTime": "2023-09-26T03:36:52.428463967Z"
 		}
 	],
 	"consoleURL": "https://app.eu.prismacloud.io/compute?computeState=/monitor/vulnerabilities/images/ci?search=sha256%3A0cf1f0a9778ad1a5769d260ff0985ce1a0c53860ee384ca6b8a71a3980770f8e"

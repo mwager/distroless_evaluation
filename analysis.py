@@ -6,6 +6,7 @@ Finally it will write a file called FINAL.json which can be used for final analy
 """
 from helpers import die, readFile, writeFile, prettyPrint, readTwistcliFile, fetch_cve_data, fetch_exploits
 import glob, json
+import time, requests
 
 
 RESULT_FOLDER = "results/twistcli"
@@ -14,18 +15,34 @@ FINAL = []
 
 print("# of JSON files to analyse: ", len(files))
 
+KEVCatalog = response = requests.get('https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json').json()
+
+print("length of CISA known exploited vulns catalog", len(KEVCatalog["vulnerabilities"]))
+
+def findKnownExploitation(cve):
+    for vul in KEVCatalog["vulnerabilities"]:
+        if vul["cveID"] == cve:
+            return vul
+
 # files = files[0:5]
 for filepath in files:
     data = readTwistcliFile(filepath)
     # data["vulnerabilityDistribution"]["total"]
 
-    print(data["meta"]["name"], data["meta"]["distro"], data["vulnerabilityDistribution"]["total"])
+    print(data["meta"]["name"], data["meta"]["distro"], " =====> COUNT: ", data["vulnerabilityDistribution"]["total"])
 
     packages = data["packages"]
     applications = data["applications"]
 
     for vul in data["vulns"]:
+        CVE = vul["id"]
+        # filter only high/critical or with exploit?
+        # NO. in FINAL we want ALL!
+
         # prettyPrint(vul)
+
+        # we want the image this vuln was found in at every vuln bc this is important for assessment
+        vul["imageFoundIn"] = data["meta"]["name"] + ' / ' + data["meta"]["distro"]
 
         # check the vuln TYPE (important as we ignore all runtime based vulns! We are NOT interested in issues like
         # JDK related or e.g. node v16 has critical vuln. We are ONLY interested in base image related "os" type vulns!)
@@ -40,7 +57,7 @@ for filepath in files:
                 vul["TYPE"]["type"] = pck["type"]
                 vul["TYPE"]["name"] = pck["name"]
 
-        print("YESSSSSSSS", vul["TYPE"])
+        print("TYPE...................... ", vul["TYPE"])
 
 
         # EDB: https://services.nvd.nist.gov/rest/json/cves/2.0?cveId=CVE-2022-3515
@@ -50,27 +67,32 @@ for filepath in files:
         # # https://contagiodump.blogspot.com/2010/06/overview-of-exploit-packs-update.html
 
         # fetch additional CVE meta data
-        cveData = fetch_cve_data(vul["id"])
+        cveData = fetch_cve_data(CVE)
         if (cveData):
+            print("GOT CVE DATA!")
             vul["cveDataFetched"] = cveData
 
         # search exploits available for CVE
         try:
-            exploitData = json.loads(fetch_exploits(vul["id"]))
+            exploitData = json.loads(fetch_exploits(CVE))
 
             if (len(exploitData["RESULTS_EXPLOIT"]) > 0):
                 vul["exploitData"] = exploitData["RESULTS_EXPLOIT"]
         except:
-            vul["exploitData"] = []
+            print("error fetching EDB ", CVE)
 
-        # print("\n")
+        # TODO !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+        # # USE MORE:
+        #https://docs.docker.com/scout/advisory-db-sources/
+
+        known = findKnownExploitation(CVE)
+        if known:
+            vul["knownExploit"] = known
+
+        # we need to sleep a bit to prevent rate limits with NVD CVE API
+        time.sleep(1)
 
     FINAL.append(data)
 
 writeFile("results/FINAL.json", json.dumps(FINAL, indent=2))
-
-
-print("========================")
-print("Einfach beschreiben was ich seh:")
-print("Total # of base images scanned: ", len(files))
-print("TODO: ALLE exploits found manuell näher analysieren dann, EASY! sind nicht viele. das wird RQ2 !!!")
+print("DONE")

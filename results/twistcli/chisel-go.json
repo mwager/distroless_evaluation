@@ -1,7 +1,7 @@
 {
 	"results": [
 		{
-			"id": "sha256:23ac0314eeb8edc366cba0e589d98186c7bd95c1e0ffda7579b4ae3e7042840c",
+			"id": "sha256:e037c85776161a903e6132dbf49c38aca7c75bf311c742e4c39a8ce37d2baf0f",
 			"name": "chisel-go:latest",
 			"distro": "",
 			"collections": [
@@ -44,19 +44,19 @@
 					"packageVersion": "1.18.1",
 					"link": "https://nvd.nist.gov/vuln/detail/CVE-2023-29405",
 					"riskFactors": [
+						"Attack complexity: low",
+						"Attack vector: network",
 						"Critical severity",
 						"DoS - High",
 						"Has fix",
 						"Recent vulnerability",
-						"Remote execution",
-						"Attack complexity: low",
-						"Attack vector: network"
+						"Remote execution"
 					],
 					"impactedVersions": [
 						"\u003c1.19.10"
 					],
 					"publishedDate": "2023-06-08T21:15:00Z",
-					"discoveredDate": "2023-09-23T10:58:53Z",
+					"discoveredDate": "2023-09-26T03:39:30Z",
 					"fixDate": "2023-06-16T15:00:09Z",
 					"layerTime": "2023-09-14T11:51:29Z",
 					"packagePath": "/https",
@@ -73,19 +73,19 @@
 					"packageVersion": "1.18.1",
 					"link": "https://nvd.nist.gov/vuln/detail/CVE-2023-29404",
 					"riskFactors": [
+						"Attack complexity: low",
+						"Attack vector: network",
 						"Critical severity",
 						"DoS - High",
 						"Has fix",
 						"Recent vulnerability",
-						"Remote execution",
-						"Attack complexity: low",
-						"Attack vector: network"
+						"Remote execution"
 					],
 					"impactedVersions": [
 						"\u003c1.19.10"
 					],
 					"publishedDate": "2023-06-08T21:15:00Z",
-					"discoveredDate": "2023-09-23T10:58:53Z",
+					"discoveredDate": "2023-09-26T03:39:30Z",
 					"fixDate": "2023-06-16T15:00:09Z",
 					"layerTime": "2023-09-14T11:51:29Z",
 					"packagePath": "/https",
@@ -102,18 +102,18 @@
 					"packageVersion": "1.18.1",
 					"link": "https://nvd.nist.gov/vuln/detail/CVE-2023-29402",
 					"riskFactors": [
-						"Attack complexity: low",
 						"Attack vector: network",
 						"Critical severity",
 						"DoS - High",
 						"Has fix",
-						"Recent vulnerability"
+						"Recent vulnerability",
+						"Attack complexity: low"
 					],
 					"impactedVersions": [
 						"\u003c1.19.10"
 					],
 					"publishedDate": "2023-06-08T21:15:00Z",
-					"discoveredDate": "2023-09-23T10:58:53Z",
+					"discoveredDate": "2023-09-26T03:39:30Z",
 					"fixDate": "2023-06-16T19:03:34Z",
 					"layerTime": "2023-09-14T11:51:29Z",
 					"packagePath": "/https",
@@ -141,7 +141,7 @@
 						"\u003c1.19.9"
 					],
 					"publishedDate": "2023-05-11T16:15:00Z",
-					"discoveredDate": "2023-09-23T10:58:53Z",
+					"discoveredDate": "2023-09-26T03:39:30Z",
 					"fixDate": "2023-05-22T22:14:11Z",
 					"layerTime": "2023-09-14T11:51:29Z",
 					"packagePath": "/https",
@@ -158,18 +158,18 @@
 					"packageVersion": "1.18.1",
 					"link": "https://nvd.nist.gov/vuln/detail/CVE-2023-24538",
 					"riskFactors": [
+						"Attack vector: network",
+						"Critical severity",
 						"DoS - High",
 						"Has fix",
 						"Recent vulnerability",
-						"Attack complexity: low",
-						"Attack vector: network",
-						"Critical severity"
+						"Attack complexity: low"
 					],
 					"impactedVersions": [
 						"\u003c1.19.8"
 					],
 					"publishedDate": "2023-04-06T16:15:00Z",
-					"discoveredDate": "2023-09-23T10:58:53Z",
+					"discoveredDate": "2023-09-26T03:39:30Z",
 					"fixDate": "2023-04-17T20:33:04Z",
 					"layerTime": "2023-09-14T11:51:29Z",
 					"packagePath": "/https",
@@ -186,17 +186,17 @@
 					"packageVersion": "1.18.1",
 					"link": "https://nvd.nist.gov/vuln/detail/CVE-2023-29403",
 					"riskFactors": [
-						"Attack complexity: low",
-						"DoS - High",
 						"Has fix",
 						"High severity",
-						"Recent vulnerability"
+						"Recent vulnerability",
+						"Attack complexity: low",
+						"DoS - High"
 					],
 					"impactedVersions": [
 						"\u003c1.19.10"
 					],
 					"publishedDate": "2023-06-08T21:15:00Z",
-					"discoveredDate": "2023-09-23T10:58:53Z",
+					"discoveredDate": "2023-09-26T03:39:30Z",
 					"fixDate": "2023-06-16T07:04:52Z",
 					"layerTime": "2023-09-14T11:51:29Z",
 					"packagePath": "/https",
@@ -223,7 +223,7 @@
 						"\u003e=1.18.0,1.18"
 					],
 					"publishedDate": "2022-08-10T20:15:00Z",
-					"discoveredDate": "2023-09-23T10:58:53Z",
+					"discoveredDate": "2023-09-26T03:39:30Z",
 					"fixDate": "2022-08-10T20:15:00Z",
 					"layerTime": "2023-09-14T11:51:29Z",
 					"packagePath": "/https",
@@ -240,18 +240,18 @@
 					"packageVersion": "1.18.1",
 					"link": "https://nvd.nist.gov/vuln/detail/CVE-2023-39533",
 					"riskFactors": [
+						"Recent vulnerability",
+						"Attack complexity: low",
 						"Attack vector: network",
 						"DoS - High",
 						"Has fix",
-						"High severity",
-						"Recent vulnerability",
-						"Attack complexity: low"
+						"High severity"
 					],
 					"impactedVersions": [
 						"\u003c1.19.12"
 					],
 					"publishedDate": "2023-08-09T13:18:18Z",
-					"discoveredDate": "2023-09-23T10:58:53Z",
+					"discoveredDate": "2023-09-26T03:39:30Z",
 					"fixDate": "2023-08-15T23:21:13Z",
 					"layerTime": "2023-09-14T11:51:29Z",
 					"packagePath": "/https",
@@ -268,18 +268,18 @@
 					"packageVersion": "1.18.1",
 					"link": "https://nvd.nist.gov/vuln/detail/CVE-2023-24537",
 					"riskFactors": [
-						"DoS - High",
-						"Has fix",
 						"High severity",
 						"Recent vulnerability",
 						"Attack complexity: low",
-						"Attack vector: network"
+						"Attack vector: network",
+						"DoS - High",
+						"Has fix"
 					],
 					"impactedVersions": [
 						"\u003c1.19.8"
 					],
 					"publishedDate": "2023-04-06T16:15:00Z",
-					"discoveredDate": "2023-09-23T10:58:53Z",
+					"discoveredDate": "2023-09-26T03:39:30Z",
 					"fixDate": "2023-04-13T20:42:14Z",
 					"layerTime": "2023-09-14T11:51:29Z",
 					"packagePath": "/https",
@@ -307,7 +307,7 @@
 						"\u003c1.19.8"
 					],
 					"publishedDate": "2023-04-06T16:15:00Z",
-					"discoveredDate": "2023-09-23T10:58:53Z",
+					"discoveredDate": "2023-09-26T03:39:30Z",
 					"fixDate": "2023-04-17T20:33:04Z",
 					"layerTime": "2023-09-14T11:51:29Z",
 					"packagePath": "/https",
@@ -335,7 +335,7 @@
 						"\u003c1.19.8"
 					],
 					"publishedDate": "2023-04-06T16:15:00Z",
-					"discoveredDate": "2023-09-23T10:58:53Z",
+					"discoveredDate": "2023-09-26T03:39:30Z",
 					"fixDate": "2023-04-18T21:34:53Z",
 					"layerTime": "2023-09-14T11:51:29Z",
 					"packagePath": "/https",
@@ -352,17 +352,17 @@
 					"packageVersion": "1.18.1",
 					"link": "https://nvd.nist.gov/vuln/detail/CVE-2022-41725",
 					"riskFactors": [
-						"Attack vector: network",
-						"DoS - High",
 						"Has fix",
 						"High severity",
-						"Attack complexity: low"
+						"Attack complexity: low",
+						"Attack vector: network",
+						"DoS - High"
 					],
 					"impactedVersions": [
 						"\u003c1.19.6"
 					],
 					"publishedDate": "2023-02-28T18:15:00Z",
-					"discoveredDate": "2023-09-23T10:58:53Z",
+					"discoveredDate": "2023-09-26T03:39:30Z",
 					"fixDate": "2023-03-10T07:13:47Z",
 					"layerTime": "2023-09-14T11:51:29Z",
 					"packagePath": "/https",
@@ -379,17 +379,17 @@
 					"packageVersion": "1.18.1",
 					"link": "https://nvd.nist.gov/vuln/detail/CVE-2022-41724",
 					"riskFactors": [
-						"High severity",
 						"Attack complexity: low",
 						"Attack vector: network",
 						"DoS - High",
-						"Has fix"
+						"Has fix",
+						"High severity"
 					],
 					"impactedVersions": [
 						"\u003c1.19.6"
 					],
 					"publishedDate": "2023-02-28T18:15:00Z",
-					"discoveredDate": "2023-09-23T10:58:53Z",
+					"discoveredDate": "2023-09-26T03:39:30Z",
 					"fixDate": "2023-03-10T07:13:47Z",
 					"layerTime": "2023-09-14T11:51:29Z",
 					"packagePath": "/https",
@@ -406,17 +406,17 @@
 					"packageVersion": "1.18.1",
 					"link": "https://nvd.nist.gov/vuln/detail/CVE-2022-41723",
 					"riskFactors": [
-						"DoS - High",
 						"Has fix",
 						"High severity",
 						"Attack complexity: low",
-						"Attack vector: network"
+						"Attack vector: network",
+						"DoS - High"
 					],
 					"impactedVersions": [
 						"\u003c1.19.6"
 					],
 					"publishedDate": "2023-02-28T18:15:00Z",
-					"discoveredDate": "2023-09-23T10:58:53Z",
+					"discoveredDate": "2023-09-26T03:39:30Z",
 					"fixDate": "2023-03-09T19:12:17Z",
 					"layerTime": "2023-09-14T11:51:29Z",
 					"packagePath": "/https",
@@ -433,16 +433,16 @@
 					"packageVersion": "1.18.1",
 					"link": "https://nvd.nist.gov/vuln/detail/CVE-2022-41716",
 					"riskFactors": [
+						"Has fix",
 						"High severity",
 						"Attack complexity: low",
-						"Attack vector: network",
-						"Has fix"
+						"Attack vector: network"
 					],
 					"impactedVersions": [
 						"\u003c1.18.8"
 					],
 					"publishedDate": "2022-11-02T16:15:00Z",
-					"discoveredDate": "2023-09-23T10:58:53Z",
+					"discoveredDate": "2023-09-26T03:39:30Z",
 					"fixDate": "2022-11-03T00:00:00Z",
 					"layerTime": "2023-09-14T11:51:29Z",
 					"packagePath": "/https",
@@ -459,45 +459,18 @@
 					"packageVersion": "1.18.1",
 					"link": "https://nvd.nist.gov/vuln/detail/CVE-2022-41715",
 					"riskFactors": [
-						"Attack complexity: low",
-						"Attack vector: network",
 						"DoS - High",
 						"Has fix",
-						"High severity"
+						"High severity",
+						"Attack complexity: low",
+						"Attack vector: network"
 					],
 					"impactedVersions": [
 						"\u003c1.18.7"
 					],
 					"publishedDate": "2022-10-14T15:16:00Z",
-					"discoveredDate": "2023-09-23T10:58:53Z",
+					"discoveredDate": "2023-09-26T03:39:30Z",
 					"fixDate": "2022-10-14T15:16:00Z",
-					"layerTime": "2023-09-14T11:51:29Z",
-					"packagePath": "/https",
-					"layerInstruction": "COPY /go/src/app/https / # buildkit"
-				},
-				{
-					"id": "CVE-2022-32190",
-					"status": "fixed in 1.19.1, 1.18.6",
-					"cvss": 7.5,
-					"vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N",
-					"description": "JoinPath and URL.JoinPath do not remove ../ path elements appended to a relative path. For example, JoinPath(\\\"https://go.dev\\\", \\\"../go\\\") returns the URL \\\"https://go.dev/../go\\\", despite the JoinPath documentation stating that ../ path elements are removed from the result.",
-					"severity": "high",
-					"packageName": "go",
-					"packageVersion": "1.18.1",
-					"link": "https://nvd.nist.gov/vuln/detail/CVE-2022-32190",
-					"riskFactors": [
-						"Attack complexity: low",
-						"Attack vector: network",
-						"Has fix",
-						"High severity"
-					],
-					"impactedVersions": [
-						"\u003c1.18.6",
-						"\u003e=1.18.0"
-					],
-					"publishedDate": "2022-09-13T18:15:00Z",
-					"discoveredDate": "2023-09-23T10:58:53Z",
-					"fixDate": "2022-09-13T18:15:00Z",
 					"layerTime": "2023-09-14T11:51:29Z",
 					"packagePath": "/https",
 					"layerInstruction": "COPY /go/src/app/https / # buildkit"
@@ -513,18 +486,18 @@
 					"packageVersion": "1.18.1",
 					"link": "https://nvd.nist.gov/vuln/detail/CVE-2022-32189",
 					"riskFactors": [
+						"Attack vector: network",
 						"DoS - High",
 						"Has fix",
 						"High severity",
-						"Attack complexity: low",
-						"Attack vector: network"
+						"Attack complexity: low"
 					],
 					"impactedVersions": [
 						"\u003c1.18.5,1.18",
 						"\u003e=1.18.0,1.18"
 					],
 					"publishedDate": "2022-08-10T20:15:00Z",
-					"discoveredDate": "2023-09-23T10:58:53Z",
+					"discoveredDate": "2023-09-26T03:39:30Z",
 					"fixDate": "2022-08-10T20:15:00Z",
 					"layerTime": "2023-09-14T11:51:29Z",
 					"packagePath": "/https",
@@ -541,18 +514,18 @@
 					"packageVersion": "1.18.1",
 					"link": "https://nvd.nist.gov/vuln/detail/CVE-2022-30635",
 					"riskFactors": [
-						"Has fix",
-						"High severity",
 						"Attack complexity: low",
 						"Attack vector: network",
-						"DoS - High"
+						"DoS - High",
+						"Has fix",
+						"High severity"
 					],
 					"impactedVersions": [
 						"\u003e=1.18.0,1.18",
 						"\u003c1.18.4,1.18"
 					],
 					"publishedDate": "2022-08-10T20:15:00Z",
-					"discoveredDate": "2023-09-23T10:58:53Z",
+					"discoveredDate": "2023-09-26T03:39:30Z",
 					"fixDate": "2022-08-10T20:15:00Z",
 					"layerTime": "2023-09-14T11:51:29Z",
 					"packagePath": "/https",
@@ -569,18 +542,18 @@
 					"packageVersion": "1.18.1",
 					"link": "https://nvd.nist.gov/vuln/detail/CVE-2022-30633",
 					"riskFactors": [
+						"High severity",
 						"Attack complexity: low",
 						"Attack vector: network",
 						"DoS - High",
-						"Has fix",
-						"High severity"
+						"Has fix"
 					],
 					"impactedVersions": [
 						"\u003c1.18.4,1.18",
 						"\u003e=1.18.0,1.18"
 					],
 					"publishedDate": "2022-08-10T20:15:00Z",
-					"discoveredDate": "2023-09-23T10:58:53Z",
+					"discoveredDate": "2023-09-26T03:39:30Z",
 					"fixDate": "2022-08-10T20:15:00Z",
 					"layerTime": "2023-09-14T11:51:29Z",
 					"packagePath": "/https",
@@ -608,7 +581,7 @@
 						"\u003e=1.18.0,1.18"
 					],
 					"publishedDate": "2022-08-10T20:15:00Z",
-					"discoveredDate": "2023-09-23T10:58:53Z",
+					"discoveredDate": "2023-09-26T03:39:30Z",
 					"fixDate": "2022-08-10T20:15:00Z",
 					"layerTime": "2023-09-14T11:51:29Z",
 					"packagePath": "/https",
@@ -625,18 +598,18 @@
 					"packageVersion": "1.18.1",
 					"link": "https://nvd.nist.gov/vuln/detail/CVE-2022-30631",
 					"riskFactors": [
+						"High severity",
 						"Attack complexity: low",
 						"Attack vector: network",
 						"DoS - High",
-						"Has fix",
-						"High severity"
+						"Has fix"
 					],
 					"impactedVersions": [
 						"\u003c1.18.4,1.18",
 						"\u003e=1.18.0,1.18"
 					],
 					"publishedDate": "2022-08-10T20:15:00Z",
-					"discoveredDate": "2023-09-23T10:58:53Z",
+					"discoveredDate": "2023-09-26T03:39:30Z",
 					"fixDate": "2022-08-10T20:15:00Z",
 					"layerTime": "2023-09-14T11:51:29Z",
 					"packagePath": "/https",
@@ -653,18 +626,18 @@
 					"packageVersion": "1.18.1",
 					"link": "https://nvd.nist.gov/vuln/detail/CVE-2022-30630",
 					"riskFactors": [
+						"DoS - High",
 						"Has fix",
 						"High severity",
 						"Attack complexity: low",
-						"Attack vector: network",
-						"DoS - High"
+						"Attack vector: network"
 					],
 					"impactedVersions": [
 						"\u003c1.18.4,1.18",
 						"\u003e=1.18.0,1.18"
 					],
 					"publishedDate": "2022-08-10T20:15:00Z",
-					"discoveredDate": "2023-09-23T10:58:53Z",
+					"discoveredDate": "2023-09-26T03:39:30Z",
 					"fixDate": "2022-08-10T20:15:00Z",
 					"layerTime": "2023-09-14T11:51:29Z",
 					"packagePath": "/https",
@@ -681,16 +654,16 @@
 					"packageVersion": "1.18.1",
 					"link": "https://nvd.nist.gov/vuln/detail/CVE-2022-2880",
 					"riskFactors": [
+						"Attack complexity: low",
 						"Attack vector: network",
 						"Has fix",
-						"High severity",
-						"Attack complexity: low"
+						"High severity"
 					],
 					"impactedVersions": [
 						"\u003c1.18.7"
 					],
 					"publishedDate": "2022-10-14T15:15:00Z",
-					"discoveredDate": "2023-09-23T10:58:53Z",
+					"discoveredDate": "2023-09-26T03:39:30Z",
 					"fixDate": "2022-10-14T15:15:00Z",
 					"layerTime": "2023-09-14T11:51:29Z",
 					"packagePath": "/https",
@@ -707,17 +680,17 @@
 					"packageVersion": "1.18.1",
 					"link": "https://nvd.nist.gov/vuln/detail/CVE-2022-2879",
 					"riskFactors": [
+						"Attack complexity: low",
+						"Attack vector: network",
 						"DoS - High",
 						"Has fix",
-						"High severity",
-						"Attack complexity: low",
-						"Attack vector: network"
+						"High severity"
 					],
 					"impactedVersions": [
 						"\u003c1.18.7"
 					],
 					"publishedDate": "2022-10-14T15:15:00Z",
-					"discoveredDate": "2023-09-23T10:58:53Z",
+					"discoveredDate": "2023-09-26T03:39:30Z",
 					"fixDate": "2022-10-14T15:15:00Z",
 					"layerTime": "2023-09-14T11:51:29Z",
 					"packagePath": "/https",
@@ -734,18 +707,18 @@
 					"packageVersion": "1.18.1",
 					"link": "https://nvd.nist.gov/vuln/detail/CVE-2022-28131",
 					"riskFactors": [
-						"Has fix",
-						"High severity",
 						"Attack complexity: low",
 						"Attack vector: network",
-						"DoS - High"
+						"DoS - High",
+						"Has fix",
+						"High severity"
 					],
 					"impactedVersions": [
 						"\u003c1.18.4,1.18",
 						"\u003e=1.18.0,1.18"
 					],
 					"publishedDate": "2022-08-10T20:15:00Z",
-					"discoveredDate": "2023-09-23T10:58:53Z",
+					"discoveredDate": "2023-09-26T03:39:30Z",
 					"fixDate": "2022-08-10T20:15:00Z",
 					"layerTime": "2023-09-14T11:51:29Z",
 					"packagePath": "/https",
@@ -762,17 +735,17 @@
 					"packageVersion": "1.18.1",
 					"link": "https://nvd.nist.gov/vuln/detail/CVE-2022-27664",
 					"riskFactors": [
+						"High severity",
 						"Attack complexity: low",
 						"Attack vector: network",
 						"DoS - High",
-						"Has fix",
-						"High severity"
+						"Has fix"
 					],
 					"impactedVersions": [
 						"\u003c1.18.6"
 					],
 					"publishedDate": "2022-09-06T18:15:00Z",
-					"discoveredDate": "2023-09-23T10:58:53Z",
+					"discoveredDate": "2023-09-26T03:39:30Z",
 					"fixDate": "2022-09-06T18:15:00Z",
 					"layerTime": "2023-09-14T11:51:29Z",
 					"packagePath": "/https",
@@ -789,18 +762,18 @@
 					"packageVersion": "1.18.1",
 					"link": "https://nvd.nist.gov/vuln/detail/CVE-2023-29400",
 					"riskFactors": [
-						"Attack vector: network",
-						"DoS - Low",
 						"Has fix",
 						"High severity",
 						"Recent vulnerability",
-						"Attack complexity: low"
+						"Attack complexity: low",
+						"Attack vector: network",
+						"DoS - Low"
 					],
 					"impactedVersions": [
 						"\u003c1.19.9"
 					],
 					"publishedDate": "2023-05-11T16:15:00Z",
-					"discoveredDate": "2023-09-23T10:58:53Z",
+					"discoveredDate": "2023-09-26T03:39:30Z",
 					"fixDate": "2023-05-22T22:14:11Z",
 					"layerTime": "2023-09-14T11:51:29Z",
 					"packagePath": "/https",
@@ -817,18 +790,18 @@
 					"packageVersion": "1.18.1",
 					"link": "https://nvd.nist.gov/vuln/detail/CVE-2023-24539",
 					"riskFactors": [
-						"High severity",
-						"Recent vulnerability",
-						"Attack complexity: low",
 						"Attack vector: network",
 						"DoS - Low",
-						"Has fix"
+						"Has fix",
+						"High severity",
+						"Recent vulnerability",
+						"Attack complexity: low"
 					],
 					"impactedVersions": [
 						"\u003c1.19.9"
 					],
 					"publishedDate": "2023-05-11T16:15:00Z",
-					"discoveredDate": "2023-09-23T10:58:53Z",
+					"discoveredDate": "2023-09-26T03:39:30Z",
 					"fixDate": "2023-05-22T22:14:11Z",
 					"layerTime": "2023-09-14T11:51:29Z",
 					"packagePath": "/https",
@@ -855,7 +828,7 @@
 						"\u003c1.19.11"
 					],
 					"publishedDate": "2023-07-11T20:15:00Z",
-					"discoveredDate": "2023-09-23T10:58:53Z",
+					"discoveredDate": "2023-09-26T03:39:30Z",
 					"fixDate": "2023-07-19T21:03:41Z",
 					"layerTime": "2023-09-14T11:51:29Z",
 					"packagePath": "/https",
@@ -882,7 +855,7 @@
 						"\u003e=1.18.0,1.18"
 					],
 					"publishedDate": "2022-08-10T20:15:00Z",
-					"discoveredDate": "2023-09-23T10:58:53Z",
+					"discoveredDate": "2023-09-26T03:39:30Z",
 					"fixDate": "2022-08-10T20:15:00Z",
 					"layerTime": "2023-09-14T11:51:29Z",
 					"packagePath": "/https",
@@ -909,7 +882,7 @@
 						"\u003c1.18.4,1.18"
 					],
 					"publishedDate": "2022-08-10T20:15:00Z",
-					"discoveredDate": "2023-09-23T10:58:53Z",
+					"discoveredDate": "2023-09-26T03:39:30Z",
 					"fixDate": "2022-08-10T20:15:00Z",
 					"layerTime": "2023-09-14T11:51:29Z",
 					"packagePath": "/https",
@@ -936,7 +909,7 @@
 						"\u003c1.20.8"
 					],
 					"publishedDate": "2023-09-08T17:15:00Z",
-					"discoveredDate": "2023-09-23T10:58:53Z",
+					"discoveredDate": "2023-09-26T03:39:30Z",
 					"fixDate": "2023-09-13T16:02:30Z",
 					"layerTime": "2023-09-14T11:51:29Z",
 					"packagePath": "/https",
@@ -953,17 +926,17 @@
 					"packageVersion": "1.18.1",
 					"link": "https://nvd.nist.gov/vuln/detail/CVE-2023-39318",
 					"riskFactors": [
-						"Recent vulnerability",
 						"Attack complexity: low",
 						"Attack vector: network",
 						"Has fix",
-						"Medium severity"
+						"Medium severity",
+						"Recent vulnerability"
 					],
 					"impactedVersions": [
 						"\u003c1.20.8"
 					],
 					"publishedDate": "2023-09-08T17:15:00Z",
-					"discoveredDate": "2023-09-23T10:58:53Z",
+					"discoveredDate": "2023-09-26T03:39:30Z",
 					"fixDate": "2023-09-13T16:02:30Z",
 					"layerTime": "2023-09-14T11:51:29Z",
 					"packagePath": "/https",
@@ -990,7 +963,7 @@
 						"\u003e=1.18.0,1.18"
 					],
 					"publishedDate": "2022-08-10T20:15:00Z",
-					"discoveredDate": "2023-09-23T10:58:53Z",
+					"discoveredDate": "2023-09-26T03:39:30Z",
 					"fixDate": "2022-08-10T20:15:00Z",
 					"layerTime": "2023-09-14T11:51:29Z",
 					"packagePath": "/https",
@@ -1018,7 +991,7 @@
 						"\u003c1.19.12"
 					],
 					"publishedDate": "2023-08-02T20:15:00Z",
-					"discoveredDate": "2023-09-23T10:58:53Z",
+					"discoveredDate": "2023-09-26T03:39:30Z",
 					"fixDate": "2023-08-11T23:26:24Z",
 					"layerTime": "2023-09-14T11:51:29Z",
 					"packagePath": "/https",
@@ -1035,16 +1008,16 @@
 					"packageVersion": "1.18.1",
 					"link": "https://nvd.nist.gov/vuln/detail/CVE-2023-24532",
 					"riskFactors": [
+						"Medium severity",
 						"Attack complexity: low",
 						"Attack vector: network",
-						"Has fix",
-						"Medium severity"
+						"Has fix"
 					],
 					"impactedVersions": [
 						"\u003c1.19.7"
 					],
 					"publishedDate": "2023-03-08T20:15:00Z",
-					"discoveredDate": "2023-09-23T10:58:53Z",
+					"discoveredDate": "2023-09-26T03:39:30Z",
 					"fixDate": "2023-03-15T19:13:34Z",
 					"layerTime": "2023-09-14T11:51:29Z",
 					"packagePath": "/https",
@@ -1061,17 +1034,17 @@
 					"packageVersion": "1.18.1",
 					"link": "https://nvd.nist.gov/vuln/detail/CVE-2022-41717",
 					"riskFactors": [
+						"Attack vector: network",
+						"DoS - Low",
 						"Has fix",
 						"Medium severity",
-						"Attack complexity: low",
-						"Attack vector: network",
-						"DoS - Low"
+						"Attack complexity: low"
 					],
 					"impactedVersions": [
 						"\u003c1.18.9"
 					],
 					"publishedDate": "2022-12-08T20:15:00Z",
-					"discoveredDate": "2023-09-23T10:58:53Z",
+					"discoveredDate": "2023-09-26T03:39:30Z",
 					"fixDate": "2022-12-12T20:49:47Z",
 					"layerTime": "2023-09-14T11:51:29Z",
 					"packagePath": "/https",
@@ -1096,7 +1069,7 @@
 						"\u003c1.18.3,1.18"
 					],
 					"publishedDate": "2022-08-10T20:15:00Z",
-					"discoveredDate": "2023-09-23T10:58:53Z",
+					"discoveredDate": "2023-09-26T03:39:30Z",
 					"fixDate": "2022-08-10T20:15:00Z",
 					"layerTime": "2023-09-14T11:51:29Z",
 					"packagePath": "/https",
@@ -1105,10 +1078,10 @@
 			],
 			"vulnerabilityDistribution": {
 				"critical": 5,
-				"high": 24,
+				"high": 23,
 				"medium": 9,
 				"low": 1,
-				"total": 39
+				"total": 38
 			},
 			"vulnerabilityScanPassed": false,
 			"history": [
@@ -1131,10 +1104,14 @@
 				{
 					"created": "2023-09-14T11:51:29Z",
 					"instruction": "CMD [\"/bin/sh\" \"-c\" \"echo \\\"Hello world\\\"\"]"
+				},
+				{
+					"created": "2023-09-14T11:51:29Z",
+					"instruction": "CMD [\"/bin/sh\" \"-c\" \"echo \\\"Hello world\\\"\"]"
 				}
 			],
-			"scanTime": "2023-09-23T10:58:54.283783195Z"
+			"scanTime": "2023-09-26T03:39:31.441509538Z"
 		}
 	],
-	"consoleURL": "https://app.eu.prismacloud.io/compute?computeState=/monitor/vulnerabilities/images/ci?search=sha256%3A23ac0314eeb8edc366cba0e589d98186c7bd95c1e0ffda7579b4ae3e7042840c"
+	"consoleURL": "https://app.eu.prismacloud.io/compute?computeState=/monitor/vulnerabilities/images/ci?search=sha256%3Ae037c85776161a903e6132dbf49c38aca7c75bf311c742e4c39a8ce37d2baf0f"
 }

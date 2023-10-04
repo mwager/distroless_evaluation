@@ -59,14 +59,6 @@
 				},
 				{
 					"type": "os",
-					"name": "gcc",
-					"version": "13.2.0-r3",
-					"licenses": [
-						"GPL-3.0-or-later"
-					]
-				},
-				{
-					"type": "os",
 					"name": "fontconfig",
 					"version": "2.14.2-r2",
 					"licenses": [
@@ -122,6 +114,14 @@
 					]
 				},
 				{
+					"type": "os",
+					"name": "gcc",
+					"version": "13.2.0-r3",
+					"licenses": [
+						"GPL-3.0-or-later"
+					]
+				},
+				{
 					"type": "jar",
 					"name": "jrt-fs",
 					"version": "17.0.9",
@@ -161,7 +161,7 @@
 					"instruction": "CMD [\"/bin/sh\" \"-c\" \"echo \\\"Hello world\\\"\"]"
 				}
 			],
-			"scanTime": "2023-09-23T10:59:31.119778558Z"
+			"scanTime": "2023-09-26T03:40:08.243627117Z"
 		}
 	],
 	"consoleURL": "https://app.eu.prismacloud.io/compute?computeState=/monitor/vulnerabilities/images/ci?search=sha256%3A3f204a343db5b1dda19636b4acecd3eeba1992b73a33f7a26a1d39492703c16b"
