@@ -1,7 +1,7 @@
 {
 	"results": [
 		{
-			"id": "sha256:467d69a00613441f4bbaa566665899a250c7fc20dfd976750067f9b769c434c8",
+			"id": "sha256:672efa6b3d90f14691769e726be39934f1f600c29ec16d217ad310061de499f4",
 			"name": "cgr.dev-chainguard-php_latest:latest",
 			"distro": "Wolfi",
 			"distroRelease": "20230201",
@@ -28,7 +28,7 @@
 				{
 					"type": "os",
 					"name": "libxml2",
-					"version": "2.11.5-r0",
+					"version": "2.11.5-r1",
 					"licenses": [
 						"MIT"
 					]
@@ -67,48 +67,8 @@
 				},
 				{
 					"type": "os",
-					"name": "php-8.2",
-					"version": "8.2.10-r4",
-					"licenses": [
-						"PHP-3.01"
-					]
-				},
-				{
-					"type": "os",
 					"name": "curl",
 					"version": "8.3.0-r1",
-					"licenses": [
-						"MIT"
-					]
-				},
-				{
-					"type": "os",
-					"name": "glibc",
-					"version": "2.38-r2",
-					"licenses": [
-						"GPL-3.0-or-later"
-					]
-				},
-				{
-					"type": "os",
-					"name": "ca-certificates",
-					"version": "20230506-r0",
-					"licenses": [
-						"MPL-2.0 AND MIT"
-					]
-				},
-				{
-					"type": "os",
-					"name": "sqlite",
-					"version": "3.43.0-r0",
-					"licenses": [
-						"blessing"
-					]
-				},
-				{
-					"type": "os",
-					"name": "ncurses",
-					"version": "6.4-r2",
 					"licenses": [
 						"MIT"
 					]
@@ -136,12 +96,52 @@
 					"licenses": [
 						"MIT"
 					]
+				},
+				{
+					"type": "os",
+					"name": "glibc",
+					"version": "2.38-r5",
+					"licenses": [
+						"GPL-3.0-or-later"
+					]
+				},
+				{
+					"type": "os",
+					"name": "ca-certificates",
+					"version": "20230506-r0",
+					"licenses": [
+						"MPL-2.0 AND MIT"
+					]
+				},
+				{
+					"type": "os",
+					"name": "php-8.2",
+					"version": "8.2.11-r2",
+					"licenses": [
+						"PHP-3.01"
+					]
+				},
+				{
+					"type": "os",
+					"name": "sqlite",
+					"version": "3.43.0-r0",
+					"licenses": [
+						"blessing"
+					]
+				},
+				{
+					"type": "os",
+					"name": "ncurses",
+					"version": "6.4-r2",
+					"licenses": [
+						"MIT"
+					]
 				}
 			],
 			"applications": [
 				{
 					"name": "php",
-					"version": "8.2.10",
+					"version": "8.2.11",
 					"path": "/usr/bin/php"
 				}
 			],
@@ -163,16 +163,16 @@
 			"vulnerabilityScanPassed": true,
 			"history": [
 				{
-					"created": "2023-09-22T16:33:27Z",
+					"created": "2023-10-09T12:41:17Z",
 					"instruction": "RUN apko"
 				},
 				{
-					"created": "2023-09-22T16:33:27Z",
+					"created": "2023-10-09T12:41:17Z",
 					"instruction": "CMD [\"/bin/sh\" \"-c\" \"echo \\\"Hello world\\\"\"]"
 				}
 			],
-			"scanTime": "2023-09-26T03:40:12.346081384Z"
+			"scanTime": "2023-10-10T04:02:53.29659461Z"
 		}
 	],
-	"consoleURL": "https://app.eu.prismacloud.io/compute?computeState=/monitor/vulnerabilities/images/ci?search=sha256%3A467d69a00613441f4bbaa566665899a250c7fc20dfd976750067f9b769c434c8"
+	"consoleURL": "https://app.eu.prismacloud.io/compute?computeState=/monitor/vulnerabilities/images/ci?search=sha256%3A672efa6b3d90f14691769e726be39934f1f600c29ec16d217ad310061de499f4"
 }

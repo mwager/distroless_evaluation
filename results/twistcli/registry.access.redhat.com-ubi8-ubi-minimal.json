@@ -1,7 +1,7 @@
 {
 	"results": [
 		{
-			"id": "sha256:3671af934314034920606f4ec45c476c4252889b2f3050abbd2ce708bac9e556",
+			"id": "sha256:715b834f15fe178574b3461ea19696170691e98b5258eac2e9b0762a991775d5",
 			"name": "registry.access.redhat.com-ubi8-ubi-minimal:latest",
 			"distro": "Red Hat Enterprise Linux release 8.8 (Ootpa)",
 			"distroRelease": "RHEL8",
@@ -13,6 +13,14 @@
 					"type": "os",
 					"name": "crypto-policies",
 					"version": "20221215-1.gitece0092.el8",
+					"licenses": [
+						"LGPLv2+"
+					]
+				},
+				{
+					"type": "os",
+					"name": "libssh-config",
+					"version": "0.9.6-10.el8_8",
 					"licenses": [
 						"LGPLv2+"
 					]
@@ -35,14 +43,6 @@
 				},
 				{
 					"type": "os",
-					"name": "publicsuffix-list-dafsa",
-					"version": "20180723-1.el8",
-					"licenses": [
-						"MPLv2.0"
-					]
-				},
-				{
-					"type": "os",
 					"name": "pcre2",
 					"version": "10.32-3.el8_6",
 					"licenses": [
@@ -59,8 +59,8 @@
 				},
 				{
 					"type": "os",
-					"name": "glibc-common",
-					"version": "2.28-225.el8",
+					"name": "glibc-minimal-langpack",
+					"version": "2.28-225.el8_8.6",
 					"licenses": [
 						"LGPLv2+ and LGPLv2+ with exceptions and GPLv2+ and GPLv2+ with exceptions and BSD and Inner-Net and ISC and Public Domain and GFDL"
 					]
@@ -107,10 +107,10 @@
 				},
 				{
 					"type": "os",
-					"name": "libcom_err",
-					"version": "1.45.6-5.el8",
+					"name": "libzstd",
+					"version": "1.4.4-1.el8",
 					"licenses": [
-						"MIT"
+						"BSD and GPLv2"
 					]
 				},
 				{
@@ -171,18 +171,10 @@
 				},
 				{
 					"type": "os",
-					"name": "libsmartcols",
-					"version": "2.32.1-42.el8_8",
+					"name": "libtasn1",
+					"version": "4.13-4.el8_7",
 					"licenses": [
-						"LGPLv2+"
-					]
-				},
-				{
-					"type": "os",
-					"name": "libuuid",
-					"version": "2.32.1-42.el8_8",
-					"licenses": [
-						"BSD"
+						"GPLv3+ and LGPLv2+"
 					]
 				},
 				{
@@ -199,6 +191,14 @@
 					"version": "3.1-6.el8",
 					"licenses": [
 						"GPLv3+"
+					]
+				},
+				{
+					"type": "os",
+					"name": "libuuid",
+					"version": "2.32.1-42.el8_8",
+					"licenses": [
+						"BSD"
 					]
 				},
 				{
@@ -239,422 +239,6 @@
 					"version": "5.3.28-42.el8_4",
 					"licenses": [
 						"BSD and LGPLv2 and Sleepycat"
-					]
-				},
-				{
-					"type": "os",
-					"name": "libpsl",
-					"version": "0.20.2-6.el8",
-					"licenses": [
-						"MIT"
-					]
-				},
-				{
-					"type": "os",
-					"name": "nettle",
-					"version": "3.4.1-7.el8",
-					"licenses": [
-						"LGPLv3+ or GPLv2+"
-					]
-				},
-				{
-					"type": "os",
-					"name": "glib2",
-					"version": "2.56.4-161.el8",
-					"licenses": [
-						"LGPLv2+"
-					]
-				},
-				{
-					"type": "os",
-					"name": "librhsm",
-					"version": "0.0.3-5.el8",
-					"licenses": [
-						"LGPLv2+"
-					]
-				},
-				{
-					"type": "os",
-					"name": "libpeas",
-					"version": "1.22.0-6.el8",
-					"licenses": [
-						"LGPLv2+"
-					]
-				},
-				{
-					"type": "os",
-					"name": "file-libs",
-					"version": "5.33-24.el8",
-					"licenses": [
-						"BSD"
-					]
-				},
-				{
-					"type": "os",
-					"name": "json-c",
-					"version": "0.13.1-3.el8",
-					"licenses": [
-						"MIT"
-					]
-				},
-				{
-					"type": "os",
-					"name": "libcap-ng",
-					"version": "0.7.11-1.el8",
-					"licenses": [
-						"LGPLv2+"
-					]
-				},
-				{
-					"type": "os",
-					"name": "libnghttp2",
-					"version": "1.33.0-3.el8_2.1",
-					"licenses": [
-						"MIT"
-					]
-				},
-				{
-					"type": "os",
-					"name": "gawk",
-					"version": "4.2.1-4.el8",
-					"licenses": [
-						"GPLv3+ and GPLv2+ and LGPLv2+ and BSD"
-					]
-				},
-				{
-					"type": "os",
-					"name": "libverto",
-					"version": "0.3.2-2.el8",
-					"licenses": [
-						"MIT"
-					]
-				},
-				{
-					"type": "os",
-					"name": "libxcrypt",
-					"version": "4.1.1-6.el8",
-					"licenses": [
-						"LGPLv2+ and BSD and Public Domain"
-					]
-				},
-				{
-					"type": "os",
-					"name": "openldap",
-					"version": "2.4.46-18.el8",
-					"licenses": [
-						"OpenLDAP"
-					]
-				},
-				{
-					"type": "os",
-					"name": "npth",
-					"version": "1.5-4.el8",
-					"licenses": [
-						"LGPLv2+"
-					]
-				},
-				{
-					"type": "os",
-					"name": "gpgme",
-					"version": "1.13.1-11.el8",
-					"licenses": [
-						"LGPLv2+ and GPLv3+"
-					]
-				},
-				{
-					"type": "os",
-					"name": "libssh",
-					"version": "0.9.6-10.el8_8",
-					"licenses": [
-						"LGPLv2+"
-					]
-				},
-				{
-					"type": "os",
-					"name": "curl",
-					"version": "7.61.1-30.el8_8.3",
-					"licenses": [
-						"MIT"
-					]
-				},
-				{
-					"type": "os",
-					"name": "rpm-libs",
-					"version": "4.14.3-26.el8",
-					"licenses": [
-						"GPLv2+ and LGPLv2+ with exceptions"
-					]
-				},
-				{
-					"type": "os",
-					"name": "libsolv",
-					"version": "0.7.20-4.el8",
-					"licenses": [
-						"BSD"
-					]
-				},
-				{
-					"type": "os",
-					"name": "libdnf",
-					"version": "0.63.0-14.el8_8",
-					"licenses": [
-						"LGPLv2+"
-					]
-				},
-				{
-					"type": "os",
-					"name": "langpacks-en",
-					"version": "1.0-12.el8",
-					"licenses": [
-						"GPLv2+"
-					]
-				},
-				{
-					"type": "os",
-					"name": "gpg-pubkey",
-					"version": "fd431d51-4ae0493b",
-					"licenses": [
-						"pubkey"
-					]
-				},
-				{
-					"type": "os",
-					"name": "libgcc",
-					"version": "8.5.0-18.el8",
-					"licenses": [
-						"GPLv3+ and GPLv3+ with exceptions and GPLv2+ with exceptions and LGPLv2+ and BSD"
-					]
-				},
-				{
-					"type": "os",
-					"name": "tzdata",
-					"version": "2023c-1.el8",
-					"licenses": [
-						"Public Domain"
-					]
-				},
-				{
-					"type": "os",
-					"name": "setup",
-					"version": "2.12.2-9.el8",
-					"licenses": [
-						"Public Domain"
-					]
-				},
-				{
-					"type": "os",
-					"name": "basesystem",
-					"version": "11-5.el8",
-					"licenses": [
-						"Public Domain"
-					]
-				},
-				{
-					"type": "os",
-					"name": "ncurses-base",
-					"version": "6.1-9.20180224.el8_8.1",
-					"licenses": [
-						"MIT"
-					]
-				},
-				{
-					"type": "os",
-					"name": "libselinux",
-					"version": "2.9-8.el8",
-					"licenses": [
-						"Public Domain"
-					]
-				},
-				{
-					"type": "os",
-					"name": "glibc-minimal-langpack",
-					"version": "2.28-225.el8",
-					"licenses": [
-						"LGPLv2+ and LGPLv2+ with exceptions and GPLv2+ and GPLv2+ with exceptions and BSD and Inner-Net and ISC and Public Domain and GFDL"
-					]
-				},
-				{
-					"type": "os",
-					"name": "glibc",
-					"version": "2.28-225.el8",
-					"licenses": [
-						"LGPLv2+ and LGPLv2+ with exceptions and GPLv2+ and GPLv2+ with exceptions and BSD and Inner-Net and ISC and Public Domain and GFDL"
-					]
-				},
-				{
-					"type": "os",
-					"name": "libsepol",
-					"version": "2.9-3.el8",
-					"licenses": [
-						"LGPLv2+"
-					]
-				},
-				{
-					"type": "os",
-					"name": "libgpg-error",
-					"version": "1.31-1.el8",
-					"licenses": [
-						"LGPLv2+"
-					]
-				},
-				{
-					"type": "os",
-					"name": "info",
-					"version": "6.5-7.el8",
-					"licenses": [
-						"GPLv3+"
-					]
-				},
-				{
-					"type": "os",
-					"name": "sqlite-libs",
-					"version": "3.26.0-18.el8_8",
-					"licenses": [
-						"Public Domain"
-					]
-				},
-				{
-					"type": "os",
-					"name": "libcap",
-					"version": "2.48-5.el8_8",
-					"licenses": [
-						"BSD or GPLv2"
-					]
-				},
-				{
-					"type": "os",
-					"name": "libzstd",
-					"version": "1.4.4-1.el8",
-					"licenses": [
-						"BSD and GPLv2"
-					]
-				},
-				{
-					"type": "os",
-					"name": "libidn2",
-					"version": "2.2.0-1.el8",
-					"licenses": [
-						"(GPLv2+ or LGPLv3+) and GPLv3+"
-					]
-				},
-				{
-					"type": "os",
-					"name": "libffi",
-					"version": "3.1-24.el8",
-					"licenses": [
-						"MIT"
-					]
-				},
-				{
-					"type": "os",
-					"name": "popt",
-					"version": "1.18-1.el8",
-					"licenses": [
-						"MIT"
-					]
-				},
-				{
-					"type": "os",
-					"name": "libassuan",
-					"version": "2.5.1-3.el8",
-					"licenses": [
-						"LGPLv2+ and GPLv3+"
-					]
-				},
-				{
-					"type": "os",
-					"name": "elfutils-libelf",
-					"version": "0.188-3.el8",
-					"licenses": [
-						"GPLv2+ or LGPLv3+"
-					]
-				},
-				{
-					"type": "os",
-					"name": "libacl",
-					"version": "2.2.53-1.el8",
-					"licenses": [
-						"LGPLv2+"
-					]
-				},
-				{
-					"type": "os",
-					"name": "sed",
-					"version": "4.5-5.el8",
-					"licenses": [
-						"GPLv3+"
-					]
-				},
-				{
-					"type": "os",
-					"name": "libtasn1",
-					"version": "4.13-4.el8_7",
-					"licenses": [
-						"GPLv3+ and LGPLv2+"
-					]
-				},
-				{
-					"type": "os",
-					"name": "lua-libs",
-					"version": "5.3.4-12.el8",
-					"licenses": [
-						"MIT"
-					]
-				},
-				{
-					"type": "os",
-					"name": "pcre",
-					"version": "8.42-6.el8",
-					"licenses": [
-						"BSD"
-					]
-				},
-				{
-					"type": "os",
-					"name": "libblkid",
-					"version": "2.32.1-42.el8_8",
-					"licenses": [
-						"LGPLv2+"
-					]
-				},
-				{
-					"type": "os",
-					"name": "systemd-libs",
-					"version": "239-74.el8_8.5",
-					"licenses": [
-						"LGPLv2+ and MIT"
-					]
-				},
-				{
-					"type": "os",
-					"name": "chkconfig",
-					"version": "1.19.1-1.el8",
-					"licenses": [
-						"GPLv2"
-					]
-				},
-				{
-					"type": "os",
-					"name": "ca-certificates",
-					"version": "2023.2.60_v7.0.306-80.0.el8_8",
-					"licenses": [
-						"Public Domain"
-					]
-				},
-				{
-					"type": "os",
-					"name": "libdb",
-					"version": "5.3.28-42.el8_4",
-					"licenses": [
-						"BSD and LGPLv2 and Sleepycat"
-					]
-				},
-				{
-					"type": "os",
-					"name": "libarchive",
-					"version": "3.3.3-5.el8",
-					"licenses": [
-						"BSD"
 					]
 				},
 				{
@@ -747,6 +331,422 @@
 				},
 				{
 					"type": "os",
+					"name": "libxcrypt",
+					"version": "4.1.1-6.el8",
+					"licenses": [
+						"LGPLv2+ and BSD and Public Domain"
+					]
+				},
+				{
+					"type": "os",
+					"name": "openldap",
+					"version": "2.4.46-18.el8",
+					"licenses": [
+						"OpenLDAP"
+					]
+				},
+				{
+					"type": "os",
+					"name": "npth",
+					"version": "1.5-4.el8",
+					"licenses": [
+						"LGPLv2+"
+					]
+				},
+				{
+					"type": "os",
+					"name": "gpgme",
+					"version": "1.13.1-11.el8",
+					"licenses": [
+						"LGPLv2+ and GPLv3+"
+					]
+				},
+				{
+					"type": "os",
+					"name": "libpsl",
+					"version": "0.20.2-6.el8",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "os",
+					"name": "librepo",
+					"version": "1.14.2-4.el8",
+					"licenses": [
+						"LGPLv2+"
+					]
+				},
+				{
+					"type": "os",
+					"name": "rpm",
+					"version": "4.14.3-26.el8",
+					"licenses": [
+						"GPLv2+"
+					]
+				},
+				{
+					"type": "os",
+					"name": "libmodulemd",
+					"version": "2.13.0-1.el8",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "os",
+					"name": "libdnf",
+					"version": "0.63.0-14.el8_8",
+					"licenses": [
+						"LGPLv2+"
+					]
+				},
+				{
+					"type": "os",
+					"name": "langpacks-en",
+					"version": "1.0-12.el8",
+					"licenses": [
+						"GPLv2+"
+					]
+				},
+				{
+					"type": "os",
+					"name": "gpg-pubkey",
+					"version": "fd431d51-4ae0493b",
+					"licenses": [
+						"pubkey"
+					]
+				},
+				{
+					"type": "os",
+					"name": "libgcc",
+					"version": "8.5.0-18.el8",
+					"licenses": [
+						"GPLv3+ and GPLv3+ with exceptions and GPLv2+ with exceptions and LGPLv2+ and BSD"
+					]
+				},
+				{
+					"type": "os",
+					"name": "ncurses-base",
+					"version": "6.1-9.20180224.el8_8.1",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "os",
+					"name": "tzdata",
+					"version": "2023c-1.el8",
+					"licenses": [
+						"Public Domain"
+					]
+				},
+				{
+					"type": "os",
+					"name": "setup",
+					"version": "2.12.2-9.el8",
+					"licenses": [
+						"Public Domain"
+					]
+				},
+				{
+					"type": "os",
+					"name": "basesystem",
+					"version": "11-5.el8",
+					"licenses": [
+						"Public Domain"
+					]
+				},
+				{
+					"type": "os",
+					"name": "libselinux",
+					"version": "2.9-8.el8",
+					"licenses": [
+						"Public Domain"
+					]
+				},
+				{
+					"type": "os",
+					"name": "glibc-common",
+					"version": "2.28-225.el8_8.6",
+					"licenses": [
+						"LGPLv2+ and LGPLv2+ with exceptions and GPLv2+ and GPLv2+ with exceptions and BSD and Inner-Net and ISC and Public Domain and GFDL"
+					]
+				},
+				{
+					"type": "os",
+					"name": "glibc",
+					"version": "2.28-225.el8_8.6",
+					"licenses": [
+						"LGPLv2+ and LGPLv2+ with exceptions and GPLv2+ and GPLv2+ with exceptions and BSD and Inner-Net and ISC and Public Domain and GFDL"
+					]
+				},
+				{
+					"type": "os",
+					"name": "libsepol",
+					"version": "2.9-3.el8",
+					"licenses": [
+						"LGPLv2+"
+					]
+				},
+				{
+					"type": "os",
+					"name": "libgpg-error",
+					"version": "1.31-1.el8",
+					"licenses": [
+						"LGPLv2+"
+					]
+				},
+				{
+					"type": "os",
+					"name": "info",
+					"version": "6.5-7.el8",
+					"licenses": [
+						"GPLv3+"
+					]
+				},
+				{
+					"type": "os",
+					"name": "sqlite-libs",
+					"version": "3.26.0-18.el8_8",
+					"licenses": [
+						"Public Domain"
+					]
+				},
+				{
+					"type": "os",
+					"name": "libcom_err",
+					"version": "1.45.6-5.el8",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "os",
+					"name": "libcap",
+					"version": "2.48-5.el8_8",
+					"licenses": [
+						"BSD or GPLv2"
+					]
+				},
+				{
+					"type": "os",
+					"name": "libidn2",
+					"version": "2.2.0-1.el8",
+					"licenses": [
+						"(GPLv2+ or LGPLv3+) and GPLv3+"
+					]
+				},
+				{
+					"type": "os",
+					"name": "libffi",
+					"version": "3.1-24.el8",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "os",
+					"name": "popt",
+					"version": "1.18-1.el8",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "os",
+					"name": "libassuan",
+					"version": "2.5.1-3.el8",
+					"licenses": [
+						"LGPLv2+ and GPLv3+"
+					]
+				},
+				{
+					"type": "os",
+					"name": "elfutils-libelf",
+					"version": "0.188-3.el8",
+					"licenses": [
+						"GPLv2+ or LGPLv3+"
+					]
+				},
+				{
+					"type": "os",
+					"name": "libacl",
+					"version": "2.2.53-1.el8",
+					"licenses": [
+						"LGPLv2+"
+					]
+				},
+				{
+					"type": "os",
+					"name": "sed",
+					"version": "4.5-5.el8",
+					"licenses": [
+						"GPLv3+"
+					]
+				},
+				{
+					"type": "os",
+					"name": "lua-libs",
+					"version": "5.3.4-12.el8",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "os",
+					"name": "pcre",
+					"version": "8.42-6.el8",
+					"licenses": [
+						"BSD"
+					]
+				},
+				{
+					"type": "os",
+					"name": "libsmartcols",
+					"version": "2.32.1-42.el8_8",
+					"licenses": [
+						"LGPLv2+"
+					]
+				},
+				{
+					"type": "os",
+					"name": "libblkid",
+					"version": "2.32.1-42.el8_8",
+					"licenses": [
+						"LGPLv2+"
+					]
+				},
+				{
+					"type": "os",
+					"name": "systemd-libs",
+					"version": "239-74.el8_8.5",
+					"licenses": [
+						"LGPLv2+ and MIT"
+					]
+				},
+				{
+					"type": "os",
+					"name": "chkconfig",
+					"version": "1.19.1-1.el8",
+					"licenses": [
+						"GPLv2"
+					]
+				},
+				{
+					"type": "os",
+					"name": "ca-certificates",
+					"version": "2023.2.60_v7.0.306-80.0.el8_8",
+					"licenses": [
+						"Public Domain"
+					]
+				},
+				{
+					"type": "os",
+					"name": "libdb",
+					"version": "5.3.28-42.el8_4",
+					"licenses": [
+						"BSD and LGPLv2 and Sleepycat"
+					]
+				},
+				{
+					"type": "os",
+					"name": "libarchive",
+					"version": "3.3.3-5.el8",
+					"licenses": [
+						"BSD"
+					]
+				},
+				{
+					"type": "os",
+					"name": "nettle",
+					"version": "3.4.1-7.el8",
+					"licenses": [
+						"LGPLv3+ or GPLv2+"
+					]
+				},
+				{
+					"type": "os",
+					"name": "glib2",
+					"version": "2.56.4-161.el8",
+					"licenses": [
+						"LGPLv2+"
+					]
+				},
+				{
+					"type": "os",
+					"name": "librhsm",
+					"version": "0.0.3-5.el8",
+					"licenses": [
+						"LGPLv2+"
+					]
+				},
+				{
+					"type": "os",
+					"name": "libpeas",
+					"version": "1.22.0-6.el8",
+					"licenses": [
+						"LGPLv2+"
+					]
+				},
+				{
+					"type": "os",
+					"name": "file-libs",
+					"version": "5.33-24.el8",
+					"licenses": [
+						"BSD"
+					]
+				},
+				{
+					"type": "os",
+					"name": "json-c",
+					"version": "0.13.1-3.el8",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "os",
+					"name": "libcap-ng",
+					"version": "0.7.11-1.el8",
+					"licenses": [
+						"LGPLv2+"
+					]
+				},
+				{
+					"type": "os",
+					"name": "libnghttp2",
+					"version": "1.33.0-3.el8_2.1",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "os",
+					"name": "gawk",
+					"version": "4.2.1-4.el8",
+					"licenses": [
+						"GPLv3+ and GPLv2+ and LGPLv2+ and BSD"
+					]
+				},
+				{
+					"type": "os",
+					"name": "libverto",
+					"version": "0.3.2-2.el8",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "os",
+					"name": "libssh",
+					"version": "0.9.6-10.el8_8",
+					"licenses": [
+						"LGPLv2+"
+					]
+				},
+				{
+					"type": "os",
 					"name": "cyrus-sasl-lib",
 					"version": "2.1.27-6.el8_5",
 					"licenses": [
@@ -771,10 +771,10 @@
 				},
 				{
 					"type": "os",
-					"name": "libssh-config",
-					"version": "0.9.6-10.el8_8",
+					"name": "publicsuffix-list-dafsa",
+					"version": "20180723-1.el8",
 					"licenses": [
-						"LGPLv2+"
+						"MPLv2.0"
 					]
 				},
 				{
@@ -787,26 +787,26 @@
 				},
 				{
 					"type": "os",
-					"name": "rpm",
-					"version": "4.14.3-26.el8",
-					"licenses": [
-						"GPLv2+"
-					]
-				},
-				{
-					"type": "os",
-					"name": "libmodulemd",
-					"version": "2.13.0-1.el8",
+					"name": "curl",
+					"version": "7.61.1-30.el8_8.3",
 					"licenses": [
 						"MIT"
 					]
 				},
 				{
 					"type": "os",
-					"name": "librepo",
-					"version": "1.14.2-4.el8",
+					"name": "rpm-libs",
+					"version": "4.14.3-26.el8",
 					"licenses": [
-						"LGPLv2+"
+						"GPLv2+ and LGPLv2+ with exceptions"
+					]
+				},
+				{
+					"type": "os",
+					"name": "libsolv",
+					"version": "0.7.20-4.el8_7",
+					"licenses": [
+						"BSD"
 					]
 				},
 				{
@@ -854,27 +854,75 @@
 			"complianceScanPassed": true,
 			"vulnerabilities": [
 				{
-					"id": "CVE-2023-4527",
+					"id": "CVE-2023-4911",
 					"status": "affected",
-					"cvss": 6.5,
-					"vector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:N/A:H",
-					"description": "A flaw was found in glibc. When the getaddrinfo function is called with the AF_UNSPEC address family and the system is configured with no-aaaa mode via /etc/resolv.conf, a DNS response via TCP larger than 2048 bytes can potentially disclose stack contents through the function returned address data, and may cause a crash.",
-					"severity": "moderate",
-					"packageName": "glibc-minimal-langpack",
-					"packageVersion": "2.28-225.el8",
-					"link": "https://access.redhat.com/security/cve/CVE-2023-4527",
+					"cvss": 7.8,
+					"vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+					"description": "A buffer overflow was discovered in the GNU C Library\\'s dynamic loader ld.so while processing the GLIBC_TUNABLES environment variable. This issue could allow a local attacker to use maliciously crafted GLIBC_TUNABLES environment variables when launching binaries with SUID permission to execute code with elevated privileges.",
+					"severity": "important",
+					"packageName": "glibc",
+					"packageVersion": "2.28-225.el8_8.6",
+					"link": "https://access.redhat.com/security/cve/CVE-2023-4911",
 					"riskFactors": [
-						"Recent vulnerability",
-						"Attack vector: network",
+						"Attack complexity: low",
 						"DoS - High",
-						"Medium severity"
+						"High severity",
+						"Recent vulnerability"
 					],
 					"impactedVersions": [
 						"*"
 					],
-					"publishedDate": "2023-09-18T17:15:00Z",
-					"discoveredDate": "2023-09-26T03:39:36Z",
-					"layerTime": "2023-09-13T02:18:51Z",
+					"publishedDate": "2023-10-03T18:15:00Z",
+					"discoveredDate": "2023-10-10T04:02:29Z",
+					"layerTime": "2023-10-05T15:32:40Z",
+					"layerInstruction": "RUN mv -fZ /tmp/ubi.repo /etc/yum.repos.d/ubi.repo || :"
+				},
+				{
+					"id": "CVE-2023-4911",
+					"status": "affected",
+					"cvss": 7.8,
+					"vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+					"description": "A buffer overflow was discovered in the GNU C Library\\'s dynamic loader ld.so while processing the GLIBC_TUNABLES environment variable. This issue could allow a local attacker to use maliciously crafted GLIBC_TUNABLES environment variables when launching binaries with SUID permission to execute code with elevated privileges.",
+					"severity": "important",
+					"packageName": "glibc-minimal-langpack",
+					"packageVersion": "2.28-225.el8_8.6",
+					"link": "https://access.redhat.com/security/cve/CVE-2023-4911",
+					"riskFactors": [
+						"High severity",
+						"Recent vulnerability",
+						"Attack complexity: low",
+						"DoS - High"
+					],
+					"impactedVersions": [
+						"*"
+					],
+					"publishedDate": "2023-10-03T18:15:00Z",
+					"discoveredDate": "2023-10-10T04:02:29Z",
+					"layerTime": "2023-10-05T15:32:40Z",
+					"layerInstruction": "RUN mv -fZ /tmp/ubi.repo /etc/yum.repos.d/ubi.repo || :"
+				},
+				{
+					"id": "CVE-2023-4911",
+					"status": "affected",
+					"cvss": 7.8,
+					"vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+					"description": "A buffer overflow was discovered in the GNU C Library\\'s dynamic loader ld.so while processing the GLIBC_TUNABLES environment variable. This issue could allow a local attacker to use maliciously crafted GLIBC_TUNABLES environment variables when launching binaries with SUID permission to execute code with elevated privileges.",
+					"severity": "important",
+					"packageName": "glibc-common",
+					"packageVersion": "2.28-225.el8_8.6",
+					"link": "https://access.redhat.com/security/cve/CVE-2023-4911",
+					"riskFactors": [
+						"Attack complexity: low",
+						"DoS - High",
+						"High severity",
+						"Recent vulnerability"
+					],
+					"impactedVersions": [
+						"*"
+					],
+					"publishedDate": "2023-10-03T18:15:00Z",
+					"discoveredDate": "2023-10-10T04:02:29Z",
+					"layerTime": "2023-10-05T15:32:40Z",
 					"layerInstruction": "RUN mv -fZ /tmp/ubi.repo /etc/yum.repos.d/ubi.repo || :"
 				},
 				{
@@ -884,8 +932,8 @@
 					"vector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:N/A:H",
 					"description": "A flaw was found in glibc. When the getaddrinfo function is called with the AF_UNSPEC address family and the system is configured with no-aaaa mode via /etc/resolv.conf, a DNS response via TCP larger than 2048 bytes can potentially disclose stack contents through the function returned address data, and may cause a crash.",
 					"severity": "moderate",
-					"packageName": "glibc",
-					"packageVersion": "2.28-225.el8",
+					"packageName": "glibc-minimal-langpack",
+					"packageVersion": "2.28-225.el8_8.6",
 					"link": "https://access.redhat.com/security/cve/CVE-2023-4527",
 					"riskFactors": [
 						"Attack vector: network",
@@ -897,8 +945,32 @@
 						"*"
 					],
 					"publishedDate": "2023-09-18T17:15:00Z",
-					"discoveredDate": "2023-09-26T03:39:36Z",
-					"layerTime": "2023-09-13T02:18:51Z",
+					"discoveredDate": "2023-10-10T04:02:29Z",
+					"layerTime": "2023-10-05T15:32:40Z",
+					"layerInstruction": "RUN mv -fZ /tmp/ubi.repo /etc/yum.repos.d/ubi.repo || :"
+				},
+				{
+					"id": "CVE-2023-4527",
+					"status": "affected",
+					"cvss": 6.5,
+					"vector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:N/A:H",
+					"description": "A flaw was found in glibc. When the getaddrinfo function is called with the AF_UNSPEC address family and the system is configured with no-aaaa mode via /etc/resolv.conf, a DNS response via TCP larger than 2048 bytes can potentially disclose stack contents through the function returned address data, and may cause a crash.",
+					"severity": "moderate",
+					"packageName": "glibc",
+					"packageVersion": "2.28-225.el8_8.6",
+					"link": "https://access.redhat.com/security/cve/CVE-2023-4527",
+					"riskFactors": [
+						"Recent vulnerability",
+						"Attack vector: network",
+						"DoS - High",
+						"Medium severity"
+					],
+					"impactedVersions": [
+						"*"
+					],
+					"publishedDate": "2023-09-18T17:15:00Z",
+					"discoveredDate": "2023-10-10T04:02:29Z",
+					"layerTime": "2023-10-05T15:32:40Z",
 					"layerInstruction": "RUN mv -fZ /tmp/ubi.repo /etc/yum.repos.d/ubi.repo || :"
 				},
 				{
@@ -909,7 +981,7 @@
 					"description": "A flaw was found in glibc. When the getaddrinfo function is called with the AF_UNSPEC address family and the system is configured with no-aaaa mode via /etc/resolv.conf, a DNS response via TCP larger than 2048 bytes can potentially disclose stack contents through the function returned address data, and may cause a crash.",
 					"severity": "moderate",
 					"packageName": "glibc-common",
-					"packageVersion": "2.28-225.el8",
+					"packageVersion": "2.28-225.el8_8.6",
 					"link": "https://access.redhat.com/security/cve/CVE-2023-4527",
 					"riskFactors": [
 						"Attack vector: network",
@@ -921,308 +993,8 @@
 						"*"
 					],
 					"publishedDate": "2023-09-18T17:15:00Z",
-					"discoveredDate": "2023-09-26T03:39:36Z",
-					"layerTime": "2023-09-13T02:18:51Z",
-					"layerInstruction": "RUN mv -fZ /tmp/ubi.repo /etc/yum.repos.d/ubi.repo || :"
-				},
-				{
-					"id": "CVE-2020-19190",
-					"status": "affected",
-					"cvss": 6.5,
-					"vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H",
-					"description": "Buffer Overflow vulnerability in _nc_find_entry in tinfo/comp_hash.c:70 in ncurses 6.1 allows remote attackers to cause a denial of service via crafted command.",
-					"severity": "moderate",
-					"packageName": "ncurses-libs",
-					"packageVersion": "6.1-9.20180224.el8_8.1",
-					"link": "https://access.redhat.com/security/cve/CVE-2020-19190",
-					"riskFactors": [
-						"Attack complexity: low",
-						"Attack vector: network",
-						"DoS - High",
-						"Medium severity",
-						"Recent vulnerability"
-					],
-					"impactedVersions": [
-						"*"
-					],
-					"publishedDate": "2023-08-22T19:16:00Z",
-					"discoveredDate": "2023-09-26T03:39:36Z",
-					"layerTime": "2023-09-13T02:18:51Z",
-					"layerInstruction": "RUN mv -fZ /tmp/ubi.repo /etc/yum.repos.d/ubi.repo || :"
-				},
-				{
-					"id": "CVE-2020-19190",
-					"status": "affected",
-					"cvss": 6.5,
-					"vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H",
-					"description": "Buffer Overflow vulnerability in _nc_find_entry in tinfo/comp_hash.c:70 in ncurses 6.1 allows remote attackers to cause a denial of service via crafted command.",
-					"severity": "moderate",
-					"packageName": "ncurses-base",
-					"packageVersion": "6.1-9.20180224.el8_8.1",
-					"link": "https://access.redhat.com/security/cve/CVE-2020-19190",
-					"riskFactors": [
-						"Attack complexity: low",
-						"Attack vector: network",
-						"DoS - High",
-						"Medium severity",
-						"Recent vulnerability"
-					],
-					"impactedVersions": [
-						"*"
-					],
-					"publishedDate": "2023-08-22T19:16:00Z",
-					"discoveredDate": "2023-09-26T03:39:36Z",
-					"layerTime": "2023-09-13T02:18:51Z",
-					"layerInstruction": "RUN mv -fZ /tmp/ubi.repo /etc/yum.repos.d/ubi.repo || :"
-				},
-				{
-					"id": "CVE-2020-19189",
-					"status": "affected",
-					"cvss": 6.5,
-					"vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H",
-					"description": "Buffer Overflow vulnerability in postprocess_terminfo function in tinfo/parse_entry.c:997 in ncurses 6.1 allows remote attackers to cause a denial of service via crafted command.",
-					"severity": "moderate",
-					"packageName": "ncurses-libs",
-					"packageVersion": "6.1-9.20180224.el8_8.1",
-					"link": "https://access.redhat.com/security/cve/CVE-2020-19189",
-					"riskFactors": [
-						"Attack complexity: low",
-						"Attack vector: network",
-						"DoS - High",
-						"Medium severity",
-						"Recent vulnerability"
-					],
-					"impactedVersions": [
-						"*"
-					],
-					"publishedDate": "2023-08-22T19:16:00Z",
-					"discoveredDate": "2023-09-26T03:39:36Z",
-					"layerTime": "2023-09-13T02:18:51Z",
-					"layerInstruction": "RUN mv -fZ /tmp/ubi.repo /etc/yum.repos.d/ubi.repo || :"
-				},
-				{
-					"id": "CVE-2020-19189",
-					"status": "affected",
-					"cvss": 6.5,
-					"vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H",
-					"description": "Buffer Overflow vulnerability in postprocess_terminfo function in tinfo/parse_entry.c:997 in ncurses 6.1 allows remote attackers to cause a denial of service via crafted command.",
-					"severity": "moderate",
-					"packageName": "ncurses-base",
-					"packageVersion": "6.1-9.20180224.el8_8.1",
-					"link": "https://access.redhat.com/security/cve/CVE-2020-19189",
-					"riskFactors": [
-						"Attack complexity: low",
-						"Attack vector: network",
-						"DoS - High",
-						"Medium severity",
-						"Recent vulnerability"
-					],
-					"impactedVersions": [
-						"*"
-					],
-					"publishedDate": "2023-08-22T19:16:00Z",
-					"discoveredDate": "2023-09-26T03:39:36Z",
-					"layerTime": "2023-09-13T02:18:51Z",
-					"layerInstruction": "RUN mv -fZ /tmp/ubi.repo /etc/yum.repos.d/ubi.repo || :"
-				},
-				{
-					"id": "CVE-2020-19188",
-					"status": "affected",
-					"cvss": 6.5,
-					"vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H",
-					"description": "Buffer Overflow vulnerability in fmt_entry function in progs/dump_entry.c:1116 in ncurses 6.1 allows remote attackers to cause a denial of service via crafted command.",
-					"severity": "moderate",
-					"packageName": "ncurses-libs",
-					"packageVersion": "6.1-9.20180224.el8_8.1",
-					"link": "https://access.redhat.com/security/cve/CVE-2020-19188",
-					"riskFactors": [
-						"Recent vulnerability",
-						"Attack complexity: low",
-						"Attack vector: network",
-						"DoS - High",
-						"Medium severity"
-					],
-					"impactedVersions": [
-						"*"
-					],
-					"publishedDate": "2023-08-22T19:16:00Z",
-					"discoveredDate": "2023-09-26T03:39:36Z",
-					"layerTime": "2023-09-13T02:18:51Z",
-					"layerInstruction": "RUN mv -fZ /tmp/ubi.repo /etc/yum.repos.d/ubi.repo || :"
-				},
-				{
-					"id": "CVE-2020-19188",
-					"status": "affected",
-					"cvss": 6.5,
-					"vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H",
-					"description": "Buffer Overflow vulnerability in fmt_entry function in progs/dump_entry.c:1116 in ncurses 6.1 allows remote attackers to cause a denial of service via crafted command.",
-					"severity": "moderate",
-					"packageName": "ncurses-base",
-					"packageVersion": "6.1-9.20180224.el8_8.1",
-					"link": "https://access.redhat.com/security/cve/CVE-2020-19188",
-					"riskFactors": [
-						"Medium severity",
-						"Recent vulnerability",
-						"Attack complexity: low",
-						"Attack vector: network",
-						"DoS - High"
-					],
-					"impactedVersions": [
-						"*"
-					],
-					"publishedDate": "2023-08-22T19:16:00Z",
-					"discoveredDate": "2023-09-26T03:39:36Z",
-					"layerTime": "2023-09-13T02:18:51Z",
-					"layerInstruction": "RUN mv -fZ /tmp/ubi.repo /etc/yum.repos.d/ubi.repo || :"
-				},
-				{
-					"id": "CVE-2020-19187",
-					"status": "affected",
-					"cvss": 6.5,
-					"vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H",
-					"description": "Buffer Overflow vulnerability in fmt_entry function in progs/dump_entry.c:1100 in ncurses 6.1 allows remote attackers to cause a denial of service via crafted command.",
-					"severity": "moderate",
-					"packageName": "ncurses-libs",
-					"packageVersion": "6.1-9.20180224.el8_8.1",
-					"link": "https://access.redhat.com/security/cve/CVE-2020-19187",
-					"riskFactors": [
-						"Attack complexity: low",
-						"Attack vector: network",
-						"DoS - High",
-						"Medium severity",
-						"Recent vulnerability"
-					],
-					"impactedVersions": [
-						"*"
-					],
-					"publishedDate": "2023-08-22T19:15:00Z",
-					"discoveredDate": "2023-09-26T03:39:36Z",
-					"layerTime": "2023-09-13T02:18:51Z",
-					"layerInstruction": "RUN mv -fZ /tmp/ubi.repo /etc/yum.repos.d/ubi.repo || :"
-				},
-				{
-					"id": "CVE-2020-19187",
-					"status": "affected",
-					"cvss": 6.5,
-					"vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H",
-					"description": "Buffer Overflow vulnerability in fmt_entry function in progs/dump_entry.c:1100 in ncurses 6.1 allows remote attackers to cause a denial of service via crafted command.",
-					"severity": "moderate",
-					"packageName": "ncurses-base",
-					"packageVersion": "6.1-9.20180224.el8_8.1",
-					"link": "https://access.redhat.com/security/cve/CVE-2020-19187",
-					"riskFactors": [
-						"DoS - High",
-						"Medium severity",
-						"Recent vulnerability",
-						"Attack complexity: low",
-						"Attack vector: network"
-					],
-					"impactedVersions": [
-						"*"
-					],
-					"publishedDate": "2023-08-22T19:15:00Z",
-					"discoveredDate": "2023-09-26T03:39:36Z",
-					"layerTime": "2023-09-13T02:18:51Z",
-					"layerInstruction": "RUN mv -fZ /tmp/ubi.repo /etc/yum.repos.d/ubi.repo || :"
-				},
-				{
-					"id": "CVE-2020-19186",
-					"status": "affected",
-					"cvss": 6.5,
-					"vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H",
-					"description": "Buffer Overflow vulnerability in _nc_find_entry function in tinfo/comp_hash.c:66 in ncurses 6.1 allows remote attackers to cause a denial of service via crafted command.",
-					"severity": "moderate",
-					"packageName": "ncurses-libs",
-					"packageVersion": "6.1-9.20180224.el8_8.1",
-					"link": "https://access.redhat.com/security/cve/CVE-2020-19186",
-					"riskFactors": [
-						"Medium severity",
-						"Recent vulnerability",
-						"Attack complexity: low",
-						"Attack vector: network",
-						"DoS - High"
-					],
-					"impactedVersions": [
-						"*"
-					],
-					"publishedDate": "2023-08-22T19:15:00Z",
-					"discoveredDate": "2023-09-26T03:39:36Z",
-					"layerTime": "2023-09-13T02:18:51Z",
-					"layerInstruction": "RUN mv -fZ /tmp/ubi.repo /etc/yum.repos.d/ubi.repo || :"
-				},
-				{
-					"id": "CVE-2020-19186",
-					"status": "affected",
-					"cvss": 6.5,
-					"vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H",
-					"description": "Buffer Overflow vulnerability in _nc_find_entry function in tinfo/comp_hash.c:66 in ncurses 6.1 allows remote attackers to cause a denial of service via crafted command.",
-					"severity": "moderate",
-					"packageName": "ncurses-base",
-					"packageVersion": "6.1-9.20180224.el8_8.1",
-					"link": "https://access.redhat.com/security/cve/CVE-2020-19186",
-					"riskFactors": [
-						"Attack complexity: low",
-						"Attack vector: network",
-						"DoS - High",
-						"Medium severity",
-						"Recent vulnerability"
-					],
-					"impactedVersions": [
-						"*"
-					],
-					"publishedDate": "2023-08-22T19:15:00Z",
-					"discoveredDate": "2023-09-26T03:39:36Z",
-					"layerTime": "2023-09-13T02:18:51Z",
-					"layerInstruction": "RUN mv -fZ /tmp/ubi.repo /etc/yum.repos.d/ubi.repo || :"
-				},
-				{
-					"id": "CVE-2020-19185",
-					"status": "affected",
-					"cvss": 6.5,
-					"vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H",
-					"description": "Buffer Overflow vulnerability in one_one_mapping function in progs/dump_entry.c:1373 in ncurses 6.1 allows remote attackers to cause a denial of service via crafted command.",
-					"severity": "moderate",
-					"packageName": "ncurses-libs",
-					"packageVersion": "6.1-9.20180224.el8_8.1",
-					"link": "https://access.redhat.com/security/cve/CVE-2020-19185",
-					"riskFactors": [
-						"Attack complexity: low",
-						"Attack vector: network",
-						"DoS - High",
-						"Medium severity",
-						"Recent vulnerability"
-					],
-					"impactedVersions": [
-						"*"
-					],
-					"publishedDate": "2023-08-22T19:15:00Z",
-					"discoveredDate": "2023-09-26T03:39:36Z",
-					"layerTime": "2023-09-13T02:18:51Z",
-					"layerInstruction": "RUN mv -fZ /tmp/ubi.repo /etc/yum.repos.d/ubi.repo || :"
-				},
-				{
-					"id": "CVE-2020-19185",
-					"status": "affected",
-					"cvss": 6.5,
-					"vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H",
-					"description": "Buffer Overflow vulnerability in one_one_mapping function in progs/dump_entry.c:1373 in ncurses 6.1 allows remote attackers to cause a denial of service via crafted command.",
-					"severity": "moderate",
-					"packageName": "ncurses-base",
-					"packageVersion": "6.1-9.20180224.el8_8.1",
-					"link": "https://access.redhat.com/security/cve/CVE-2020-19185",
-					"riskFactors": [
-						"Attack vector: network",
-						"DoS - High",
-						"Medium severity",
-						"Recent vulnerability",
-						"Attack complexity: low"
-					],
-					"impactedVersions": [
-						"*"
-					],
-					"publishedDate": "2023-08-22T19:15:00Z",
-					"discoveredDate": "2023-09-26T03:39:36Z",
-					"layerTime": "2023-09-13T02:18:51Z",
+					"discoveredDate": "2023-10-10T04:02:29Z",
+					"layerTime": "2023-10-05T15:32:40Z",
 					"layerInstruction": "RUN mv -fZ /tmp/ubi.repo /etc/yum.repos.d/ubi.repo || :"
 				},
 				{
@@ -1232,8 +1004,8 @@
 					"vector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H",
 					"description": "A flaw was found in glibc. In an uncommon situation, the gaih_inet function may use memory that has been freed, resulting in an application crash. This issue is only exploitable when the getaddrinfo function is called and the hosts database in /etc/nsswitch.conf is configured with SUCCESS=continue or SUCCESS=merge.",
 					"severity": "moderate",
-					"packageName": "glibc-common",
-					"packageVersion": "2.28-225.el8",
+					"packageName": "glibc",
+					"packageVersion": "2.28-225.el8_8.6",
 					"link": "https://access.redhat.com/security/cve/CVE-2023-4813",
 					"riskFactors": [
 						"Attack vector: network",
@@ -1245,8 +1017,8 @@
 						"*"
 					],
 					"publishedDate": "2023-09-12T22:15:00Z",
-					"discoveredDate": "2023-09-26T03:39:36Z",
-					"layerTime": "2023-09-13T02:18:51Z",
+					"discoveredDate": "2023-10-10T04:02:29Z",
+					"layerTime": "2023-10-05T15:32:40Z",
 					"layerInstruction": "RUN mv -fZ /tmp/ubi.repo /etc/yum.repos.d/ubi.repo || :"
 				},
 				{
@@ -1257,56 +1029,8 @@
 					"description": "A flaw was found in glibc. In an uncommon situation, the gaih_inet function may use memory that has been freed, resulting in an application crash. This issue is only exploitable when the getaddrinfo function is called and the hosts database in /etc/nsswitch.conf is configured with SUCCESS=continue or SUCCESS=merge.",
 					"severity": "moderate",
 					"packageName": "glibc-minimal-langpack",
-					"packageVersion": "2.28-225.el8",
+					"packageVersion": "2.28-225.el8_8.6",
 					"link": "https://access.redhat.com/security/cve/CVE-2023-4813",
-					"riskFactors": [
-						"Recent vulnerability",
-						"Attack vector: network",
-						"DoS - High",
-						"Medium severity"
-					],
-					"impactedVersions": [
-						"*"
-					],
-					"publishedDate": "2023-09-12T22:15:00Z",
-					"discoveredDate": "2023-09-26T03:39:36Z",
-					"layerTime": "2023-09-13T02:18:51Z",
-					"layerInstruction": "RUN mv -fZ /tmp/ubi.repo /etc/yum.repos.d/ubi.repo || :"
-				},
-				{
-					"id": "CVE-2023-4813",
-					"status": "affected",
-					"cvss": 5.9,
-					"vector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H",
-					"description": "A flaw was found in glibc. In an uncommon situation, the gaih_inet function may use memory that has been freed, resulting in an application crash. This issue is only exploitable when the getaddrinfo function is called and the hosts database in /etc/nsswitch.conf is configured with SUCCESS=continue or SUCCESS=merge.",
-					"severity": "moderate",
-					"packageName": "glibc",
-					"packageVersion": "2.28-225.el8",
-					"link": "https://access.redhat.com/security/cve/CVE-2023-4813",
-					"riskFactors": [
-						"Attack vector: network",
-						"DoS - High",
-						"Medium severity",
-						"Recent vulnerability"
-					],
-					"impactedVersions": [
-						"*"
-					],
-					"publishedDate": "2023-09-12T22:15:00Z",
-					"discoveredDate": "2023-09-26T03:39:36Z",
-					"layerTime": "2023-09-13T02:18:51Z",
-					"layerInstruction": "RUN mv -fZ /tmp/ubi.repo /etc/yum.repos.d/ubi.repo || :"
-				},
-				{
-					"id": "CVE-2023-4806",
-					"status": "affected",
-					"cvss": 5.9,
-					"vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
-					"description": "A flaw was found in glibc. In an extremely rare situation, the getaddrinfo function may access memory that has been freed, resulting in an application crash. This issue is only exploitable when a NSS module implements only the _nss_*_gethostbyname2_r and _nss_*_getcanonname_r hooks without implementing the _nss_*_gethostbyname3_r hook. The resolved name should return a large number of IPv6 and IPv4, and the call to the getaddrinfo function should have the AF_INET6 address family with AI_CANONNAME, AI_ALL and AI_V4MAPPED as flags.",
-					"severity": "moderate",
-					"packageName": "glibc",
-					"packageVersion": "2.28-225.el8",
-					"link": "https://access.redhat.com/security/cve/CVE-2023-4806",
 					"riskFactors": [
 						"DoS - High",
 						"Medium severity",
@@ -1316,20 +1040,44 @@
 					"impactedVersions": [
 						"*"
 					],
-					"publishedDate": "2023-09-18T17:15:00Z",
-					"discoveredDate": "2023-09-26T03:39:36Z",
-					"layerTime": "2023-09-13T02:18:51Z",
+					"publishedDate": "2023-09-12T22:15:00Z",
+					"discoveredDate": "2023-10-10T04:02:29Z",
+					"layerTime": "2023-10-05T15:32:40Z",
+					"layerInstruction": "RUN mv -fZ /tmp/ubi.repo /etc/yum.repos.d/ubi.repo || :"
+				},
+				{
+					"id": "CVE-2023-4813",
+					"status": "affected",
+					"cvss": 5.9,
+					"vector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H",
+					"description": "A flaw was found in glibc. In an uncommon situation, the gaih_inet function may use memory that has been freed, resulting in an application crash. This issue is only exploitable when the getaddrinfo function is called and the hosts database in /etc/nsswitch.conf is configured with SUCCESS=continue or SUCCESS=merge.",
+					"severity": "moderate",
+					"packageName": "glibc-common",
+					"packageVersion": "2.28-225.el8_8.6",
+					"link": "https://access.redhat.com/security/cve/CVE-2023-4813",
+					"riskFactors": [
+						"Medium severity",
+						"Recent vulnerability",
+						"Attack vector: network",
+						"DoS - High"
+					],
+					"impactedVersions": [
+						"*"
+					],
+					"publishedDate": "2023-09-12T22:15:00Z",
+					"discoveredDate": "2023-10-10T04:02:29Z",
+					"layerTime": "2023-10-05T15:32:40Z",
 					"layerInstruction": "RUN mv -fZ /tmp/ubi.repo /etc/yum.repos.d/ubi.repo || :"
 				},
 				{
 					"id": "CVE-2023-4806",
 					"status": "affected",
 					"cvss": 5.9,
-					"vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+					"vector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H",
 					"description": "A flaw was found in glibc. In an extremely rare situation, the getaddrinfo function may access memory that has been freed, resulting in an application crash. This issue is only exploitable when a NSS module implements only the _nss_*_gethostbyname2_r and _nss_*_getcanonname_r hooks without implementing the _nss_*_gethostbyname3_r hook. The resolved name should return a large number of IPv6 and IPv4, and the call to the getaddrinfo function should have the AF_INET6 address family with AI_CANONNAME, AI_ALL and AI_V4MAPPED as flags.",
 					"severity": "moderate",
 					"packageName": "glibc-common",
-					"packageVersion": "2.28-225.el8",
+					"packageVersion": "2.28-225.el8_8.6",
 					"link": "https://access.redhat.com/security/cve/CVE-2023-4806",
 					"riskFactors": [
 						"Attack vector: network",
@@ -1341,55 +1089,79 @@
 						"*"
 					],
 					"publishedDate": "2023-09-18T17:15:00Z",
-					"discoveredDate": "2023-09-26T03:39:36Z",
-					"layerTime": "2023-09-13T02:18:51Z",
+					"discoveredDate": "2023-10-10T04:02:29Z",
+					"layerTime": "2023-10-05T15:32:40Z",
 					"layerInstruction": "RUN mv -fZ /tmp/ubi.repo /etc/yum.repos.d/ubi.repo || :"
 				},
 				{
 					"id": "CVE-2023-4806",
 					"status": "affected",
 					"cvss": 5.9,
-					"vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+					"vector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H",
 					"description": "A flaw was found in glibc. In an extremely rare situation, the getaddrinfo function may access memory that has been freed, resulting in an application crash. This issue is only exploitable when a NSS module implements only the _nss_*_gethostbyname2_r and _nss_*_getcanonname_r hooks without implementing the _nss_*_gethostbyname3_r hook. The resolved name should return a large number of IPv6 and IPv4, and the call to the getaddrinfo function should have the AF_INET6 address family with AI_CANONNAME, AI_ALL and AI_V4MAPPED as flags.",
 					"severity": "moderate",
 					"packageName": "glibc-minimal-langpack",
-					"packageVersion": "2.28-225.el8",
+					"packageVersion": "2.28-225.el8_8.6",
 					"link": "https://access.redhat.com/security/cve/CVE-2023-4806",
 					"riskFactors": [
-						"Medium severity",
-						"Recent vulnerability",
 						"Attack vector: network",
-						"DoS - High"
+						"DoS - High",
+						"Medium severity",
+						"Recent vulnerability"
 					],
 					"impactedVersions": [
 						"*"
 					],
 					"publishedDate": "2023-09-18T17:15:00Z",
-					"discoveredDate": "2023-09-26T03:39:36Z",
-					"layerTime": "2023-09-13T02:18:51Z",
+					"discoveredDate": "2023-10-10T04:02:29Z",
+					"layerTime": "2023-10-05T15:32:40Z",
 					"layerInstruction": "RUN mv -fZ /tmp/ubi.repo /etc/yum.repos.d/ubi.repo || :"
 				},
 				{
-					"id": "CVE-2023-4039",
+					"id": "CVE-2023-4806",
 					"status": "affected",
-					"cvss": 4.8,
-					"vector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:N",
-					"description": "  A failure in the -fstack-protector feature in GCC-based toolchains  that target AArch64 allows an attacker to exploit an existing buffer  overflow in dynamically-sized local variables in your application  without this being detected. This stack-protector failure only applies  to C99-style dynamically-sized local variables or those created using  alloca(). The stack-protector operates as intended for statically-sized  local variables.  The default behavior when the stack-protector  detects an overflow is to terminate your application, resulting in  controlled loss of availability. An attacker who can exploit a buffer  overflow without triggering the stack-protector might be able to change  program flow control to cause an uncontrolled loss of availability or to  go further and affect confidentiality or integrity.      ",
+					"cvss": 5.9,
+					"vector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H",
+					"description": "A flaw was found in glibc. In an extremely rare situation, the getaddrinfo function may access memory that has been freed, resulting in an application crash. This issue is only exploitable when a NSS module implements only the _nss_*_gethostbyname2_r and _nss_*_getcanonname_r hooks without implementing the _nss_*_gethostbyname3_r hook. The resolved name should return a large number of IPv6 and IPv4, and the call to the getaddrinfo function should have the AF_INET6 address family with AI_CANONNAME, AI_ALL and AI_V4MAPPED as flags.",
 					"severity": "moderate",
-					"packageName": "libgcc",
-					"packageVersion": "8.5.0-18.el8",
-					"link": "https://access.redhat.com/security/cve/CVE-2023-4039",
+					"packageName": "glibc",
+					"packageVersion": "2.28-225.el8_8.6",
+					"link": "https://access.redhat.com/security/cve/CVE-2023-4806",
 					"riskFactors": [
-						"Recent vulnerability",
 						"Attack vector: network",
-						"Medium severity"
+						"DoS - High",
+						"Medium severity",
+						"Recent vulnerability"
 					],
 					"impactedVersions": [
 						"*"
 					],
-					"publishedDate": "2023-09-13T09:15:00Z",
-					"discoveredDate": "2023-09-26T03:39:36Z",
-					"layerTime": "2023-09-13T02:18:51Z",
+					"publishedDate": "2023-09-18T17:15:00Z",
+					"discoveredDate": "2023-10-10T04:02:29Z",
+					"layerTime": "2023-10-05T15:32:40Z",
+					"layerInstruction": "RUN mv -fZ /tmp/ubi.repo /etc/yum.repos.d/ubi.repo || :"
+				},
+				{
+					"id": "CVE-2023-30571",
+					"status": "affected",
+					"cvss": 5.3,
+					"vector": "CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:N/I:L/A:H",
+					"description": "Libarchive through 3.6.2 can cause directories to have world-writable permissions. The umask() call inside archive_write_disk_posix.c changes the umask of the whole process for a very short period of time; a race condition with another thread can lead to a permanent umask 0 setting. Such a race condition could lead to implicit directory creation with permissions 0777 (without the sticky bit), which means that any low-privileged local user can delete and rename files inside those directories.",
+					"severity": "moderate",
+					"packageName": "libarchive",
+					"packageVersion": "3.3.3-5.el8",
+					"link": "https://access.redhat.com/security/cve/CVE-2023-30571",
+					"riskFactors": [
+						"DoS - High",
+						"Medium severity",
+						"Recent vulnerability"
+					],
+					"impactedVersions": [
+						"*"
+					],
+					"publishedDate": "2023-05-29T20:15:00Z",
+					"discoveredDate": "2023-10-10T04:02:29Z",
+					"layerTime": "2023-10-05T15:32:40Z",
 					"layerInstruction": "RUN mv -fZ /tmp/ubi.repo /etc/yum.repos.d/ubi.repo || :"
 				},
 				{
@@ -1403,85 +1175,323 @@
 					"packageVersion": "8.5.0-18.el8",
 					"link": "https://access.redhat.com/security/cve/CVE-2023-4039",
 					"riskFactors": [
-						"Recent vulnerability",
 						"Attack vector: network",
-						"Medium severity"
+						"Medium severity",
+						"Recent vulnerability"
 					],
 					"impactedVersions": [
 						"*"
 					],
 					"publishedDate": "2023-09-13T09:15:00Z",
-					"discoveredDate": "2023-09-26T03:39:36Z",
-					"layerTime": "2023-09-13T02:18:51Z",
+					"discoveredDate": "2023-10-10T04:02:29Z",
+					"layerTime": "2023-10-05T15:32:40Z",
 					"layerInstruction": "RUN mv -fZ /tmp/ubi.repo /etc/yum.repos.d/ubi.repo || :"
 				},
 				{
-					"id": "CVE-2023-5156",
+					"id": "CVE-2023-4039",
 					"status": "affected",
-					"cvss": 3.7,
-					"description": "A flaw was found in the GNU C Library. A recent fix for CVE-2023-4806 introduced the potential for a memory leak, which may result in an application crash.",
+					"cvss": 4.8,
+					"vector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:N",
+					"description": "  A failure in the -fstack-protector feature in GCC-based toolchains  that target AArch64 allows an attacker to exploit an existing buffer  overflow in dynamically-sized local variables in your application  without this being detected. This stack-protector failure only applies  to C99-style dynamically-sized local variables or those created using  alloca(). The stack-protector operates as intended for statically-sized  local variables.  The default behavior when the stack-protector  detects an overflow is to terminate your application, resulting in  controlled loss of availability. An attacker who can exploit a buffer  overflow without triggering the stack-protector might be able to change  program flow control to cause an uncontrolled loss of availability or to  go further and affect confidentiality or integrity.      ",
 					"severity": "moderate",
-					"packageName": "glibc",
-					"packageVersion": "2.28-225.el8",
-					"link": "https://access.redhat.com/security/cve/CVE-2023-5156",
+					"packageName": "libgcc",
+					"packageVersion": "8.5.0-18.el8",
+					"link": "https://access.redhat.com/security/cve/CVE-2023-4039",
 					"riskFactors": [
-						"DoS - Low",
+						"Attack vector: network",
 						"Medium severity",
+						"Recent vulnerability"
+					],
+					"impactedVersions": [
+						"*"
+					],
+					"publishedDate": "2023-09-13T09:15:00Z",
+					"discoveredDate": "2023-10-10T04:02:29Z",
+					"layerTime": "2023-10-05T15:32:40Z",
+					"layerInstruction": "RUN mv -fZ /tmp/ubi.repo /etc/yum.repos.d/ubi.repo || :"
+				},
+				{
+					"id": "CVE-2020-19190",
+					"status": "affected",
+					"cvss": 6.5,
+					"vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H",
+					"description": "Buffer Overflow vulnerability in _nc_find_entry in tinfo/comp_hash.c:70 in ncurses 6.1 allows remote attackers to cause a denial of service via crafted command.",
+					"severity": "low",
+					"packageName": "ncurses-base",
+					"packageVersion": "6.1-9.20180224.el8_8.1",
+					"link": "https://access.redhat.com/security/cve/CVE-2020-19190",
+					"riskFactors": [
+						"Attack vector: network",
+						"DoS - High",
 						"Recent vulnerability",
+						"Attack complexity: low"
+					],
+					"impactedVersions": [
+						"*"
+					],
+					"publishedDate": "2023-08-22T19:16:00Z",
+					"discoveredDate": "2023-10-10T04:02:29Z",
+					"layerTime": "2023-10-05T15:32:40Z",
+					"layerInstruction": "RUN mv -fZ /tmp/ubi.repo /etc/yum.repos.d/ubi.repo || :"
+				},
+				{
+					"id": "CVE-2020-19190",
+					"status": "affected",
+					"cvss": 6.5,
+					"vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H",
+					"description": "Buffer Overflow vulnerability in _nc_find_entry in tinfo/comp_hash.c:70 in ncurses 6.1 allows remote attackers to cause a denial of service via crafted command.",
+					"severity": "low",
+					"packageName": "ncurses-libs",
+					"packageVersion": "6.1-9.20180224.el8_8.1",
+					"link": "https://access.redhat.com/security/cve/CVE-2020-19190",
+					"riskFactors": [
+						"Attack complexity: low",
+						"Attack vector: network",
+						"DoS - High",
+						"Recent vulnerability"
+					],
+					"impactedVersions": [
+						"*"
+					],
+					"publishedDate": "2023-08-22T19:16:00Z",
+					"discoveredDate": "2023-10-10T04:02:29Z",
+					"layerTime": "2023-10-05T15:32:40Z",
+					"layerInstruction": "RUN mv -fZ /tmp/ubi.repo /etc/yum.repos.d/ubi.repo || :"
+				},
+				{
+					"id": "CVE-2020-19188",
+					"status": "affected",
+					"cvss": 6.5,
+					"vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H",
+					"description": "Buffer Overflow vulnerability in fmt_entry function in progs/dump_entry.c:1116 in ncurses 6.1 allows remote attackers to cause a denial of service via crafted command.",
+					"severity": "low",
+					"packageName": "ncurses-libs",
+					"packageVersion": "6.1-9.20180224.el8_8.1",
+					"link": "https://access.redhat.com/security/cve/CVE-2020-19188",
+					"riskFactors": [
+						"Attack complexity: low",
+						"Attack vector: network",
+						"DoS - High",
+						"Recent vulnerability"
+					],
+					"impactedVersions": [
+						"*"
+					],
+					"publishedDate": "2023-08-22T19:16:00Z",
+					"discoveredDate": "2023-10-10T04:02:29Z",
+					"layerTime": "2023-10-05T15:32:40Z",
+					"layerInstruction": "RUN mv -fZ /tmp/ubi.repo /etc/yum.repos.d/ubi.repo || :"
+				},
+				{
+					"id": "CVE-2020-19188",
+					"status": "affected",
+					"cvss": 6.5,
+					"vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H",
+					"description": "Buffer Overflow vulnerability in fmt_entry function in progs/dump_entry.c:1116 in ncurses 6.1 allows remote attackers to cause a denial of service via crafted command.",
+					"severity": "low",
+					"packageName": "ncurses-base",
+					"packageVersion": "6.1-9.20180224.el8_8.1",
+					"link": "https://access.redhat.com/security/cve/CVE-2020-19188",
+					"riskFactors": [
+						"DoS - High",
+						"Recent vulnerability",
+						"Attack complexity: low",
 						"Attack vector: network"
 					],
 					"impactedVersions": [
 						"*"
 					],
-					"publishedDate": "2023-09-25T16:15:00Z",
-					"discoveredDate": "2023-09-26T03:39:36Z",
-					"layerTime": "2023-09-13T02:18:51Z",
+					"publishedDate": "2023-08-22T19:16:00Z",
+					"discoveredDate": "2023-10-10T04:02:29Z",
+					"layerTime": "2023-10-05T15:32:40Z",
 					"layerInstruction": "RUN mv -fZ /tmp/ubi.repo /etc/yum.repos.d/ubi.repo || :"
 				},
 				{
-					"id": "CVE-2023-5156",
+					"id": "CVE-2020-19187",
 					"status": "affected",
-					"cvss": 3.7,
-					"description": "A flaw was found in the GNU C Library. A recent fix for CVE-2023-4806 introduced the potential for a memory leak, which may result in an application crash.",
-					"severity": "moderate",
-					"packageName": "glibc-minimal-langpack",
-					"packageVersion": "2.28-225.el8",
-					"link": "https://access.redhat.com/security/cve/CVE-2023-5156",
+					"cvss": 6.5,
+					"vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H",
+					"description": "Buffer Overflow vulnerability in fmt_entry function in progs/dump_entry.c:1100 in ncurses 6.1 allows remote attackers to cause a denial of service via crafted command.",
+					"severity": "low",
+					"packageName": "ncurses-base",
+					"packageVersion": "6.1-9.20180224.el8_8.1",
+					"link": "https://access.redhat.com/security/cve/CVE-2020-19187",
 					"riskFactors": [
+						"Attack complexity: low",
 						"Attack vector: network",
-						"DoS - Low",
-						"Medium severity",
+						"DoS - High",
 						"Recent vulnerability"
 					],
 					"impactedVersions": [
 						"*"
 					],
-					"publishedDate": "2023-09-25T16:15:00Z",
-					"discoveredDate": "2023-09-26T03:39:36Z",
-					"layerTime": "2023-09-13T02:18:51Z",
+					"publishedDate": "2023-08-22T19:15:00Z",
+					"discoveredDate": "2023-10-10T04:02:29Z",
+					"layerTime": "2023-10-05T15:32:40Z",
 					"layerInstruction": "RUN mv -fZ /tmp/ubi.repo /etc/yum.repos.d/ubi.repo || :"
 				},
 				{
-					"id": "CVE-2023-5156",
+					"id": "CVE-2020-19187",
 					"status": "affected",
-					"cvss": 3.7,
-					"description": "A flaw was found in the GNU C Library. A recent fix for CVE-2023-4806 introduced the potential for a memory leak, which may result in an application crash.",
-					"severity": "moderate",
-					"packageName": "glibc-common",
-					"packageVersion": "2.28-225.el8",
-					"link": "https://access.redhat.com/security/cve/CVE-2023-5156",
+					"cvss": 6.5,
+					"vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H",
+					"description": "Buffer Overflow vulnerability in fmt_entry function in progs/dump_entry.c:1100 in ncurses 6.1 allows remote attackers to cause a denial of service via crafted command.",
+					"severity": "low",
+					"packageName": "ncurses-libs",
+					"packageVersion": "6.1-9.20180224.el8_8.1",
+					"link": "https://access.redhat.com/security/cve/CVE-2020-19187",
 					"riskFactors": [
+						"DoS - High",
+						"Recent vulnerability",
+						"Attack complexity: low",
+						"Attack vector: network"
+					],
+					"impactedVersions": [
+						"*"
+					],
+					"publishedDate": "2023-08-22T19:15:00Z",
+					"discoveredDate": "2023-10-10T04:02:29Z",
+					"layerTime": "2023-10-05T15:32:40Z",
+					"layerInstruction": "RUN mv -fZ /tmp/ubi.repo /etc/yum.repos.d/ubi.repo || :"
+				},
+				{
+					"id": "CVE-2020-19186",
+					"status": "affected",
+					"cvss": 6.5,
+					"vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H",
+					"description": "Buffer Overflow vulnerability in _nc_find_entry function in tinfo/comp_hash.c:66 in ncurses 6.1 allows remote attackers to cause a denial of service via crafted command.",
+					"severity": "low",
+					"packageName": "ncurses-libs",
+					"packageVersion": "6.1-9.20180224.el8_8.1",
+					"link": "https://access.redhat.com/security/cve/CVE-2020-19186",
+					"riskFactors": [
+						"Attack complexity: low",
 						"Attack vector: network",
-						"DoS - Low",
-						"Medium severity",
+						"DoS - High",
 						"Recent vulnerability"
 					],
 					"impactedVersions": [
 						"*"
 					],
-					"publishedDate": "2023-09-25T16:15:00Z",
-					"discoveredDate": "2023-09-26T03:39:36Z",
-					"layerTime": "2023-09-13T02:18:51Z",
+					"publishedDate": "2023-08-22T19:15:00Z",
+					"discoveredDate": "2023-10-10T04:02:29Z",
+					"layerTime": "2023-10-05T15:32:40Z",
+					"layerInstruction": "RUN mv -fZ /tmp/ubi.repo /etc/yum.repos.d/ubi.repo || :"
+				},
+				{
+					"id": "CVE-2020-19186",
+					"status": "affected",
+					"cvss": 6.5,
+					"vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H",
+					"description": "Buffer Overflow vulnerability in _nc_find_entry function in tinfo/comp_hash.c:66 in ncurses 6.1 allows remote attackers to cause a denial of service via crafted command.",
+					"severity": "low",
+					"packageName": "ncurses-base",
+					"packageVersion": "6.1-9.20180224.el8_8.1",
+					"link": "https://access.redhat.com/security/cve/CVE-2020-19186",
+					"riskFactors": [
+						"Attack complexity: low",
+						"Attack vector: network",
+						"DoS - High",
+						"Recent vulnerability"
+					],
+					"impactedVersions": [
+						"*"
+					],
+					"publishedDate": "2023-08-22T19:15:00Z",
+					"discoveredDate": "2023-10-10T04:02:29Z",
+					"layerTime": "2023-10-05T15:32:40Z",
+					"layerInstruction": "RUN mv -fZ /tmp/ubi.repo /etc/yum.repos.d/ubi.repo || :"
+				},
+				{
+					"id": "CVE-2020-19185",
+					"status": "affected",
+					"cvss": 6.5,
+					"vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H",
+					"description": "Buffer Overflow vulnerability in one_one_mapping function in progs/dump_entry.c:1373 in ncurses 6.1 allows remote attackers to cause a denial of service via crafted command.",
+					"severity": "low",
+					"packageName": "ncurses-libs",
+					"packageVersion": "6.1-9.20180224.el8_8.1",
+					"link": "https://access.redhat.com/security/cve/CVE-2020-19185",
+					"riskFactors": [
+						"Attack complexity: low",
+						"Attack vector: network",
+						"DoS - High",
+						"Recent vulnerability"
+					],
+					"impactedVersions": [
+						"*"
+					],
+					"publishedDate": "2023-08-22T19:15:00Z",
+					"discoveredDate": "2023-10-10T04:02:29Z",
+					"layerTime": "2023-10-05T15:32:40Z",
+					"layerInstruction": "RUN mv -fZ /tmp/ubi.repo /etc/yum.repos.d/ubi.repo || :"
+				},
+				{
+					"id": "CVE-2020-19185",
+					"status": "affected",
+					"cvss": 6.5,
+					"vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H",
+					"description": "Buffer Overflow vulnerability in one_one_mapping function in progs/dump_entry.c:1373 in ncurses 6.1 allows remote attackers to cause a denial of service via crafted command.",
+					"severity": "low",
+					"packageName": "ncurses-base",
+					"packageVersion": "6.1-9.20180224.el8_8.1",
+					"link": "https://access.redhat.com/security/cve/CVE-2020-19185",
+					"riskFactors": [
+						"Attack vector: network",
+						"DoS - High",
+						"Recent vulnerability",
+						"Attack complexity: low"
+					],
+					"impactedVersions": [
+						"*"
+					],
+					"publishedDate": "2023-08-22T19:15:00Z",
+					"discoveredDate": "2023-10-10T04:02:29Z",
+					"layerTime": "2023-10-05T15:32:40Z",
+					"layerInstruction": "RUN mv -fZ /tmp/ubi.repo /etc/yum.repos.d/ubi.repo || :"
+				},
+				{
+					"id": "CVE-2021-39537",
+					"status": "affected",
+					"cvss": 5.5,
+					"vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+					"description": "An issue was discovered in ncurses through v6.2-1. _nc_captoinfo in captoinfo.c has a heap-based buffer overflow.",
+					"severity": "low",
+					"packageName": "ncurses-libs",
+					"packageVersion": "6.1-9.20180224.el8_8.1",
+					"link": "https://access.redhat.com/security/cve/CVE-2021-39537",
+					"riskFactors": [
+						"DoS - High",
+						"Attack complexity: low"
+					],
+					"impactedVersions": [
+						"*"
+					],
+					"publishedDate": "2021-09-20T16:15:00Z",
+					"discoveredDate": "2023-10-10T04:02:29Z",
+					"layerTime": "2023-10-05T15:32:40Z",
+					"layerInstruction": "RUN mv -fZ /tmp/ubi.repo /etc/yum.repos.d/ubi.repo || :"
+				},
+				{
+					"id": "CVE-2021-39537",
+					"status": "affected",
+					"cvss": 5.5,
+					"vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+					"description": "An issue was discovered in ncurses through v6.2-1. _nc_captoinfo in captoinfo.c has a heap-based buffer overflow.",
+					"severity": "low",
+					"packageName": "ncurses-base",
+					"packageVersion": "6.1-9.20180224.el8_8.1",
+					"link": "https://access.redhat.com/security/cve/CVE-2021-39537",
+					"riskFactors": [
+						"Attack complexity: low",
+						"DoS - High"
+					],
+					"impactedVersions": [
+						"*"
+					],
+					"publishedDate": "2021-09-20T16:15:00Z",
+					"discoveredDate": "2023-10-10T04:02:29Z",
+					"layerTime": "2023-10-05T15:32:40Z",
 					"layerInstruction": "RUN mv -fZ /tmp/ubi.repo /etc/yum.repos.d/ubi.repo || :"
 				},
 				{
@@ -1504,8 +1514,8 @@
 						"*"
 					],
 					"publishedDate": "2023-07-19T12:15:00Z",
-					"discoveredDate": "2023-09-26T03:39:36Z",
-					"layerTime": "2023-09-13T02:18:51Z",
+					"discoveredDate": "2023-10-10T04:02:29Z",
+					"layerTime": "2023-10-05T15:32:40Z",
 					"layerInstruction": "RUN mv -fZ /tmp/ubi.repo /etc/yum.repos.d/ubi.repo || :"
 				},
 				{
@@ -1527,8 +1537,8 @@
 						"*"
 					],
 					"publishedDate": "2023-05-26T21:15:00Z",
-					"discoveredDate": "2023-09-26T03:39:36Z",
-					"layerTime": "2023-09-13T02:18:51Z",
+					"discoveredDate": "2023-10-10T04:02:29Z",
+					"layerTime": "2023-10-05T15:32:40Z",
 					"layerInstruction": "RUN mv -fZ /tmp/ubi.repo /etc/yum.repos.d/ubi.repo || :"
 				},
 				{
@@ -1542,127 +1552,123 @@
 					"packageVersion": "7.61.1-30.el8_8.3",
 					"link": "https://access.redhat.com/security/cve/CVE-2023-28322",
 					"riskFactors": [
-						"Attack vector: network",
 						"Exploit exists - POC",
-						"Recent vulnerability"
+						"Recent vulnerability",
+						"Attack vector: network"
 					],
 					"impactedVersions": [
 						"*"
 					],
 					"publishedDate": "2023-05-26T21:15:00Z",
-					"discoveredDate": "2023-09-26T03:39:36Z",
-					"layerTime": "2023-09-13T02:18:51Z",
+					"discoveredDate": "2023-10-10T04:02:29Z",
+					"layerTime": "2023-10-05T15:32:40Z",
 					"layerInstruction": "RUN mv -fZ /tmp/ubi.repo /etc/yum.repos.d/ubi.repo || :"
 				}
 			],
 			"vulnerabilityDistribution": {
 				"critical": 0,
-				"high": 0,
-				"medium": 26,
-				"low": 3,
-				"total": 29
+				"high": 3,
+				"medium": 12,
+				"low": 15,
+				"total": 30
 			},
-			"vulnerabilityScanPassed": true,
+			"vulnerabilityScanPassed": false,
 			"history": [
 				{
-					"created": "2023-09-13T02:18:46Z",
-					"instruction": "ADD file:c5525b3d0375a6117c1870b84a140152f3e7dbf3dc24ff6afbd5a96086e905b6 in / "
+					"created": "2023-10-05T15:32:34Z",
+					"instruction": "ADD file:80f612e7c6096d534731fa991e436a4126b380c5b59826d69c92682838fedf50 in / "
 				},
 				{
-					"created": "2023-09-13T02:18:47Z",
+					"created": "2023-10-05T15:32:35Z",
 					"instruction": "RUN mv -f /etc/yum.repos.d/ubi.repo /tmp || :"
 				},
 				{
-					"created": "2023-09-13T02:18:47Z",
+					"created": "2023-10-05T15:32:35Z",
 					"instruction": "ADD file:ecc29a1455ca1b7c82018555e16e2e802135974523df6748e431f8707e759ddd in /tmp/tls-ca-bundle.pem "
 				},
 				{
-					"created": "2023-09-13T02:18:47Z",
-					"instruction": "ADD multi:59145b743432123f4025fa3d9781044953a12764ef7a1b981d973fa9cbe6738b in /etc/yum.repos.d/ "
+					"created": "2023-10-05T15:32:36Z",
+					"instruction": "ADD multi:3be978684be74078af6066f8f837800efdd09477716610075c7762f2e11d5fc1 in /etc/yum.repos.d/ "
 				},
 				{
-					"created": "2023-09-13T02:18:47Z",
+					"created": "2023-10-05T15:32:36Z",
 					"instruction": "LABEL maintainer=\"Red Hat, Inc.\""
 				},
 				{
-					"created": "2023-09-13T02:18:47Z",
+					"created": "2023-10-05T15:32:36Z",
 					"instruction": "LABEL com.redhat.component=\"ubi8-minimal-contai..."
 				},
 				{
-					"created": "2023-09-13T02:18:47Z",
+					"created": "2023-10-05T15:32:36Z",
 					"instruction": "LABEL com.redhat.license_terms=\"https://www.red..."
 				},
 				{
-					"created": "2023-09-13T02:18:47Z",
+					"created": "2023-10-05T15:32:36Z",
 					"instruction": "LABEL summary=\"Provides the latest release of t..."
 				},
 				{
-					"created": "2023-09-13T02:18:47Z",
+					"created": "2023-10-05T15:32:36Z",
 					"instruction": "LABEL description=\"The Universal Base Image Min..."
 				},
 				{
-					"created": "2023-09-13T02:18:47Z",
+					"created": "2023-10-05T15:32:36Z",
 					"instruction": "LABEL io.k8s.display-name=\"Red Hat Universal Ba..."
 				},
 				{
-					"created": "2023-09-13T02:18:47Z",
+					"created": "2023-10-05T15:32:36Z",
 					"instruction": "LABEL io.openshift.expose-services=\"\""
 				},
 				{
-					"created": "2023-09-13T02:18:47Z",
+					"created": "2023-10-05T15:32:36Z",
 					"instruction": "LABEL io.openshift.tags=\"minimal rhel8\""
 				},
 				{
-					"created": "2023-09-13T02:18:47Z",
+					"created": "2023-10-05T15:32:36Z",
 					"instruction": "ENV container oci"
 				},
 				{
-					"created": "2023-09-13T02:18:47Z",
+					"created": "2023-10-05T15:32:36Z",
 					"instruction": "ENV PATH /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin"
 				},
 				{
-					"created": "2023-09-13T02:18:47Z",
+					"created": "2023-10-05T15:32:36Z",
 					"instruction": "CMD [\"/bin/bash\"]"
 				},
 				{
-					"created": "2023-09-13T02:18:48Z",
+					"created": "2023-10-05T15:32:36Z",
 					"instruction": "RUN rm -rf /var/log/*"
 				},
 				{
-					"created": "2023-09-13T02:18:48Z",
-					"instruction": "LABEL release=1072"
+					"created": "2023-10-05T15:32:37Z",
+					"instruction": "ADD file:5fe2af04ea2f107261b8cf8470286c62f141a0e2d4a04fd3c8e720aceffd6da9 in /root/buildinfo/content_manifests/ubi8-minimal-container-8.8-1072.1696517598.json "
 				},
 				{
-					"created": "2023-09-13T02:18:48Z",
-					"instruction": "ADD file:361966c0fef2536c74b8650a6ebf064744ff384b92c579b7c36f9dc32abfbe5f in /root/buildinfo/content_manifests/ubi8-minimal-container-8.8-1072.json "
+					"created": "2023-10-05T15:32:37Z",
+					"instruction": "ADD file:add94223465f1ee84b53a0f9baaaf8c4082f62ec7c78562d3110d5fbf145a83c in /root/buildinfo/Dockerfile-ubi8-minimal-8.8-1072.1696517598 "
 				},
 				{
-					"created": "2023-09-13T02:18:48Z",
-					"instruction": "ADD file:01ab30ccb9e7075b089c950f14c3922b9562a15acd3c5f50689d5598d4112f45 in /root/buildinfo/Dockerfile-ubi8-minimal-8.8-1072 "
+					"created": "2023-10-05T15:32:37Z",
+					"instruction": "LABEL \"release\"=\"1072.1696517598\" \"distribution..."
 				},
 				{
-					"created": "2023-09-13T02:18:48Z",
-					"instruction": "LABEL \"distribution-scope\"=\"public\" \"vendor\"=\"R..."
+					"created": "2023-10-05T15:32:38Z",
+					"instruction": "RUN rm -f '/etc/yum.repos.d/odcs-2414877-b43d9.repo' '/etc/yum.repos.d/gitweb-f6bee.repo'"
 				},
 				{
-					"created": "2023-09-13T02:18:49Z",
-					"instruction": "RUN rm -f '/etc/yum.repos.d/repo-50050.repo' '/etc/yum.repos.d/repo-b842f.repo'"
-				},
-				{
-					"created": "2023-09-13T02:18:49Z",
+					"created": "2023-10-05T15:32:38Z",
 					"instruction": "RUN rm -f /tmp/tls-ca-bundle.pem"
 				},
 				{
-					"created": "2023-09-13T02:18:51Z",
+					"created": "2023-10-05T15:32:40Z",
 					"instruction": "RUN mv -fZ /tmp/ubi.repo /etc/yum.repos.d/ubi.repo || :"
 				},
 				{
-					"created": "2023-09-13T02:18:51Z",
+					"created": "2023-10-05T15:32:40Z",
 					"instruction": "CMD [\"/bin/sh\" \"-c\" \"echo \\\"Hello world\\\"\"]"
 				}
 			],
-			"scanTime": "2023-09-26T03:39:38.807947331Z"
+			"scanTime": "2023-10-10T04:02:32.310245Z"
 		}
 	],
-	"consoleURL": "https://app.eu.prismacloud.io/compute?computeState=/monitor/vulnerabilities/images/ci?search=sha256%3A3671af934314034920606f4ec45c476c4252889b2f3050abbd2ce708bac9e556"
+	"consoleURL": "https://app.eu.prismacloud.io/compute?computeState=/monitor/vulnerabilities/images/ci?search=sha256%3A715b834f15fe178574b3461ea19696170691e98b5258eac2e9b0762a991775d5"
 }

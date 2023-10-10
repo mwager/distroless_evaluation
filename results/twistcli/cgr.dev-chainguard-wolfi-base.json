@@ -1,7 +1,7 @@
 {
 	"results": [
 		{
-			"id": "sha256:decb5f1b1b7fbc228972778de52d02418ce1bcbe17933a70eb303ac7d529cf2a",
+			"id": "sha256:7ce40c5df13d9f64b842eae75c30fe9793025af810347fbee443e010fb6dac63",
 			"name": "cgr.dev-chainguard-wolfi-base:latest",
 			"distro": "Wolfi",
 			"distroRelease": "20230201",
@@ -60,7 +60,7 @@
 				{
 					"type": "os",
 					"name": "glibc",
-					"version": "2.38-r1",
+					"version": "2.38-r5",
 					"licenses": [
 						"GPL-3.0-or-later"
 					]
@@ -68,7 +68,7 @@
 				{
 					"type": "os",
 					"name": "openssl",
-					"version": "3.1.2-r0",
+					"version": "3.1.3-r0",
 					"licenses": [
 						"Apache-2.0"
 					]
@@ -117,16 +117,16 @@
 			"vulnerabilityScanPassed": true,
 			"history": [
 				{
-					"created": "2023-09-03T04:36:22Z",
+					"created": "2023-10-03T23:19:36Z",
 					"instruction": "RUN apko"
 				},
 				{
-					"created": "2023-09-03T04:36:22Z",
+					"created": "2023-10-03T23:19:36Z",
 					"instruction": "CMD [\"/bin/sh\" \"-c\" \"echo \\\"Hello world\\\"\"]"
 				}
 			],
-			"scanTime": "2023-09-26T03:40:00.136444991Z"
+			"scanTime": "2023-10-10T04:02:35.97018302Z"
 		}
 	],
-	"consoleURL": "https://app.eu.prismacloud.io/compute?computeState=/monitor/vulnerabilities/images/ci?search=sha256%3Adecb5f1b1b7fbc228972778de52d02418ce1bcbe17933a70eb303ac7d529cf2a"
+	"consoleURL": "https://app.eu.prismacloud.io/compute?computeState=/monitor/vulnerabilities/images/ci?search=sha256%3A7ce40c5df13d9f64b842eae75c30fe9793025af810347fbee443e010fb6dac63"
 }

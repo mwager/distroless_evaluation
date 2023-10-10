@@ -1,38 +1,8 @@
-
-
-
-
-# TODO: ignore certain vul.TYPE! e.g. {'type': 'nodejs', 'name': 'npm'}
-# # die interessieren UNS NICHT!!!!!!!!! aber mal sansehen vorher
-# # ALSO: die werden evtl mal erwähnt und kommen in die statistik. ABER sie werden NICHT ANALYSIERT!!!!!!!!!!
-
-# # und:
-
-# why this??? liegt das an from scratch!??!?!
-# chisel-go:latest  39
-# YESSSSSSSS {'type': '-', 'name': '-'}
-# YESSSSSSSS {'type': '-', 'name': '-'}
-# YESSSSSSSS {'type': '-', 'name': '-'}
-# YESSSSSSSS {'type': '-', 'name': '-'}
-# YESSSSSSSS {'type': '-', 'name': '-'}
-# YESSSSSSSS {'type': '-', 'name': '-'}
-
-# also rausfinden wenn kein TYPE da. warum!??!?!
-
-
-# Also: to be ignored:
-
-# if "packagePath": "/usr/local/bin/node", OR TYPE["type"] == 'nodejs' or packageName contains npm
-# -> keine weitere analyse!
-# ABER: COUNT IT! damit wir swissen wieviele nodejs related zb
-
-
-
 """
 This file will analyse results/FINAL.json ...
 """
 import json
-from helpers import prettyPrint, die, readFile, printImageTable
+from helpers import prettyPrint, die, readFile, printImageTable, imageIsUsingComponentReduction
 
 exploitAndImpactData = {}
 data = readFile('results/FINAL.json', True)
@@ -40,6 +10,9 @@ data = readFile('results/FINAL.json', True)
 imagesNoVulns = []
 imageCountNoCriticalVulns = 0
 imagesCriticalOrHighVulns = []
+amountTotalVulns = 0
+amountTotalVulnsWithComponentReductionMethods = 0
+amountTotalVulnsWithoutComponentReductionMethods = 0
 amountCriticalVulns = 0
 amountHighVulns = 0
 amountMediumVulns = 0
@@ -47,6 +20,14 @@ amountLowVulns = 0
 
 exploits = {}
 knownExploits = {}
+
+amountOfVulnsWithExploit = 0
+amountOSBasedVulns = 0
+amountRTBasedVulns = 0
+amountOSBasedVulnsWithExploit = 0
+amountRTBasedVulnsWithExploit = 0
+
+statsByImage = {}
 
 # for stats we are not interested in runtime issues (like nodejs, php packages etc)
 # UPDATE: we ARE interested in runtime issues. if an app is using a go image and go has a critical vuln, this IS IMPORTANT!
@@ -59,24 +40,35 @@ def weCanIgnoreThisVulnForManualAnalysis(vul):
     if vul["TYPE"]["type"] != "os":
         return True
 
-printImageTable(data)
-die("OK")
+# printImageTable(data)
+# die("OK")
 
 for image in data:
+    IMAGENAME = image["meta"]["name"] + ' ' + image["meta"]["distro"]
+
     # print("=== IMAGE: " + image["meta"]["name"] + ' ' + image["meta"]["distro"])
     distribution = image["vulnerabilityDistribution"]
     # print(distribution)
 
+    statsByImage[IMAGENAME] = {
+        "total": len(image["vulns"]),
+        "critical": distribution["critical"],
+        "exploitCount": 0,
+        "osBasedVulns": 0,
+        "rtBasedVulns": 0
+    }
 
-
-    imagename = (image["meta"]["name"]).replace("_", "\\_").replace('gcr.io-distroless-', 'distroless-').replace('cgr.dev-chainguard-', 'chainguard-').replace('registry.access.redhat.com-', 'redhat-')
-
-    print(imagename + " & " + str(distribution["total"]) + ' & ' + str(distribution["critical"]) + ' & ' + str(distribution["high"]) + ' & ' + str(distribution["medium"]) + ' & ' + str(distribution["low"]) + '\\\\')
+    if imageIsUsingComponentReduction(IMAGENAME):
+        amountTotalVulnsWithComponentReductionMethods += distribution["total"]
+    else:
+        amountTotalVulnsWithoutComponentReductionMethods += distribution["total"]
 
     for vul in image["vulns"]:
         CVE = vul["id"]
         severity = vul["severity"]
         severityCVSS = vul["severity"]
+
+        amountTotalVulns += 1
 
         # if weCanIgnoreThisVulnForManualAnalysis(vul):
         #     continue
@@ -89,6 +81,28 @@ for image in data:
             "exploitabilityScore": 0,
             "impactScore": 0
         }
+
+        if vul["TYPE"]["type"] == "os":
+            amountOSBasedVulns += 1
+            statsByImage[IMAGENAME]["osBasedVulns"] += 1
+        else:
+            amountRTBasedVulns += 1
+            statsByImage[IMAGENAME]["rtBasedVulns"] += 1
+
+        if vul["exploit"] == True:
+            amountOfVulnsWithExploit += 1
+            statsByImage[IMAGENAME]["exploitCount"] += 1
+
+            if vul["TYPE"]["type"] == "os":
+                amountOSBasedVulnsWithExploit += 1
+            else:
+                amountRTBasedVulnsWithExploit += 1
+
+        if (vul["severity"] == "critical" or vul["severity"] == "high" or vul["severity"] == "important"):
+            if vul["exploit"] == True:
+                print("GOT EXPLOIT", vul["TYPE"], CVE, vul["imageFoundIn"], severity)
+            else:
+                print("WITHOUT EXPLOIT", vul["TYPE"], CVE, vul["imageFoundIn"], severity)
 
         if "cveDataFetched" in vul and "vulnerabilities" in vul["cveDataFetched"] and len(vul["cveDataFetched"]["vulnerabilities"]) > 0:
             vulCVSS = vul["cveDataFetched"]["vulnerabilities"][0]
@@ -128,22 +142,21 @@ for image in data:
             # prettyPrint(vul["knownExploit"])
 
 
-        if severity == "medium" and severity != severityCVSS:
-            prettyPrint(vul)
-            die("TODO evaluate")
+        # if severity == "medium" and severity != severityCVSS:
+        #     prettyPrint(vul)
+        #     die("TODO evaluate")
 
-        if severity == "critical":
-            print(vul["packageName"], vul["cvss"], CVE, vul["imageFoundIn"])
+        # if severity == "critical":
+        #     print(vul["packageName"], vul["cvss"], CVE, vul["imageFoundIn"], severity)
 
         # if severityCVSS == "critical":
         #     print(vul["packageName"], vul["cvss"], CVE, vul["imageFoundIn"])
 
-
         if (severity == "critical"):
             amountCriticalVulns = amountCriticalVulns + 1
-        if (severity == "high"):
+        if (severity == "high" or severity == "important"):
             amountHighVulns = amountHighVulns + 1
-        if (severity == "medium"):
+        if (severity == "medium" or severity == "moderate"):
             amountMediumVulns = amountMediumVulns + 1
         if (severity == "low"):
             amountLowVulns = amountLowVulns + 1
@@ -159,11 +172,21 @@ for image in data:
 
 
 
-die("TODO ORDER!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!")
+
+
+print("\n===============================================")
+print("==================== RESULTS ====================")
+print("=================================================")
+
 LEN = len(data)
-print("\n\n\n=========================\nEinfach beschreiben was ich seh:")
+print("\n\n\n=========================\SEE HERE:")
 print("========================")
 print("# of images to analyse: ", LEN)
+
+print("VULN SEVERITY COUNTS (TOTAL, critical, high, medium, low): ", amountTotalVulns, amountCriticalVulns, amountHighVulns, amountMediumVulns, amountLowVulns, "\n")
+
+
+
 print("# of images WITHOUT ANY vulns: ", str(len(imagesNoVulns)) + ' of '+ str(LEN) + '('+ str(len(imagesNoVulns) /LEN * 100.0) +')', imagesNoVulns)
 
 print("# of images WITHOUT ANY CRITICAL vulns: ", imageCountNoCriticalVulns, "\n")
@@ -175,6 +198,10 @@ print("# of images with HIGH or CRITICAL vulns: ", str(len(imagesCriticalOrHighV
 # TODO: stats mit vuln counts und image name
 # TODO: tabellen für latex :) in helpers.py einfach print dann :D
 
+print("\n==================== RQ1: ", amountTotalVulnsWithComponentReductionMethods, amountTotalVulnsWithoutComponentReductionMethods, "REDUCTION: ")
+
+
+
 exploitableValues = []
 impactValues = []
 for cve in exploitAndImpactData:
@@ -183,8 +210,6 @@ for cve in exploitAndImpactData:
 # TODO was bedeuten diese zahlen?
 print("\n======= exloitability und impact score max value: ", max(exploitableValues), max(impactValues))
 # print(exploitAndImpactData)
-
-print("\nVULN SEVERITY COUNTS (critical, high, medium, low): ", amountCriticalVulns, amountHighVulns, amountMediumVulns, amountLowVulns)
 
 print("\n==================== EDB mappings and known exploits count: ")
 e = 0
@@ -196,4 +221,20 @@ for cve in knownExploits:
     e2 = e2 + 1
 print(e, e2)
 
-print("TODO: ALLE exploits found manuell näher analysieren dann, EASY! sind nicht viele. das wird RQ2 !!!")
+print("\n==================== TABLES:")
+print("OS based: ", amountOSBasedVulns)
+print("Runtime based: ", amountRTBasedVulns)
+print("\n==================== Count of vulns WITH EXPLOIT POC: ")
+print("TODO statistics / discussion: amountOfVulnsWithExploit", amountOfVulnsWithExploit)
+print("OS based which got exploit: ", amountOSBasedVulnsWithExploit)
+print("Runtime based which got exploit: ", amountRTBasedVulnsWithExploit)
+
+print("\n==================== TABLES stats by image:")
+# prettyPrint(statsByImage)
+for image in statsByImage:
+    if statsByImage[image]["exploitCount"] > 0:
+        print(image, " has ", statsByImage[image]["exploitCount"], " exploits")
+
+
+
+print("\n\nTODO: ALLE exploits found manuell näher analysieren dann, EASY! sind nicht viele. das wird RQ2 !!!")

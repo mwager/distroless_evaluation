@@ -1088,16 +1088,16 @@
 					"packageVersion": "3.9.16-1.el9_2.1",
 					"link": "https://access.redhat.com/security/cve/CVE-2023-40217",
 					"riskFactors": [
-						"Attack complexity: low",
-						"Attack vector: network",
 						"High severity",
-						"Recent vulnerability"
+						"Recent vulnerability",
+						"Attack complexity: low",
+						"Attack vector: network"
 					],
 					"impactedVersions": [
 						"*"
 					],
 					"publishedDate": "2023-08-25T01:15:00Z",
-					"discoveredDate": "2023-09-26T03:37:07Z",
+					"discoveredDate": "2023-10-10T03:59:09Z",
 					"layerTime": "2023-08-29T15:41:29Z",
 					"layerInstruction": "USER 185"
 				},
@@ -1112,7 +1112,55 @@
 					"packageVersion": "3.9.16-1.el9_2.1",
 					"link": "https://access.redhat.com/security/cve/CVE-2023-40217",
 					"riskFactors": [
+						"Attack complexity: low",
 						"Attack vector: network",
+						"High severity",
+						"Recent vulnerability"
+					],
+					"impactedVersions": [
+						"*"
+					],
+					"publishedDate": "2023-08-25T01:15:00Z",
+					"discoveredDate": "2023-10-10T03:59:09Z",
+					"layerTime": "2023-08-29T15:41:29Z",
+					"layerInstruction": "USER 185"
+				},
+				{
+					"id": "CVE-2023-4911",
+					"status": "affected",
+					"cvss": 7.8,
+					"vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+					"description": "A buffer overflow was discovered in the GNU C Library\\'s dynamic loader ld.so while processing the GLIBC_TUNABLES environment variable. This issue could allow a local attacker to use maliciously crafted GLIBC_TUNABLES environment variables when launching binaries with SUID permission to execute code with elevated privileges.",
+					"severity": "important",
+					"packageName": "glibc",
+					"packageVersion": "2.34-60.el9",
+					"link": "https://access.redhat.com/security/cve/CVE-2023-4911",
+					"riskFactors": [
+						"Attack complexity: low",
+						"DoS - High",
+						"High severity",
+						"Recent vulnerability"
+					],
+					"impactedVersions": [
+						"*"
+					],
+					"publishedDate": "2023-10-03T18:15:00Z",
+					"discoveredDate": "2023-10-10T03:59:09Z",
+					"layerTime": "2023-07-26T14:57:55Z",
+					"layerInstruction": "RUN mv -fZ /tmp/ubi.repo /etc/yum.repos.d/ubi.repo || :"
+				},
+				{
+					"id": "CVE-2023-4911",
+					"status": "affected",
+					"cvss": 7.8,
+					"vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+					"description": "A buffer overflow was discovered in the GNU C Library\\'s dynamic loader ld.so while processing the GLIBC_TUNABLES environment variable. This issue could allow a local attacker to use maliciously crafted GLIBC_TUNABLES environment variables when launching binaries with SUID permission to execute code with elevated privileges.",
+					"severity": "important",
+					"packageName": "glibc-minimal-langpack",
+					"packageVersion": "2.34-60.el9",
+					"link": "https://access.redhat.com/security/cve/CVE-2023-4911",
+					"riskFactors": [
+						"DoS - High",
 						"High severity",
 						"Recent vulnerability",
 						"Attack complexity: low"
@@ -1120,10 +1168,34 @@
 					"impactedVersions": [
 						"*"
 					],
-					"publishedDate": "2023-08-25T01:15:00Z",
-					"discoveredDate": "2023-09-26T03:37:07Z",
-					"layerTime": "2023-08-29T15:41:29Z",
-					"layerInstruction": "USER 185"
+					"publishedDate": "2023-10-03T18:15:00Z",
+					"discoveredDate": "2023-10-10T03:59:09Z",
+					"layerTime": "2023-07-26T14:57:55Z",
+					"layerInstruction": "RUN mv -fZ /tmp/ubi.repo /etc/yum.repos.d/ubi.repo || :"
+				},
+				{
+					"id": "CVE-2023-4911",
+					"status": "affected",
+					"cvss": 7.8,
+					"vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+					"description": "A buffer overflow was discovered in the GNU C Library\\'s dynamic loader ld.so while processing the GLIBC_TUNABLES environment variable. This issue could allow a local attacker to use maliciously crafted GLIBC_TUNABLES environment variables when launching binaries with SUID permission to execute code with elevated privileges.",
+					"severity": "important",
+					"packageName": "glibc-common",
+					"packageVersion": "2.34-60.el9",
+					"link": "https://access.redhat.com/security/cve/CVE-2023-4911",
+					"riskFactors": [
+						"Recent vulnerability",
+						"Attack complexity: low",
+						"DoS - High",
+						"High severity"
+					],
+					"impactedVersions": [
+						"*"
+					],
+					"publishedDate": "2023-10-03T18:15:00Z",
+					"discoveredDate": "2023-10-10T03:59:09Z",
+					"layerTime": "2023-07-26T14:57:55Z",
+					"layerInstruction": "RUN mv -fZ /tmp/ubi.repo /etc/yum.repos.d/ubi.repo || :"
 				},
 				{
 					"id": "CVE-2023-39975",
@@ -1136,40 +1208,16 @@
 					"packageVersion": "1.20.1-9.el9_2",
 					"link": "https://access.redhat.com/security/cve/CVE-2023-39975",
 					"riskFactors": [
+						"Attack vector: network",
 						"DoS - High",
 						"Medium severity",
-						"Recent vulnerability",
-						"Attack vector: network"
+						"Recent vulnerability"
 					],
 					"impactedVersions": [
 						"*"
 					],
 					"publishedDate": "2023-08-16T15:15:00Z",
-					"discoveredDate": "2023-09-26T03:37:07Z",
-					"layerTime": "2023-07-26T14:57:55Z",
-					"layerInstruction": "RUN mv -fZ /tmp/ubi.repo /etc/yum.repos.d/ubi.repo || :"
-				},
-				{
-					"id": "CVE-2023-29491",
-					"status": "affected",
-					"cvss": 7.8,
-					"vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
-					"description": "ncurses before 6.4 20230408, when used by a setuid application, allows local users to trigger security-relevant memory corruption via malformed data in a terminfo database file that is found in $HOME/.terminfo or reached via the TERMINFO or TERM environment variable.",
-					"severity": "moderate",
-					"packageName": "ncurses-libs",
-					"packageVersion": "6.2-8.20210508.el9",
-					"link": "https://access.redhat.com/security/cve/CVE-2023-29491",
-					"riskFactors": [
-						"Medium severity",
-						"Recent vulnerability",
-						"Attack complexity: low",
-						"DoS - High"
-					],
-					"impactedVersions": [
-						"*"
-					],
-					"publishedDate": "2023-04-14T01:15:00Z",
-					"discoveredDate": "2023-09-26T03:37:07Z",
+					"discoveredDate": "2023-10-10T03:59:09Z",
 					"layerTime": "2023-07-26T14:57:55Z",
 					"layerInstruction": "RUN mv -fZ /tmp/ubi.repo /etc/yum.repos.d/ubi.repo || :"
 				},
@@ -1184,16 +1232,40 @@
 					"packageVersion": "6.2-8.20210508.el9",
 					"link": "https://access.redhat.com/security/cve/CVE-2023-29491",
 					"riskFactors": [
+						"Medium severity",
 						"Recent vulnerability",
 						"Attack complexity: low",
-						"DoS - High",
-						"Medium severity"
+						"DoS - High"
 					],
 					"impactedVersions": [
 						"*"
 					],
 					"publishedDate": "2023-04-14T01:15:00Z",
-					"discoveredDate": "2023-09-26T03:37:07Z",
+					"discoveredDate": "2023-10-10T03:59:09Z",
+					"layerTime": "2023-07-26T14:57:55Z",
+					"layerInstruction": "RUN mv -fZ /tmp/ubi.repo /etc/yum.repos.d/ubi.repo || :"
+				},
+				{
+					"id": "CVE-2023-29491",
+					"status": "affected",
+					"cvss": 7.8,
+					"vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+					"description": "ncurses before 6.4 20230408, when used by a setuid application, allows local users to trigger security-relevant memory corruption via malformed data in a terminfo database file that is found in $HOME/.terminfo or reached via the TERMINFO or TERM environment variable.",
+					"severity": "moderate",
+					"packageName": "ncurses-libs",
+					"packageVersion": "6.2-8.20210508.el9",
+					"link": "https://access.redhat.com/security/cve/CVE-2023-29491",
+					"riskFactors": [
+						"Attack complexity: low",
+						"DoS - High",
+						"Medium severity",
+						"Recent vulnerability"
+					],
+					"impactedVersions": [
+						"*"
+					],
+					"publishedDate": "2023-04-14T01:15:00Z",
+					"discoveredDate": "2023-10-10T03:59:09Z",
 					"layerTime": "2023-07-26T14:57:55Z",
 					"layerInstruction": "RUN mv -fZ /tmp/ubi.repo /etc/yum.repos.d/ubi.repo || :"
 				},
@@ -1208,17 +1280,17 @@
 					"packageVersion": "2.48-8.el9",
 					"link": "https://access.redhat.com/errata/RHSA-2023:5071",
 					"riskFactors": [
-						"Medium severity",
 						"Recent vulnerability",
 						"Attack complexity: low",
 						"DoS - High",
-						"Has fix"
+						"Has fix",
+						"Medium severity"
 					],
 					"impactedVersions": [
 						"\u003c2.48-9.el9_2"
 					],
 					"publishedDate": "2023-06-06T20:15:00Z",
-					"discoveredDate": "2023-09-26T03:37:07Z",
+					"discoveredDate": "2023-10-10T03:59:09Z",
 					"fixDate": "2023-09-12T00:00:00Z",
 					"layerTime": "2023-07-26T14:57:55Z",
 					"layerInstruction": "RUN mv -fZ /tmp/ubi.repo /etc/yum.repos.d/ubi.repo || :"
@@ -1234,18 +1306,42 @@
 					"packageVersion": "2.3.3op2-16.el9_2.1",
 					"link": "https://access.redhat.com/security/cve/CVE-2023-34241",
 					"riskFactors": [
-						"Recent vulnerability",
 						"Attack complexity: low",
 						"DoS - High",
-						"Medium severity"
+						"Medium severity",
+						"Recent vulnerability"
 					],
 					"impactedVersions": [
 						"*"
 					],
 					"publishedDate": "2023-06-22T23:15:00Z",
-					"discoveredDate": "2023-09-26T03:37:07Z",
+					"discoveredDate": "2023-10-10T03:59:09Z",
 					"layerTime": "2023-08-29T15:41:29Z",
 					"layerInstruction": "USER 185"
+				},
+				{
+					"id": "CVE-2023-4527",
+					"status": "affected",
+					"cvss": 6.5,
+					"vector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:N/A:H",
+					"description": "A flaw was found in glibc. When the getaddrinfo function is called with the AF_UNSPEC address family and the system is configured with no-aaaa mode via /etc/resolv.conf, a DNS response via TCP larger than 2048 bytes can potentially disclose stack contents through the function returned address data, and may cause a crash.",
+					"severity": "moderate",
+					"packageName": "glibc-minimal-langpack",
+					"packageVersion": "2.34-60.el9",
+					"link": "https://access.redhat.com/security/cve/CVE-2023-4527",
+					"riskFactors": [
+						"DoS - High",
+						"Medium severity",
+						"Recent vulnerability",
+						"Attack vector: network"
+					],
+					"impactedVersions": [
+						"*"
+					],
+					"publishedDate": "2023-09-18T17:15:00Z",
+					"discoveredDate": "2023-10-10T03:59:09Z",
+					"layerTime": "2023-07-26T14:57:55Z",
+					"layerInstruction": "RUN mv -fZ /tmp/ubi.repo /etc/yum.repos.d/ubi.repo || :"
 				},
 				{
 					"id": "CVE-2023-4527",
@@ -1267,31 +1363,7 @@
 						"*"
 					],
 					"publishedDate": "2023-09-18T17:15:00Z",
-					"discoveredDate": "2023-09-26T03:37:07Z",
-					"layerTime": "2023-07-26T14:57:55Z",
-					"layerInstruction": "RUN mv -fZ /tmp/ubi.repo /etc/yum.repos.d/ubi.repo || :"
-				},
-				{
-					"id": "CVE-2023-4527",
-					"status": "affected",
-					"cvss": 6.5,
-					"vector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:N/A:H",
-					"description": "A flaw was found in glibc. When the getaddrinfo function is called with the AF_UNSPEC address family and the system is configured with no-aaaa mode via /etc/resolv.conf, a DNS response via TCP larger than 2048 bytes can potentially disclose stack contents through the function returned address data, and may cause a crash.",
-					"severity": "moderate",
-					"packageName": "glibc-minimal-langpack",
-					"packageVersion": "2.34-60.el9",
-					"link": "https://access.redhat.com/security/cve/CVE-2023-4527",
-					"riskFactors": [
-						"Attack vector: network",
-						"DoS - High",
-						"Medium severity",
-						"Recent vulnerability"
-					],
-					"impactedVersions": [
-						"*"
-					],
-					"publishedDate": "2023-09-18T17:15:00Z",
-					"discoveredDate": "2023-09-26T03:37:07Z",
+					"discoveredDate": "2023-10-10T03:59:09Z",
 					"layerTime": "2023-07-26T14:57:55Z",
 					"layerInstruction": "RUN mv -fZ /tmp/ubi.repo /etc/yum.repos.d/ubi.repo || :"
 				},
@@ -1315,32 +1387,9 @@
 						"*"
 					],
 					"publishedDate": "2023-09-18T17:15:00Z",
-					"discoveredDate": "2023-09-26T03:37:07Z",
+					"discoveredDate": "2023-10-10T03:59:09Z",
 					"layerTime": "2023-07-26T14:57:55Z",
 					"layerInstruction": "RUN mv -fZ /tmp/ubi.repo /etc/yum.repos.d/ubi.repo || :"
-				},
-				{
-					"id": "CVE-2023-4421",
-					"status": "affected",
-					"cvss": 6.5,
-					"description": "no description is available for this cve.",
-					"severity": "moderate",
-					"packageName": "nspr",
-					"packageVersion": "4.34.0-18.el9_1",
-					"link": "https://access.redhat.com/security/cve/CVE-2023-4421",
-					"riskFactors": [
-						"Attack vector: network",
-						"Medium severity",
-						"Recent vulnerability",
-						"Attack complexity: low"
-					],
-					"impactedVersions": [
-						"*"
-					],
-					"publishedDate": "2023-09-13T00:00:00Z",
-					"discoveredDate": "2023-09-26T03:37:07Z",
-					"layerTime": "2023-08-29T15:41:29Z",
-					"layerInstruction": "USER 185"
 				},
 				{
 					"id": "CVE-2023-4421",
@@ -1361,7 +1410,7 @@
 						"*"
 					],
 					"publishedDate": "2023-09-13T00:00:00Z",
-					"discoveredDate": "2023-09-26T03:37:07Z",
+					"discoveredDate": "2023-10-10T03:59:09Z",
 					"layerTime": "2023-08-29T15:41:29Z",
 					"layerInstruction": "USER 185"
 				},
@@ -1371,20 +1420,20 @@
 					"cvss": 6.5,
 					"description": "no description is available for this cve.",
 					"severity": "moderate",
-					"packageName": "nss-softokn-freebl",
-					"packageVersion": "3.79.0-18.el9_1",
+					"packageName": "nspr",
+					"packageVersion": "4.34.0-18.el9_1",
 					"link": "https://access.redhat.com/security/cve/CVE-2023-4421",
 					"riskFactors": [
+						"Recent vulnerability",
 						"Attack complexity: low",
 						"Attack vector: network",
-						"Medium severity",
-						"Recent vulnerability"
+						"Medium severity"
 					],
 					"impactedVersions": [
 						"*"
 					],
 					"publishedDate": "2023-09-13T00:00:00Z",
-					"discoveredDate": "2023-09-26T03:37:07Z",
+					"discoveredDate": "2023-10-10T03:59:09Z",
 					"layerTime": "2023-08-29T15:41:29Z",
 					"layerInstruction": "USER 185"
 				},
@@ -1407,7 +1456,30 @@
 						"*"
 					],
 					"publishedDate": "2023-09-13T00:00:00Z",
-					"discoveredDate": "2023-09-26T03:37:07Z",
+					"discoveredDate": "2023-10-10T03:59:09Z",
+					"layerTime": "2023-08-29T15:41:29Z",
+					"layerInstruction": "USER 185"
+				},
+				{
+					"id": "CVE-2023-4421",
+					"status": "affected",
+					"cvss": 6.5,
+					"description": "no description is available for this cve.",
+					"severity": "moderate",
+					"packageName": "nss-softokn-freebl",
+					"packageVersion": "3.79.0-18.el9_1",
+					"link": "https://access.redhat.com/security/cve/CVE-2023-4421",
+					"riskFactors": [
+						"Attack complexity: low",
+						"Attack vector: network",
+						"Medium severity",
+						"Recent vulnerability"
+					],
+					"impactedVersions": [
+						"*"
+					],
+					"publishedDate": "2023-09-13T00:00:00Z",
+					"discoveredDate": "2023-10-10T03:59:09Z",
 					"layerTime": "2023-08-29T15:41:29Z",
 					"layerInstruction": "USER 185"
 				},
@@ -1421,16 +1493,16 @@
 					"packageVersion": "3.79.0-18.el9_1",
 					"link": "https://access.redhat.com/security/cve/CVE-2023-4421",
 					"riskFactors": [
-						"Attack complexity: low",
 						"Attack vector: network",
 						"Medium severity",
-						"Recent vulnerability"
+						"Recent vulnerability",
+						"Attack complexity: low"
 					],
 					"impactedVersions": [
 						"*"
 					],
 					"publishedDate": "2023-09-13T00:00:00Z",
-					"discoveredDate": "2023-09-26T03:37:07Z",
+					"discoveredDate": "2023-10-10T03:59:09Z",
 					"layerTime": "2023-08-29T15:41:29Z",
 					"layerInstruction": "USER 185"
 				},
@@ -1453,7 +1525,7 @@
 						"*"
 					],
 					"publishedDate": "2023-09-13T00:00:00Z",
-					"discoveredDate": "2023-09-26T03:37:07Z",
+					"discoveredDate": "2023-10-10T03:59:09Z",
 					"layerTime": "2023-08-29T15:41:29Z",
 					"layerInstruction": "USER 185"
 				},
@@ -1461,22 +1533,22 @@
 					"id": "CVE-2023-38473",
 					"status": "affected",
 					"cvss": 6.2,
-					"description": "no description is available for this cve.",
+					"description": "a vulnerability was found in avahi. a reachable assertion exists in the avahi_alternative_host_name() function.",
 					"severity": "moderate",
 					"packageName": "avahi-libs",
 					"packageVersion": "0.8-12.el9_2.1",
 					"link": "https://access.redhat.com/security/cve/CVE-2023-38473",
 					"riskFactors": [
-						"Medium severity",
-						"Recent vulnerability",
 						"Attack complexity: low",
-						"DoS - High"
+						"DoS - High",
+						"Medium severity",
+						"Recent vulnerability"
 					],
 					"impactedVersions": [
 						"*"
 					],
 					"publishedDate": "2023-04-26T00:00:00Z",
-					"discoveredDate": "2023-09-26T03:37:07Z",
+					"discoveredDate": "2023-10-10T03:59:09Z",
 					"layerTime": "2023-08-29T15:41:29Z",
 					"layerInstruction": "USER 185"
 				},
@@ -1484,22 +1556,22 @@
 					"id": "CVE-2023-38472",
 					"status": "affected",
 					"cvss": 6.2,
-					"description": "no description is available for this cve.",
+					"description": "a vulnerability was found in avahi. a reachable assertion exists in the avahi_rdata_parse() function.",
 					"severity": "moderate",
 					"packageName": "avahi-libs",
 					"packageVersion": "0.8-12.el9_2.1",
 					"link": "https://access.redhat.com/security/cve/CVE-2023-38472",
 					"riskFactors": [
-						"Recent vulnerability",
 						"Attack complexity: low",
 						"DoS - High",
-						"Medium severity"
+						"Medium severity",
+						"Recent vulnerability"
 					],
 					"impactedVersions": [
 						"*"
 					],
 					"publishedDate": "2023-04-26T00:00:00Z",
-					"discoveredDate": "2023-09-26T03:37:07Z",
+					"discoveredDate": "2023-10-10T03:59:09Z",
 					"layerTime": "2023-08-29T15:41:29Z",
 					"layerInstruction": "USER 185"
 				},
@@ -1507,7 +1579,7 @@
 					"id": "CVE-2023-38471",
 					"status": "affected",
 					"cvss": 6.2,
-					"description": "no description is available for this cve.",
+					"description": "a vulnerability was found in avahi. a reachable assertion exists in the dbus_set_host_name function.",
 					"severity": "moderate",
 					"packageName": "avahi-libs",
 					"packageVersion": "0.8-12.el9_2.1",
@@ -1522,7 +1594,7 @@
 						"*"
 					],
 					"publishedDate": "2023-04-26T00:00:00Z",
-					"discoveredDate": "2023-09-26T03:37:07Z",
+					"discoveredDate": "2023-10-10T03:59:09Z",
 					"layerTime": "2023-08-29T15:41:29Z",
 					"layerInstruction": "USER 185"
 				},
@@ -1530,7 +1602,7 @@
 					"id": "CVE-2023-38470",
 					"status": "affected",
 					"cvss": 6.2,
-					"description": "no description is available for this cve.",
+					"description": "a vulnerability was found in avahi. a reachable assertion exists in the avahi_escape_label() function.",
 					"severity": "moderate",
 					"packageName": "avahi-libs",
 					"packageVersion": "0.8-12.el9_2.1",
@@ -1545,7 +1617,7 @@
 						"*"
 					],
 					"publishedDate": "2023-04-26T00:00:00Z",
-					"discoveredDate": "2023-09-26T03:37:07Z",
+					"discoveredDate": "2023-10-10T03:59:09Z",
 					"layerTime": "2023-08-29T15:41:29Z",
 					"layerInstruction": "USER 185"
 				},
@@ -1553,22 +1625,22 @@
 					"id": "CVE-2023-38469",
 					"status": "affected",
 					"cvss": 6.2,
-					"description": "no description is available for this cve.",
+					"description": "a vulnerability was found in avahi, where a reachable assertion exists in avahi_dns_packet_append_record.",
 					"severity": "moderate",
 					"packageName": "avahi-libs",
 					"packageVersion": "0.8-12.el9_2.1",
 					"link": "https://access.redhat.com/security/cve/CVE-2023-38469",
 					"riskFactors": [
-						"DoS - High",
-						"Medium severity",
 						"Recent vulnerability",
-						"Attack complexity: low"
+						"Attack complexity: low",
+						"DoS - High",
+						"Medium severity"
 					],
 					"impactedVersions": [
 						"*"
 					],
 					"publishedDate": "2023-04-26T00:00:00Z",
-					"discoveredDate": "2023-09-26T03:37:07Z",
+					"discoveredDate": "2023-10-10T03:59:09Z",
 					"layerTime": "2023-08-29T15:41:29Z",
 					"layerInstruction": "USER 185"
 				},
@@ -1591,33 +1663,9 @@
 						"*"
 					],
 					"publishedDate": "2021-06-02T16:15:00Z",
-					"discoveredDate": "2023-09-26T03:37:07Z",
+					"discoveredDate": "2023-10-10T03:59:09Z",
 					"layerTime": "2023-08-29T15:41:29Z",
 					"layerInstruction": "USER 185"
-				},
-				{
-					"id": "CVE-2023-4813",
-					"status": "affected",
-					"cvss": 5.9,
-					"vector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H",
-					"description": "A flaw was found in glibc. In an uncommon situation, the gaih_inet function may use memory that has been freed, resulting in an application crash. This issue is only exploitable when the getaddrinfo function is called and the hosts database in /etc/nsswitch.conf is configured with SUCCESS=continue or SUCCESS=merge.",
-					"severity": "moderate",
-					"packageName": "glibc-minimal-langpack",
-					"packageVersion": "2.34-60.el9",
-					"link": "https://access.redhat.com/security/cve/CVE-2023-4813",
-					"riskFactors": [
-						"Attack vector: network",
-						"DoS - High",
-						"Medium severity",
-						"Recent vulnerability"
-					],
-					"impactedVersions": [
-						"*"
-					],
-					"publishedDate": "2023-09-12T22:15:00Z",
-					"discoveredDate": "2023-09-26T03:37:07Z",
-					"layerTime": "2023-07-26T14:57:55Z",
-					"layerInstruction": "RUN mv -fZ /tmp/ubi.repo /etc/yum.repos.d/ubi.repo || :"
 				},
 				{
 					"id": "CVE-2023-4813",
@@ -1630,16 +1678,16 @@
 					"packageVersion": "2.34-60.el9",
 					"link": "https://access.redhat.com/security/cve/CVE-2023-4813",
 					"riskFactors": [
-						"Recent vulnerability",
-						"Attack vector: network",
 						"DoS - High",
-						"Medium severity"
+						"Medium severity",
+						"Recent vulnerability",
+						"Attack vector: network"
 					],
 					"impactedVersions": [
 						"*"
 					],
 					"publishedDate": "2023-09-12T22:15:00Z",
-					"discoveredDate": "2023-09-26T03:37:07Z",
+					"discoveredDate": "2023-10-10T03:59:09Z",
 					"layerTime": "2023-07-26T14:57:55Z",
 					"layerInstruction": "RUN mv -fZ /tmp/ubi.repo /etc/yum.repos.d/ubi.repo || :"
 				},
@@ -1663,7 +1711,31 @@
 						"*"
 					],
 					"publishedDate": "2023-09-12T22:15:00Z",
-					"discoveredDate": "2023-09-26T03:37:07Z",
+					"discoveredDate": "2023-10-10T03:59:09Z",
+					"layerTime": "2023-07-26T14:57:55Z",
+					"layerInstruction": "RUN mv -fZ /tmp/ubi.repo /etc/yum.repos.d/ubi.repo || :"
+				},
+				{
+					"id": "CVE-2023-4813",
+					"status": "affected",
+					"cvss": 5.9,
+					"vector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H",
+					"description": "A flaw was found in glibc. In an uncommon situation, the gaih_inet function may use memory that has been freed, resulting in an application crash. This issue is only exploitable when the getaddrinfo function is called and the hosts database in /etc/nsswitch.conf is configured with SUCCESS=continue or SUCCESS=merge.",
+					"severity": "moderate",
+					"packageName": "glibc-minimal-langpack",
+					"packageVersion": "2.34-60.el9",
+					"link": "https://access.redhat.com/security/cve/CVE-2023-4813",
+					"riskFactors": [
+						"Attack vector: network",
+						"DoS - High",
+						"Medium severity",
+						"Recent vulnerability"
+					],
+					"impactedVersions": [
+						"*"
+					],
+					"publishedDate": "2023-09-12T22:15:00Z",
+					"discoveredDate": "2023-10-10T03:59:09Z",
 					"layerTime": "2023-07-26T14:57:55Z",
 					"layerInstruction": "RUN mv -fZ /tmp/ubi.repo /etc/yum.repos.d/ubi.repo || :"
 				},
@@ -1671,10 +1743,10 @@
 					"id": "CVE-2023-4806",
 					"status": "affected",
 					"cvss": 5.9,
-					"vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+					"vector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H",
 					"description": "A flaw was found in glibc. In an extremely rare situation, the getaddrinfo function may access memory that has been freed, resulting in an application crash. This issue is only exploitable when a NSS module implements only the _nss_*_gethostbyname2_r and _nss_*_getcanonname_r hooks without implementing the _nss_*_gethostbyname3_r hook. The resolved name should return a large number of IPv6 and IPv4, and the call to the getaddrinfo function should have the AF_INET6 address family with AI_CANONNAME, AI_ALL and AI_V4MAPPED as flags.",
 					"severity": "moderate",
-					"packageName": "glibc-minimal-langpack",
+					"packageName": "glibc-common",
 					"packageVersion": "2.34-60.el9",
 					"link": "https://access.redhat.com/security/cve/CVE-2023-4806",
 					"riskFactors": [
@@ -1687,7 +1759,7 @@
 						"*"
 					],
 					"publishedDate": "2023-09-18T17:15:00Z",
-					"discoveredDate": "2023-09-26T03:37:07Z",
+					"discoveredDate": "2023-10-10T03:59:09Z",
 					"layerTime": "2023-07-26T14:57:55Z",
 					"layerInstruction": "RUN mv -fZ /tmp/ubi.repo /etc/yum.repos.d/ubi.repo || :"
 				},
@@ -1695,10 +1767,10 @@
 					"id": "CVE-2023-4806",
 					"status": "affected",
 					"cvss": 5.9,
-					"vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+					"vector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H",
 					"description": "A flaw was found in glibc. In an extremely rare situation, the getaddrinfo function may access memory that has been freed, resulting in an application crash. This issue is only exploitable when a NSS module implements only the _nss_*_gethostbyname2_r and _nss_*_getcanonname_r hooks without implementing the _nss_*_gethostbyname3_r hook. The resolved name should return a large number of IPv6 and IPv4, and the call to the getaddrinfo function should have the AF_INET6 address family with AI_CANONNAME, AI_ALL and AI_V4MAPPED as flags.",
 					"severity": "moderate",
-					"packageName": "glibc",
+					"packageName": "glibc-minimal-langpack",
 					"packageVersion": "2.34-60.el9",
 					"link": "https://access.redhat.com/security/cve/CVE-2023-4806",
 					"riskFactors": [
@@ -1711,7 +1783,7 @@
 						"*"
 					],
 					"publishedDate": "2023-09-18T17:15:00Z",
-					"discoveredDate": "2023-09-26T03:37:07Z",
+					"discoveredDate": "2023-10-10T03:59:09Z",
 					"layerTime": "2023-07-26T14:57:55Z",
 					"layerInstruction": "RUN mv -fZ /tmp/ubi.repo /etc/yum.repos.d/ubi.repo || :"
 				},
@@ -1719,23 +1791,23 @@
 					"id": "CVE-2023-4806",
 					"status": "affected",
 					"cvss": 5.9,
-					"vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+					"vector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H",
 					"description": "A flaw was found in glibc. In an extremely rare situation, the getaddrinfo function may access memory that has been freed, resulting in an application crash. This issue is only exploitable when a NSS module implements only the _nss_*_gethostbyname2_r and _nss_*_getcanonname_r hooks without implementing the _nss_*_gethostbyname3_r hook. The resolved name should return a large number of IPv6 and IPv4, and the call to the getaddrinfo function should have the AF_INET6 address family with AI_CANONNAME, AI_ALL and AI_V4MAPPED as flags.",
 					"severity": "moderate",
-					"packageName": "glibc-common",
+					"packageName": "glibc",
 					"packageVersion": "2.34-60.el9",
 					"link": "https://access.redhat.com/security/cve/CVE-2023-4806",
 					"riskFactors": [
-						"Recent vulnerability",
 						"Attack vector: network",
 						"DoS - High",
-						"Medium severity"
+						"Medium severity",
+						"Recent vulnerability"
 					],
 					"impactedVersions": [
 						"*"
 					],
 					"publishedDate": "2023-09-18T17:15:00Z",
-					"discoveredDate": "2023-09-26T03:37:07Z",
+					"discoveredDate": "2023-10-10T03:59:09Z",
 					"layerTime": "2023-07-26T14:57:55Z",
 					"layerInstruction": "RUN mv -fZ /tmp/ubi.repo /etc/yum.repos.d/ubi.repo || :"
 				},
@@ -1750,18 +1822,41 @@
 					"packageVersion": "2.3.3op2-16.el9_2.1",
 					"link": "https://access.redhat.com/security/cve/CVE-2023-32324",
 					"riskFactors": [
+						"Medium severity",
 						"Recent vulnerability",
 						"Attack vector: network",
-						"DoS - High",
-						"Medium severity"
+						"DoS - High"
 					],
 					"impactedVersions": [
 						"*"
 					],
 					"publishedDate": "2023-06-01T17:15:00Z",
-					"discoveredDate": "2023-09-26T03:37:07Z",
+					"discoveredDate": "2023-10-10T03:59:09Z",
 					"layerTime": "2023-08-29T15:41:29Z",
 					"layerInstruction": "USER 185"
+				},
+				{
+					"id": "CVE-2023-27536",
+					"status": "affected",
+					"cvss": 5.9,
+					"vector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:N/A:N",
+					"description": "An authentication bypass vulnerability exists libcurl \u003c8.0.0 in the connection reuse feature which can reuse previously established connections with incorrect user permissions due to a failure to check for changes in the CURLOPT_GSSAPI_DELEGATION option. This vulnerability affects krb5/kerberos/negotiate/GSSAPI transfers and could potentially result in unauthorized access to sensitive information. The safest option is to not reuse connections if the CURLOPT_GSSAPI_DELEGATION option has been changed.",
+					"severity": "moderate",
+					"packageName": "libcurl-minimal",
+					"packageVersion": "7.76.1-23.el9_2.2",
+					"link": "https://access.redhat.com/security/cve/CVE-2023-27536",
+					"riskFactors": [
+						"Medium severity",
+						"Attack vector: network",
+						"Exploit exists - POC"
+					],
+					"impactedVersions": [
+						"*"
+					],
+					"publishedDate": "2023-03-30T20:15:00Z",
+					"discoveredDate": "2023-10-10T03:59:09Z",
+					"layerTime": "2023-07-26T14:57:55Z",
+					"layerInstruction": "RUN mv -fZ /tmp/ubi.repo /etc/yum.repos.d/ubi.repo || :"
 				},
 				{
 					"id": "CVE-2023-27536",
@@ -1776,63 +1871,15 @@
 					"riskFactors": [
 						"Attack vector: network",
 						"Exploit exists - POC",
-						"Medium severity",
-						"Recent vulnerability"
-					],
-					"impactedVersions": [
-						"*"
-					],
-					"publishedDate": "2023-03-30T20:15:00Z",
-					"discoveredDate": "2023-09-26T03:37:07Z",
-					"layerTime": "2023-07-26T14:57:55Z",
-					"layerInstruction": "RUN mv -fZ /tmp/ubi.repo /etc/yum.repos.d/ubi.repo || :"
-				},
-				{
-					"id": "CVE-2023-27536",
-					"status": "affected",
-					"cvss": 5.9,
-					"vector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:N/A:N",
-					"description": "An authentication bypass vulnerability exists libcurl \u003c8.0.0 in the connection reuse feature which can reuse previously established connections with incorrect user permissions due to a failure to check for changes in the CURLOPT_GSSAPI_DELEGATION option. This vulnerability affects krb5/kerberos/negotiate/GSSAPI transfers and could potentially result in unauthorized access to sensitive information. The safest option is to not reuse connections if the CURLOPT_GSSAPI_DELEGATION option has been changed.",
-					"severity": "moderate",
-					"packageName": "libcurl-minimal",
-					"packageVersion": "7.76.1-23.el9_2.2",
-					"link": "https://access.redhat.com/security/cve/CVE-2023-27536",
-					"riskFactors": [
-						"Medium severity",
-						"Recent vulnerability",
-						"Attack vector: network",
-						"Exploit exists - POC"
-					],
-					"impactedVersions": [
-						"*"
-					],
-					"publishedDate": "2023-03-30T20:15:00Z",
-					"discoveredDate": "2023-09-26T03:37:07Z",
-					"layerTime": "2023-07-26T14:57:55Z",
-					"layerInstruction": "RUN mv -fZ /tmp/ubi.repo /etc/yum.repos.d/ubi.repo || :"
-				},
-				{
-					"id": "CVE-2021-23336",
-					"status": "affected",
-					"cvss": 5.9,
-					"vector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:N/I:L/A:H",
-					"description": "The package python/cpython from 0 and before 3.6.13, from 3.7.0 and before 3.7.10, from 3.8.0 and before 3.8.8, from 3.9.0 and before 3.9.2 are vulnerable to Web Cache Poisoning via urllib.parse.parse_qsl and urllib.parse.parse_qs by using a vector called parameter cloaking. When the attacker can separate query parameters using a semicolon (;), they can cause a difference in the interpretation of the request between the proxy (running with default configuration) and the server. This can result in malicious requests being cached as completely safe ones, as the proxy would usually not see the semicolon as a separator, and therefore would not include it in a cache key of an unkeyed parameter.",
-					"severity": "moderate",
-					"packageName": "python3",
-					"packageVersion": "3.9.16-1.el9_2.1",
-					"link": "https://access.redhat.com/security/cve/CVE-2021-23336",
-					"riskFactors": [
-						"Attack vector: network",
-						"DoS - High",
 						"Medium severity"
 					],
 					"impactedVersions": [
 						"*"
 					],
-					"publishedDate": "2021-02-15T13:15:00Z",
-					"discoveredDate": "2023-09-26T03:37:07Z",
-					"layerTime": "2023-08-29T15:41:29Z",
-					"layerInstruction": "USER 185"
+					"publishedDate": "2023-03-30T20:15:00Z",
+					"discoveredDate": "2023-10-10T03:59:09Z",
+					"layerTime": "2023-07-26T14:57:55Z",
+					"layerInstruction": "RUN mv -fZ /tmp/ubi.repo /etc/yum.repos.d/ubi.repo || :"
 				},
 				{
 					"id": "CVE-2021-23336",
@@ -1853,7 +1900,30 @@
 						"*"
 					],
 					"publishedDate": "2021-02-15T13:15:00Z",
-					"discoveredDate": "2023-09-26T03:37:07Z",
+					"discoveredDate": "2023-10-10T03:59:09Z",
+					"layerTime": "2023-08-29T15:41:29Z",
+					"layerInstruction": "USER 185"
+				},
+				{
+					"id": "CVE-2021-23336",
+					"status": "affected",
+					"cvss": 5.9,
+					"vector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:N/I:L/A:H",
+					"description": "The package python/cpython from 0 and before 3.6.13, from 3.7.0 and before 3.7.10, from 3.8.0 and before 3.8.8, from 3.9.0 and before 3.9.2 are vulnerable to Web Cache Poisoning via urllib.parse.parse_qsl and urllib.parse.parse_qs by using a vector called parameter cloaking. When the attacker can separate query parameters using a semicolon (;), they can cause a difference in the interpretation of the request between the proxy (running with default configuration) and the server. This can result in malicious requests being cached as completely safe ones, as the proxy would usually not see the semicolon as a separator, and therefore would not include it in a cache key of an unkeyed parameter.",
+					"severity": "moderate",
+					"packageName": "python3",
+					"packageVersion": "3.9.16-1.el9_2.1",
+					"link": "https://access.redhat.com/security/cve/CVE-2021-23336",
+					"riskFactors": [
+						"Attack vector: network",
+						"DoS - High",
+						"Medium severity"
+					],
+					"impactedVersions": [
+						"*"
+					],
+					"publishedDate": "2021-02-15T13:15:00Z",
+					"discoveredDate": "2023-10-10T03:59:09Z",
 					"layerTime": "2023-08-29T15:41:29Z",
 					"layerInstruction": "USER 185"
 				},
@@ -1877,7 +1947,7 @@
 						"*"
 					],
 					"publishedDate": "2023-08-07T19:15:00Z",
-					"discoveredDate": "2023-09-26T03:37:07Z",
+					"discoveredDate": "2023-10-10T03:59:09Z",
 					"layerTime": "2023-07-26T14:57:55Z",
 					"layerInstruction": "RUN mv -fZ /tmp/ubi.repo /etc/yum.repos.d/ubi.repo || :"
 				},
@@ -1900,7 +1970,7 @@
 						"*"
 					],
 					"publishedDate": "2022-06-23T17:15:00Z",
-					"discoveredDate": "2023-09-26T03:37:07Z",
+					"discoveredDate": "2023-10-10T03:59:09Z",
 					"layerTime": "2023-08-29T15:41:29Z",
 					"layerInstruction": "USER 185"
 				},
@@ -1915,15 +1985,15 @@
 					"packageVersion": "252-14.el9_2.3",
 					"link": "https://access.redhat.com/security/cve/CVE-2021-3997",
 					"riskFactors": [
+						"DoS - High",
 						"Medium severity",
-						"Attack complexity: low",
-						"DoS - High"
+						"Attack complexity: low"
 					],
 					"impactedVersions": [
 						"*"
 					],
 					"publishedDate": "2022-08-23T20:15:00Z",
-					"discoveredDate": "2023-09-26T03:37:07Z",
+					"discoveredDate": "2023-10-10T03:59:09Z",
 					"layerTime": "2023-07-26T14:57:55Z",
 					"layerInstruction": "RUN mv -fZ /tmp/ubi.repo /etc/yum.repos.d/ubi.repo || :"
 				},
@@ -1938,15 +2008,15 @@
 					"packageVersion": "0.8-12.el9_2.1",
 					"link": "https://access.redhat.com/security/cve/CVE-2021-3502",
 					"riskFactors": [
+						"Medium severity",
 						"Attack complexity: low",
-						"DoS - High",
-						"Medium severity"
+						"DoS - High"
 					],
 					"impactedVersions": [
 						"*"
 					],
 					"publishedDate": "2021-05-07T12:15:00Z",
-					"discoveredDate": "2023-09-26T03:37:07Z",
+					"discoveredDate": "2023-10-10T03:59:09Z",
 					"layerTime": "2023-08-29T15:41:29Z",
 					"layerInstruction": "USER 185"
 				},
@@ -1970,7 +2040,7 @@
 						"*"
 					],
 					"publishedDate": "2023-04-19T00:15:00Z",
-					"discoveredDate": "2023-09-26T03:37:07Z",
+					"discoveredDate": "2023-10-10T03:59:09Z",
 					"layerTime": "2023-08-29T15:41:29Z",
 					"layerInstruction": "USER 185"
 				},
@@ -1994,7 +2064,7 @@
 						"*"
 					],
 					"publishedDate": "2023-04-19T00:15:00Z",
-					"discoveredDate": "2023-09-26T03:37:07Z",
+					"discoveredDate": "2023-10-10T03:59:09Z",
 					"layerTime": "2023-08-29T15:41:29Z",
 					"layerInstruction": "USER 185"
 				},
@@ -2017,7 +2087,7 @@
 						"*"
 					],
 					"publishedDate": "2022-02-09T23:15:00Z",
-					"discoveredDate": "2023-09-26T03:37:07Z",
+					"discoveredDate": "2023-10-10T03:59:09Z",
 					"layerTime": "2023-08-29T15:41:29Z",
 					"layerInstruction": "USER 185"
 				},
@@ -2032,15 +2102,15 @@
 					"packageVersion": "3.9.16-1.el9_2.1",
 					"link": "https://access.redhat.com/security/cve/CVE-2022-0391",
 					"riskFactors": [
-						"Medium severity",
 						"Attack complexity: low",
-						"Attack vector: network"
+						"Attack vector: network",
+						"Medium severity"
 					],
 					"impactedVersions": [
 						"*"
 					],
 					"publishedDate": "2022-02-09T23:15:00Z",
-					"discoveredDate": "2023-09-26T03:37:07Z",
+					"discoveredDate": "2023-10-10T03:59:09Z",
 					"layerTime": "2023-08-29T15:41:29Z",
 					"layerInstruction": "USER 185"
 				},
@@ -2063,7 +2133,7 @@
 						"*"
 					],
 					"publishedDate": "2023-09-13T09:15:00Z",
-					"discoveredDate": "2023-09-26T03:37:07Z",
+					"discoveredDate": "2023-10-10T03:59:09Z",
 					"layerTime": "2023-07-26T14:57:55Z",
 					"layerInstruction": "RUN mv -fZ /tmp/ubi.repo /etc/yum.repos.d/ubi.repo || :"
 				},
@@ -2086,7 +2156,7 @@
 						"*"
 					],
 					"publishedDate": "2023-09-13T09:15:00Z",
-					"discoveredDate": "2023-09-26T03:37:07Z",
+					"discoveredDate": "2023-10-10T03:59:09Z",
 					"layerTime": "2023-07-26T14:57:55Z",
 					"layerInstruction": "RUN mv -fZ /tmp/ubi.repo /etc/yum.repos.d/ubi.repo || :"
 				},
@@ -2094,117 +2164,25 @@
 					"id": "CVE-2023-4504",
 					"status": "affected",
 					"cvss": 4.2,
+					"vector": "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
 					"description": "Due to failure in validating the length provided by an attacker-crafted PPD PostScript document, CUPS and libppd are susceptible to a heap-based buffer overflow and possibly code execution. This issue has been fixed in CUPS version 2.4.7, released in September of 2023. ",
 					"severity": "moderate",
 					"packageName": "cups-libs",
 					"packageVersion": "2.3.3op2-16.el9_2.1",
 					"link": "https://access.redhat.com/security/cve/CVE-2023-4504",
 					"riskFactors": [
-						"Attack complexity: low",
 						"DoS - Low",
 						"Medium severity",
-						"Recent vulnerability"
-					],
-					"impactedVersions": [
-						"*"
-					],
-					"publishedDate": "2023-09-21T23:15:00Z",
-					"discoveredDate": "2023-09-26T03:37:07Z",
-					"layerTime": "2023-08-29T15:41:29Z",
-					"layerInstruction": "USER 185"
-				},
-				{
-					"id": "CVE-2023-5156",
-					"status": "affected",
-					"cvss": 3.7,
-					"description": "A flaw was found in the GNU C Library. A recent fix for CVE-2023-4806 introduced the potential for a memory leak, which may result in an application crash.",
-					"severity": "moderate",
-					"packageName": "glibc-minimal-langpack",
-					"packageVersion": "2.34-60.el9",
-					"link": "https://access.redhat.com/security/cve/CVE-2023-5156",
-					"riskFactors": [
-						"Recent vulnerability",
-						"Attack vector: network",
-						"DoS - Low",
-						"Medium severity"
-					],
-					"impactedVersions": [
-						"*"
-					],
-					"publishedDate": "2023-09-25T16:15:00Z",
-					"discoveredDate": "2023-09-26T03:37:07Z",
-					"layerTime": "2023-07-26T14:57:55Z",
-					"layerInstruction": "RUN mv -fZ /tmp/ubi.repo /etc/yum.repos.d/ubi.repo || :"
-				},
-				{
-					"id": "CVE-2023-5156",
-					"status": "affected",
-					"cvss": 3.7,
-					"description": "A flaw was found in the GNU C Library. A recent fix for CVE-2023-4806 introduced the potential for a memory leak, which may result in an application crash.",
-					"severity": "moderate",
-					"packageName": "glibc",
-					"packageVersion": "2.34-60.el9",
-					"link": "https://access.redhat.com/security/cve/CVE-2023-5156",
-					"riskFactors": [
-						"Recent vulnerability",
-						"Attack vector: network",
-						"DoS - Low",
-						"Medium severity"
-					],
-					"impactedVersions": [
-						"*"
-					],
-					"publishedDate": "2023-09-25T16:15:00Z",
-					"discoveredDate": "2023-09-26T03:37:07Z",
-					"layerTime": "2023-07-26T14:57:55Z",
-					"layerInstruction": "RUN mv -fZ /tmp/ubi.repo /etc/yum.repos.d/ubi.repo || :"
-				},
-				{
-					"id": "CVE-2023-5156",
-					"status": "affected",
-					"cvss": 3.7,
-					"description": "A flaw was found in the GNU C Library. A recent fix for CVE-2023-4806 introduced the potential for a memory leak, which may result in an application crash.",
-					"severity": "moderate",
-					"packageName": "glibc-common",
-					"packageVersion": "2.34-60.el9",
-					"link": "https://access.redhat.com/security/cve/CVE-2023-5156",
-					"riskFactors": [
-						"Attack vector: network",
-						"DoS - Low",
-						"Medium severity",
-						"Recent vulnerability"
-					],
-					"impactedVersions": [
-						"*"
-					],
-					"publishedDate": "2023-09-25T16:15:00Z",
-					"discoveredDate": "2023-09-26T03:37:07Z",
-					"layerTime": "2023-07-26T14:57:55Z",
-					"layerInstruction": "RUN mv -fZ /tmp/ubi.repo /etc/yum.repos.d/ubi.repo || :"
-				},
-				{
-					"id": "CVE-2023-2953",
-					"status": "affected",
-					"cvss": 7.1,
-					"vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
-					"description": "A vulnerability was found in openldap. This security flaw causes a null pointer dereference in ber_memalloc_x() function.",
-					"severity": "low",
-					"packageName": "openldap",
-					"packageVersion": "2.6.2-3.el9",
-					"link": "https://access.redhat.com/security/cve/CVE-2023-2953",
-					"riskFactors": [
-						"Attack vector: network",
-						"DoS - High",
 						"Recent vulnerability",
 						"Attack complexity: low"
 					],
 					"impactedVersions": [
 						"*"
 					],
-					"publishedDate": "2023-05-30T22:15:00Z",
-					"discoveredDate": "2023-09-26T03:37:07Z",
-					"layerTime": "2023-07-26T14:57:55Z",
-					"layerInstruction": "RUN mv -fZ /tmp/ubi.repo /etc/yum.repos.d/ubi.repo || :"
+					"publishedDate": "2023-09-21T23:15:00Z",
+					"discoveredDate": "2023-10-10T03:59:09Z",
+					"layerTime": "2023-08-29T15:41:29Z",
+					"layerInstruction": "USER 185"
 				},
 				{
 					"id": "CVE-2023-2953",
@@ -2226,7 +2204,31 @@
 						"*"
 					],
 					"publishedDate": "2023-05-30T22:15:00Z",
-					"discoveredDate": "2023-09-26T03:37:07Z",
+					"discoveredDate": "2023-10-10T03:59:09Z",
+					"layerTime": "2023-07-26T14:57:55Z",
+					"layerInstruction": "RUN mv -fZ /tmp/ubi.repo /etc/yum.repos.d/ubi.repo || :"
+				},
+				{
+					"id": "CVE-2023-2953",
+					"status": "affected",
+					"cvss": 7.1,
+					"vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+					"description": "A vulnerability was found in openldap. This security flaw causes a null pointer dereference in ber_memalloc_x() function.",
+					"severity": "low",
+					"packageName": "openldap",
+					"packageVersion": "2.6.2-3.el9",
+					"link": "https://access.redhat.com/security/cve/CVE-2023-2953",
+					"riskFactors": [
+						"Attack complexity: low",
+						"Attack vector: network",
+						"DoS - High",
+						"Recent vulnerability"
+					],
+					"impactedVersions": [
+						"*"
+					],
+					"publishedDate": "2023-05-30T22:15:00Z",
+					"discoveredDate": "2023-10-10T03:59:09Z",
 					"layerTime": "2023-07-26T14:57:55Z",
 					"layerInstruction": "RUN mv -fZ /tmp/ubi.repo /etc/yum.repos.d/ubi.repo || :"
 				},
@@ -2241,37 +2243,14 @@
 					"packageVersion": "6.2.0-10.el9",
 					"link": "https://access.redhat.com/security/cve/CVE-2021-43618",
 					"riskFactors": [
-						"DoS - High",
-						"Attack complexity: low"
+						"Attack complexity: low",
+						"DoS - High"
 					],
 					"impactedVersions": [
 						"*"
 					],
 					"publishedDate": "2021-11-15T04:15:00Z",
-					"discoveredDate": "2023-09-26T03:37:07Z",
-					"layerTime": "2023-07-26T14:57:55Z",
-					"layerInstruction": "RUN mv -fZ /tmp/ubi.repo /etc/yum.repos.d/ubi.repo || :"
-				},
-				{
-					"id": "CVE-2023-27538",
-					"status": "affected",
-					"cvss": 5.9,
-					"vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N",
-					"description": "An authentication bypass vulnerability exists in libcurl prior to v8.0.0 where it reuses a previously established SSH connection despite the fact that an SSH option was modified, which should have prevented reuse. libcurl maintains a pool of previously used connections to reuse them for subsequent transfers if the configurations match. However, two SSH settings were omitted from the configuration check, allowing them to match easily, potentially leading to the reuse of an inappropriate connection.",
-					"severity": "low",
-					"packageName": "libcurl-minimal",
-					"packageVersion": "7.76.1-23.el9_2.2",
-					"link": "https://access.redhat.com/security/cve/CVE-2023-27538",
-					"riskFactors": [
-						"Attack vector: network",
-						"Exploit exists - POC",
-						"Recent vulnerability"
-					],
-					"impactedVersions": [
-						"*"
-					],
-					"publishedDate": "2023-03-30T20:15:00Z",
-					"discoveredDate": "2023-09-26T03:37:07Z",
+					"discoveredDate": "2023-10-10T03:59:09Z",
 					"layerTime": "2023-07-26T14:57:55Z",
 					"layerInstruction": "RUN mv -fZ /tmp/ubi.repo /etc/yum.repos.d/ubi.repo || :"
 				},
@@ -2287,14 +2266,35 @@
 					"link": "https://access.redhat.com/security/cve/CVE-2023-27538",
 					"riskFactors": [
 						"Attack vector: network",
-						"Exploit exists - POC",
-						"Recent vulnerability"
+						"Exploit exists - POC"
 					],
 					"impactedVersions": [
 						"*"
 					],
 					"publishedDate": "2023-03-30T20:15:00Z",
-					"discoveredDate": "2023-09-26T03:37:07Z",
+					"discoveredDate": "2023-10-10T03:59:09Z",
+					"layerTime": "2023-07-26T14:57:55Z",
+					"layerInstruction": "RUN mv -fZ /tmp/ubi.repo /etc/yum.repos.d/ubi.repo || :"
+				},
+				{
+					"id": "CVE-2023-27538",
+					"status": "affected",
+					"cvss": 5.9,
+					"vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N",
+					"description": "An authentication bypass vulnerability exists in libcurl prior to v8.0.0 where it reuses a previously established SSH connection despite the fact that an SSH option was modified, which should have prevented reuse. libcurl maintains a pool of previously used connections to reuse them for subsequent transfers if the configurations match. However, two SSH settings were omitted from the configuration check, allowing them to match easily, potentially leading to the reuse of an inappropriate connection.",
+					"severity": "low",
+					"packageName": "libcurl-minimal",
+					"packageVersion": "7.76.1-23.el9_2.2",
+					"link": "https://access.redhat.com/security/cve/CVE-2023-27538",
+					"riskFactors": [
+						"Attack vector: network",
+						"Exploit exists - POC"
+					],
+					"impactedVersions": [
+						"*"
+					],
+					"publishedDate": "2023-03-30T20:15:00Z",
+					"discoveredDate": "2023-10-10T03:59:09Z",
 					"layerTime": "2023-07-26T14:57:55Z",
 					"layerInstruction": "RUN mv -fZ /tmp/ubi.repo /etc/yum.repos.d/ubi.repo || :"
 				},
@@ -2309,15 +2309,15 @@
 					"packageVersion": "0.8-12.el9_2.1",
 					"link": "https://access.redhat.com/security/cve/CVE-2017-6519",
 					"riskFactors": [
+						"DoS - Low",
 						"Attack complexity: low",
-						"Attack vector: network",
-						"DoS - Low"
+						"Attack vector: network"
 					],
 					"impactedVersions": [
 						"*"
 					],
 					"publishedDate": "2017-05-01T01:59:00Z",
-					"discoveredDate": "2023-09-26T03:37:07Z",
+					"discoveredDate": "2023-10-10T03:59:09Z",
 					"layerTime": "2023-08-29T15:41:29Z",
 					"layerInstruction": "USER 185"
 				},
@@ -2340,7 +2340,7 @@
 						"*"
 					],
 					"publishedDate": "2023-09-14T20:15:00Z",
-					"discoveredDate": "2023-09-26T03:37:07Z",
+					"discoveredDate": "2023-10-10T03:59:09Z",
 					"layerTime": "2023-07-26T14:57:55Z",
 					"layerInstruction": "RUN mv -fZ /tmp/ubi.repo /etc/yum.repos.d/ubi.repo || :"
 				},
@@ -2355,15 +2355,15 @@
 					"packageVersion": "2.68.4-6.el9",
 					"link": "https://access.redhat.com/security/cve/CVE-2023-32611",
 					"riskFactors": [
-						"Recent vulnerability",
 						"Attack complexity: low",
-						"DoS - High"
+						"DoS - High",
+						"Recent vulnerability"
 					],
 					"impactedVersions": [
 						"*"
 					],
 					"publishedDate": "2023-09-14T20:15:00Z",
-					"discoveredDate": "2023-09-26T03:37:07Z",
+					"discoveredDate": "2023-10-10T03:59:09Z",
 					"layerTime": "2023-07-26T14:57:55Z",
 					"layerInstruction": "RUN mv -fZ /tmp/ubi.repo /etc/yum.repos.d/ubi.repo || :"
 				},
@@ -2386,7 +2386,7 @@
 						"*"
 					],
 					"publishedDate": "2023-09-14T20:15:00Z",
-					"discoveredDate": "2023-09-26T03:37:07Z",
+					"discoveredDate": "2023-10-10T03:59:09Z",
 					"layerTime": "2023-07-26T14:57:55Z",
 					"layerInstruction": "RUN mv -fZ /tmp/ubi.repo /etc/yum.repos.d/ubi.repo || :"
 				},
@@ -2409,7 +2409,7 @@
 						"*"
 					],
 					"publishedDate": "2023-08-22T19:16:00Z",
-					"discoveredDate": "2023-09-26T03:37:07Z",
+					"discoveredDate": "2023-10-10T03:59:09Z",
 					"layerTime": "2023-07-26T14:57:55Z",
 					"layerInstruction": "RUN mv -fZ /tmp/ubi.repo /etc/yum.repos.d/ubi.repo || :"
 				},
@@ -2432,7 +2432,7 @@
 						"*"
 					],
 					"publishedDate": "2023-07-31T16:15:00Z",
-					"discoveredDate": "2023-09-26T03:37:07Z",
+					"discoveredDate": "2023-10-10T03:59:09Z",
 					"layerTime": "2023-07-26T14:57:55Z",
 					"layerInstruction": "RUN mv -fZ /tmp/ubi.repo /etc/yum.repos.d/ubi.repo || :"
 				},
@@ -2456,7 +2456,7 @@
 						"*"
 					],
 					"publishedDate": "2023-07-19T12:15:00Z",
-					"discoveredDate": "2023-09-26T03:37:07Z",
+					"discoveredDate": "2023-10-10T03:59:09Z",
 					"layerTime": "2023-07-26T14:57:55Z",
 					"layerInstruction": "RUN mv -fZ /tmp/ubi.repo /etc/yum.repos.d/ubi.repo || :"
 				},
@@ -2479,7 +2479,7 @@
 						"*"
 					],
 					"publishedDate": "2023-07-14T12:15:00Z",
-					"discoveredDate": "2023-09-26T03:37:07Z",
+					"discoveredDate": "2023-10-10T03:59:09Z",
 					"layerTime": "2023-07-26T14:57:55Z",
 					"layerInstruction": "RUN mv -fZ /tmp/ubi.repo /etc/yum.repos.d/ubi.repo || :"
 				},
@@ -2499,7 +2499,7 @@
 						"*"
 					],
 					"publishedDate": "2023-06-17T00:00:00Z",
-					"discoveredDate": "2023-09-26T03:37:07Z",
+					"discoveredDate": "2023-10-10T03:59:09Z",
 					"layerTime": "2023-08-29T15:41:29Z",
 					"layerInstruction": "USER 185"
 				},
@@ -2521,7 +2521,7 @@
 						"*"
 					],
 					"publishedDate": "2023-09-14T20:15:00Z",
-					"discoveredDate": "2023-09-26T03:37:07Z",
+					"discoveredDate": "2023-10-10T03:59:09Z",
 					"layerTime": "2023-07-26T14:57:55Z",
 					"layerInstruction": "RUN mv -fZ /tmp/ubi.repo /etc/yum.repos.d/ubi.repo || :"
 				},
@@ -2543,7 +2543,7 @@
 						"*"
 					],
 					"publishedDate": "2021-11-10T18:15:00Z",
-					"discoveredDate": "2023-09-26T03:37:07Z",
+					"discoveredDate": "2023-10-10T03:59:09Z",
 					"layerTime": "2023-08-29T15:41:29Z",
 					"layerInstruction": "USER 185"
 				},
@@ -2558,16 +2558,15 @@
 					"packageVersion": "7.76.1-23.el9_2.2",
 					"link": "https://access.redhat.com/security/cve/CVE-2023-27534",
 					"riskFactors": [
-						"Attack vector: network",
 						"Exploit exists - POC",
-						"Recent vulnerability",
-						"Remote execution"
+						"Remote execution",
+						"Attack vector: network"
 					],
 					"impactedVersions": [
 						"*"
 					],
 					"publishedDate": "2023-03-30T20:15:00Z",
-					"discoveredDate": "2023-09-26T03:37:07Z",
+					"discoveredDate": "2023-10-10T03:59:09Z",
 					"layerTime": "2023-07-26T14:57:55Z",
 					"layerInstruction": "RUN mv -fZ /tmp/ubi.repo /etc/yum.repos.d/ubi.repo || :"
 				},
@@ -2584,14 +2583,13 @@
 					"riskFactors": [
 						"Remote execution",
 						"Attack vector: network",
-						"Exploit exists - POC",
-						"Recent vulnerability"
+						"Exploit exists - POC"
 					],
 					"impactedVersions": [
 						"*"
 					],
 					"publishedDate": "2023-03-30T20:15:00Z",
-					"discoveredDate": "2023-09-26T03:37:07Z",
+					"discoveredDate": "2023-10-10T03:59:09Z",
 					"layerTime": "2023-07-26T14:57:55Z",
 					"layerInstruction": "RUN mv -fZ /tmp/ubi.repo /etc/yum.repos.d/ubi.repo || :"
 				},
@@ -2606,17 +2604,40 @@
 					"packageVersion": "2.48-8.el9",
 					"link": "https://access.redhat.com/errata/RHSA-2023:5071",
 					"riskFactors": [
-						"Attack complexity: low",
 						"DoS - Low",
 						"Has fix",
-						"Recent vulnerability"
+						"Recent vulnerability",
+						"Attack complexity: low"
 					],
 					"impactedVersions": [
 						"\u003c2.48-9.el9_2"
 					],
 					"publishedDate": "2023-06-06T20:15:00Z",
-					"discoveredDate": "2023-09-26T03:37:07Z",
+					"discoveredDate": "2023-10-10T03:59:09Z",
 					"fixDate": "2023-09-12T00:00:00Z",
+					"layerTime": "2023-07-26T14:57:55Z",
+					"layerInstruction": "RUN mv -fZ /tmp/ubi.repo /etc/yum.repos.d/ubi.repo || :"
+				},
+				{
+					"id": "CVE-2023-27533",
+					"status": "affected",
+					"cvss": 3.1,
+					"vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+					"description": "A vulnerability in input validation exists in curl \u003c8.0 during communication using the TELNET protocol may allow an attacker to pass on maliciously crafted user name and \\\"telnet options\\\" during server negotiation. The lack of proper input scrubbing allows an attacker to send content or perform option negotiation without the application\\'s intent. This vulnerability could be exploited if an application allows user input, thereby enabling attackers to execute arbitrary code on the system.",
+					"severity": "low",
+					"packageName": "curl-minimal",
+					"packageVersion": "7.76.1-23.el9_2.2",
+					"link": "https://access.redhat.com/security/cve/CVE-2023-27533",
+					"riskFactors": [
+						"Exploit exists - POC",
+						"Remote execution",
+						"Attack vector: network"
+					],
+					"impactedVersions": [
+						"*"
+					],
+					"publishedDate": "2023-03-30T20:15:00Z",
+					"discoveredDate": "2023-10-10T03:59:09Z",
 					"layerTime": "2023-07-26T14:57:55Z",
 					"layerInstruction": "RUN mv -fZ /tmp/ubi.repo /etc/yum.repos.d/ubi.repo || :"
 				},
@@ -2633,46 +2654,21 @@
 					"riskFactors": [
 						"Attack vector: network",
 						"Exploit exists - POC",
-						"Recent vulnerability",
 						"Remote execution"
 					],
 					"impactedVersions": [
 						"*"
 					],
 					"publishedDate": "2023-03-30T20:15:00Z",
-					"discoveredDate": "2023-09-26T03:37:07Z",
-					"layerTime": "2023-07-26T14:57:55Z",
-					"layerInstruction": "RUN mv -fZ /tmp/ubi.repo /etc/yum.repos.d/ubi.repo || :"
-				},
-				{
-					"id": "CVE-2023-27533",
-					"status": "affected",
-					"cvss": 3.1,
-					"vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
-					"description": "A vulnerability in input validation exists in curl \u003c8.0 during communication using the TELNET protocol may allow an attacker to pass on maliciously crafted user name and \\\"telnet options\\\" during server negotiation. The lack of proper input scrubbing allows an attacker to send content or perform option negotiation without the application\\'s intent. This vulnerability could be exploited if an application allows user input, thereby enabling attackers to execute arbitrary code on the system.",
-					"severity": "low",
-					"packageName": "curl-minimal",
-					"packageVersion": "7.76.1-23.el9_2.2",
-					"link": "https://access.redhat.com/security/cve/CVE-2023-27533",
-					"riskFactors": [
-						"Attack vector: network",
-						"Exploit exists - POC",
-						"Recent vulnerability",
-						"Remote execution"
-					],
-					"impactedVersions": [
-						"*"
-					],
-					"publishedDate": "2023-03-30T20:15:00Z",
-					"discoveredDate": "2023-09-26T03:37:07Z",
+					"discoveredDate": "2023-10-10T03:59:09Z",
 					"layerTime": "2023-07-26T14:57:55Z",
 					"layerInstruction": "RUN mv -fZ /tmp/ubi.repo /etc/yum.repos.d/ubi.repo || :"
 				}
 			],
 			"vulnerabilityDistribution": {
 				"critical": 0,
-				"high": 2,
-				"medium": 45,
+				"high": 5,
+				"medium": 42,
 				"low": 21,
 				"total": 68
 			},
@@ -3003,7 +2999,7 @@
 					"instruction": "CMD [\"/bin/sh\" \"-c\" \"echo \\\"Hello world\\\"\"]"
 				}
 			],
-			"scanTime": "2023-09-26T03:37:11.780474568Z"
+			"scanTime": "2023-10-10T03:59:14.216136274Z"
 		}
 	],
 	"consoleURL": "https://app.eu.prismacloud.io/compute?computeState=/monitor/vulnerabilities/images/ci?search=sha256%3Ad6eb446a44500fdefe4efb820cc4eac3d71114f39f478233b4d8b65daac12e75"

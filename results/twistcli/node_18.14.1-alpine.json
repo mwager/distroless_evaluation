@@ -1,0 +1,2529 @@
+{
+	"results": [
+		{
+			"id": "sha256:94d76c9cff08f07391d44d63b2fb9ed8429a7556f254ffd1777eb3835b5b17c8",
+			"name": "node_18.14.1-alpine:latest",
+			"distro": "Alpine Linux v3.17",
+			"distroRelease": "3.17.2",
+			"collections": [
+				"All"
+			],
+			"packages": [
+				{
+					"type": "os",
+					"name": "apk-tools",
+					"version": "2.12.10-r1",
+					"licenses": [
+						"GPL-2.0-only"
+					]
+				},
+				{
+					"type": "os",
+					"name": "zlib",
+					"version": "1.2.13-r0",
+					"licenses": [
+						"Zlib"
+					]
+				},
+				{
+					"type": "os",
+					"name": "alpine-keys",
+					"version": "2.4-r1",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "os",
+					"name": "busybox",
+					"version": "1.35.0-r29",
+					"licenses": [
+						"GPL-2.0-only"
+					]
+				},
+				{
+					"type": "os",
+					"name": "openssl",
+					"version": "3.0.8-r0",
+					"licenses": [
+						"Apache-2.0"
+					]
+				},
+				{
+					"type": "os",
+					"name": "ca-certificates",
+					"version": "20220614-r4",
+					"licenses": [
+						"MPL-2.0 AND MIT"
+					]
+				},
+				{
+					"type": "os",
+					"name": "alpine-baselayout",
+					"version": "3.4.0-r0",
+					"licenses": [
+						"GPL-2.0-only"
+					]
+				},
+				{
+					"type": "os",
+					"name": "gcc",
+					"version": "12.2.1_git20220924-r4",
+					"licenses": [
+						"GPL-2.0-or-later LGPL-2.1-or-later"
+					]
+				},
+				{
+					"type": "os",
+					"name": "musl",
+					"version": "1.2.3-r4",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "os",
+					"name": "pax-utils",
+					"version": "1.3.5-r1",
+					"licenses": [
+						"GPL-2.0-only"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "inflight",
+					"version": "1.0.6",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/inflight",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "err-code",
+					"version": "1.1.1",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/err-code",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "ms",
+					"version": "2.1.3",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/ms",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "tar",
+					"version": "6.1.13",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/tar",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "text-table",
+					"version": "0.2.0",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/text-table",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "validate-npm-package-name",
+					"version": "5.0.0",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/validate-npm-package-name",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "base64-js",
+					"version": "1.5.1",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/base64-js",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "graceful-fs",
+					"version": "4.2.10",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/graceful-fs",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "has",
+					"version": "1.0.3",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/has",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "spdx-license-ids",
+					"version": "3.0.11",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/spdx-license-ids",
+					"licenses": [
+						"CC0-1.0"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "wcwidth",
+					"version": "1.0.1",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/wcwidth",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "ansi-styles",
+					"version": "4.3.0",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/ansi-styles",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "delegates",
+					"version": "1.0.0",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/delegates",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "fastest-levenshtein",
+					"version": "1.0.16",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/fastest-levenshtein",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "infer-owner",
+					"version": "1.0.4",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/infer-owner",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "smart-buffer",
+					"version": "4.2.0",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/smart-buffer",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "event-target-shim",
+					"version": "5.0.1",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/event-target-shim",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "glob",
+					"version": "7.2.3",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/rimraf/node_modules/glob",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "npm-normalize-package-bin",
+					"version": "3.0.0",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/npm-normalize-package-bin",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "socks-proxy-agent",
+					"version": "7.0.0",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/socks-proxy-agent",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "@npmcli/disparity-colors",
+					"version": "3.0.0",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/@npmcli/disparity-colors",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "@npmcli/name-from-folder",
+					"version": "1.0.1",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/@npmcli/name-from-folder",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "@npmcli/query",
+					"version": "3.0.0",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/@npmcli/query",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "ci-info",
+					"version": "3.7.0",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/ci-info",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "env-paths",
+					"version": "2.2.1",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/env-paths",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "ignore-walk",
+					"version": "6.0.0",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/ignore-walk",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "libnpmsearch",
+					"version": "6.0.1",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/libnpmsearch",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "parse-conflict-json",
+					"version": "3.0.0",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/parse-conflict-json",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "console-control-strings",
+					"version": "1.1.0",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/console-control-strings",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "npm-packlist",
+					"version": "7.0.4",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/npm-packlist",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "http-cache-semantics",
+					"version": "4.1.0",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/http-cache-semantics",
+					"licenses": [
+						"BSD-2-Clause"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "minipass-json-stream",
+					"version": "1.0.1",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/minipass-json-stream",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "socks",
+					"version": "2.7.0",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/socks",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "libnpmorg",
+					"version": "5.0.1",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/libnpmorg",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "@npmcli/metavuln-calculator",
+					"version": "5.0.0",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/@npmcli/metavuln-calculator",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "archy",
+					"version": "1.0.0",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/archy",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "read-package-json-fast",
+					"version": "3.0.1",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/read-package-json-fast",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "binary-extensions",
+					"version": "2.2.0",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/binary-extensions",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "clone",
+					"version": "1.0.4",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/clone",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "which",
+					"version": "2.0.2",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/node-gyp/node_modules/which",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "once",
+					"version": "1.4.0",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/once",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "path-is-absolute",
+					"version": "1.0.1",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/path-is-absolute",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "@colors/colors",
+					"version": "1.5.0",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/@colors/colors",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "readable-stream",
+					"version": "4.2.0",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/are-we-there-yet/node_modules/readable-stream",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "defaults",
+					"version": "1.0.3",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/defaults",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "qrcode-terminal",
+					"version": "0.12.0",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/qrcode-terminal",
+					"licenses": [
+						"Apache 2.0"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "libnpmexec",
+					"version": "5.0.7",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/libnpmexec",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "npm-pick-manifest",
+					"version": "8.0.1",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/npm-pick-manifest",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "pacote",
+					"version": "15.0.7",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/pacote",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "unique-slug",
+					"version": "4.0.0",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/unique-slug",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "bin-links",
+					"version": "4.0.1",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/bin-links",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "normalize-package-data",
+					"version": "5.0.0",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/normalize-package-data",
+					"licenses": [
+						"BSD-2-Clause"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "columnify",
+					"version": "1.6.0",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/columnify",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "promise-inflight",
+					"version": "1.0.1",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/promise-inflight",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "@gar/promisify",
+					"version": "1.1.3",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/@gar/promisify",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "supports-color",
+					"version": "7.2.0",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/supports-color",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "@tootallnate/once",
+					"version": "2.0.0",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/@tootallnate/once",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "fs-minipass",
+					"version": "2.1.0",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/fs-minipass",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "jsonparse",
+					"version": "1.3.1",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/jsonparse",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "read",
+					"version": "1.0.7",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/read",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "buffer",
+					"version": "6.0.3",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/are-we-there-yet/node_modules/buffer",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "has-unicode",
+					"version": "2.0.1",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/has-unicode",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "ieee754",
+					"version": "1.2.1",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/ieee754",
+					"licenses": [
+						"BSD-3-Clause"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "ini",
+					"version": "3.0.1",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/ini",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "minizlib",
+					"version": "2.1.2",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/minizlib",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "string-width",
+					"version": "4.2.3",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/string-width",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "string_decoder",
+					"version": "1.3.0",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/string_decoder",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "ms",
+					"version": "2.1.2",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/debug/node_modules/ms",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "gauge",
+					"version": "5.0.0",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/gauge",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "common-ancestor-path",
+					"version": "1.0.1",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/common-ancestor-path",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "https-proxy-agent",
+					"version": "5.0.1",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/https-proxy-agent",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "humanize-ms",
+					"version": "1.2.1",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/humanize-ms",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "make-fetch-happen",
+					"version": "10.2.1",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/node-gyp/node_modules/make-fetch-happen",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "unique-filename",
+					"version": "2.0.1",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/node-gyp/node_modules/unique-filename",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "unique-filename",
+					"version": "3.0.0",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/unique-filename",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "walk-up-path",
+					"version": "1.0.0",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/walk-up-path",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "diff",
+					"version": "5.1.0",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/diff",
+					"licenses": [
+						"BSD-3-Clause"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "libnpmdiff",
+					"version": "5.0.7",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/libnpmdiff",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "p-map",
+					"version": "4.0.0",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/p-map",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "cacache",
+					"version": "16.1.3",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/node-gyp/node_modules/cacache",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "npm-package-arg",
+					"version": "10.1.0",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/npm-package-arg",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "promise-call-limit",
+					"version": "1.0.1",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/promise-call-limit",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "builtins",
+					"version": "5.0.1",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/builtins",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "promzard",
+					"version": "0.3.0",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/promzard",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "@npmcli/map-workspaces",
+					"version": "3.0.0",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/@npmcli/map-workspaces",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "unique-slug",
+					"version": "3.0.0",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/node-gyp/node_modules/unique-slug",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "npm-user-validate",
+					"version": "1.0.1",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/npm-user-validate",
+					"licenses": [
+						"BSD-2-Clause"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "inherits",
+					"version": "2.0.4",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/inherits",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "libnpmpublish",
+					"version": "7.0.6",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/libnpmpublish",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "lru-cache",
+					"version": "6.0.0",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/semver/node_modules/lru-cache",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "glob",
+					"version": "8.0.3",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/node-gyp/node_modules/cacache/node_modules/glob",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "minipass-collect",
+					"version": "1.0.2",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/minipass-collect",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "nopt",
+					"version": "7.0.0",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/nopt",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "cacache",
+					"version": "17.0.3",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/cacache",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "color-name",
+					"version": "1.1.4",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/color-name",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "iconv-lite",
+					"version": "0.6.3",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/iconv-lite",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "nopt",
+					"version": "6.0.0",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/node-gyp/node_modules/nopt",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "proc-log",
+					"version": "3.0.0",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/proc-log",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "cli-columns",
+					"version": "4.0.0",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/cli-columns",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "cmd-shim",
+					"version": "6.0.0",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/cmd-shim",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "events",
+					"version": "3.3.0",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/events",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "fs.realpath",
+					"version": "1.0.0",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/fs.realpath",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "init-package-json",
+					"version": "4.0.1",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/init-package-json",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "minimatch",
+					"version": "5.1.1",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/minimatch",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "are-we-there-yet",
+					"version": "3.0.1",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/node-gyp/node_modules/are-we-there-yet",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "yallist",
+					"version": "4.0.0",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/yallist",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "ansi-regex",
+					"version": "5.0.1",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/ansi-regex",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "concat-map",
+					"version": "0.0.1",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/concat-map",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "util-deprecate",
+					"version": "1.0.2",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/util-deprecate",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "wrappy",
+					"version": "1.0.2",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/wrappy",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "abort-controller",
+					"version": "3.0.0",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/abort-controller",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "brace-expansion",
+					"version": "2.0.1",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/node-gyp/node_modules/cacache/node_modules/brace-expansion",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "just-diff",
+					"version": "5.1.1",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/just-diff",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "corepack",
+					"version": "0.15.3",
+					"path": "/usr/local/lib/node_modules/corepack",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "@npmcli/package-json",
+					"version": "3.0.0",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/@npmcli/package-json",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "are-we-there-yet",
+					"version": "4.0.0",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/are-we-there-yet",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "chownr",
+					"version": "2.0.0",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/chownr",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "cli-table3",
+					"version": "0.6.3",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/cli-table3",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "http-proxy-agent",
+					"version": "5.0.0",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/http-proxy-agent",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "is-cidr",
+					"version": "4.0.2",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/is-cidr",
+					"licenses": [
+						"BSD-2-Clause"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "is-fullwidth-code-point",
+					"version": "3.0.0",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/is-fullwidth-code-point",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "err-code",
+					"version": "2.0.3",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/err-code",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "has-flag",
+					"version": "4.0.0",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/has-flag",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "set-blocking",
+					"version": "2.0.0",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/set-blocking",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "color-support",
+					"version": "1.1.3",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/color-support",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "indent-string",
+					"version": "4.0.0",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/indent-string",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "retry",
+					"version": "0.12.0",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/retry",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "wide-align",
+					"version": "1.1.5",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/wide-align",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "is-core-module",
+					"version": "2.10.0",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/is-core-module",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "libnpmhook",
+					"version": "9.0.1",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/libnpmhook",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "minipass-fetch",
+					"version": "3.0.1",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/minipass-fetch",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "@npmcli/move-file",
+					"version": "2.0.1",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/node-gyp/node_modules/@npmcli/move-file",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "strip-ansi",
+					"version": "6.0.1",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/strip-ansi",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "treeverse",
+					"version": "3.0.0",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/treeverse",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "ip",
+					"version": "2.0.0",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/ip",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "brace-expansion",
+					"version": "1.1.11",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/rimraf/node_modules/brace-expansion",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "ssri",
+					"version": "9.0.1",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/node-gyp/node_modules/ssri",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "minipass",
+					"version": "3.3.6",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/node-gyp/node_modules/minipass",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "libnpmfund",
+					"version": "4.0.7",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/libnpmfund",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "@npmcli/fs",
+					"version": "2.1.2",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/node-gyp/node_modules/@npmcli/fs",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "npm-registry-fetch",
+					"version": "14.0.3",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/npm-registry-fetch",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "@isaacs/string-locale-compare",
+					"version": "1.1.0",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/@isaacs/string-locale-compare",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "@npmcli/run-script",
+					"version": "6.0.0",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/@npmcli/run-script",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "minimatch",
+					"version": "5.1.0",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/node-gyp/node_modules/cacache/node_modules/minimatch",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "@npmcli/promise-spawn",
+					"version": "6.0.1",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/@npmcli/promise-spawn",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "process",
+					"version": "0.11.10",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/process",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "tiny-relative-date",
+					"version": "1.3.0",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/tiny-relative-date",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "isexe",
+					"version": "2.0.0",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/isexe",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "minipass-flush",
+					"version": "1.0.5",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/minipass-flush",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "spdx-correct",
+					"version": "3.1.1",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/spdx-correct",
+					"licenses": [
+						"Apache-2.0"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "abbrev",
+					"version": "2.0.0",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/abbrev",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "agent-base",
+					"version": "6.0.2",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/agent-base",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "aggregate-error",
+					"version": "3.1.0",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/aggregate-error",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "minimatch",
+					"version": "3.1.2",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/rimraf/node_modules/minimatch",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "ssri",
+					"version": "10.0.1",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/ssri",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "@npmcli/git",
+					"version": "4.0.3",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/@npmcli/git",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "abbrev",
+					"version": "1.1.1",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/node-gyp/node_modules/abbrev",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "gauge",
+					"version": "4.0.4",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/node-gyp/node_modules/gauge",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "debug",
+					"version": "4.3.4",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/debug",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "libnpmversion",
+					"version": "4.0.1",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/libnpmversion",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "node-gyp",
+					"version": "9.3.0",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/node-gyp",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "promise-retry",
+					"version": "2.0.1",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/promise-retry",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "validate-npm-package-license",
+					"version": "3.0.4",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/validate-npm-package-license",
+					"licenses": [
+						"Apache-2.0"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "@npmcli/node-gyp",
+					"version": "3.0.0",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/@npmcli/node-gyp",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "@npmcli/arborist",
+					"version": "6.1.6",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/@npmcli/arborist",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "agentkeepalive",
+					"version": "4.2.1",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/agentkeepalive",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "emoji-regex",
+					"version": "8.0.0",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/emoji-regex",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "read-cmd-shim",
+					"version": "4.0.0",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/read-cmd-shim",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "safe-buffer",
+					"version": "5.2.1",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/safe-buffer",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "is-lambda",
+					"version": "1.0.1",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/is-lambda",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "json-parse-even-better-errors",
+					"version": "3.0.0",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/json-parse-even-better-errors",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "json-stringify-nice",
+					"version": "1.1.4",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/json-stringify-nice",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "libnpmaccess",
+					"version": "7.0.1",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/libnpmaccess",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "minipass",
+					"version": "4.0.0",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/minipass",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "mkdirp",
+					"version": "1.0.4",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/mkdirp",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "chalk",
+					"version": "4.1.2",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/chalk",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "libnpmpack",
+					"version": "5.0.7",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/libnpmpack",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "spdx-expression-parse",
+					"version": "3.0.1",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/spdx-expression-parse",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "imurmurhash",
+					"version": "0.1.4",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/imurmurhash",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "balanced-match",
+					"version": "1.0.2",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/balanced-match",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "just-diff-apply",
+					"version": "5.4.1",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/just-diff-apply",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "npm-profile",
+					"version": "7.0.1",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/npm-profile",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "read-package-json",
+					"version": "6.0.0",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/read-package-json",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "encoding",
+					"version": "0.1.13",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/encoding",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "make-fetch-happen",
+					"version": "11.0.2",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/make-fetch-happen",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "minipass-pipeline",
+					"version": "1.2.4",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/minipass-pipeline",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "npm-audit-report",
+					"version": "4.0.0",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/npm-audit-report",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "npm-init",
+					"version": "0.0.0",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/promzard/example/npm-init",
+					"licenses": [
+						"BSD"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "safer-buffer",
+					"version": "2.1.2",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/safer-buffer",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "write-file-atomic",
+					"version": "5.0.0",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/write-file-atomic",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "clean-stack",
+					"version": "2.2.0",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/clean-stack",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "ip-regex",
+					"version": "4.3.0",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/ip-regex",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "which",
+					"version": "3.0.0",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/which",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "function-bind",
+					"version": "1.1.1",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/function-bind",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "libnpmteam",
+					"version": "5.0.1",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/libnpmteam",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "promise-all-reject-late",
+					"version": "1.0.1",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/promise-all-reject-late",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "spdx-exceptions",
+					"version": "2.3.0",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/spdx-exceptions",
+					"licenses": [
+						"CC-BY-3.0"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "hosted-git-info",
+					"version": "6.1.1",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/hosted-git-info",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "negotiator",
+					"version": "0.6.3",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/negotiator",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "cidr-regex",
+					"version": "3.1.1",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/cidr-regex",
+					"licenses": [
+						"BSD-2-Clause"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "mute-stream",
+					"version": "0.0.8",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/mute-stream",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "readable-stream",
+					"version": "3.6.0",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/readable-stream",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "semver",
+					"version": "7.3.8",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/semver",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "yarn",
+					"version": "1.22.19",
+					"path": "/opt/yarn-v1.22.19",
+					"licenses": [
+						"BSD-2-Clause"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "@npmcli/config",
+					"version": "6.1.1",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/@npmcli/config",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "aproba",
+					"version": "2.0.0",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/aproba",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "cssesc",
+					"version": "3.0.0",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/cssesc",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "@npmcli/fs",
+					"version": "3.1.0",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/@npmcli/fs",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "postcss-selector-parser",
+					"version": "6.0.10",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/postcss-selector-parser",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "@npmcli/installed-package-contents",
+					"version": "2.0.1",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/@npmcli/installed-package-contents",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "color-convert",
+					"version": "2.0.1",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/color-convert",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "depd",
+					"version": "1.1.2",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/depd",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "lru-cache",
+					"version": "7.13.2",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/lru-cache",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "minipass-fetch",
+					"version": "2.1.2",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/node-gyp/node_modules/minipass-fetch",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "npm-install-checks",
+					"version": "6.0.0",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/npm-install-checks",
+					"licenses": [
+						"BSD-2-Clause"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "minipass-sized",
+					"version": "1.0.3",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/minipass-sized",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "npmlog",
+					"version": "7.0.1",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/npmlog",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "signal-exit",
+					"version": "3.0.7",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/signal-exit",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "npm",
+					"version": "9.3.1",
+					"path": "/usr/local/lib/node_modules/npm",
+					"licenses": [
+						"Artistic-2.0"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "npmlog",
+					"version": "6.0.2",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/node-gyp/node_modules/npmlog",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "npm-bundled",
+					"version": "3.0.0",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/npm-bundled",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "rimraf",
+					"version": "3.0.2",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/rimraf",
+					"licenses": [
+						"ISC"
+					]
+				}
+			],
+			"applications": [
+				{
+					"name": "busybox",
+					"version": "1.35.0",
+					"path": "/bin/busybox"
+				},
+				{
+					"name": "node",
+					"version": "18.14.1",
+					"path": "/usr/local/bin/node"
+				}
+			],
+			"compliances": [
+				{
+					"id": 41,
+					"title": "(CIS_Docker_v1.5.0 - 4.1) Image should be created with a non-root user",
+					"severity": "high",
+					"description": "It is a good practice to run the container as a non-root user, if possible. Though user\nnamespace mapping is now available, if a user is already defined in the container image, the\ncontainer is run as that user by default and specific user namespace remapping is not\nrequired",
+					"layerTime": "1970-01-01T00:00:00Z",
+					"category": "Docker"
+				}
+			],
+			"complianceDistribution": {
+				"critical": 0,
+				"high": 1,
+				"medium": 0,
+				"low": 0,
+				"total": 1
+			},
+			"complianceScanPassed": true,
+			"vulnerabilities": [
+				{
+					"id": "CVE-2023-32002",
+					"status": "fixed in 20.5.1, 19.0.0, 17.0.0",
+					"cvss": 9.8,
+					"vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+					"description": "The use of `Module._load()` can bypass the policy mechanism and require modules outside of the policy.json definition for a given module.  This vulnerability affects all users using the experimental policy mechanism in all active release lines: 16.x, 18.x and, 20.x.  Please note that at the time this CVE was issued, the policy is an experimental feature of Node.js.",
+					"severity": "critical",
+					"packageName": "node",
+					"packageVersion": "18.14.1",
+					"link": "https://nvd.nist.gov/vuln/detail/CVE-2023-32002",
+					"riskFactors": [
+						"Critical severity",
+						"DoS - High",
+						"Has fix",
+						"Recent vulnerability",
+						"Attack complexity: low",
+						"Attack vector: network"
+					],
+					"impactedVersions": [
+						"\u003c=18.17.0,18",
+						"\u003e=18.0.0,18"
+					],
+					"publishedDate": "2023-08-21T17:15:00Z",
+					"discoveredDate": "2023-10-10T03:59:35Z",
+					"fixDate": "2023-08-25T02:56:39Z",
+					"layerTime": "2023-02-21T22:13:10Z",
+					"packagePath": "/usr/local/bin/node",
+					"layerInstruction": "RUN addgroup -g 1000 node     \u0026\u0026 adduser -u 1000 -G node -s /bin/sh -D node     \u0026\u0026 apk add --no-cache         libstdc++     \u0026\u0026 apk add --no-cache --virtual .build-deps         curl     \u0026\u0026 ARCH= \u0026\u0026 alpineArch=\"$(apk --print-arch)\"       \u0026\u0026 case \"${alpineArch##*-}\" in         x86_64)           ARCH='x64'           CHECKSUM=\"3e6d3061d34518acea378e49cfaaf58420f1ddcd1756b61701436bc430504e84\"           ;;         *) ;;       esac   \u0026\u0026 if [ -n \"${CHECKSUM}\" ]; then     set -eu;     curl -fsSLO --compressed \"https://unofficial-builds.nodejs.org/download/release/v$NODE_VERSION/node-v$NODE_VERSION-linux-$ARCH-musl.tar.xz\";     echo \"$CHECKSUM  node-v$NODE_VERSION-linux-$ARCH-musl.tar.xz\" | sha256sum -c -       \u0026\u0026 tar -xJf \"node-v$NODE_VERSION-linux-$ARCH-musl.tar.xz\" -C /usr/local --strip-components=1 --no-same-owner       \u0026\u0026 ln -s /usr/local/bin/node /usr/local/bin/nodejs;   else     echo \"Building from source\"     \u0026\u0026 apk add --no-cache --virtual .build-deps-full         binutils-gold         g++         gcc         gnupg         libgcc         linux-headers         make         python3     \u0026\u0026 for key in       4ED778F539E3634C779C87C6D7062848A1AB005C       141F07595B7B3FFE74309A937405533BE57C7D57       74F12602B6F1C4E913FAA37AD3A89613643B6201       61FC681DFB92A079F1685E77973F295594EC4689       8FCCA13FEF1D0C2E91008E09770F7A9A5AE15600       C4F0DFFF4E8C1A8236409D08E73BC641CC11F4C8       890C08DB8579162FEE0DF9DB8BEAB4DFCF555EF4       C82FA3AE1CBEDC6BE46B9360C43CEC45C17AB93C       108F52B48DB57BB0CC439B2997B01419BD92F80A     ; do       gpg --batch --keyserver hkps://keys.openpgp.org --recv-keys \"$key\" ||       gpg --batch --keyserver keyserver.ubuntu.com --recv-keys \"$key\" ;     done     \u0026\u0026 curl -fsSLO --compressed \"https://nodejs.org/dist/v$NODE_VERSION/node-v$NODE_VERSION.tar.xz\"     \u0026\u0026 curl -fsSLO --compressed \"https://nodejs.org/dist/v$NODE_VERSION/SHASUMS256.txt.asc\"     \u0026\u0026 gpg --batch --decrypt --output SHASUMS256.txt SHASUMS256.txt.asc     \u0026\u0026 grep \" node-v$NODE_VERSION.tar.xz\\$\" SHASUMS256.txt | sha256sum -c -     \u0026\u0026 tar -xf \"node-v$NODE_VERSION.tar.xz\"     \u0026\u0026 cd \"node-v$NODE_VERSION\"     \u0026\u0026 ./configure     \u0026\u0026 make -j$(getconf _NPROCESSORS_ONLN) V=     \u0026\u0026 make install     \u0026\u0026 apk del .build-deps-full     \u0026\u0026 cd ..     \u0026\u0026 rm -Rf \"node-v$NODE_VERSION\"     \u0026\u0026 rm \"node-v$NODE_VERSION.tar.xz\" SHASUMS256.txt.asc SHASUMS256.txt;   fi   \u0026\u0026 rm -f \"node-v$NODE_VERSION-linux-$ARCH-musl.tar.xz\"   \u0026\u0026 apk del .build-deps   \u0026\u0026 node --version   \u0026\u0026 npm --version"
+				},
+				{
+					"id": "CVE-2023-32006",
+					"status": "fixed in 20.5.1, 19.0.0, 17.0.0",
+					"cvss": 8.8,
+					"vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+					"description": "The use of `module.constructor.createRequire()` can bypass the policy mechanism and require modules outside of the policy.json definition for a given module.  This vulnerability affects all users using the experimental policy mechanism in all active release lines: 16.x, 18.x, and, 20.x.  Please note that at the time this CVE was issued, the policy is an experimental feature of Node.js.",
+					"severity": "high",
+					"packageName": "node",
+					"packageVersion": "18.14.1",
+					"link": "https://nvd.nist.gov/vuln/detail/CVE-2023-32006",
+					"riskFactors": [
+						"Recent vulnerability",
+						"Attack complexity: low",
+						"Attack vector: network",
+						"DoS - High",
+						"Has fix",
+						"High severity"
+					],
+					"impactedVersions": [
+						"\u003c=18.17.0,18",
+						"\u003e=18.0.0,18"
+					],
+					"publishedDate": "2023-08-15T16:15:00Z",
+					"discoveredDate": "2023-10-10T03:59:35Z",
+					"fixDate": "2023-08-22T21:51:52Z",
+					"layerTime": "2023-02-21T22:13:10Z",
+					"packagePath": "/usr/local/bin/node",
+					"layerInstruction": "RUN addgroup -g 1000 node     \u0026\u0026 adduser -u 1000 -G node -s /bin/sh -D node     \u0026\u0026 apk add --no-cache         libstdc++     \u0026\u0026 apk add --no-cache --virtual .build-deps         curl     \u0026\u0026 ARCH= \u0026\u0026 alpineArch=\"$(apk --print-arch)\"       \u0026\u0026 case \"${alpineArch##*-}\" in         x86_64)           ARCH='x64'           CHECKSUM=\"3e6d3061d34518acea378e49cfaaf58420f1ddcd1756b61701436bc430504e84\"           ;;         *) ;;       esac   \u0026\u0026 if [ -n \"${CHECKSUM}\" ]; then     set -eu;     curl -fsSLO --compressed \"https://unofficial-builds.nodejs.org/download/release/v$NODE_VERSION/node-v$NODE_VERSION-linux-$ARCH-musl.tar.xz\";     echo \"$CHECKSUM  node-v$NODE_VERSION-linux-$ARCH-musl.tar.xz\" | sha256sum -c -       \u0026\u0026 tar -xJf \"node-v$NODE_VERSION-linux-$ARCH-musl.tar.xz\" -C /usr/local --strip-components=1 --no-same-owner       \u0026\u0026 ln -s /usr/local/bin/node /usr/local/bin/nodejs;   else     echo \"Building from source\"     \u0026\u0026 apk add --no-cache --virtual .build-deps-full         binutils-gold         g++         gcc         gnupg         libgcc         linux-headers         make         python3     \u0026\u0026 for key in       4ED778F539E3634C779C87C6D7062848A1AB005C       141F07595B7B3FFE74309A937405533BE57C7D57       74F12602B6F1C4E913FAA37AD3A89613643B6201       61FC681DFB92A079F1685E77973F295594EC4689       8FCCA13FEF1D0C2E91008E09770F7A9A5AE15600       C4F0DFFF4E8C1A8236409D08E73BC641CC11F4C8       890C08DB8579162FEE0DF9DB8BEAB4DFCF555EF4       C82FA3AE1CBEDC6BE46B9360C43CEC45C17AB93C       108F52B48DB57BB0CC439B2997B01419BD92F80A     ; do       gpg --batch --keyserver hkps://keys.openpgp.org --recv-keys \"$key\" ||       gpg --batch --keyserver keyserver.ubuntu.com --recv-keys \"$key\" ;     done     \u0026\u0026 curl -fsSLO --compressed \"https://nodejs.org/dist/v$NODE_VERSION/node-v$NODE_VERSION.tar.xz\"     \u0026\u0026 curl -fsSLO --compressed \"https://nodejs.org/dist/v$NODE_VERSION/SHASUMS256.txt.asc\"     \u0026\u0026 gpg --batch --decrypt --output SHASUMS256.txt SHASUMS256.txt.asc     \u0026\u0026 grep \" node-v$NODE_VERSION.tar.xz\\$\" SHASUMS256.txt | sha256sum -c -     \u0026\u0026 tar -xf \"node-v$NODE_VERSION.tar.xz\"     \u0026\u0026 cd \"node-v$NODE_VERSION\"     \u0026\u0026 ./configure     \u0026\u0026 make -j$(getconf _NPROCESSORS_ONLN) V=     \u0026\u0026 make install     \u0026\u0026 apk del .build-deps-full     \u0026\u0026 cd ..     \u0026\u0026 rm -Rf \"node-v$NODE_VERSION\"     \u0026\u0026 rm \"node-v$NODE_VERSION.tar.xz\" SHASUMS256.txt.asc SHASUMS256.txt;   fi   \u0026\u0026 rm -f \"node-v$NODE_VERSION-linux-$ARCH-musl.tar.xz\"   \u0026\u0026 apk del .build-deps   \u0026\u0026 node --version   \u0026\u0026 npm --version"
+				},
+				{
+					"id": "CVE-2023-32559",
+					"status": "fixed in 20.5.1, 19.0.0, 17.0.0",
+					"cvss": 7.5,
+					"vector": "CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H",
+					"description": "A privilege escalation vulnerability exists in the experimental policy mechanism in all active release lines: 16.x, 18.x and, 20.x. The use of the deprecated API `process.binding()` can bypass the policy mechanism by requiring internal modules and eventually take advantage of `process.binding(\\'spawn_sync\\')` run arbitrary code, outside of the limits defined in a `policy.json` file. Please note that at the time this CVE was issued, the policy is an experimental feature of Node.js.",
+					"severity": "high",
+					"packageName": "node",
+					"packageVersion": "18.14.1",
+					"link": "https://nvd.nist.gov/vuln/detail/CVE-2023-32559",
+					"riskFactors": [
+						"High severity",
+						"Recent vulnerability",
+						"Attack vector: network",
+						"DoS - High",
+						"Exploit exists - POC",
+						"Has fix"
+					],
+					"impactedVersions": [
+						"\u003c=18.17.0,18",
+						"\u003e=18.0.0,18"
+					],
+					"publishedDate": "2023-08-24T02:15:00Z",
+					"discoveredDate": "2023-10-10T03:59:35Z",
+					"fixDate": "2023-09-01T22:11:42Z",
+					"layerTime": "2023-02-21T22:13:10Z",
+					"packagePath": "/usr/local/bin/node",
+					"layerInstruction": "RUN addgroup -g 1000 node     \u0026\u0026 adduser -u 1000 -G node -s /bin/sh -D node     \u0026\u0026 apk add --no-cache         libstdc++     \u0026\u0026 apk add --no-cache --virtual .build-deps         curl     \u0026\u0026 ARCH= \u0026\u0026 alpineArch=\"$(apk --print-arch)\"       \u0026\u0026 case \"${alpineArch##*-}\" in         x86_64)           ARCH='x64'           CHECKSUM=\"3e6d3061d34518acea378e49cfaaf58420f1ddcd1756b61701436bc430504e84\"           ;;         *) ;;       esac   \u0026\u0026 if [ -n \"${CHECKSUM}\" ]; then     set -eu;     curl -fsSLO --compressed \"https://unofficial-builds.nodejs.org/download/release/v$NODE_VERSION/node-v$NODE_VERSION-linux-$ARCH-musl.tar.xz\";     echo \"$CHECKSUM  node-v$NODE_VERSION-linux-$ARCH-musl.tar.xz\" | sha256sum -c -       \u0026\u0026 tar -xJf \"node-v$NODE_VERSION-linux-$ARCH-musl.tar.xz\" -C /usr/local --strip-components=1 --no-same-owner       \u0026\u0026 ln -s /usr/local/bin/node /usr/local/bin/nodejs;   else     echo \"Building from source\"     \u0026\u0026 apk add --no-cache --virtual .build-deps-full         binutils-gold         g++         gcc         gnupg         libgcc         linux-headers         make         python3     \u0026\u0026 for key in       4ED778F539E3634C779C87C6D7062848A1AB005C       141F07595B7B3FFE74309A937405533BE57C7D57       74F12602B6F1C4E913FAA37AD3A89613643B6201       61FC681DFB92A079F1685E77973F295594EC4689       8FCCA13FEF1D0C2E91008E09770F7A9A5AE15600       C4F0DFFF4E8C1A8236409D08E73BC641CC11F4C8       890C08DB8579162FEE0DF9DB8BEAB4DFCF555EF4       C82FA3AE1CBEDC6BE46B9360C43CEC45C17AB93C       108F52B48DB57BB0CC439B2997B01419BD92F80A     ; do       gpg --batch --keyserver hkps://keys.openpgp.org --recv-keys \"$key\" ||       gpg --batch --keyserver keyserver.ubuntu.com --recv-keys \"$key\" ;     done     \u0026\u0026 curl -fsSLO --compressed \"https://nodejs.org/dist/v$NODE_VERSION/node-v$NODE_VERSION.tar.xz\"     \u0026\u0026 curl -fsSLO --compressed \"https://nodejs.org/dist/v$NODE_VERSION/SHASUMS256.txt.asc\"     \u0026\u0026 gpg --batch --decrypt --output SHASUMS256.txt SHASUMS256.txt.asc     \u0026\u0026 grep \" node-v$NODE_VERSION.tar.xz\\$\" SHASUMS256.txt | sha256sum -c -     \u0026\u0026 tar -xf \"node-v$NODE_VERSION.tar.xz\"     \u0026\u0026 cd \"node-v$NODE_VERSION\"     \u0026\u0026 ./configure     \u0026\u0026 make -j$(getconf _NPROCESSORS_ONLN) V=     \u0026\u0026 make install     \u0026\u0026 apk del .build-deps-full     \u0026\u0026 cd ..     \u0026\u0026 rm -Rf \"node-v$NODE_VERSION\"     \u0026\u0026 rm \"node-v$NODE_VERSION.tar.xz\" SHASUMS256.txt.asc SHASUMS256.txt;   fi   \u0026\u0026 rm -f \"node-v$NODE_VERSION-linux-$ARCH-musl.tar.xz\"   \u0026\u0026 apk del .build-deps   \u0026\u0026 node --version   \u0026\u0026 npm --version"
+				},
+				{
+					"id": "CVE-2023-0464",
+					"status": "fixed in 3.0.8-r1",
+					"cvss": 7.5,
+					"vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+					"description": "A security vulnerability has been identified in all supported versions  of OpenSSL related to the verification of X.509 certificate chains that include policy constraints.  Attackers may be able to exploit this vulnerability by creating a malicious certificate chain that triggers exponential use of computational resources, leading to a denial-of-service (DoS) attack on affected systems.  Policy processing is disabled by default but can be enabled by passing the `-policy\\' argument to the command line utilities or by calling the `X509_VERIFY_PARAM_set1_policies()\\' function.",
+					"severity": "high",
+					"packageName": "openssl",
+					"packageVersion": "3.0.8-r0",
+					"link": "https://nvd.nist.gov/vuln/detail/CVE-2023-0464",
+					"riskFactors": [
+						"DoS - High",
+						"Has fix",
+						"High severity",
+						"Attack complexity: low",
+						"Attack vector: network"
+					],
+					"impactedVersions": [
+						"\u003c3.0.8-r1"
+					],
+					"publishedDate": "2023-03-22T17:15:00Z",
+					"discoveredDate": "2023-10-10T03:59:35Z",
+					"fixDate": "2023-03-22T18:41:25Z",
+					"layerTime": "2023-02-11T04:46:42Z",
+					"layerInstruction": "ADD file:40887ab7c06977737e63c215c9bd297c0c74de8d12d16ebdf1c3d40ac392f62d in / "
+				},
+				{
+					"id": "CVE-2022-25883",
+					"status": "fixed in 7.5.2",
+					"cvss": 7.5,
+					"vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+					"description": "Versions of the package semver before 7.5.2 are vulnerable to Regular Expression Denial of Service (ReDoS) via the function new Range, when untrusted user data is provided as a range.\\r\\r\\r",
+					"severity": "high",
+					"packageName": "semver",
+					"packageVersion": "7.3.8",
+					"link": "https://nvd.nist.gov/vuln/detail/CVE-2022-25883",
+					"riskFactors": [
+						"Recent vulnerability",
+						"Attack complexity: low",
+						"Attack vector: network",
+						"DoS - High",
+						"Has fix",
+						"High severity"
+					],
+					"impactedVersions": [
+						"\u003e=7.0.0,7",
+						"\u003c7.5.2,7"
+					],
+					"publishedDate": "2023-06-21T05:15:00Z",
+					"discoveredDate": "2023-10-10T03:59:35Z",
+					"fixDate": "2023-06-22T19:04:14Z",
+					"layerTime": "2023-02-21T22:13:10Z",
+					"packagePath": "/usr/local/lib/node_modules/npm/node_modules/semver",
+					"layerInstruction": "RUN addgroup -g 1000 node     \u0026\u0026 adduser -u 1000 -G node -s /bin/sh -D node     \u0026\u0026 apk add --no-cache         libstdc++     \u0026\u0026 apk add --no-cache --virtual .build-deps         curl     \u0026\u0026 ARCH= \u0026\u0026 alpineArch=\"$(apk --print-arch)\"       \u0026\u0026 case \"${alpineArch##*-}\" in         x86_64)           ARCH='x64'           CHECKSUM=\"3e6d3061d34518acea378e49cfaaf58420f1ddcd1756b61701436bc430504e84\"           ;;         *) ;;       esac   \u0026\u0026 if [ -n \"${CHECKSUM}\" ]; then     set -eu;     curl -fsSLO --compressed \"https://unofficial-builds.nodejs.org/download/release/v$NODE_VERSION/node-v$NODE_VERSION-linux-$ARCH-musl.tar.xz\";     echo \"$CHECKSUM  node-v$NODE_VERSION-linux-$ARCH-musl.tar.xz\" | sha256sum -c -       \u0026\u0026 tar -xJf \"node-v$NODE_VERSION-linux-$ARCH-musl.tar.xz\" -C /usr/local --strip-components=1 --no-same-owner       \u0026\u0026 ln -s /usr/local/bin/node /usr/local/bin/nodejs;   else     echo \"Building from source\"     \u0026\u0026 apk add --no-cache --virtual .build-deps-full         binutils-gold         g++         gcc         gnupg         libgcc         linux-headers         make         python3     \u0026\u0026 for key in       4ED778F539E3634C779C87C6D7062848A1AB005C       141F07595B7B3FFE74309A937405533BE57C7D57       74F12602B6F1C4E913FAA37AD3A89613643B6201       61FC681DFB92A079F1685E77973F295594EC4689       8FCCA13FEF1D0C2E91008E09770F7A9A5AE15600       C4F0DFFF4E8C1A8236409D08E73BC641CC11F4C8       890C08DB8579162FEE0DF9DB8BEAB4DFCF555EF4       C82FA3AE1CBEDC6BE46B9360C43CEC45C17AB93C       108F52B48DB57BB0CC439B2997B01419BD92F80A     ; do       gpg --batch --keyserver hkps://keys.openpgp.org --recv-keys \"$key\" ||       gpg --batch --keyserver keyserver.ubuntu.com --recv-keys \"$key\" ;     done     \u0026\u0026 curl -fsSLO --compressed \"https://nodejs.org/dist/v$NODE_VERSION/node-v$NODE_VERSION.tar.xz\"     \u0026\u0026 curl -fsSLO --compressed \"https://nodejs.org/dist/v$NODE_VERSION/SHASUMS256.txt.asc\"     \u0026\u0026 gpg --batch --decrypt --output SHASUMS256.txt SHASUMS256.txt.asc     \u0026\u0026 grep \" node-v$NODE_VERSION.tar.xz\\$\" SHASUMS256.txt | sha256sum -c -     \u0026\u0026 tar -xf \"node-v$NODE_VERSION.tar.xz\"     \u0026\u0026 cd \"node-v$NODE_VERSION\"     \u0026\u0026 ./configure     \u0026\u0026 make -j$(getconf _NPROCESSORS_ONLN) V=     \u0026\u0026 make install     \u0026\u0026 apk del .build-deps-full     \u0026\u0026 cd ..     \u0026\u0026 rm -Rf \"node-v$NODE_VERSION\"     \u0026\u0026 rm \"node-v$NODE_VERSION.tar.xz\" SHASUMS256.txt.asc SHASUMS256.txt;   fi   \u0026\u0026 rm -f \"node-v$NODE_VERSION-linux-$ARCH-musl.tar.xz\"   \u0026\u0026 apk del .build-deps   \u0026\u0026 node --version   \u0026\u0026 npm --version"
+				},
+				{
+					"id": "CVE-2022-25881",
+					"status": "fixed in 4.1.1",
+					"cvss": 7.5,
+					"vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+					"description": "This affects versions of the package http-cache-semantics before 4.1.1. The issue can be exploited via malicious request header values sent to a server, when that server reads the cache policy from the request using this library.\\r\\r",
+					"severity": "high",
+					"packageName": "http-cache-semantics",
+					"packageVersion": "4.1.0",
+					"link": "https://nvd.nist.gov/vuln/detail/CVE-2022-25881",
+					"riskFactors": [
+						"Attack complexity: low",
+						"Attack vector: network",
+						"DoS - High",
+						"Has fix",
+						"High severity"
+					],
+					"impactedVersions": [
+						"\u003c4.1.1"
+					],
+					"publishedDate": "2023-01-31T06:30:26Z",
+					"discoveredDate": "2023-10-10T03:59:35Z",
+					"fixDate": "2023-02-02T01:03:19Z",
+					"layerTime": "2023-02-21T22:13:10Z",
+					"packagePath": "/usr/local/lib/node_modules/npm/node_modules/http-cache-semantics",
+					"layerInstruction": "RUN addgroup -g 1000 node     \u0026\u0026 adduser -u 1000 -G node -s /bin/sh -D node     \u0026\u0026 apk add --no-cache         libstdc++     \u0026\u0026 apk add --no-cache --virtual .build-deps         curl     \u0026\u0026 ARCH= \u0026\u0026 alpineArch=\"$(apk --print-arch)\"       \u0026\u0026 case \"${alpineArch##*-}\" in         x86_64)           ARCH='x64'           CHECKSUM=\"3e6d3061d34518acea378e49cfaaf58420f1ddcd1756b61701436bc430504e84\"           ;;         *) ;;       esac   \u0026\u0026 if [ -n \"${CHECKSUM}\" ]; then     set -eu;     curl -fsSLO --compressed \"https://unofficial-builds.nodejs.org/download/release/v$NODE_VERSION/node-v$NODE_VERSION-linux-$ARCH-musl.tar.xz\";     echo \"$CHECKSUM  node-v$NODE_VERSION-linux-$ARCH-musl.tar.xz\" | sha256sum -c -       \u0026\u0026 tar -xJf \"node-v$NODE_VERSION-linux-$ARCH-musl.tar.xz\" -C /usr/local --strip-components=1 --no-same-owner       \u0026\u0026 ln -s /usr/local/bin/node /usr/local/bin/nodejs;   else     echo \"Building from source\"     \u0026\u0026 apk add --no-cache --virtual .build-deps-full         binutils-gold         g++         gcc         gnupg         libgcc         linux-headers         make         python3     \u0026\u0026 for key in       4ED778F539E3634C779C87C6D7062848A1AB005C       141F07595B7B3FFE74309A937405533BE57C7D57       74F12602B6F1C4E913FAA37AD3A89613643B6201       61FC681DFB92A079F1685E77973F295594EC4689       8FCCA13FEF1D0C2E91008E09770F7A9A5AE15600       C4F0DFFF4E8C1A8236409D08E73BC641CC11F4C8       890C08DB8579162FEE0DF9DB8BEAB4DFCF555EF4       C82FA3AE1CBEDC6BE46B9360C43CEC45C17AB93C       108F52B48DB57BB0CC439B2997B01419BD92F80A     ; do       gpg --batch --keyserver hkps://keys.openpgp.org --recv-keys \"$key\" ||       gpg --batch --keyserver keyserver.ubuntu.com --recv-keys \"$key\" ;     done     \u0026\u0026 curl -fsSLO --compressed \"https://nodejs.org/dist/v$NODE_VERSION/node-v$NODE_VERSION.tar.xz\"     \u0026\u0026 curl -fsSLO --compressed \"https://nodejs.org/dist/v$NODE_VERSION/SHASUMS256.txt.asc\"     \u0026\u0026 gpg --batch --decrypt --output SHASUMS256.txt SHASUMS256.txt.asc     \u0026\u0026 grep \" node-v$NODE_VERSION.tar.xz\\$\" SHASUMS256.txt | sha256sum -c -     \u0026\u0026 tar -xf \"node-v$NODE_VERSION.tar.xz\"     \u0026\u0026 cd \"node-v$NODE_VERSION\"     \u0026\u0026 ./configure     \u0026\u0026 make -j$(getconf _NPROCESSORS_ONLN) V=     \u0026\u0026 make install     \u0026\u0026 apk del .build-deps-full     \u0026\u0026 cd ..     \u0026\u0026 rm -Rf \"node-v$NODE_VERSION\"     \u0026\u0026 rm \"node-v$NODE_VERSION.tar.xz\" SHASUMS256.txt.asc SHASUMS256.txt;   fi   \u0026\u0026 rm -f \"node-v$NODE_VERSION-linux-$ARCH-musl.tar.xz\"   \u0026\u0026 apk del .build-deps   \u0026\u0026 node --version   \u0026\u0026 npm --version"
+				},
+				{
+					"id": "CVE-2023-2650",
+					"status": "fixed in 3.0.9-r0",
+					"cvss": 6.5,
+					"vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H",
+					"description": "Issue summary: Processing some specially crafted ASN.1 object identifiers or data containing them may be very slow.  Impact summary: Applications that use OBJ_obj2txt() directly, or use any of the OpenSSL subsystems OCSP, PKCS7/SMIME, CMS, CMP/CRMF or TS with no message size limit may experience notable to very long delays when processing those messages, which may lead to a Denial of Service.  An OBJECT IDENTIFIER is composed of a series of numbers - sub-identifiers - most of which have no size limit.  OBJ_obj2txt() may be used to translate an ASN.1 OBJECT IDENTIFIER given in DER encoding form (using the OpenSSL type ASN1_OBJECT) to its canonical numeric text form, which are the sub-identifiers of the OBJECT IDENTIFIER in decimal form, separated by periods.  When one of the sub-identifiers in the OBJECT IDENTIFIER is very large (these are sizes that are seen as absurdly large, taking up tens or hundreds of KiBs), the translation to a decimal number in text may take a very long time.  The time complexity is O(n^2) with \\'n\\' being the size of the sub-identifiers in bytes (*).  With OpenSSL 3.0, support to fetch cryptographic algorithms using names / identifiers in string form was introduced.  This includes using OBJECT IDENTIFIERs in canonical numeric text form as identifiers for fetching algorithms.  Such OBJECT IDENTIFIERs may be received through the ASN.1 structure AlgorithmIde",
+					"severity": "medium",
+					"packageName": "openssl",
+					"packageVersion": "3.0.8-r0",
+					"link": "https://nvd.nist.gov/vuln/detail/CVE-2023-2650",
+					"riskFactors": [
+						"Recent vulnerability",
+						"Attack complexity: low",
+						"Attack vector: network",
+						"DoS - High",
+						"Has fix",
+						"Medium severity"
+					],
+					"impactedVersions": [
+						"\u003c3.0.9-r0"
+					],
+					"publishedDate": "2023-05-30T14:15:00Z",
+					"discoveredDate": "2023-10-10T03:59:35Z",
+					"fixDate": "2023-05-30T18:30:52Z",
+					"layerTime": "2023-02-11T04:46:42Z",
+					"layerInstruction": "ADD file:40887ab7c06977737e63c215c9bd297c0c74de8d12d16ebdf1c3d40ac392f62d in / "
+				},
+				{
+					"id": "CVE-2023-1255",
+					"status": "fixed in 3.0.8-r4",
+					"cvss": 5.9,
+					"vector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H",
+					"description": "Issue summary: The AES-XTS cipher decryption implementation for 64 bit ARM platform contains a bug that could cause it to read past the input buffer, leading to a crash.  Impact summary: Applications that use the AES-XTS algorithm on the 64 bit ARM platform can crash in rare circumstances. The AES-XTS algorithm is usually used for disk encryption.  The AES-XTS cipher decryption implementation for 64 bit ARM platform will read past the end of the ciphertext buffer if the ciphertext size is 4 mod 5 in 16 byte blocks, e.g. 144 bytes or 1024 bytes. If the memory after the ciphertext buffer is unmapped, this will trigger a crash which results in a denial of service.  If an attacker can control the size and location of the ciphertext buffer being decrypted by an application using AES-XTS on 64 bit ARM, the application is affected. This is fairly unlikely making this issue a Low severity one.",
+					"severity": "medium",
+					"packageName": "openssl",
+					"packageVersion": "3.0.8-r0",
+					"link": "https://nvd.nist.gov/vuln/detail/CVE-2023-1255",
+					"riskFactors": [
+						"Has fix",
+						"Medium severity",
+						"Recent vulnerability",
+						"Attack vector: network",
+						"DoS - High"
+					],
+					"impactedVersions": [
+						"\u003c3.0.8-r4"
+					],
+					"publishedDate": "2023-04-20T17:15:00Z",
+					"discoveredDate": "2023-10-10T03:59:35Z",
+					"fixDate": "2023-04-20T19:48:34Z",
+					"layerTime": "2023-02-11T04:46:42Z",
+					"layerInstruction": "ADD file:40887ab7c06977737e63c215c9bd297c0c74de8d12d16ebdf1c3d40ac392f62d in / "
+				},
+				{
+					"id": "CVE-2023-3817",
+					"status": "fixed in 3.0.10-r0",
+					"cvss": 5.3,
+					"vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L",
+					"description": "Issue summary: Checking excessively long DH keys or parameters may be very slow.  Impact summary: Applications that use the functions DH_check(), DH_check_ex() or EVP_PKEY_param_check() to check a DH key or DH parameters may experience long delays. Where the key or parameters that are being checked have been obtained from an untrusted source this may lead to a Denial of Service.  The function DH_check() performs various checks on DH parameters. After fixing CVE-2023-3446 it was discovered that a large q parameter value can also trigger an overly long computation during some of these checks. A correct q value, if present, cannot be larger than the modulus p parameter, thus it is unnecessary to perform these checks if q is larger than p.  An application that calls DH_check() and supplies a key or parameters obtained from an untrusted source could be vulnerable to a Denial of Service attack.  The function DH_check() is itself called by a number of other OpenSSL functions. An application calling any of those other functions may similarly be affected. The other functions affected by this are DH_check_ex() and EVP_PKEY_param_check().  Also vulnerable are the OpenSSL dhparam and pkeyparam command line applications when using the \\\"-check\\\" option.  The OpenSSL SSL/TLS implementation is not affected by this issue.  The OpenSSL 3.0 and 3.1 FIPS providers are not affected by this issue.",
+					"severity": "medium",
+					"packageName": "openssl",
+					"packageVersion": "3.0.8-r0",
+					"link": "https://nvd.nist.gov/vuln/detail/CVE-2023-3817",
+					"riskFactors": [
+						"DoS - Low",
+						"Has fix",
+						"Medium severity",
+						"Recent vulnerability",
+						"Attack complexity: low",
+						"Attack vector: network"
+					],
+					"impactedVersions": [
+						"\u003c3.0.10-r0"
+					],
+					"publishedDate": "2023-07-31T16:15:00Z",
+					"discoveredDate": "2023-10-10T03:59:35Z",
+					"fixDate": "2023-08-04T08:28:55Z",
+					"layerTime": "2023-02-11T04:46:42Z",
+					"layerInstruction": "ADD file:40887ab7c06977737e63c215c9bd297c0c74de8d12d16ebdf1c3d40ac392f62d in / "
+				},
+				{
+					"id": "CVE-2023-3446",
+					"status": "fixed in 3.0.9-r3",
+					"cvss": 5.3,
+					"vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L",
+					"description": "Issue summary: Checking excessively long DH keys or parameters may be very slow.  Impact summary: Applications that use the functions DH_check(), DH_check_ex() or EVP_PKEY_param_check() to check a DH key or DH parameters may experience long delays. Where the key or parameters that are being checked have been obtained from an untrusted source this may lead to a Denial of Service.  The function DH_check() performs various checks on DH parameters. One of those checks confirms that the modulus (\\'p\\' parameter) is not too large. Trying to use a very large modulus is slow and OpenSSL will not normally use a modulus which is over 10,000 bits in length.  However the DH_check() function checks numerous aspects of the key or parameters that have been supplied. Some of those checks use the supplied modulus value even if it has already been found to be too large.  An application that calls DH_check() and supplies a key or parameters obtained from an untrusted source could be vulernable to a Denial of Service attack.  The function DH_check() is itself called by a number of other OpenSSL functions. An application calling any of those other functions may similarly be affected. The other functions affected by this are DH_check_ex() and EVP_PKEY_param_check().  Also vulnerable are the OpenSSL dhparam and pkeyparam command line applications when using the \\'-check\\' option.  The OpenSSL SSL/TLS imp",
+					"severity": "medium",
+					"packageName": "openssl",
+					"packageVersion": "3.0.8-r0",
+					"link": "https://nvd.nist.gov/vuln/detail/CVE-2023-3446",
+					"riskFactors": [
+						"DoS - Low",
+						"Has fix",
+						"Medium severity",
+						"Recent vulnerability",
+						"Attack complexity: low",
+						"Attack vector: network"
+					],
+					"impactedVersions": [
+						"\u003c3.0.9-r3"
+					],
+					"publishedDate": "2023-07-19T12:15:00Z",
+					"discoveredDate": "2023-10-10T03:59:35Z",
+					"fixDate": "2023-07-19T21:03:41Z",
+					"layerTime": "2023-02-11T04:46:42Z",
+					"layerInstruction": "ADD file:40887ab7c06977737e63c215c9bd297c0c74de8d12d16ebdf1c3d40ac392f62d in / "
+				},
+				{
+					"id": "CVE-2023-2975",
+					"status": "fixed in 3.0.9-r2",
+					"cvss": 5.3,
+					"vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N",
+					"description": "Issue summary: The AES-SIV cipher implementation contains a bug that causes it to ignore empty associated data entries which are unauthenticated as a consequence.  Impact summary: Applications that use the AES-SIV algorithm and want to authenticate empty data entries as associated data can be mislead by removing adding or reordering such empty entries as these are ignored by the OpenSSL implementation. We are currently unaware of any such applications.  The AES-SIV algorithm allows for authentication of multiple associated data entries along with the encryption. To authenticate empty data the application has to call EVP_EncryptUpdate() (or EVP_CipherUpdate()) with NULL pointer as the output buffer and 0 as the input buffer length. The AES-SIV implementation in OpenSSL just returns success for such a call instead of performing the associated data authentication operation. The empty data thus will not be authenticated.  As this issue does not affect non-empty associated data authentication and we expect it to be rare for an application to use empty associated data entries this is qualified as Low severity issue.",
+					"severity": "medium",
+					"packageName": "openssl",
+					"packageVersion": "3.0.8-r0",
+					"link": "https://nvd.nist.gov/vuln/detail/CVE-2023-2975",
+					"riskFactors": [
+						"Recent vulnerability",
+						"Attack complexity: low",
+						"Attack vector: network",
+						"Has fix",
+						"Medium severity"
+					],
+					"impactedVersions": [
+						"\u003c3.0.9-r2"
+					],
+					"publishedDate": "2023-07-14T12:15:00Z",
+					"discoveredDate": "2023-10-10T03:59:35Z",
+					"fixDate": "2023-07-15T00:15:17Z",
+					"layerTime": "2023-02-11T04:46:42Z",
+					"layerInstruction": "ADD file:40887ab7c06977737e63c215c9bd297c0c74de8d12d16ebdf1c3d40ac392f62d in / "
+				},
+				{
+					"id": "CVE-2023-0466",
+					"status": "fixed in 3.0.8-r3",
+					"cvss": 5.3,
+					"vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N",
+					"description": "The function X509_VERIFY_PARAM_add0_policy() is documented to implicitly enable the certificate policy check when doing certificate verification. However the implementation of the function does not enable the check which allows certificates with invalid or incorrect policies to pass the certificate verification.  As suddenly enabling the policy check could break existing deployments it was decided to keep the existing behavior of the X509_VERIFY_PARAM_add0_policy() function.  Instead the applications that require OpenSSL to perform certificate policy check need to use X509_VERIFY_PARAM_set1_policies() or explicitly enable the policy check by calling X509_VERIFY_PARAM_set_flags() with the X509_V_FLAG_POLICY_CHECK flag argument.  Certificate policy checks are disabled by default in OpenSSL and are not commonly used by applications.",
+					"severity": "medium",
+					"packageName": "openssl",
+					"packageVersion": "3.0.8-r0",
+					"link": "https://nvd.nist.gov/vuln/detail/CVE-2023-0466",
+					"riskFactors": [
+						"Attack complexity: low",
+						"Attack vector: network",
+						"Has fix",
+						"Medium severity"
+					],
+					"impactedVersions": [
+						"\u003c3.0.8-r3"
+					],
+					"publishedDate": "2023-03-28T15:15:00Z",
+					"discoveredDate": "2023-10-10T03:59:35Z",
+					"fixDate": "2023-03-29T16:55:56Z",
+					"layerTime": "2023-02-11T04:46:42Z",
+					"layerInstruction": "ADD file:40887ab7c06977737e63c215c9bd297c0c74de8d12d16ebdf1c3d40ac392f62d in / "
+				},
+				{
+					"id": "CVE-2023-0465",
+					"status": "fixed in 3.0.8-r2",
+					"cvss": 5.3,
+					"vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N",
+					"description": "Applications that use a non-default option when verifying certificates may be vulnerable to an attack from a malicious CA to circumvent certain checks.  Invalid certificate policies in leaf certificates are silently ignored by OpenSSL and other certificate policy checks are skipped for that certificate. A malicious CA could use this to deliberately assert invalid certificate policies in order to circumvent policy checking on the certificate altogether.  Policy processing is disabled by default but can be enabled by passing the `-policy\\' argument to the command line utilities or by calling the `X509_VERIFY_PARAM_set1_policies()\\' function.",
+					"severity": "medium",
+					"packageName": "openssl",
+					"packageVersion": "3.0.8-r0",
+					"link": "https://nvd.nist.gov/vuln/detail/CVE-2023-0465",
+					"riskFactors": [
+						"Attack vector: network",
+						"Has fix",
+						"Medium severity",
+						"Attack complexity: low"
+					],
+					"impactedVersions": [
+						"\u003c3.0.8-r2"
+					],
+					"publishedDate": "2023-03-28T15:15:00Z",
+					"discoveredDate": "2023-10-10T03:59:35Z",
+					"fixDate": "2023-03-28T16:55:23Z",
+					"layerTime": "2023-02-11T04:46:42Z",
+					"layerInstruction": "ADD file:40887ab7c06977737e63c215c9bd297c0c74de8d12d16ebdf1c3d40ac392f62d in / "
+				}
+			],
+			"vulnerabilityDistribution": {
+				"critical": 1,
+				"high": 5,
+				"medium": 7,
+				"low": 0,
+				"total": 13
+			},
+			"vulnerabilityScanPassed": false,
+			"history": [
+				{
+					"created": "2023-02-11T04:46:42Z",
+					"instruction": "ADD file:40887ab7c06977737e63c215c9bd297c0c74de8d12d16ebdf1c3d40ac392f62d in / "
+				},
+				{
+					"created": "2023-02-11T04:46:42Z",
+					"instruction": "CMD [\"/bin/sh\"]"
+				},
+				{
+					"created": "2023-02-17T18:23:22Z",
+					"instruction": "ENV NODE_VERSION=18.14.1"
+				},
+				{
+					"created": "2023-02-21T22:13:10Z",
+					"instruction": "RUN addgroup -g 1000 node     \u0026\u0026 adduser -u 1000 -G node -s /bin/sh -D node     \u0026\u0026 apk add --no-cache         libstdc++     \u0026\u0026 apk add --no-cache --virtual .build-deps         curl     \u0026\u0026 ARCH= \u0026\u0026 alpineArch=\"$(apk --print-arch)\"       \u0026\u0026 case \"${alpineArch##*-}\" in         x86_64)           ARCH='x64'           CHECKSUM=\"3e6d3061d34518acea378e49cfaaf58420f1ddcd1756b61701436bc430504e84\"           ;;         *) ;;       esac   \u0026\u0026 if [ -n \"${CHECKSUM}\" ]; then     set -eu;     curl -fsSLO --compressed \"https://unofficial-builds.nodejs.org/download/release/v$NODE_VERSION/node-v$NODE_VERSION-linux-$ARCH-musl.tar.xz\";     echo \"$CHECKSUM  node-v$NODE_VERSION-linux-$ARCH-musl.tar.xz\" | sha256sum -c -       \u0026\u0026 tar -xJf \"node-v$NODE_VERSION-linux-$ARCH-musl.tar.xz\" -C /usr/local --strip-components=1 --no-same-owner       \u0026\u0026 ln -s /usr/local/bin/node /usr/local/bin/nodejs;   else     echo \"Building from source\"     \u0026\u0026 apk add --no-cache --virtual .build-deps-full         binutils-gold         g++         gcc         gnupg         libgcc         linux-headers         make         python3     \u0026\u0026 for key in       4ED778F539E3634C779C87C6D7062848A1AB005C       141F07595B7B3FFE74309A937405533BE57C7D57       74F12602B6F1C4E913FAA37AD3A89613643B6201       61FC681DFB92A079F1685E77973F295594EC4689       8FCCA13FEF1D0C2E91008E09770F7A9A5AE15600       C4F0DFFF4E8C1A8236409D08E73BC641CC11F4C8       890C08DB8579162FEE0DF9DB8BEAB4DFCF555EF4       C82FA3AE1CBEDC6BE46B9360C43CEC45C17AB93C       108F52B48DB57BB0CC439B2997B01419BD92F80A     ; do       gpg --batch --keyserver hkps://keys.openpgp.org --recv-keys \"$key\" ||       gpg --batch --keyserver keyserver.ubuntu.com --recv-keys \"$key\" ;     done     \u0026\u0026 curl -fsSLO --compressed \"https://nodejs.org/dist/v$NODE_VERSION/node-v$NODE_VERSION.tar.xz\"     \u0026\u0026 curl -fsSLO --compressed \"https://nodejs.org/dist/v$NODE_VERSION/SHASUMS256.txt.asc\"     \u0026\u0026 gpg --batch --decrypt --output SHASUMS256.txt SHASUMS256.txt.asc     \u0026\u0026 grep \" node-v$NODE_VERSION.tar.xz\\$\" SHASUMS256.txt | sha256sum -c -     \u0026\u0026 tar -xf \"node-v$NODE_VERSION.tar.xz\"     \u0026\u0026 cd \"node-v$NODE_VERSION\"     \u0026\u0026 ./configure     \u0026\u0026 make -j$(getconf _NPROCESSORS_ONLN) V=     \u0026\u0026 make install     \u0026\u0026 apk del .build-deps-full     \u0026\u0026 cd ..     \u0026\u0026 rm -Rf \"node-v$NODE_VERSION\"     \u0026\u0026 rm \"node-v$NODE_VERSION.tar.xz\" SHASUMS256.txt.asc SHASUMS256.txt;   fi   \u0026\u0026 rm -f \"node-v$NODE_VERSION-linux-$ARCH-musl.tar.xz\"   \u0026\u0026 apk del .build-deps   \u0026\u0026 node --version   \u0026\u0026 npm --version"
+				},
+				{
+					"created": "2023-02-21T22:13:10Z",
+					"instruction": "ENV YARN_VERSION=1.22.19"
+				},
+				{
+					"created": "2023-02-21T22:13:14Z",
+					"instruction": "RUN apk add --no-cache --virtual .build-deps-yarn curl gnupg tar   \u0026\u0026 for key in     6A010C5166006599AA17F08146C2130DFD2497F5   ; do     gpg --batch --keyserver hkps://keys.openpgp.org --recv-keys \"$key\" ||     gpg --batch --keyserver keyserver.ubuntu.com --recv-keys \"$key\" ;   done   \u0026\u0026 curl -fsSLO --compressed \"https://yarnpkg.com/downloads/$YARN_VERSION/yarn-v$YARN_VERSION.tar.gz\"   \u0026\u0026 curl -fsSLO --compressed \"https://yarnpkg.com/downloads/$YARN_VERSION/yarn-v$YARN_VERSION.tar.gz.asc\"   \u0026\u0026 gpg --batch --verify yarn-v$YARN_VERSION.tar.gz.asc yarn-v$YARN_VERSION.tar.gz   \u0026\u0026 mkdir -p /opt   \u0026\u0026 tar -xzf yarn-v$YARN_VERSION.tar.gz -C /opt/   \u0026\u0026 ln -s /opt/yarn-v$YARN_VERSION/bin/yarn /usr/local/bin/yarn   \u0026\u0026 ln -s /opt/yarn-v$YARN_VERSION/bin/yarnpkg /usr/local/bin/yarnpkg   \u0026\u0026 rm yarn-v$YARN_VERSION.tar.gz.asc yarn-v$YARN_VERSION.tar.gz   \u0026\u0026 apk del .build-deps-yarn   \u0026\u0026 yarn --version"
+				},
+				{
+					"created": "2023-02-21T22:13:15Z",
+					"instruction": "COPY file:4d192565a7220e135cab6c77fbc1c73211b69f3d9fb37e62857b2c6eb9363d51 in /usr/local/bin/ "
+				},
+				{
+					"created": "2023-02-21T22:13:15Z",
+					"instruction": "ENTRYPOINT [\"docker-entrypoint.sh\"]"
+				},
+				{
+					"created": "2023-02-21T22:13:15Z",
+					"instruction": "CMD [\"node\"]"
+				},
+				{
+					"created": "2023-02-21T22:13:15Z",
+					"instruction": "CMD [\"/bin/sh\" \"-c\" \"echo \\\"Hello world\\\"\"]"
+				}
+			],
+			"scanTime": "2023-10-10T03:59:39.236902042Z"
+		}
+	],
+	"consoleURL": "https://app.eu.prismacloud.io/compute?computeState=/monitor/vulnerabilities/images/ci?search=sha256%3A94d76c9cff08f07391d44d63b2fb9ed8429a7556f254ffd1777eb3835b5b17c8"
+}

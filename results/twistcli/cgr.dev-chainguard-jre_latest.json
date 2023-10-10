@@ -1,7 +1,7 @@
 {
 	"results": [
 		{
-			"id": "sha256:3f204a343db5b1dda19636b4acecd3eeba1992b73a33f7a26a1d39492703c16b",
+			"id": "sha256:5963cacaeea33e0621fd7b7df8812b5d8c19f2eeb21f52c6b801b282d7e33366",
 			"name": "cgr.dev-chainguard-jre_latest:latest",
 			"distro": "Wolfi",
 			"distroRelease": "20230201",
@@ -59,24 +59,8 @@
 				},
 				{
 					"type": "os",
-					"name": "fontconfig",
-					"version": "2.14.2-r2",
-					"licenses": [
-						"MIT"
-					]
-				},
-				{
-					"type": "os",
-					"name": "expat",
-					"version": "2.5.0-r4",
-					"licenses": [
-						"MIT"
-					]
-				},
-				{
-					"type": "os",
 					"name": "glibc",
-					"version": "2.38-r2",
+					"version": "2.38-r5",
 					"licenses": [
 						"GPL-3.0-or-later"
 					]
@@ -122,6 +106,22 @@
 					]
 				},
 				{
+					"type": "os",
+					"name": "fontconfig",
+					"version": "2.14.2-r2",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "os",
+					"name": "expat",
+					"version": "2.5.0-r4",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
 					"type": "jar",
 					"name": "jrt-fs",
 					"version": "17.0.9",
@@ -153,16 +153,16 @@
 			"vulnerabilityScanPassed": true,
 			"history": [
 				{
-					"created": "2023-09-22T16:33:27Z",
+					"created": "2023-10-03T23:19:36Z",
 					"instruction": "RUN apko"
 				},
 				{
-					"created": "2023-09-22T16:33:27Z",
+					"created": "2023-10-03T23:19:36Z",
 					"instruction": "CMD [\"/bin/sh\" \"-c\" \"echo \\\"Hello world\\\"\"]"
 				}
 			],
-			"scanTime": "2023-09-26T03:40:08.243627117Z"
+			"scanTime": "2023-10-10T04:02:43.813395334Z"
 		}
 	],
-	"consoleURL": "https://app.eu.prismacloud.io/compute?computeState=/monitor/vulnerabilities/images/ci?search=sha256%3A3f204a343db5b1dda19636b4acecd3eeba1992b73a33f7a26a1d39492703c16b"
+	"consoleURL": "https://app.eu.prismacloud.io/compute?computeState=/monitor/vulnerabilities/images/ci?search=sha256%3A5963cacaeea33e0621fd7b7df8812b5d8c19f2eeb21f52c6b801b282d7e33366"
 }

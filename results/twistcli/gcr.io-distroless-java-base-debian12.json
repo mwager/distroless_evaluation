@@ -1,22 +1,14 @@
 {
 	"results": [
 		{
-			"id": "sha256:53b4c6794a866c70c600f0a3027baf64f1b410cdccb53481577223d5694d8ec4",
+			"id": "sha256:24937d8c7f9e8489d862bf46962f900715b72cb74a9234a6f34a1d2602a7db10",
 			"name": "gcr.io-distroless-java-base-debian12:latest",
 			"distro": "Distroless (based on Debian GNU/Linux 12)",
-			"distroRelease": "12.1",
+			"distroRelease": "bookworm",
 			"collections": [
 				"All"
 			],
 			"packages": [
-				{
-					"type": "os",
-					"name": "base-files",
-					"version": "12.4+deb12u1",
-					"licenses": [
-						"GPL"
-					]
-				},
 				{
 					"type": "os",
 					"name": "tzdata",
@@ -32,29 +24,11 @@
 				},
 				{
 					"type": "os",
-					"name": "expat",
-					"version": "2.5.0-1",
+					"name": "base-files",
+					"version": "12.4+deb12u2",
 					"licenses": [
-						"MIT"
+						"GPL"
 					]
-				},
-				{
-					"type": "os",
-					"name": "zlib",
-					"version": "1:1.2.13.dfsg-1"
-				},
-				{
-					"type": "os",
-					"name": "freetype",
-					"version": "2.12.1+dfsg-5",
-					"licenses": [
-						"BSD-3-Clause"
-					]
-				},
-				{
-					"type": "os",
-					"name": "libxcrypt",
-					"version": "1:4.4.33-2"
 				},
 				{
 					"type": "os",
@@ -62,14 +36,6 @@
 					"version": "1.3.14-1",
 					"licenses": [
 						"LGPL-2.1+ or MPL-1.1 or GPL-2+"
-					]
-				},
-				{
-					"type": "os",
-					"name": "glibc",
-					"version": "2.36-9+deb12u1",
-					"licenses": [
-						"LGPL-2.1"
 					]
 				},
 				{
@@ -82,19 +48,24 @@
 				},
 				{
 					"type": "os",
-					"name": "glib2.0",
-					"version": "2.74.6-2",
+					"name": "expat",
+					"version": "2.5.0-1",
 					"licenses": [
-						"LGPL-2+ and LGPL-2.1+ and FSFULLR and CC0-1.0 and Janik-permissive and Iconv-PD and Mingw-PD and Old-GLib-Tests-permissive"
+						"MIT"
 					]
 				},
 				{
 					"type": "os",
-					"name": "lcms2",
-					"version": "2.14-2",
+					"name": "harfbuzz",
+					"version": "6.0.0+dfsg-3",
 					"licenses": [
 						"MIT"
 					]
+				},
+				{
+					"type": "os",
+					"name": "fontconfig",
+					"version": "2.14.1-4"
 				},
 				{
 					"type": "os",
@@ -103,8 +74,16 @@
 				},
 				{
 					"type": "os",
-					"name": "util-linux",
-					"version": "2.38.1-5",
+					"name": "glibc",
+					"version": "2.36-9+deb12u3",
+					"licenses": [
+						"LGPL-2.1"
+					]
+				},
+				{
+					"type": "os",
+					"name": "fonts-dejavu",
+					"version": "2.37-6",
 					"licenses": [
 						"GPL-2+"
 					]
@@ -119,29 +98,50 @@
 				},
 				{
 					"type": "os",
-					"name": "fonts-dejavu",
-					"version": "2.37-6",
+					"name": "util-linux",
+					"version": "2.38.1-5",
 					"licenses": [
 						"GPL-2+"
 					]
 				},
 				{
 					"type": "os",
-					"name": "brotli",
-					"version": "1.0.9-2",
+					"name": "zlib",
+					"version": "1:1.2.13.dfsg-1"
+				},
+				{
+					"type": "os",
+					"name": "glib2.0",
+					"version": "2.74.6-2",
+					"licenses": [
+						"LGPL-2+ and LGPL-2.1+ and FSFULLR and CC0-1.0 and Janik-permissive and Iconv-PD and Mingw-PD and Old-GLib-Tests-permissive"
+					]
+				},
+				{
+					"type": "os",
+					"name": "libxcrypt",
+					"version": "1:4.4.33-2"
+				},
+				{
+					"type": "os",
+					"name": "freetype",
+					"version": "2.12.1+dfsg-5",
+					"licenses": [
+						"BSD-3-Clause"
+					]
+				},
+				{
+					"type": "os",
+					"name": "lcms2",
+					"version": "2.14-2",
 					"licenses": [
 						"MIT"
 					]
 				},
 				{
 					"type": "os",
-					"name": "fontconfig",
-					"version": "2.14.1-4"
-				},
-				{
-					"type": "os",
-					"name": "harfbuzz",
-					"version": "6.0.0+dfsg-3",
+					"name": "brotli",
+					"version": "1.0.9-2",
 					"licenses": [
 						"MIT"
 					]
@@ -173,12 +173,57 @@
 				"total": 1
 			},
 			"complianceScanPassed": true,
+			"vulnerabilities": [
+				{
+					"id": "CVE-2023-25193",
+					"status": "open",
+					"cvss": 7.5,
+					"vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+					"description": "hb-ot-layout-gsubgpos.hh in HarfBuzz through 6.0.0 allows attackers to trigger O(n^2) growth via consecutive marks during the process of looking back for base glyphs when attaching marks.",
+					"severity": "low",
+					"packageName": "harfbuzz",
+					"packageVersion": "6.0.0+dfsg-3",
+					"link": "https://security-tracker.debian.org/tracker/CVE-2023-25193",
+					"riskFactors": [
+						"Attack complexity: low",
+						"Attack vector: network",
+						"DoS - High"
+					],
+					"impactedVersions": [
+						"*"
+					],
+					"publishedDate": "2023-02-04T20:15:00Z",
+					"discoveredDate": "2023-10-10T04:00:20Z",
+					"layerTime": "1970-01-01T00:00:00Z"
+				},
+				{
+					"id": "CVE-2023-4039",
+					"status": "open",
+					"cvss": 4.8,
+					"vector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:N",
+					"description": "  A failure in the -fstack-protector feature in GCC-based toolchains  that target AArch64 allows an attacker to exploit an existing buffer  overflow in dynamically-sized local variables in your application  without this being detected. This stack-protector failure only applies  to C99-style dynamically-sized local variables or those created using  alloca(). The stack-protector operates as intended for statically-sized  local variables.  The default behavior when the stack-protector  detects an overflow is to terminate your application, resulting in  controlled loss of availability. An attacker who can exploit a buffer  overflow without triggering the stack-protector might be able to change  program flow control to cause an uncontrolled loss of availability or to  go further and affect confidentiality or integrity.      ",
+					"severity": "low",
+					"packageName": "gcc-12",
+					"packageVersion": "12.2.0-14",
+					"link": "https://security-tracker.debian.org/tracker/CVE-2023-4039",
+					"riskFactors": [
+						"Attack vector: network",
+						"Recent vulnerability"
+					],
+					"impactedVersions": [
+						"*"
+					],
+					"publishedDate": "2023-09-13T09:15:00Z",
+					"discoveredDate": "2023-10-10T04:00:20Z",
+					"layerTime": "1970-01-01T00:00:00Z"
+				}
+			],
 			"vulnerabilityDistribution": {
 				"critical": 0,
 				"high": 0,
 				"medium": 0,
-				"low": 0,
-				"total": 0
+				"low": 2,
+				"total": 2
 			},
 			"vulnerabilityScanPassed": true,
 			"history": [
@@ -277,8 +322,8 @@
 					"instruction": "CMD [\"/bin/sh\" \"-c\" \"echo \\\"Hello world\\\"\"]"
 				}
 			],
-			"scanTime": "2023-09-26T03:37:55.468729434Z"
+			"scanTime": "2023-10-10T04:00:22.098900689Z"
 		}
 	],
-	"consoleURL": "https://app.eu.prismacloud.io/compute?computeState=/monitor/vulnerabilities/images/ci?search=sha256%3A53b4c6794a866c70c600f0a3027baf64f1b410cdccb53481577223d5694d8ec4"
+	"consoleURL": "https://app.eu.prismacloud.io/compute?computeState=/monitor/vulnerabilities/images/ci?search=sha256%3A24937d8c7f9e8489d862bf46962f900715b72cb74a9234a6f34a1d2602a7db10"
 }

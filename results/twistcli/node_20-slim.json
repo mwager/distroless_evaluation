@@ -11,34 +11,18 @@
 			"packages": [
 				{
 					"type": "os",
-					"name": "debconf",
-					"version": "1.5.82",
-					"licenses": [
-						"BSD-2-clause"
-					]
-				},
-				{
-					"type": "os",
-					"name": "grep",
-					"version": "3.8-5",
+					"name": "bash",
+					"version": "5.2.15-2",
 					"licenses": [
 						"GPL-3+"
 					]
 				},
 				{
 					"type": "os",
-					"name": "dash",
-					"version": "0.5.12-2",
+					"name": "debian-archive-keyring",
+					"version": "2023.3",
 					"licenses": [
-						"BSD-3-Clause"
-					]
-				},
-				{
-					"type": "os",
-					"name": "dpkg",
-					"version": "1.21.22",
-					"licenses": [
-						"GPL-2+"
+						"GPL"
 					]
 				},
 				{
@@ -51,85 +35,8 @@
 				},
 				{
 					"type": "os",
-					"name": "tzdata",
-					"version": "2023c-5"
-				},
-				{
-					"type": "os",
-					"name": "tar",
-					"version": "1.34+dfsg-1.2",
-					"licenses": [
-						"GPL-3+"
-					]
-				},
-				{
-					"type": "os",
-					"name": "sed",
-					"version": "4.9-1",
-					"licenses": [
-						"GPL-3+"
-					]
-				},
-				{
-					"type": "os",
-					"name": "bash",
-					"version": "5.2.15-2",
-					"licenses": [
-						"GPL-3+"
-					]
-				},
-				{
-					"type": "os",
 					"name": "coreutils",
 					"version": "9.1-1",
-					"licenses": [
-						"GPL-3+"
-					]
-				},
-				{
-					"type": "os",
-					"name": "gzip",
-					"version": "1.12-1",
-					"licenses": [
-						"GPL-3+"
-					]
-				},
-				{
-					"type": "os",
-					"name": "findutils",
-					"version": "4.9.0-4",
-					"licenses": [
-						"GFDL-NIV-1.3+"
-					]
-				},
-				{
-					"type": "os",
-					"name": "init-system-helpers",
-					"version": "1.65.2",
-					"licenses": [
-						"BSD-3-clause"
-					]
-				},
-				{
-					"type": "os",
-					"name": "mawk",
-					"version": "1.3.4.20200120-3.1",
-					"licenses": [
-						"GPL-2"
-					]
-				},
-				{
-					"type": "os",
-					"name": "adduser",
-					"version": "3.134",
-					"licenses": [
-						"GPL-2+"
-					]
-				},
-				{
-					"type": "os",
-					"name": "diffutils",
-					"version": "1:3.8-4",
 					"licenses": [
 						"GPL-3+"
 					]
@@ -144,6 +51,30 @@
 				},
 				{
 					"type": "os",
+					"name": "grep",
+					"version": "3.8-5",
+					"licenses": [
+						"GPL-3+"
+					]
+				},
+				{
+					"type": "os",
+					"name": "gzip",
+					"version": "1.12-1",
+					"licenses": [
+						"GPL-3+"
+					]
+				},
+				{
+					"type": "os",
+					"name": "sed",
+					"version": "4.9-1",
+					"licenses": [
+						"GPL-3+"
+					]
+				},
+				{
+					"type": "os",
 					"name": "hostname",
 					"version": "3.23+nmu1",
 					"licenses": [
@@ -152,26 +83,55 @@
 				},
 				{
 					"type": "os",
-					"name": "debian-archive-keyring",
-					"version": "2023.3",
+					"name": "adduser",
+					"version": "3.134",
 					"licenses": [
-						"GPL"
+						"GPL-2+"
 					]
 				},
 				{
 					"type": "os",
-					"name": "libtasn1-6",
-					"version": "4.19.0-2",
+					"name": "tzdata",
+					"version": "2023c-5"
+				},
+				{
+					"type": "os",
+					"name": "dash",
+					"version": "0.5.12-2",
 					"licenses": [
-						"LGPL"
+						"BSD-3-Clause"
 					]
 				},
 				{
 					"type": "os",
-					"name": "base-passwd",
-					"version": "3.6.1",
+					"name": "init-system-helpers",
+					"version": "1.65.2",
 					"licenses": [
-						"GPL-2"
+						"BSD-3-clause"
+					]
+				},
+				{
+					"type": "os",
+					"name": "debconf",
+					"version": "1.5.82",
+					"licenses": [
+						"BSD-2-clause"
+					]
+				},
+				{
+					"type": "os",
+					"name": "diffutils",
+					"version": "1:3.8-4",
+					"licenses": [
+						"GPL-3+"
+					]
+				},
+				{
+					"type": "os",
+					"name": "findutils",
+					"version": "4.9.0-4",
+					"licenses": [
+						"GFDL-NIV-1.3+"
 					]
 				},
 				{
@@ -184,6 +144,14 @@
 				},
 				{
 					"type": "os",
+					"name": "tar",
+					"version": "1.34+dfsg-1.2",
+					"licenses": [
+						"GPL-3+"
+					]
+				},
+				{
+					"type": "os",
 					"name": "base-files",
 					"version": "12.4+deb12u1",
 					"licenses": [
@@ -192,90 +160,34 @@
 				},
 				{
 					"type": "os",
-					"name": "audit",
-					"version": "1:3.0.9-1",
+					"name": "base-passwd",
+					"version": "3.6.1",
 					"licenses": [
 						"GPL-2"
 					]
 				},
 				{
 					"type": "os",
-					"name": "usrmerge",
-					"version": "35",
+					"name": "dpkg",
+					"version": "1.21.22",
 					"licenses": [
 						"GPL-2+"
 					]
 				},
 				{
 					"type": "os",
-					"name": "libsepol",
-					"version": "3.4-2.1",
+					"name": "libtasn1-6",
+					"version": "4.19.0-2",
 					"licenses": [
-						"LGPL-2.1+"
+						"LGPL"
 					]
 				},
 				{
 					"type": "os",
-					"name": "acl",
-					"version": "2.3.1-3",
-					"licenses": [
-						"GPL-2+"
-					]
-				},
-				{
-					"type": "os",
-					"name": "sysvinit",
-					"version": "3.06-4",
-					"licenses": [
-						"GPL-2.0+"
-					]
-				},
-				{
-					"type": "os",
-					"name": "p11-kit",
-					"version": "0.24.1-2",
-					"licenses": [
-						"BSD-3-Clause"
-					]
-				},
-				{
-					"type": "os",
-					"name": "bzip2",
-					"version": "1.0.8-5",
-					"licenses": [
-						"BSD-variant"
-					]
-				},
-				{
-					"type": "os",
-					"name": "e2fsprogs",
-					"version": "1.47.0-2",
+					"name": "mawk",
+					"version": "1.3.4.20200120-3.1",
 					"licenses": [
 						"GPL-2"
-					]
-				},
-				{
-					"type": "os",
-					"name": "libseccomp",
-					"version": "2.5.4-1",
-					"licenses": [
-						"LGPL-2.1"
-					]
-				},
-				{
-					"type": "os",
-					"name": "util-linux",
-					"version": "2.38.1-5",
-					"licenses": [
-						"GPL-2+"
-					]
-				},
-				{
-					"type": "os",
-					"name": "db5.3",
-					"version": "5.3.28+dfsg2-1",
-					"licenses": [
-						"BSD-3-clause"
 					]
 				},
 				{
@@ -288,10 +200,18 @@
 				},
 				{
 					"type": "os",
-					"name": "libsemanage",
+					"name": "nettle",
+					"version": "3.8.1-2",
+					"licenses": [
+						"LGPL-3+ or GPL-2+"
+					]
+				},
+				{
+					"type": "os",
+					"name": "libselinux",
 					"version": "3.4-1",
 					"licenses": [
-						"LGPL"
+						"LGPL-2.1"
 					]
 				},
 				{
@@ -304,122 +224,8 @@
 				},
 				{
 					"type": "os",
-					"name": "libxcrypt",
-					"version": "1:4.4.33-2"
-				},
-				{
-					"type": "os",
-					"name": "libmd",
-					"version": "1.0.4-2",
-					"licenses": [
-						"BSD-3-clause"
-					]
-				},
-				{
-					"type": "os",
-					"name": "gmp",
-					"version": "2:6.2.1+dfsg1-1.1",
-					"licenses": [
-						"GPL-2+ or LGPL-3+"
-					]
-				},
-				{
-					"type": "os",
-					"name": "zlib",
-					"version": "1:1.2.13.dfsg-1"
-				},
-				{
-					"type": "os",
-					"name": "libselinux",
-					"version": "3.4-1",
-					"licenses": [
-						"LGPL-2.1"
-					]
-				},
-				{
-					"type": "os",
-					"name": "gnutls28",
-					"version": "3.7.9-2",
-					"licenses": [
-						"LGPL"
-					]
-				},
-				{
-					"type": "os",
 					"name": "systemd",
 					"version": "252.12-1~deb12u1",
-					"licenses": [
-						"LGPL-2.1+"
-					]
-				},
-				{
-					"type": "os",
-					"name": "perl",
-					"version": "5.36.0-7",
-					"licenses": [
-						"GPL-1+ or Artistic"
-					]
-				},
-				{
-					"type": "os",
-					"name": "libunistring",
-					"version": "1.0-2",
-					"licenses": [
-						"LGPL-3+ or GPL-2+"
-					]
-				},
-				{
-					"type": "os",
-					"name": "libcap-ng",
-					"version": "0.8.3-1",
-					"licenses": [
-						"LGPL-2.1+"
-					]
-				},
-				{
-					"type": "os",
-					"name": "pcre2",
-					"version": "10.42-1",
-					"licenses": [
-						"BSD-3-clause-Cambridge with BINARY LIBRARY-LIKE PACKAGES exception"
-					]
-				},
-				{
-					"type": "os",
-					"name": "nettle",
-					"version": "3.8.1-2",
-					"licenses": [
-						"LGPL-3+ or GPL-2+"
-					]
-				},
-				{
-					"type": "os",
-					"name": "attr",
-					"version": "1:2.5.1-4",
-					"licenses": [
-						"GPL-2+"
-					]
-				},
-				{
-					"type": "os",
-					"name": "glibc",
-					"version": "2.36-9+deb12u1",
-					"licenses": [
-						"LGPL-2.1"
-					]
-				},
-				{
-					"type": "os",
-					"name": "libidn2",
-					"version": "2.3.3-1",
-					"licenses": [
-						"GPL-3+"
-					]
-				},
-				{
-					"type": "os",
-					"name": "libgpg-error",
-					"version": "1.46-1",
 					"licenses": [
 						"LGPL-2.1+"
 					]
@@ -434,18 +240,164 @@
 				},
 				{
 					"type": "os",
-					"name": "cdebconf",
-					"version": "0.270",
+					"name": "gmp",
+					"version": "2:6.2.1+dfsg1-1.1",
 					"licenses": [
-						"BSD-2-Clause"
+						"GPL-2+ or LGPL-3+"
 					]
 				},
 				{
 					"type": "os",
-					"name": "ncurses",
-					"version": "6.4-4",
+					"name": "glibc",
+					"version": "2.36-9+deb12u1",
 					"licenses": [
-						"MIT/X11"
+						"LGPL-2.1"
+					]
+				},
+				{
+					"type": "os",
+					"name": "libzstd",
+					"version": "1.5.4+dfsg2-5",
+					"licenses": [
+						"BSD-3-clause or GPL-2"
+					]
+				},
+				{
+					"type": "os",
+					"name": "util-linux",
+					"version": "2.38.1-5",
+					"licenses": [
+						"GPL-2+"
+					]
+				},
+				{
+					"type": "os",
+					"name": "gcc-12",
+					"version": "12.2.0-14",
+					"licenses": [
+						"GPL"
+					]
+				},
+				{
+					"type": "os",
+					"name": "libmd",
+					"version": "1.0.4-2",
+					"licenses": [
+						"BSD-3-clause"
+					]
+				},
+				{
+					"type": "os",
+					"name": "sysvinit",
+					"version": "3.06-4",
+					"licenses": [
+						"GPL-2.0+"
+					]
+				},
+				{
+					"type": "os",
+					"name": "libsepol",
+					"version": "3.4-2.1",
+					"licenses": [
+						"LGPL-2.1+"
+					]
+				},
+				{
+					"type": "os",
+					"name": "bzip2",
+					"version": "1.0.8-5",
+					"licenses": [
+						"BSD-variant"
+					]
+				},
+				{
+					"type": "os",
+					"name": "libxcrypt",
+					"version": "1:4.4.33-2"
+				},
+				{
+					"type": "os",
+					"name": "usrmerge",
+					"version": "35",
+					"licenses": [
+						"GPL-2+"
+					]
+				},
+				{
+					"type": "os",
+					"name": "libseccomp",
+					"version": "2.5.4-1",
+					"licenses": [
+						"LGPL-2.1"
+					]
+				},
+				{
+					"type": "os",
+					"name": "libsemanage",
+					"version": "3.4-1",
+					"licenses": [
+						"LGPL"
+					]
+				},
+				{
+					"type": "os",
+					"name": "shadow",
+					"version": "1:4.13+dfsg1-1",
+					"licenses": [
+						"BSD-3-clause"
+					]
+				},
+				{
+					"type": "os",
+					"name": "xxhash",
+					"version": "0.8.1-1",
+					"licenses": [
+						"BSD-2-clause"
+					]
+				},
+				{
+					"type": "os",
+					"name": "zlib",
+					"version": "1:1.2.13.dfsg-1"
+				},
+				{
+					"type": "os",
+					"name": "pam",
+					"version": "1.5.2-6",
+					"licenses": [
+						"BSD-3-clause or GPL"
+					]
+				},
+				{
+					"type": "os",
+					"name": "libidn2",
+					"version": "2.3.3-1",
+					"licenses": [
+						"GPL-3+"
+					]
+				},
+				{
+					"type": "os",
+					"name": "gnutls28",
+					"version": "3.7.9-2",
+					"licenses": [
+						"LGPL"
+					]
+				},
+				{
+					"type": "os",
+					"name": "audit",
+					"version": "1:3.0.9-1",
+					"licenses": [
+						"GPL-2"
+					]
+				},
+				{
+					"type": "os",
+					"name": "pcre2",
+					"version": "10.42-1",
+					"licenses": [
+						"BSD-3-clause-Cambridge with BINARY LIBRARY-LIKE PACKAGES exception"
 					]
 				},
 				{
@@ -466,123 +418,99 @@
 				},
 				{
 					"type": "os",
-					"name": "xxhash",
-					"version": "0.8.1-1",
+					"name": "acl",
+					"version": "2.3.1-3",
 					"licenses": [
-						"BSD-2-clause"
+						"GPL-2+"
 					]
 				},
 				{
 					"type": "os",
-					"name": "pam",
-					"version": "1.5.2-6",
+					"name": "libgpg-error",
+					"version": "1.46-1",
 					"licenses": [
-						"BSD-3-clause or GPL"
+						"LGPL-2.1+"
 					]
 				},
 				{
 					"type": "os",
-					"name": "shadow",
-					"version": "1:4.13+dfsg1-1",
+					"name": "ncurses",
+					"version": "6.4-4",
+					"licenses": [
+						"MIT/X11"
+					]
+				},
+				{
+					"type": "os",
+					"name": "db5.3",
+					"version": "5.3.28+dfsg2-1",
 					"licenses": [
 						"BSD-3-clause"
 					]
 				},
 				{
 					"type": "os",
-					"name": "gcc-12",
-					"version": "12.2.0-14",
+					"name": "libcap-ng",
+					"version": "0.8.3-1",
 					"licenses": [
-						"GPL"
+						"LGPL-2.1+"
 					]
 				},
 				{
 					"type": "os",
-					"name": "libzstd",
-					"version": "1.5.4+dfsg2-5",
+					"name": "attr",
+					"version": "1:2.5.1-4",
 					"licenses": [
-						"BSD-3-clause or GPL-2"
+						"GPL-2+"
 					]
 				},
 				{
-					"type": "nodejs",
-					"name": "@npmcli/git",
-					"version": "5.0.3",
-					"path": "/usr/local/lib/node_modules/npm/node_modules/@npmcli/git",
+					"type": "os",
+					"name": "p11-kit",
+					"version": "0.24.1-2",
 					"licenses": [
-						"ISC"
+						"BSD-3-Clause"
 					]
 				},
 				{
-					"type": "nodejs",
-					"name": "which",
-					"version": "2.0.2",
-					"path": "/usr/local/lib/node_modules/npm/node_modules/node-gyp/node_modules/which",
+					"type": "os",
+					"name": "e2fsprogs",
+					"version": "1.47.0-2",
 					"licenses": [
-						"ISC"
+						"GPL-2"
 					]
 				},
 				{
-					"type": "nodejs",
-					"name": "cssesc",
-					"version": "3.0.0",
-					"path": "/usr/local/lib/node_modules/npm/node_modules/cssesc",
+					"type": "os",
+					"name": "libunistring",
+					"version": "1.0-2",
 					"licenses": [
-						"MIT"
+						"LGPL-3+ or GPL-2+"
 					]
 				},
 				{
-					"type": "nodejs",
-					"name": "gauge",
-					"version": "4.0.4",
-					"path": "/usr/local/lib/node_modules/npm/node_modules/node-gyp/node_modules/gauge",
-					"licenses": [
-						"ISC"
-					]
-				},
-				{
-					"type": "nodejs",
-					"name": "unique-slug",
-					"version": "4.0.0",
-					"path": "/usr/local/lib/node_modules/npm/node_modules/unique-slug",
-					"licenses": [
-						"ISC"
-					]
-				},
-				{
-					"type": "nodejs",
-					"name": "ansi-regex",
-					"version": "5.0.1",
-					"path": "/usr/local/lib/node_modules/npm/node_modules/ansi-regex",
-					"licenses": [
-						"MIT"
-					]
-				},
-				{
-					"type": "nodejs",
-					"name": "http-cache-semantics",
-					"version": "4.1.1",
-					"path": "/usr/local/lib/node_modules/npm/node_modules/http-cache-semantics",
+					"type": "os",
+					"name": "cdebconf",
+					"version": "0.270",
 					"licenses": [
 						"BSD-2-Clause"
 					]
 				},
 				{
-					"type": "nodejs",
-					"name": "ini",
-					"version": "4.1.1",
-					"path": "/usr/local/lib/node_modules/npm/node_modules/ini",
+					"type": "os",
+					"name": "perl",
+					"version": "5.36.0-7",
 					"licenses": [
-						"ISC"
+						"GPL-1+ or Artistic"
 					]
 				},
 				{
 					"type": "nodejs",
-					"name": "libnpmorg",
-					"version": "6.0.0",
-					"path": "/usr/local/lib/node_modules/npm/node_modules/libnpmorg",
+					"name": "binary-extensions",
+					"version": "2.2.0",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/binary-extensions",
 					"licenses": [
-						"ISC"
+						"MIT"
 					]
 				},
 				{
@@ -596,468 +524,9 @@
 				},
 				{
 					"type": "nodejs",
-					"name": "write-file-atomic",
-					"version": "5.0.1",
-					"path": "/usr/local/lib/node_modules/npm/node_modules/write-file-atomic",
-					"licenses": [
-						"ISC"
-					]
-				},
-				{
-					"type": "nodejs",
-					"name": "cross-spawn",
-					"version": "7.0.3",
-					"path": "/usr/local/lib/node_modules/npm/node_modules/cross-spawn",
-					"licenses": [
-						"MIT"
-					]
-				},
-				{
-					"type": "nodejs",
-					"name": "ssri",
-					"version": "10.0.5",
-					"path": "/usr/local/lib/node_modules/npm/node_modules/ssri",
-					"licenses": [
-						"ISC"
-					]
-				},
-				{
-					"type": "nodejs",
-					"name": "util-deprecate",
-					"version": "1.0.2",
-					"path": "/usr/local/lib/node_modules/npm/node_modules/util-deprecate",
-					"licenses": [
-						"MIT"
-					]
-				},
-				{
-					"type": "nodejs",
-					"name": "https-proxy-agent",
-					"version": "7.0.1",
-					"path": "/usr/local/lib/node_modules/npm/node_modules/@npmcli/agent/node_modules/https-proxy-agent",
-					"licenses": [
-						"MIT"
-					]
-				},
-				{
-					"type": "nodejs",
-					"name": "cacache",
-					"version": "18.0.0",
-					"path": "/usr/local/lib/node_modules/npm/node_modules/cacache",
-					"licenses": [
-						"ISC"
-					]
-				},
-				{
-					"type": "nodejs",
-					"name": "debug",
-					"version": "4.3.4",
-					"path": "/usr/local/lib/node_modules/npm/node_modules/debug",
-					"licenses": [
-						"MIT"
-					]
-				},
-				{
-					"type": "nodejs",
-					"name": "glob",
-					"version": "10.3.3",
-					"path": "/usr/local/lib/node_modules/npm/node_modules/node-gyp/node_modules/cacache/node_modules/glob",
-					"licenses": [
-						"ISC"
-					]
-				},
-				{
-					"type": "nodejs",
-					"name": "libnpmaccess",
-					"version": "8.0.0",
-					"path": "/usr/local/lib/node_modules/npm/node_modules/libnpmaccess",
-					"licenses": [
-						"ISC"
-					]
-				},
-				{
-					"type": "nodejs",
-					"name": "read-cmd-shim",
-					"version": "4.0.0",
-					"path": "/usr/local/lib/node_modules/npm/node_modules/read-cmd-shim",
-					"licenses": [
-						"ISC"
-					]
-				},
-				{
-					"type": "nodejs",
-					"name": "@npmcli/node-gyp",
-					"version": "3.0.0",
-					"path": "/usr/local/lib/node_modules/npm/node_modules/@npmcli/node-gyp",
-					"licenses": [
-						"ISC"
-					]
-				},
-				{
-					"type": "nodejs",
-					"name": "is-core-module",
-					"version": "2.12.1",
-					"path": "/usr/local/lib/node_modules/npm/node_modules/is-core-module",
-					"licenses": [
-						"MIT"
-					]
-				},
-				{
-					"type": "nodejs",
-					"name": "are-we-there-yet",
-					"version": "3.0.1",
-					"path": "/usr/local/lib/node_modules/npm/node_modules/node-gyp/node_modules/are-we-there-yet",
-					"licenses": [
-						"ISC"
-					]
-				},
-				{
-					"type": "nodejs",
-					"name": "promise-call-limit",
-					"version": "1.0.2",
-					"path": "/usr/local/lib/node_modules/npm/node_modules/promise-call-limit",
-					"licenses": [
-						"ISC"
-					]
-				},
-				{
-					"type": "nodejs",
-					"name": "promzard",
-					"version": "1.0.0",
-					"path": "/usr/local/lib/node_modules/npm/node_modules/promzard",
-					"licenses": [
-						"ISC"
-					]
-				},
-				{
-					"type": "nodejs",
-					"name": "retry",
-					"version": "0.12.0",
-					"path": "/usr/local/lib/node_modules/npm/node_modules/retry",
-					"licenses": [
-						"MIT"
-					]
-				},
-				{
-					"type": "nodejs",
-					"name": "@npmcli/disparity-colors",
-					"version": "3.0.0",
-					"path": "/usr/local/lib/node_modules/npm/node_modules/@npmcli/disparity-colors",
-					"licenses": [
-						"ISC"
-					]
-				},
-				{
-					"type": "nodejs",
-					"name": "@isaacs/cliui",
-					"version": "8.0.2",
-					"path": "/usr/local/lib/node_modules/npm/node_modules/@isaacs/cliui",
-					"licenses": [
-						"ISC"
-					]
-				},
-				{
-					"type": "nodejs",
-					"name": "concat-map",
-					"version": "0.0.1",
-					"path": "/usr/local/lib/node_modules/npm/node_modules/concat-map",
-					"licenses": [
-						"MIT"
-					]
-				},
-				{
-					"type": "nodejs",
-					"name": "has",
-					"version": "1.0.3",
-					"path": "/usr/local/lib/node_modules/npm/node_modules/has",
-					"licenses": [
-						"MIT"
-					]
-				},
-				{
-					"type": "nodejs",
 					"name": "npm-bundled",
 					"version": "3.0.0",
 					"path": "/usr/local/lib/node_modules/npm/node_modules/npm-bundled",
-					"licenses": [
-						"ISC"
-					]
-				},
-				{
-					"type": "nodejs",
-					"name": "npm-pick-manifest",
-					"version": "9.0.0",
-					"path": "/usr/local/lib/node_modules/npm/node_modules/npm-pick-manifest",
-					"licenses": [
-						"ISC"
-					]
-				},
-				{
-					"type": "nodejs",
-					"name": "agent-base",
-					"version": "6.0.2",
-					"path": "/usr/local/lib/node_modules/npm/node_modules/agent-base",
-					"licenses": [
-						"MIT"
-					]
-				},
-				{
-					"type": "nodejs",
-					"name": "clean-stack",
-					"version": "2.2.0",
-					"path": "/usr/local/lib/node_modules/npm/node_modules/clean-stack",
-					"licenses": [
-						"MIT"
-					]
-				},
-				{
-					"type": "nodejs",
-					"name": "function-bind",
-					"version": "1.1.1",
-					"path": "/usr/local/lib/node_modules/npm/node_modules/function-bind",
-					"licenses": [
-						"MIT"
-					]
-				},
-				{
-					"type": "nodejs",
-					"name": "mute-stream",
-					"version": "1.0.0",
-					"path": "/usr/local/lib/node_modules/npm/node_modules/mute-stream",
-					"licenses": [
-						"ISC"
-					]
-				},
-				{
-					"type": "nodejs",
-					"name": "make-fetch-happen",
-					"version": "11.1.1",
-					"path": "/usr/local/lib/node_modules/npm/node_modules/node-gyp/node_modules/make-fetch-happen",
-					"licenses": [
-						"ISC"
-					]
-				},
-				{
-					"type": "nodejs",
-					"name": "string-width",
-					"version": "5.1.2",
-					"path": "/usr/local/lib/node_modules/npm/node_modules/wrap-ansi/node_modules/string-width",
-					"licenses": [
-						"MIT"
-					]
-				},
-				{
-					"type": "nodejs",
-					"name": "agentkeepalive",
-					"version": "4.5.0",
-					"path": "/usr/local/lib/node_modules/npm/node_modules/agentkeepalive",
-					"licenses": [
-						"MIT"
-					]
-				},
-				{
-					"type": "nodejs",
-					"name": "ieee754",
-					"version": "1.2.1",
-					"path": "/usr/local/lib/node_modules/npm/node_modules/ieee754",
-					"licenses": [
-						"BSD-3-Clause"
-					]
-				},
-				{
-					"type": "nodejs",
-					"name": "just-diff-apply",
-					"version": "5.5.0",
-					"path": "/usr/local/lib/node_modules/npm/node_modules/just-diff-apply",
-					"licenses": [
-						"MIT"
-					]
-				},
-				{
-					"type": "nodejs",
-					"name": "socks-proxy-agent",
-					"version": "7.0.0",
-					"path": "/usr/local/lib/node_modules/npm/node_modules/socks-proxy-agent",
-					"licenses": [
-						"MIT"
-					]
-				},
-				{
-					"type": "nodejs",
-					"name": "wide-align",
-					"version": "1.1.5",
-					"path": "/usr/local/lib/node_modules/npm/node_modules/wide-align",
-					"licenses": [
-						"ISC"
-					]
-				},
-				{
-					"type": "nodejs",
-					"name": "minipass-fetch",
-					"version": "3.0.4",
-					"path": "/usr/local/lib/node_modules/npm/node_modules/minipass-fetch",
-					"licenses": [
-						"MIT"
-					]
-				},
-				{
-					"type": "nodejs",
-					"name": "node-gyp",
-					"version": "9.4.0",
-					"path": "/usr/local/lib/node_modules/npm/node_modules/node-gyp",
-					"licenses": [
-						"MIT"
-					]
-				},
-				{
-					"type": "nodejs",
-					"name": "wcwidth",
-					"version": "1.0.1",
-					"path": "/usr/local/lib/node_modules/npm/node_modules/wcwidth",
-					"licenses": [
-						"MIT"
-					]
-				},
-				{
-					"type": "nodejs",
-					"name": "abort-controller",
-					"version": "3.0.0",
-					"path": "/usr/local/lib/node_modules/npm/node_modules/abort-controller",
-					"licenses": [
-						"MIT"
-					]
-				},
-				{
-					"type": "nodejs",
-					"name": "mkdirp",
-					"version": "1.0.4",
-					"path": "/usr/local/lib/node_modules/npm/node_modules/mkdirp",
-					"licenses": [
-						"MIT"
-					]
-				},
-				{
-					"type": "nodejs",
-					"name": "glob",
-					"version": "7.2.3",
-					"path": "/usr/local/lib/node_modules/npm/node_modules/rimraf/node_modules/glob",
-					"licenses": [
-						"ISC"
-					]
-				},
-				{
-					"type": "nodejs",
-					"name": "signal-exit",
-					"version": "3.0.7",
-					"path": "/usr/local/lib/node_modules/npm/node_modules/node-gyp/node_modules/signal-exit",
-					"licenses": [
-						"ISC"
-					]
-				},
-				{
-					"type": "nodejs",
-					"name": "npm-registry-fetch",
-					"version": "16.0.0",
-					"path": "/usr/local/lib/node_modules/npm/node_modules/npm-registry-fetch",
-					"licenses": [
-						"ISC"
-					]
-				},
-				{
-					"type": "nodejs",
-					"name": "init-package-json",
-					"version": "6.0.0",
-					"path": "/usr/local/lib/node_modules/npm/node_modules/init-package-json",
-					"licenses": [
-						"ISC"
-					]
-				},
-				{
-					"type": "nodejs",
-					"name": "ms",
-					"version": "2.1.3",
-					"path": "/usr/local/lib/node_modules/npm/node_modules/ms",
-					"licenses": [
-						"MIT"
-					]
-				},
-				{
-					"type": "nodejs",
-					"name": "negotiator",
-					"version": "0.6.3",
-					"path": "/usr/local/lib/node_modules/npm/node_modules/negotiator",
-					"licenses": [
-						"MIT"
-					]
-				},
-				{
-					"type": "nodejs",
-					"name": "safe-buffer",
-					"version": "5.2.1",
-					"path": "/usr/local/lib/node_modules/npm/node_modules/safe-buffer",
-					"licenses": [
-						"MIT"
-					]
-				},
-				{
-					"type": "nodejs",
-					"name": "@tootallnate/once",
-					"version": "2.0.0",
-					"path": "/usr/local/lib/node_modules/npm/node_modules/@tootallnate/once",
-					"licenses": [
-						"MIT"
-					]
-				},
-				{
-					"type": "nodejs",
-					"name": "graceful-fs",
-					"version": "4.2.11",
-					"path": "/usr/local/lib/node_modules/npm/node_modules/graceful-fs",
-					"licenses": [
-						"ISC"
-					]
-				},
-				{
-					"type": "nodejs",
-					"name": "ignore-walk",
-					"version": "6.0.3",
-					"path": "/usr/local/lib/node_modules/npm/node_modules/ignore-walk",
-					"licenses": [
-						"ISC"
-					]
-				},
-				{
-					"type": "nodejs",
-					"name": "json-stringify-nice",
-					"version": "1.1.4",
-					"path": "/usr/local/lib/node_modules/npm/node_modules/json-stringify-nice",
-					"licenses": [
-						"ISC"
-					]
-				},
-				{
-					"type": "nodejs",
-					"name": "minipass-flush",
-					"version": "1.0.5",
-					"path": "/usr/local/lib/node_modules/npm/node_modules/minipass-flush",
-					"licenses": [
-						"ISC"
-					]
-				},
-				{
-					"type": "nodejs",
-					"name": "cacache",
-					"version": "17.1.4",
-					"path": "/usr/local/lib/node_modules/npm/node_modules/node-gyp/node_modules/cacache",
-					"licenses": [
-						"ISC"
-					]
-				},
-				{
-					"type": "nodejs",
-					"name": "@npmcli/metavuln-calculator",
-					"version": "7.0.0",
-					"path": "/usr/local/lib/node_modules/npm/node_modules/@npmcli/metavuln-calculator",
 					"licenses": [
 						"ISC"
 					]
@@ -1073,738 +542,9 @@
 				},
 				{
 					"type": "nodejs",
-					"name": "emoji-regex",
-					"version": "9.2.2",
-					"path": "/usr/local/lib/node_modules/npm/node_modules/wrap-ansi/node_modules/emoji-regex",
-					"licenses": [
-						"MIT"
-					]
-				},
-				{
-					"type": "nodejs",
-					"name": "@npmcli/installed-package-contents",
-					"version": "2.0.2",
-					"path": "/usr/local/lib/node_modules/npm/node_modules/@npmcli/installed-package-contents",
-					"licenses": [
-						"ISC"
-					]
-				},
-				{
-					"type": "nodejs",
-					"name": "@npmcli/query",
-					"version": "3.0.0",
-					"path": "/usr/local/lib/node_modules/npm/node_modules/@npmcli/query",
-					"licenses": [
-						"ISC"
-					]
-				},
-				{
-					"type": "nodejs",
-					"name": "humanize-ms",
-					"version": "1.2.1",
-					"path": "/usr/local/lib/node_modules/npm/node_modules/humanize-ms",
-					"licenses": [
-						"MIT"
-					]
-				},
-				{
-					"type": "nodejs",
-					"name": "imurmurhash",
-					"version": "0.1.4",
-					"path": "/usr/local/lib/node_modules/npm/node_modules/imurmurhash",
-					"licenses": [
-						"MIT"
-					]
-				},
-				{
-					"type": "nodejs",
-					"name": "aggregate-error",
-					"version": "3.1.0",
-					"path": "/usr/local/lib/node_modules/npm/node_modules/aggregate-error",
-					"licenses": [
-						"MIT"
-					]
-				},
-				{
-					"type": "nodejs",
-					"name": "archy",
-					"version": "1.0.0",
-					"path": "/usr/local/lib/node_modules/npm/node_modules/archy",
-					"licenses": [
-						"MIT"
-					]
-				},
-				{
-					"type": "nodejs",
-					"name": "validate-npm-package-name",
-					"version": "5.0.0",
-					"path": "/usr/local/lib/node_modules/npm/node_modules/validate-npm-package-name",
-					"licenses": [
-						"ISC"
-					]
-				},
-				{
-					"type": "nodejs",
-					"name": "abbrev",
-					"version": "2.0.0",
-					"path": "/usr/local/lib/node_modules/npm/node_modules/abbrev",
-					"licenses": [
-						"ISC"
-					]
-				},
-				{
-					"type": "nodejs",
-					"name": "path-is-absolute",
-					"version": "1.0.1",
-					"path": "/usr/local/lib/node_modules/npm/node_modules/path-is-absolute",
-					"licenses": [
-						"MIT"
-					]
-				},
-				{
-					"type": "nodejs",
-					"name": "gauge",
-					"version": "5.0.1",
-					"path": "/usr/local/lib/node_modules/npm/node_modules/gauge",
-					"licenses": [
-						"ISC"
-					]
-				},
-				{
-					"type": "nodejs",
-					"name": "libnpmpack",
-					"version": "6.0.1",
-					"path": "/usr/local/lib/node_modules/npm/node_modules/libnpmpack",
-					"licenses": [
-						"ISC"
-					]
-				},
-				{
-					"type": "nodejs",
-					"name": "wrap-ansi",
-					"version": "7.0.0",
-					"path": "/usr/local/lib/node_modules/npm/node_modules/wrap-ansi-cjs",
-					"licenses": [
-						"MIT"
-					]
-				},
-				{
-					"type": "nodejs",
-					"name": "chownr",
-					"version": "2.0.0",
-					"path": "/usr/local/lib/node_modules/npm/node_modules/chownr",
-					"licenses": [
-						"ISC"
-					]
-				},
-				{
-					"type": "nodejs",
-					"name": "color-support",
-					"version": "1.1.3",
-					"path": "/usr/local/lib/node_modules/npm/node_modules/color-support",
-					"licenses": [
-						"ISC"
-					]
-				},
-				{
-					"type": "nodejs",
-					"name": "npm-profile",
-					"version": "9.0.0",
-					"path": "/usr/local/lib/node_modules/npm/node_modules/npm-profile",
-					"licenses": [
-						"ISC"
-					]
-				},
-				{
-					"type": "nodejs",
-					"name": "parse-conflict-json",
-					"version": "3.0.1",
-					"path": "/usr/local/lib/node_modules/npm/node_modules/parse-conflict-json",
-					"licenses": [
-						"ISC"
-					]
-				},
-				{
-					"type": "nodejs",
-					"name": "read",
-					"version": "2.1.0",
-					"path": "/usr/local/lib/node_modules/npm/node_modules/read",
-					"licenses": [
-						"ISC"
-					]
-				},
-				{
-					"type": "nodejs",
-					"name": "spdx-correct",
-					"version": "3.2.0",
-					"path": "/usr/local/lib/node_modules/npm/node_modules/spdx-correct",
-					"licenses": [
-						"Apache-2.0"
-					]
-				},
-				{
-					"type": "nodejs",
-					"name": "walk-up-path",
-					"version": "3.0.1",
-					"path": "/usr/local/lib/node_modules/npm/node_modules/walk-up-path",
-					"licenses": [
-						"ISC"
-					]
-				},
-				{
-					"type": "nodejs",
-					"name": "ip",
-					"version": "2.0.0",
-					"path": "/usr/local/lib/node_modules/npm/node_modules/ip",
-					"licenses": [
-						"MIT"
-					]
-				},
-				{
-					"type": "nodejs",
-					"name": "libnpmdiff",
-					"version": "6.0.1",
-					"path": "/usr/local/lib/node_modules/npm/node_modules/libnpmdiff",
-					"licenses": [
-						"ISC"
-					]
-				},
-				{
-					"type": "nodejs",
-					"name": "libnpmsearch",
-					"version": "7.0.0",
-					"path": "/usr/local/lib/node_modules/npm/node_modules/libnpmsearch",
-					"licenses": [
-						"ISC"
-					]
-				},
-				{
-					"type": "nodejs",
-					"name": "npmlog",
-					"version": "6.0.2",
-					"path": "/usr/local/lib/node_modules/npm/node_modules/node-gyp/node_modules/npmlog",
-					"licenses": [
-						"ISC"
-					]
-				},
-				{
-					"type": "nodejs",
-					"name": "spdx-expression-parse",
-					"version": "3.0.1",
-					"path": "/usr/local/lib/node_modules/npm/node_modules/spdx-expression-parse",
-					"licenses": [
-						"MIT"
-					]
-				},
-				{
-					"type": "nodejs",
-					"name": "@tufjs/canonical-json",
-					"version": "2.0.0",
-					"path": "/usr/local/lib/node_modules/npm/node_modules/@tufjs/canonical-json",
-					"licenses": [
-						"MIT"
-					]
-				},
-				{
-					"type": "nodejs",
-					"name": "minipass-collect",
+					"name": "balanced-match",
 					"version": "1.0.2",
-					"path": "/usr/local/lib/node_modules/npm/node_modules/minipass-collect",
-					"licenses": [
-						"ISC"
-					]
-				},
-				{
-					"type": "nodejs",
-					"name": "minipass-sized",
-					"version": "1.0.3",
-					"path": "/usr/local/lib/node_modules/npm/node_modules/minipass-sized",
-					"licenses": [
-						"ISC"
-					]
-				},
-				{
-					"type": "nodejs",
-					"name": "safer-buffer",
-					"version": "2.1.2",
-					"path": "/usr/local/lib/node_modules/npm/node_modules/safer-buffer",
-					"licenses": [
-						"MIT"
-					]
-				},
-				{
-					"type": "nodejs",
-					"name": "@sigstore/protobuf-specs",
-					"version": "0.2.1",
-					"path": "/usr/local/lib/node_modules/npm/node_modules/@sigstore/protobuf-specs",
-					"licenses": [
-						"Apache-2.0"
-					]
-				},
-				{
-					"type": "nodejs",
-					"name": "brace-expansion",
-					"version": "2.0.1",
-					"path": "/usr/local/lib/node_modules/npm/node_modules/node-gyp/node_modules/cacache/node_modules/brace-expansion",
-					"licenses": [
-						"MIT"
-					]
-				},
-				{
-					"type": "nodejs",
-					"name": "common-ancestor-path",
-					"version": "1.0.1",
-					"path": "/usr/local/lib/node_modules/npm/node_modules/common-ancestor-path",
-					"licenses": [
-						"ISC"
-					]
-				},
-				{
-					"type": "nodejs",
-					"name": "nopt",
-					"version": "6.0.0",
-					"path": "/usr/local/lib/node_modules/npm/node_modules/node-gyp/node_modules/nopt",
-					"licenses": [
-						"ISC"
-					]
-				},
-				{
-					"type": "nodejs",
-					"name": "normalize-package-data",
-					"version": "6.0.0",
-					"path": "/usr/local/lib/node_modules/npm/node_modules/normalize-package-data",
-					"licenses": [
-						"BSD-2-Clause"
-					]
-				},
-				{
-					"type": "nodejs",
-					"name": "qrcode-terminal",
-					"version": "0.12.0",
-					"path": "/usr/local/lib/node_modules/npm/node_modules/qrcode-terminal",
-					"licenses": [
-						"Apache 2.0"
-					]
-				},
-				{
-					"type": "nodejs",
-					"name": "spdx-license-ids",
-					"version": "3.0.13",
-					"path": "/usr/local/lib/node_modules/npm/node_modules/spdx-license-ids",
-					"licenses": [
-						"CC0-1.0"
-					]
-				},
-				{
-					"type": "nodejs",
-					"name": "cidr-regex",
-					"version": "3.1.1",
-					"path": "/usr/local/lib/node_modules/npm/node_modules/cidr-regex",
-					"licenses": [
-						"BSD-2-Clause"
-					]
-				},
-				{
-					"type": "nodejs",
-					"name": "cli-columns",
-					"version": "4.0.0",
-					"path": "/usr/local/lib/node_modules/npm/node_modules/cli-columns",
-					"licenses": [
-						"MIT"
-					]
-				},
-				{
-					"type": "nodejs",
-					"name": "encoding",
-					"version": "0.1.13",
-					"path": "/usr/local/lib/node_modules/npm/node_modules/encoding",
-					"licenses": [
-						"MIT"
-					]
-				},
-				{
-					"type": "nodejs",
-					"name": "lru-cache",
-					"version": "10.0.1",
-					"path": "/usr/local/lib/node_modules/npm/node_modules/lru-cache",
-					"licenses": [
-						"ISC"
-					]
-				},
-				{
-					"type": "nodejs",
-					"name": "minipass-json-stream",
-					"version": "1.0.1",
-					"path": "/usr/local/lib/node_modules/npm/node_modules/minipass-json-stream",
-					"licenses": [
-						"MIT"
-					]
-				},
-				{
-					"type": "nodejs",
-					"name": "yallist",
-					"version": "4.0.0",
-					"path": "/usr/local/lib/node_modules/npm/node_modules/yallist",
-					"licenses": [
-						"ISC"
-					]
-				},
-				{
-					"type": "nodejs",
-					"name": "@npmcli/run-script",
-					"version": "7.0.1",
-					"path": "/usr/local/lib/node_modules/npm/node_modules/@npmcli/run-script",
-					"licenses": [
-						"ISC"
-					]
-				},
-				{
-					"type": "nodejs",
-					"name": "@tufjs/models",
-					"version": "2.0.0",
-					"path": "/usr/local/lib/node_modules/npm/node_modules/@tufjs/models",
-					"licenses": [
-						"MIT"
-					]
-				},
-				{
-					"type": "nodejs",
-					"name": "iconv-lite",
-					"version": "0.6.3",
-					"path": "/usr/local/lib/node_modules/npm/node_modules/iconv-lite",
-					"licenses": [
-						"MIT"
-					]
-				},
-				{
-					"type": "nodejs",
-					"name": "brace-expansion",
-					"version": "1.1.11",
-					"path": "/usr/local/lib/node_modules/npm/node_modules/rimraf/node_modules/brace-expansion",
-					"licenses": [
-						"MIT"
-					]
-				},
-				{
-					"type": "nodejs",
-					"name": "https-proxy-agent",
-					"version": "5.0.1",
-					"path": "/usr/local/lib/node_modules/npm/node_modules/https-proxy-agent",
-					"licenses": [
-						"MIT"
-					]
-				},
-				{
-					"type": "nodejs",
-					"name": "inherits",
-					"version": "2.0.4",
-					"path": "/usr/local/lib/node_modules/npm/node_modules/inherits",
-					"licenses": [
-						"ISC"
-					]
-				},
-				{
-					"type": "nodejs",
-					"name": "@sigstore/sign",
-					"version": "2.1.0",
-					"path": "/usr/local/lib/node_modules/npm/node_modules/@sigstore/sign",
-					"licenses": [
-						"Apache-2.0"
-					]
-				},
-				{
-					"type": "nodejs",
-					"name": "fs-minipass",
-					"version": "2.1.0",
-					"path": "/usr/local/lib/node_modules/npm/node_modules/tar/node_modules/fs-minipass",
-					"licenses": [
-						"ISC"
-					]
-				},
-				{
-					"type": "nodejs",
-					"name": "has-unicode",
-					"version": "2.0.1",
-					"path": "/usr/local/lib/node_modules/npm/node_modules/has-unicode",
-					"licenses": [
-						"ISC"
-					]
-				},
-				{
-					"type": "nodejs",
-					"name": "libnpmfund",
-					"version": "4.1.1",
-					"path": "/usr/local/lib/node_modules/npm/node_modules/libnpmfund",
-					"licenses": [
-						"ISC"
-					]
-				},
-				{
-					"type": "nodejs",
-					"name": "promise-retry",
-					"version": "2.0.1",
-					"path": "/usr/local/lib/node_modules/npm/node_modules/promise-retry",
-					"licenses": [
-						"MIT"
-					]
-				},
-				{
-					"type": "nodejs",
-					"name": "isexe",
-					"version": "3.1.1",
-					"path": "/usr/local/lib/node_modules/npm/node_modules/which/node_modules/isexe",
-					"licenses": [
-						"ISC"
-					]
-				},
-				{
-					"type": "nodejs",
-					"name": "@colors/colors",
-					"version": "1.5.0",
-					"path": "/usr/local/lib/node_modules/npm/node_modules/@colors/colors",
-					"licenses": [
-						"MIT"
-					]
-				},
-				{
-					"type": "nodejs",
-					"name": "@npmcli/name-from-folder",
-					"version": "2.0.0",
-					"path": "/usr/local/lib/node_modules/npm/node_modules/@npmcli/name-from-folder",
-					"licenses": [
-						"ISC"
-					]
-				},
-				{
-					"type": "nodejs",
-					"name": "foreground-child",
-					"version": "3.1.1",
-					"path": "/usr/local/lib/node_modules/npm/node_modules/foreground-child",
-					"licenses": [
-						"ISC"
-					]
-				},
-				{
-					"type": "nodejs",
-					"name": "minimatch",
-					"version": "9.0.3",
-					"path": "/usr/local/lib/node_modules/npm/node_modules/node-gyp/node_modules/cacache/node_modules/minimatch",
-					"licenses": [
-						"ISC"
-					]
-				},
-				{
-					"type": "nodejs",
-					"name": "@sigstore/bundle",
-					"version": "2.1.0",
-					"path": "/usr/local/lib/node_modules/npm/node_modules/@sigstore/bundle",
-					"licenses": [
-						"Apache-2.0"
-					]
-				},
-				{
-					"type": "nodejs",
-					"name": "ansi-styles",
-					"version": "4.3.0",
-					"path": "/usr/local/lib/node_modules/npm/node_modules/ansi-styles",
-					"licenses": [
-						"MIT"
-					]
-				},
-				{
-					"type": "nodejs",
-					"name": "bin-links",
-					"version": "4.0.2",
-					"path": "/usr/local/lib/node_modules/npm/node_modules/bin-links",
-					"licenses": [
-						"ISC"
-					]
-				},
-				{
-					"type": "nodejs",
-					"name": "inflight",
-					"version": "1.0.6",
-					"path": "/usr/local/lib/node_modules/npm/node_modules/inflight",
-					"licenses": [
-						"ISC"
-					]
-				},
-				{
-					"type": "nodejs",
-					"name": "readable-stream",
-					"version": "3.6.2",
-					"path": "/usr/local/lib/node_modules/npm/node_modules/node-gyp/node_modules/readable-stream",
-					"licenses": [
-						"MIT"
-					]
-				},
-				{
-					"type": "nodejs",
-					"name": "smart-buffer",
-					"version": "4.2.0",
-					"path": "/usr/local/lib/node_modules/npm/node_modules/smart-buffer",
-					"licenses": [
-						"MIT"
-					]
-				},
-				{
-					"type": "nodejs",
-					"name": "treeverse",
-					"version": "3.0.0",
-					"path": "/usr/local/lib/node_modules/npm/node_modules/treeverse",
-					"licenses": [
-						"ISC"
-					]
-				},
-				{
-					"type": "nodejs",
-					"name": "clone",
-					"version": "1.0.4",
-					"path": "/usr/local/lib/node_modules/npm/node_modules/clone",
-					"licenses": [
-						"MIT"
-					]
-				},
-				{
-					"type": "nodejs",
-					"name": "defaults",
-					"version": "1.0.4",
-					"path": "/usr/local/lib/node_modules/npm/node_modules/defaults",
-					"licenses": [
-						"MIT"
-					]
-				},
-				{
-					"type": "nodejs",
-					"name": "ansi-styles",
-					"version": "6.2.1",
-					"path": "/usr/local/lib/node_modules/npm/node_modules/wrap-ansi/node_modules/ansi-styles",
-					"licenses": [
-						"MIT"
-					]
-				},
-				{
-					"type": "nodejs",
-					"name": "json-parse-even-better-errors",
-					"version": "3.0.0",
-					"path": "/usr/local/lib/node_modules/npm/node_modules/json-parse-even-better-errors",
-					"licenses": [
-						"MIT"
-					]
-				},
-				{
-					"type": "nodejs",
-					"name": "libnpmteam",
-					"version": "6.0.0",
-					"path": "/usr/local/lib/node_modules/npm/node_modules/libnpmteam",
-					"licenses": [
-						"ISC"
-					]
-				},
-				{
-					"type": "nodejs",
-					"name": "minipass",
-					"version": "5.0.0",
-					"path": "/usr/local/lib/node_modules/npm/node_modules/tar/node_modules/minipass",
-					"licenses": [
-						"ISC"
-					]
-				},
-				{
-					"type": "nodejs",
-					"name": "fastest-levenshtein",
-					"version": "1.0.16",
-					"path": "/usr/local/lib/node_modules/npm/node_modules/fastest-levenshtein",
-					"licenses": [
-						"MIT"
-					]
-				},
-				{
-					"type": "nodejs",
-					"name": "promise-inflight",
-					"version": "1.0.1",
-					"path": "/usr/local/lib/node_modules/npm/node_modules/promise-inflight",
-					"licenses": [
-						"ISC"
-					]
-				},
-				{
-					"type": "nodejs",
-					"name": "read-package-json",
-					"version": "7.0.0",
-					"path": "/usr/local/lib/node_modules/npm/node_modules/read-package-json",
-					"licenses": [
-						"ISC"
-					]
-				},
-				{
-					"type": "nodejs",
-					"name": "tar",
-					"version": "6.1.15",
-					"path": "/usr/local/lib/node_modules/npm/node_modules/tar",
-					"licenses": [
-						"ISC"
-					]
-				},
-				{
-					"type": "nodejs",
-					"name": "http-proxy-agent",
-					"version": "5.0.0",
-					"path": "/usr/local/lib/node_modules/npm/node_modules/http-proxy-agent",
-					"licenses": [
-						"MIT"
-					]
-				},
-				{
-					"type": "nodejs",
-					"name": "minipass",
-					"version": "3.3.6",
-					"path": "/usr/local/lib/node_modules/npm/node_modules/tar/node_modules/fs-minipass/node_modules/minipass",
-					"licenses": [
-						"ISC"
-					]
-				},
-				{
-					"type": "nodejs",
-					"name": "hosted-git-info",
-					"version": "7.0.0",
-					"path": "/usr/local/lib/node_modules/npm/node_modules/hosted-git-info",
-					"licenses": [
-						"ISC"
-					]
-				},
-				{
-					"type": "nodejs",
-					"name": "socks",
-					"version": "2.7.1",
-					"path": "/usr/local/lib/node_modules/npm/node_modules/socks",
-					"licenses": [
-						"MIT"
-					]
-				},
-				{
-					"type": "nodejs",
-					"name": "@isaacs/string-locale-compare",
-					"version": "1.1.0",
-					"path": "/usr/local/lib/node_modules/npm/node_modules/@isaacs/string-locale-compare",
-					"licenses": [
-						"ISC"
-					]
-				},
-				{
-					"type": "nodejs",
-					"name": "cli-table3",
-					"version": "0.6.3",
-					"path": "/usr/local/lib/node_modules/npm/node_modules/cli-table3",
-					"licenses": [
-						"MIT"
-					]
-				},
-				{
-					"type": "nodejs",
-					"name": "chalk",
-					"version": "5.3.0",
-					"path": "/usr/local/lib/node_modules/npm/node_modules/chalk",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/balanced-match",
 					"licenses": [
 						"MIT"
 					]
@@ -1820,47 +560,362 @@
 				},
 				{
 					"type": "nodejs",
-					"name": "@npmcli/arborist",
-					"version": "7.1.0",
-					"path": "/usr/local/lib/node_modules/npm/node_modules/@npmcli/arborist",
+					"name": "@npmcli/node-gyp",
+					"version": "3.0.0",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/@npmcli/node-gyp",
 					"licenses": [
 						"ISC"
 					]
 				},
 				{
 					"type": "nodejs",
-					"name": "lru-cache",
-					"version": "6.0.0",
-					"path": "/usr/local/lib/node_modules/npm/node_modules/semver/node_modules/lru-cache",
+					"name": "event-target-shim",
+					"version": "5.0.1",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/event-target-shim",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "path-is-absolute",
+					"version": "1.0.1",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/path-is-absolute",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "@npmcli/installed-package-contents",
+					"version": "2.0.2",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/@npmcli/installed-package-contents",
 					"licenses": [
 						"ISC"
 					]
 				},
 				{
 					"type": "nodejs",
-					"name": "binary-extensions",
-					"version": "2.2.0",
-					"path": "/usr/local/lib/node_modules/npm/node_modules/binary-extensions",
+					"name": "@sigstore/protobuf-specs",
+					"version": "0.2.1",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/@sigstore/protobuf-specs",
+					"licenses": [
+						"Apache-2.0"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "delegates",
+					"version": "1.0.0",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/delegates",
 					"licenses": [
 						"MIT"
 					]
 				},
 				{
 					"type": "nodejs",
-					"name": "ci-info",
-					"version": "3.8.0",
-					"path": "/usr/local/lib/node_modules/npm/node_modules/ci-info",
+					"name": "semver",
+					"version": "7.5.4",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/semver",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "err-code",
+					"version": "1.1.1",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/err-code",
 					"licenses": [
 						"MIT"
 					]
 				},
 				{
 					"type": "nodejs",
-					"name": "env-paths",
-					"version": "2.2.1",
-					"path": "/usr/local/lib/node_modules/npm/node_modules/env-paths",
+					"name": "graceful-fs",
+					"version": "4.2.11",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/graceful-fs",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "read-package-json",
+					"version": "7.0.0",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/read-package-json",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "util-deprecate",
+					"version": "1.0.2",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/util-deprecate",
 					"licenses": [
 						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "archy",
+					"version": "1.0.0",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/archy",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "ieee754",
+					"version": "1.2.1",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/ieee754",
+					"licenses": [
+						"BSD-3-Clause"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "readable-stream",
+					"version": "3.6.2",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/node-gyp/node_modules/readable-stream",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "spdx-exceptions",
+					"version": "2.3.0",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/spdx-exceptions",
+					"licenses": [
+						"CC-BY-3.0"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "read-package-json-fast",
+					"version": "3.0.2",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/read-package-json-fast",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "validate-npm-package-name",
+					"version": "5.0.0",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/validate-npm-package-name",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "emoji-regex",
+					"version": "9.2.2",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/wrap-ansi/node_modules/emoji-regex",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "@npmcli/fs",
+					"version": "3.1.0",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/@npmcli/fs",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "http-proxy-agent",
+					"version": "5.0.0",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/http-proxy-agent",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "libnpmaccess",
+					"version": "8.0.0",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/libnpmaccess",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "hosted-git-info",
+					"version": "7.0.0",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/hosted-git-info",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "is-lambda",
+					"version": "1.0.1",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/is-lambda",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "which",
+					"version": "4.0.0",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/which",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "promise-inflight",
+					"version": "1.0.1",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/promise-inflight",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "walk-up-path",
+					"version": "3.0.1",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/walk-up-path",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "ms",
+					"version": "2.1.2",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/debug/node_modules/ms",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "events",
+					"version": "3.3.0",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/events",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "jsonparse",
+					"version": "1.3.1",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/jsonparse",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "npm-user-validate",
+					"version": "2.0.0",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/npm-user-validate",
+					"licenses": [
+						"BSD-2-Clause"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "minimatch",
+					"version": "3.1.2",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/rimraf/node_modules/minimatch",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "spdx-correct",
+					"version": "3.2.0",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/spdx-correct",
+					"licenses": [
+						"Apache-2.0"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "socks-proxy-agent",
+					"version": "7.0.0",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/socks-proxy-agent",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "@sigstore/tuf",
+					"version": "2.1.0",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/@sigstore/tuf",
+					"licenses": [
+						"Apache-2.0"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "ansi-styles",
+					"version": "4.3.0",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/ansi-styles",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "is-fullwidth-code-point",
+					"version": "3.0.0",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/is-fullwidth-code-point",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "libnpmpublish",
+					"version": "9.0.0",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/libnpmpublish",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "encoding",
+					"version": "0.1.13",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/encoding",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "proc-log",
+					"version": "3.0.0",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/proc-log",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "npmlog",
+					"version": "6.0.2",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/node-gyp/node_modules/npmlog",
+					"licenses": [
+						"ISC"
 					]
 				},
 				{
@@ -1868,6 +923,42 @@
 					"name": "npm-audit-report",
 					"version": "5.0.0",
 					"path": "/usr/local/lib/node_modules/npm/node_modules/npm-audit-report",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "@sigstore/bundle",
+					"version": "2.1.0",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/@sigstore/bundle",
+					"licenses": [
+						"Apache-2.0"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "defaults",
+					"version": "1.0.4",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/defaults",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "glob",
+					"version": "7.2.3",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/rimraf/node_modules/glob",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "make-fetch-happen",
+					"version": "11.1.1",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/node-gyp/node_modules/make-fetch-happen",
 					"licenses": [
 						"ISC"
 					]
@@ -1883,65 +974,209 @@
 				},
 				{
 					"type": "nodejs",
-					"name": "socks-proxy-agent",
-					"version": "8.0.1",
-					"path": "/usr/local/lib/node_modules/npm/node_modules/@npmcli/agent/node_modules/socks-proxy-agent",
-					"licenses": [
-						"MIT"
-					]
-				},
-				{
-					"type": "nodejs",
-					"name": "console-control-strings",
-					"version": "1.1.0",
-					"path": "/usr/local/lib/node_modules/npm/node_modules/console-control-strings",
+					"name": "@npmcli/disparity-colors",
+					"version": "3.0.0",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/@npmcli/disparity-colors",
 					"licenses": [
 						"ISC"
 					]
 				},
 				{
 					"type": "nodejs",
-					"name": "balanced-match",
-					"version": "1.0.2",
-					"path": "/usr/local/lib/node_modules/npm/node_modules/balanced-match",
+					"name": "builtins",
+					"version": "5.0.1",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/builtins",
 					"licenses": [
 						"MIT"
 					]
 				},
 				{
 					"type": "nodejs",
-					"name": "diff",
-					"version": "5.1.0",
-					"path": "/usr/local/lib/node_modules/npm/node_modules/diff",
-					"licenses": [
-						"BSD-3-Clause"
-					]
-				},
-				{
-					"type": "nodejs",
-					"name": "agent-base",
-					"version": "7.1.0",
-					"path": "/usr/local/lib/node_modules/npm/node_modules/@npmcli/agent/node_modules/agent-base",
-					"licenses": [
-						"MIT"
-					]
-				},
-				{
-					"type": "nodejs",
-					"name": "@npmcli/config",
-					"version": "7.2.0",
-					"path": "/usr/local/lib/node_modules/npm/node_modules/@npmcli/config",
+					"name": "json-stringify-nice",
+					"version": "1.1.4",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/json-stringify-nice",
 					"licenses": [
 						"ISC"
 					]
 				},
 				{
 					"type": "nodejs",
-					"name": "@sigstore/tuf",
-					"version": "2.1.0",
-					"path": "/usr/local/lib/node_modules/npm/node_modules/@sigstore/tuf",
+					"name": "libnpmexec",
+					"version": "7.0.1",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/libnpmexec",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "ip",
+					"version": "2.0.0",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/ip",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "libnpmfund",
+					"version": "4.1.1",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/libnpmfund",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "process",
+					"version": "0.11.10",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/process",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "validate-npm-package-license",
+					"version": "3.0.4",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/validate-npm-package-license",
 					"licenses": [
 						"Apache-2.0"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "brace-expansion",
+					"version": "2.0.1",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/node-gyp/node_modules/cacache/node_modules/brace-expansion",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "cacache",
+					"version": "18.0.0",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/cacache",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "cssesc",
+					"version": "3.0.0",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/cssesc",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "debug",
+					"version": "4.3.4",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/debug",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "npm-install-checks",
+					"version": "6.2.0",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/npm-install-checks",
+					"licenses": [
+						"BSD-2-Clause"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "fs-minipass",
+					"version": "2.1.0",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/tar/node_modules/fs-minipass",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "tar",
+					"version": "6.1.15",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/tar",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "wide-align",
+					"version": "1.1.5",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/wide-align",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "yarn",
+					"version": "1.22.19",
+					"path": "/opt/yarn-v1.22.19",
+					"licenses": [
+						"BSD-2-Clause"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "libnpmsearch",
+					"version": "7.0.0",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/libnpmsearch",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "libnpmteam",
+					"version": "6.0.0",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/libnpmteam",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "minipass-fetch",
+					"version": "3.0.4",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/minipass-fetch",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "npm",
+					"version": "10.1.0",
+					"path": "/usr/local/lib/node_modules/npm",
+					"licenses": [
+						"Artistic-2.0"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "@npmcli/promise-spawn",
+					"version": "7.0.0",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/@npmcli/promise-spawn",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "which",
+					"version": "2.0.2",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/node-gyp/node_modules/which",
+					"licenses": [
+						"ISC"
 					]
 				},
 				{
@@ -1964,200 +1199,11 @@
 				},
 				{
 					"type": "nodejs",
-					"name": "npm-package-arg",
-					"version": "11.0.0",
-					"path": "/usr/local/lib/node_modules/npm/node_modules/npm-package-arg",
+					"name": "ssri",
+					"version": "10.0.5",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/ssri",
 					"licenses": [
 						"ISC"
-					]
-				},
-				{
-					"type": "nodejs",
-					"name": "once",
-					"version": "1.4.0",
-					"path": "/usr/local/lib/node_modules/npm/node_modules/once",
-					"licenses": [
-						"ISC"
-					]
-				},
-				{
-					"type": "nodejs",
-					"name": "wrappy",
-					"version": "1.0.2",
-					"path": "/usr/local/lib/node_modules/npm/node_modules/wrappy",
-					"licenses": [
-						"ISC"
-					]
-				},
-				{
-					"type": "nodejs",
-					"name": "events",
-					"version": "3.3.0",
-					"path": "/usr/local/lib/node_modules/npm/node_modules/events",
-					"licenses": [
-						"MIT"
-					]
-				},
-				{
-					"type": "nodejs",
-					"name": "shebang-regex",
-					"version": "3.0.0",
-					"path": "/usr/local/lib/node_modules/npm/node_modules/shebang-regex",
-					"licenses": [
-						"MIT"
-					]
-				},
-				{
-					"type": "nodejs",
-					"name": "text-table",
-					"version": "0.2.0",
-					"path": "/usr/local/lib/node_modules/npm/node_modules/text-table",
-					"licenses": [
-						"MIT"
-					]
-				},
-				{
-					"type": "nodejs",
-					"name": "@npmcli/map-workspaces",
-					"version": "3.0.4",
-					"path": "/usr/local/lib/node_modules/npm/node_modules/@npmcli/map-workspaces",
-					"licenses": [
-						"ISC"
-					]
-				},
-				{
-					"type": "nodejs",
-					"name": "color-name",
-					"version": "1.1.4",
-					"path": "/usr/local/lib/node_modules/npm/node_modules/color-name",
-					"licenses": [
-						"MIT"
-					]
-				},
-				{
-					"type": "nodejs",
-					"name": "minizlib",
-					"version": "2.1.2",
-					"path": "/usr/local/lib/node_modules/npm/node_modules/minizlib",
-					"licenses": [
-						"MIT"
-					]
-				},
-				{
-					"type": "nodejs",
-					"name": "tuf-js",
-					"version": "2.1.0",
-					"path": "/usr/local/lib/node_modules/npm/node_modules/tuf-js",
-					"licenses": [
-						"MIT"
-					]
-				},
-				{
-					"type": "nodejs",
-					"name": "@npmcli/fs",
-					"version": "3.1.0",
-					"path": "/usr/local/lib/node_modules/npm/node_modules/@npmcli/fs",
-					"licenses": [
-						"ISC"
-					]
-				},
-				{
-					"type": "nodejs",
-					"name": "columnify",
-					"version": "1.6.0",
-					"path": "/usr/local/lib/node_modules/npm/node_modules/columnify",
-					"licenses": [
-						"MIT"
-					]
-				},
-				{
-					"type": "nodejs",
-					"name": "postcss-selector-parser",
-					"version": "6.0.13",
-					"path": "/usr/local/lib/node_modules/npm/node_modules/postcss-selector-parser",
-					"licenses": [
-						"MIT"
-					]
-				},
-				{
-					"type": "nodejs",
-					"name": "rimraf",
-					"version": "3.0.2",
-					"path": "/usr/local/lib/node_modules/npm/node_modules/rimraf",
-					"licenses": [
-						"ISC"
-					]
-				},
-				{
-					"type": "nodejs",
-					"name": "@npmcli/package-json",
-					"version": "5.0.0",
-					"path": "/usr/local/lib/node_modules/npm/node_modules/@npmcli/package-json",
-					"licenses": [
-						"ISC"
-					]
-				},
-				{
-					"type": "nodejs",
-					"name": "event-target-shim",
-					"version": "5.0.1",
-					"path": "/usr/local/lib/node_modules/npm/node_modules/event-target-shim",
-					"licenses": [
-						"MIT"
-					]
-				},
-				{
-					"type": "nodejs",
-					"name": "minipass-pipeline",
-					"version": "1.2.4",
-					"path": "/usr/local/lib/node_modules/npm/node_modules/minipass-pipeline",
-					"licenses": [
-						"ISC"
-					]
-				},
-				{
-					"type": "nodejs",
-					"name": "base64-js",
-					"version": "1.5.1",
-					"path": "/usr/local/lib/node_modules/npm/node_modules/base64-js",
-					"licenses": [
-						"MIT"
-					]
-				},
-				{
-					"type": "nodejs",
-					"name": "emoji-regex",
-					"version": "8.0.0",
-					"path": "/usr/local/lib/node_modules/npm/node_modules/emoji-regex",
-					"licenses": [
-						"MIT"
-					]
-				},
-				{
-					"type": "nodejs",
-					"name": "jsonparse",
-					"version": "1.3.1",
-					"path": "/usr/local/lib/node_modules/npm/node_modules/jsonparse",
-					"licenses": [
-						"MIT"
-					]
-				},
-				{
-					"type": "nodejs",
-					"name": "readable-stream",
-					"version": "4.4.0",
-					"path": "/usr/local/lib/node_modules/npm/node_modules/readable-stream",
-					"licenses": [
-						"MIT"
-					]
-				},
-				{
-					"type": "nodejs",
-					"name": "validate-npm-package-license",
-					"version": "3.0.4",
-					"path": "/usr/local/lib/node_modules/npm/node_modules/validate-npm-package-license",
-					"licenses": [
-						"Apache-2.0"
 					]
 				},
 				{
@@ -2180,513 +1226,18 @@
 				},
 				{
 					"type": "nodejs",
-					"name": "cmd-shim",
-					"version": "6.0.1",
-					"path": "/usr/local/lib/node_modules/npm/node_modules/cmd-shim",
-					"licenses": [
-						"ISC"
-					]
-				},
-				{
-					"type": "nodejs",
-					"name": "string-width",
-					"version": "4.2.3",
-					"path": "/usr/local/lib/node_modules/npm/node_modules/string-width-cjs",
-					"licenses": [
-						"MIT"
-					]
-				},
-				{
-					"type": "nodejs",
-					"name": "corepack",
-					"version": "0.20.0",
-					"path": "/usr/local/lib/node_modules/corepack",
-					"licenses": [
-						"MIT"
-					]
-				},
-				{
-					"type": "nodejs",
-					"name": "is-lambda",
-					"version": "1.0.1",
-					"path": "/usr/local/lib/node_modules/npm/node_modules/is-lambda",
-					"licenses": [
-						"MIT"
-					]
-				},
-				{
-					"type": "nodejs",
-					"name": "proc-log",
-					"version": "3.0.0",
-					"path": "/usr/local/lib/node_modules/npm/node_modules/proc-log",
-					"licenses": [
-						"ISC"
-					]
-				},
-				{
-					"type": "nodejs",
-					"name": "npm",
-					"version": "10.1.0",
-					"path": "/usr/local/lib/node_modules/npm",
-					"licenses": [
-						"Artistic-2.0"
-					]
-				},
-				{
-					"type": "nodejs",
-					"name": "fs-minipass",
-					"version": "3.0.3",
-					"path": "/usr/local/lib/node_modules/npm/node_modules/fs-minipass",
-					"licenses": [
-						"ISC"
-					]
-				},
-				{
-					"type": "nodejs",
-					"name": "ip-regex",
-					"version": "4.3.0",
-					"path": "/usr/local/lib/node_modules/npm/node_modules/ip-regex",
-					"licenses": [
-						"MIT"
-					]
-				},
-				{
-					"type": "nodejs",
-					"name": "just-diff",
-					"version": "6.0.2",
-					"path": "/usr/local/lib/node_modules/npm/node_modules/just-diff",
-					"licenses": [
-						"MIT"
-					]
-				},
-				{
-					"type": "nodejs",
-					"name": "read-package-json-fast",
-					"version": "3.0.2",
-					"path": "/usr/local/lib/node_modules/npm/node_modules/read-package-json-fast",
-					"licenses": [
-						"ISC"
-					]
-				},
-				{
-					"type": "nodejs",
-					"name": "semver",
-					"version": "7.5.4",
-					"path": "/usr/local/lib/node_modules/npm/node_modules/semver",
-					"licenses": [
-						"ISC"
-					]
-				},
-				{
-					"type": "nodejs",
-					"name": "ansi-regex",
-					"version": "6.0.1",
-					"path": "/usr/local/lib/node_modules/npm/node_modules/wrap-ansi/node_modules/ansi-regex",
-					"licenses": [
-						"MIT"
-					]
-				},
-				{
-					"type": "nodejs",
-					"name": "color-convert",
-					"version": "2.0.1",
-					"path": "/usr/local/lib/node_modules/npm/node_modules/color-convert",
-					"licenses": [
-						"MIT"
-					]
-				},
-				{
-					"type": "nodejs",
-					"name": "err-code",
-					"version": "1.1.1",
-					"path": "/usr/local/lib/node_modules/npm/node_modules/err-code",
-					"licenses": [
-						"MIT"
-					]
-				},
-				{
-					"type": "nodejs",
-					"name": "is-fullwidth-code-point",
-					"version": "3.0.0",
-					"path": "/usr/local/lib/node_modules/npm/node_modules/is-fullwidth-code-point",
-					"licenses": [
-						"MIT"
-					]
-				},
-				{
-					"type": "nodejs",
-					"name": "jackspeak",
-					"version": "2.2.1",
-					"path": "/usr/local/lib/node_modules/npm/node_modules/jackspeak",
-					"licenses": [
-						"BlueOak-1.0.0"
-					]
-				},
-				{
-					"type": "nodejs",
-					"name": "shebang-command",
-					"version": "2.0.0",
-					"path": "/usr/local/lib/node_modules/npm/node_modules/shebang-command",
-					"licenses": [
-						"MIT"
-					]
-				},
-				{
-					"type": "nodejs",
-					"name": "string_decoder",
-					"version": "1.3.0",
-					"path": "/usr/local/lib/node_modules/npm/node_modules/string_decoder",
-					"licenses": [
-						"MIT"
-					]
-				},
-				{
-					"type": "nodejs",
-					"name": "wrap-ansi",
-					"version": "8.1.0",
-					"path": "/usr/local/lib/node_modules/npm/node_modules/wrap-ansi",
-					"licenses": [
-						"MIT"
-					]
-				},
-				{
-					"type": "nodejs",
-					"name": "http-proxy-agent",
-					"version": "7.0.0",
-					"path": "/usr/local/lib/node_modules/npm/node_modules/@npmcli/agent/node_modules/http-proxy-agent",
-					"licenses": [
-						"MIT"
-					]
-				},
-				{
-					"type": "nodejs",
-					"name": "@npmcli/agent",
-					"version": "2.1.1",
-					"path": "/usr/local/lib/node_modules/npm/node_modules/@npmcli/agent",
-					"licenses": [
-						"ISC"
-					]
-				},
-				{
-					"type": "nodejs",
-					"name": "libnpmpublish",
-					"version": "9.0.0",
-					"path": "/usr/local/lib/node_modules/npm/node_modules/libnpmpublish",
-					"licenses": [
-						"ISC"
-					]
-				},
-				{
-					"type": "nodejs",
-					"name": "minipass",
-					"version": "7.0.3",
-					"path": "/usr/local/lib/node_modules/npm/node_modules/node-gyp/node_modules/cacache/node_modules/minipass",
-					"licenses": [
-						"ISC"
-					]
-				},
-				{
-					"type": "nodejs",
-					"name": "process",
-					"version": "0.11.10",
-					"path": "/usr/local/lib/node_modules/npm/node_modules/process",
-					"licenses": [
-						"MIT"
-					]
-				},
-				{
-					"type": "nodejs",
-					"name": "supports-color",
-					"version": "9.4.0",
-					"path": "/usr/local/lib/node_modules/npm/node_modules/supports-color",
-					"licenses": [
-						"MIT"
-					]
-				},
-				{
-					"type": "nodejs",
-					"name": "unique-filename",
-					"version": "3.0.0",
-					"path": "/usr/local/lib/node_modules/npm/node_modules/unique-filename",
-					"licenses": [
-						"ISC"
-					]
-				},
-				{
-					"type": "nodejs",
-					"name": "delegates",
-					"version": "1.0.0",
-					"path": "/usr/local/lib/node_modules/npm/node_modules/delegates",
-					"licenses": [
-						"MIT"
-					]
-				},
-				{
-					"type": "nodejs",
-					"name": "eastasianwidth",
-					"version": "0.2.0",
-					"path": "/usr/local/lib/node_modules/npm/node_modules/eastasianwidth",
-					"licenses": [
-						"MIT"
-					]
-				},
-				{
-					"type": "nodejs",
-					"name": "libnpmversion",
-					"version": "5.0.0",
-					"path": "/usr/local/lib/node_modules/npm/node_modules/libnpmversion",
-					"licenses": [
-						"ISC"
-					]
-				},
-				{
-					"type": "nodejs",
-					"name": "npm-install-checks",
-					"version": "6.2.0",
-					"path": "/usr/local/lib/node_modules/npm/node_modules/npm-install-checks",
-					"licenses": [
-						"BSD-2-Clause"
-					]
-				},
-				{
-					"type": "nodejs",
-					"name": "path-key",
+					"name": "foreground-child",
 					"version": "3.1.1",
-					"path": "/usr/local/lib/node_modules/npm/node_modules/path-key",
-					"licenses": [
-						"MIT"
-					]
-				},
-				{
-					"type": "nodejs",
-					"name": "yarn",
-					"version": "1.22.19",
-					"path": "/opt/yarn-v1.22.19",
-					"licenses": [
-						"BSD-2-Clause"
-					]
-				},
-				{
-					"type": "nodejs",
-					"name": "nopt",
-					"version": "7.2.0",
-					"path": "/usr/local/lib/node_modules/npm/node_modules/nopt",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/foreground-child",
 					"licenses": [
 						"ISC"
 					]
 				},
 				{
 					"type": "nodejs",
-					"name": "npm-packlist",
-					"version": "8.0.0",
-					"path": "/usr/local/lib/node_modules/npm/node_modules/npm-packlist",
-					"licenses": [
-						"ISC"
-					]
-				},
-				{
-					"type": "nodejs",
-					"name": "p-map",
-					"version": "4.0.0",
-					"path": "/usr/local/lib/node_modules/npm/node_modules/p-map",
-					"licenses": [
-						"MIT"
-					]
-				},
-				{
-					"type": "nodejs",
-					"name": "path-scurry",
-					"version": "1.10.1",
-					"path": "/usr/local/lib/node_modules/npm/node_modules/path-scurry",
-					"licenses": [
-						"BlueOak-1.0.0"
-					]
-				},
-				{
-					"type": "nodejs",
-					"name": "builtins",
-					"version": "5.0.1",
-					"path": "/usr/local/lib/node_modules/npm/node_modules/builtins",
-					"licenses": [
-						"MIT"
-					]
-				},
-				{
-					"type": "nodejs",
-					"name": "ms",
-					"version": "2.1.2",
-					"path": "/usr/local/lib/node_modules/npm/node_modules/debug/node_modules/ms",
-					"licenses": [
-						"MIT"
-					]
-				},
-				{
-					"type": "nodejs",
-					"name": "strip-ansi",
-					"version": "6.0.1",
-					"path": "/usr/local/lib/node_modules/npm/node_modules/strip-ansi-cjs",
-					"licenses": [
-						"MIT"
-					]
-				},
-				{
-					"type": "nodejs",
-					"name": "strip-ansi",
-					"version": "7.1.0",
-					"path": "/usr/local/lib/node_modules/npm/node_modules/wrap-ansi/node_modules/strip-ansi",
-					"licenses": [
-						"MIT"
-					]
-				},
-				{
-					"type": "nodejs",
-					"name": "make-fetch-happen",
-					"version": "13.0.0",
-					"path": "/usr/local/lib/node_modules/npm/node_modules/make-fetch-happen",
-					"licenses": [
-						"ISC"
-					]
-				},
-				{
-					"type": "nodejs",
-					"name": "npm-user-validate",
-					"version": "2.0.0",
-					"path": "/usr/local/lib/node_modules/npm/node_modules/npm-user-validate",
-					"licenses": [
-						"BSD-2-Clause"
-					]
-				},
-				{
-					"type": "nodejs",
-					"name": "@npmcli/promise-spawn",
-					"version": "7.0.0",
-					"path": "/usr/local/lib/node_modules/npm/node_modules/@npmcli/promise-spawn",
-					"licenses": [
-						"ISC"
-					]
-				},
-				{
-					"type": "nodejs",
-					"name": "buffer",
-					"version": "6.0.3",
-					"path": "/usr/local/lib/node_modules/npm/node_modules/buffer",
-					"licenses": [
-						"MIT"
-					]
-				},
-				{
-					"type": "nodejs",
-					"name": "pacote",
-					"version": "17.0.4",
-					"path": "/usr/local/lib/node_modules/npm/node_modules/pacote",
-					"licenses": [
-						"ISC"
-					]
-				},
-				{
-					"type": "nodejs",
-					"name": "which",
-					"version": "4.0.0",
-					"path": "/usr/local/lib/node_modules/npm/node_modules/which",
-					"licenses": [
-						"ISC"
-					]
-				},
-				{
-					"type": "nodejs",
-					"name": "is-cidr",
-					"version": "4.0.2",
-					"path": "/usr/local/lib/node_modules/npm/node_modules/is-cidr",
-					"licenses": [
-						"BSD-2-Clause"
-					]
-				},
-				{
-					"type": "nodejs",
-					"name": "minimatch",
-					"version": "3.1.2",
-					"path": "/usr/local/lib/node_modules/npm/node_modules/rimraf/node_modules/minimatch",
-					"licenses": [
-						"ISC"
-					]
-				},
-				{
-					"type": "nodejs",
-					"name": "sigstore",
-					"version": "2.1.0",
-					"path": "/usr/local/lib/node_modules/npm/node_modules/sigstore",
-					"licenses": [
-						"Apache-2.0"
-					]
-				},
-				{
-					"type": "nodejs",
-					"name": "spdx-exceptions",
-					"version": "2.3.0",
-					"path": "/usr/local/lib/node_modules/npm/node_modules/spdx-exceptions",
-					"licenses": [
-						"CC-BY-3.0"
-					]
-				},
-				{
-					"type": "nodejs",
-					"name": "tiny-relative-date",
-					"version": "1.3.0",
-					"path": "/usr/local/lib/node_modules/npm/node_modules/tiny-relative-date",
-					"licenses": [
-						"MIT"
-					]
-				},
-				{
-					"type": "nodejs",
-					"name": "libnpmexec",
-					"version": "7.0.1",
-					"path": "/usr/local/lib/node_modules/npm/node_modules/libnpmexec",
-					"licenses": [
-						"ISC"
-					]
-				},
-				{
-					"type": "nodejs",
-					"name": "set-blocking",
-					"version": "2.0.0",
-					"path": "/usr/local/lib/node_modules/npm/node_modules/set-blocking",
-					"licenses": [
-						"ISC"
-					]
-				},
-				{
-					"type": "nodejs",
-					"name": "signal-exit",
-					"version": "4.0.2",
-					"path": "/usr/local/lib/node_modules/npm/node_modules/signal-exit",
-					"licenses": [
-						"ISC"
-					]
-				},
-				{
-					"type": "nodejs",
-					"name": "exponential-backoff",
-					"version": "3.1.1",
-					"path": "/usr/local/lib/node_modules/npm/node_modules/exponential-backoff",
-					"licenses": [
-						"Apache-2.0"
-					]
-				},
-				{
-					"type": "nodejs",
-					"name": "fs.realpath",
-					"version": "1.0.0",
-					"path": "/usr/local/lib/node_modules/npm/node_modules/fs.realpath",
-					"licenses": [
-						"ISC"
-					]
-				},
-				{
-					"type": "nodejs",
-					"name": "indent-string",
-					"version": "4.0.0",
-					"path": "/usr/local/lib/node_modules/npm/node_modules/indent-string",
+					"name": "imurmurhash",
+					"version": "0.1.4",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/imurmurhash",
 					"licenses": [
 						"MIT"
 					]
@@ -2702,6 +1253,312 @@
 				},
 				{
 					"type": "nodejs",
+					"name": "path-scurry",
+					"version": "1.10.1",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/path-scurry",
+					"licenses": [
+						"BlueOak-1.0.0"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "aggregate-error",
+					"version": "3.1.0",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/aggregate-error",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "indent-string",
+					"version": "4.0.0",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/indent-string",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "libnpmorg",
+					"version": "6.0.0",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/libnpmorg",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "mute-stream",
+					"version": "1.0.0",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/mute-stream",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "agent-base",
+					"version": "6.0.2",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/agent-base",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "wrap-ansi",
+					"version": "7.0.0",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/wrap-ansi-cjs",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "@npmcli/agent",
+					"version": "2.1.1",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/@npmcli/agent",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "lru-cache",
+					"version": "10.0.1",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/lru-cache",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "readable-stream",
+					"version": "4.4.0",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/readable-stream",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "ansi-styles",
+					"version": "6.2.1",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/wrap-ansi/node_modules/ansi-styles",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "signal-exit",
+					"version": "4.0.2",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/signal-exit",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "libnpmversion",
+					"version": "5.0.0",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/libnpmversion",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "normalize-package-data",
+					"version": "6.0.0",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/normalize-package-data",
+					"licenses": [
+						"BSD-2-Clause"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "path-key",
+					"version": "3.1.1",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/path-key",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "safe-buffer",
+					"version": "5.2.1",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/safe-buffer",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "minipass-collect",
+					"version": "1.0.2",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/minipass-collect",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "isexe",
+					"version": "3.1.1",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/which/node_modules/isexe",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "gauge",
+					"version": "4.0.4",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/node-gyp/node_modules/gauge",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "cidr-regex",
+					"version": "3.1.1",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/cidr-regex",
+					"licenses": [
+						"BSD-2-Clause"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "color-convert",
+					"version": "2.0.1",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/color-convert",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "minipass",
+					"version": "3.3.6",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/tar/node_modules/fs-minipass/node_modules/minipass",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "npm-registry-fetch",
+					"version": "16.0.0",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/npm-registry-fetch",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "negotiator",
+					"version": "0.6.3",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/negotiator",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "node-gyp",
+					"version": "9.4.0",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/node-gyp",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "promise-call-limit",
+					"version": "1.0.2",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/promise-call-limit",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "retry",
+					"version": "0.12.0",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/retry",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "strip-ansi",
+					"version": "7.1.0",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/wrap-ansi/node_modules/strip-ansi",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "@isaacs/cliui",
+					"version": "8.0.2",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/@isaacs/cliui",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "agentkeepalive",
+					"version": "4.5.0",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/agentkeepalive",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "jackspeak",
+					"version": "2.2.1",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/jackspeak",
+					"licenses": [
+						"BlueOak-1.0.0"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "treeverse",
+					"version": "3.0.0",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/treeverse",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "agent-base",
+					"version": "7.1.0",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/@npmcli/agent/node_modules/agent-base",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "strip-ansi",
+					"version": "6.0.1",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/strip-ansi-cjs",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
 					"name": "are-we-there-yet",
 					"version": "4.0.0",
 					"path": "/usr/local/lib/node_modules/npm/node_modules/are-we-there-yet",
@@ -2711,11 +1568,1154 @@
 				},
 				{
 					"type": "nodejs",
+					"name": "clean-stack",
+					"version": "2.2.0",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/clean-stack",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "fastest-levenshtein",
+					"version": "1.0.16",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/fastest-levenshtein",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "unique-filename",
+					"version": "3.0.0",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/unique-filename",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "socks-proxy-agent",
+					"version": "8.0.1",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/@npmcli/agent/node_modules/socks-proxy-agent",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "abbrev",
+					"version": "2.0.0",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/abbrev",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "supports-color",
+					"version": "9.4.0",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/supports-color",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "just-diff",
+					"version": "6.0.2",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/just-diff",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "tiny-relative-date",
+					"version": "1.3.0",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/tiny-relative-date",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "@npmcli/config",
+					"version": "7.2.0",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/@npmcli/config",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "@npmcli/map-workspaces",
+					"version": "3.0.4",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/@npmcli/map-workspaces",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "@npmcli/package-json",
+					"version": "5.0.0",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/@npmcli/package-json",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "ignore-walk",
+					"version": "6.0.3",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/ignore-walk",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "qrcode-terminal",
+					"version": "0.12.0",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/qrcode-terminal",
+					"licenses": [
+						"Apache 2.0"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "ansi-regex",
+					"version": "6.0.1",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/wrap-ansi/node_modules/ansi-regex",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "@tootallnate/once",
+					"version": "2.0.0",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/@tootallnate/once",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "@tufjs/models",
+					"version": "2.0.0",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/@tufjs/models",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "inflight",
+					"version": "1.0.6",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/inflight",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "cacache",
+					"version": "17.1.4",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/node-gyp/node_modules/cacache",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "@npmcli/run-script",
+					"version": "7.0.1",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/@npmcli/run-script",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "cli-columns",
+					"version": "4.0.0",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/cli-columns",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "columnify",
+					"version": "1.6.0",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/columnify",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "minipass-sized",
+					"version": "1.0.3",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/minipass-sized",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "nopt",
+					"version": "6.0.0",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/node-gyp/node_modules/nopt",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "postcss-selector-parser",
+					"version": "6.0.13",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/postcss-selector-parser",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "shebang-regex",
+					"version": "3.0.0",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/shebang-regex",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "spdx-expression-parse",
+					"version": "3.0.1",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/spdx-expression-parse",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "wrap-ansi",
+					"version": "8.1.0",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/wrap-ansi",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "common-ancestor-path",
+					"version": "1.0.1",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/common-ancestor-path",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "pacote",
+					"version": "17.0.4",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/pacote",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "read",
+					"version": "2.1.0",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/read",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "rimraf",
+					"version": "3.0.2",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/rimraf",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "https-proxy-agent",
+					"version": "5.0.1",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/https-proxy-agent",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "string_decoder",
+					"version": "1.3.0",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/string_decoder",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "is-core-module",
+					"version": "2.12.1",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/is-core-module",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "minipass-pipeline",
+					"version": "1.2.4",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/minipass-pipeline",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "ms",
+					"version": "2.1.3",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/ms",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "npm-package-arg",
+					"version": "11.0.0",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/npm-package-arg",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "https-proxy-agent",
+					"version": "7.0.1",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/@npmcli/agent/node_modules/https-proxy-agent",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "ci-info",
+					"version": "3.8.0",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/ci-info",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "init-package-json",
+					"version": "6.0.0",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/init-package-json",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "is-cidr",
+					"version": "4.0.2",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/is-cidr",
+					"licenses": [
+						"BSD-2-Clause"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "promise-retry",
+					"version": "2.0.1",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/promise-retry",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "@tufjs/canonical-json",
+					"version": "2.0.0",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/@tufjs/canonical-json",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "console-control-strings",
+					"version": "1.1.0",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/console-control-strings",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "gauge",
+					"version": "5.0.1",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/gauge",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "json-parse-even-better-errors",
+					"version": "3.0.0",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/json-parse-even-better-errors",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "text-table",
+					"version": "0.2.0",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/text-table",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "function-bind",
+					"version": "1.1.1",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/function-bind",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "glob",
+					"version": "10.3.3",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/node-gyp/node_modules/cacache/node_modules/glob",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "http-cache-semantics",
+					"version": "4.1.1",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/http-cache-semantics",
+					"licenses": [
+						"BSD-2-Clause"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "humanize-ms",
+					"version": "1.2.1",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/humanize-ms",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "minipass-json-stream",
+					"version": "1.0.1",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/minipass-json-stream",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "are-we-there-yet",
+					"version": "3.0.1",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/node-gyp/node_modules/are-we-there-yet",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "string-width",
+					"version": "4.2.3",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/string-width-cjs",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "cross-spawn",
+					"version": "7.0.3",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/cross-spawn",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "brace-expansion",
+					"version": "1.1.11",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/rimraf/node_modules/brace-expansion",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "smart-buffer",
+					"version": "4.2.0",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/smart-buffer",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "tuf-js",
+					"version": "2.1.0",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/tuf-js",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "@npmcli/name-from-folder",
+					"version": "2.0.0",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/@npmcli/name-from-folder",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "promzard",
+					"version": "1.0.0",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/promzard",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "set-blocking",
+					"version": "2.0.0",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/set-blocking",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "@npmcli/query",
+					"version": "3.0.0",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/@npmcli/query",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "ip-regex",
+					"version": "4.3.0",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/ip-regex",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "libnpmpack",
+					"version": "6.0.1",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/libnpmpack",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "p-map",
+					"version": "4.0.0",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/p-map",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "chownr",
+					"version": "2.0.0",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/chownr",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "fs.realpath",
+					"version": "1.0.0",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/fs.realpath",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "inherits",
+					"version": "2.0.4",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/inherits",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "unique-slug",
+					"version": "4.0.0",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/unique-slug",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "npm-profile",
+					"version": "9.0.0",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/npm-profile",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "string-width",
+					"version": "5.1.2",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/wrap-ansi/node_modules/string-width",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "has",
+					"version": "1.0.3",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/has",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "minipass-flush",
+					"version": "1.0.5",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/minipass-flush",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "signal-exit",
+					"version": "3.0.7",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/node-gyp/node_modules/signal-exit",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "socks",
+					"version": "2.7.1",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/socks",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "npm-packlist",
+					"version": "8.0.0",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/npm-packlist",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "http-proxy-agent",
+					"version": "7.0.0",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/@npmcli/agent/node_modules/http-proxy-agent",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "cli-table3",
+					"version": "0.6.3",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/cli-table3",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
 					"name": "isexe",
 					"version": "2.0.0",
 					"path": "/usr/local/lib/node_modules/npm/node_modules/isexe",
 					"licenses": [
 						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "minipass",
+					"version": "7.0.3",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/node-gyp/node_modules/cacache/node_modules/minipass",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "@npmcli/metavuln-calculator",
+					"version": "7.0.0",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/@npmcli/metavuln-calculator",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "buffer",
+					"version": "6.0.3",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/buffer",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "libnpmdiff",
+					"version": "6.0.1",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/libnpmdiff",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "safer-buffer",
+					"version": "2.1.2",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/safer-buffer",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "corepack",
+					"version": "0.20.0",
+					"path": "/usr/local/lib/node_modules/corepack",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "nopt",
+					"version": "7.2.0",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/nopt",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "npm-pick-manifest",
+					"version": "9.0.0",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/npm-pick-manifest",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "base64-js",
+					"version": "1.5.1",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/base64-js",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "has-unicode",
+					"version": "2.0.1",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/has-unicode",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "bin-links",
+					"version": "4.0.2",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/bin-links",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "fs-minipass",
+					"version": "3.0.3",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/fs-minipass",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "just-diff-apply",
+					"version": "5.5.0",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/just-diff-apply",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "make-fetch-happen",
+					"version": "13.0.0",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/make-fetch-happen",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "exponential-backoff",
+					"version": "3.1.1",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/exponential-backoff",
+					"licenses": [
+						"Apache-2.0"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "once",
+					"version": "1.4.0",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/once",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "clone",
+					"version": "1.0.4",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/clone",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "minizlib",
+					"version": "2.1.2",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/minizlib",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "read-cmd-shim",
+					"version": "4.0.0",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/read-cmd-shim",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "@colors/colors",
+					"version": "1.5.0",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/@colors/colors",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "color-support",
+					"version": "1.1.3",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/color-support",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "mkdirp",
+					"version": "1.0.4",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/mkdirp",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "cmd-shim",
+					"version": "6.0.1",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/cmd-shim",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "color-name",
+					"version": "1.1.4",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/color-name",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "concat-map",
+					"version": "0.0.1",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/concat-map",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "lru-cache",
+					"version": "6.0.0",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/semver/node_modules/lru-cache",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "@npmcli/arborist",
+					"version": "7.1.0",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/@npmcli/arborist",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "abort-controller",
+					"version": "3.0.0",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/abort-controller",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "minipass",
+					"version": "5.0.0",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/tar/node_modules/minipass",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "sigstore",
+					"version": "2.1.0",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/sigstore",
+					"licenses": [
+						"Apache-2.0"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "spdx-license-ids",
+					"version": "3.0.13",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/spdx-license-ids",
+					"licenses": [
+						"CC0-1.0"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "emoji-regex",
+					"version": "8.0.0",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/emoji-regex",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "ini",
+					"version": "4.1.1",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/ini",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "minimatch",
+					"version": "9.0.3",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/node-gyp/node_modules/cacache/node_modules/minimatch",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "parse-conflict-json",
+					"version": "3.0.1",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/parse-conflict-json",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "wrappy",
+					"version": "1.0.2",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/wrappy",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "yallist",
+					"version": "4.0.0",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/yallist",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "@isaacs/string-locale-compare",
+					"version": "1.1.0",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/@isaacs/string-locale-compare",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "@npmcli/git",
+					"version": "5.0.3",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/@npmcli/git",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "diff",
+					"version": "5.1.0",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/diff",
+					"licenses": [
+						"BSD-3-Clause"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "env-paths",
+					"version": "2.2.1",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/env-paths",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "@sigstore/sign",
+					"version": "2.1.0",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/@sigstore/sign",
+					"licenses": [
+						"Apache-2.0"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "chalk",
+					"version": "5.3.0",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/chalk",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "write-file-atomic",
+					"version": "5.0.1",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/write-file-atomic",
+					"licenses": [
+						"ISC"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "wcwidth",
+					"version": "1.0.1",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/wcwidth",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "ansi-regex",
+					"version": "5.0.1",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/ansi-regex",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "eastasianwidth",
+					"version": "0.2.0",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/eastasianwidth",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "iconv-lite",
+					"version": "0.6.3",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/iconv-lite",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "nodejs",
+					"name": "shebang-command",
+					"version": "2.0.0",
+					"path": "/usr/local/lib/node_modules/npm/node_modules/shebang-command",
+					"licenses": [
+						"MIT"
 					]
 				}
 			],
@@ -2746,6 +2746,32 @@
 			"complianceScanPassed": true,
 			"vulnerabilities": [
 				{
+					"id": "CVE-2023-4911",
+					"status": "fixed in 2.36-9+deb12u3",
+					"cvss": 7.8,
+					"vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+					"description": "A buffer overflow was discovered in the GNU C Library\\'s dynamic loader ld.so while processing the GLIBC_TUNABLES environment variable. This issue could allow a local attacker to use maliciously crafted GLIBC_TUNABLES environment variables when launching binaries with SUID permission to execute code with elevated privileges.",
+					"severity": "high",
+					"packageName": "glibc",
+					"packageVersion": "2.36-9+deb12u1",
+					"link": "https://security-tracker.debian.org/tracker/CVE-2023-4911",
+					"riskFactors": [
+						"DoS - High",
+						"Has fix",
+						"High severity",
+						"Recent vulnerability",
+						"Attack complexity: low"
+					],
+					"impactedVersions": [
+						"\u003c2.36-9+deb12u3"
+					],
+					"publishedDate": "2023-10-03T18:15:00Z",
+					"discoveredDate": "2023-10-10T03:58:27Z",
+					"fixDate": "2023-10-03T20:19:54Z",
+					"layerTime": "2023-09-20T04:55:40Z",
+					"layerInstruction": "ADD file:a1398394375faab8dd9e1e8d584eea96c750fb57ae4ffd2b14624f1cf263561b in / "
+				},
+				{
 					"id": "CVE-2023-4527",
 					"status": "fixed in 2.36-9+deb12u3",
 					"cvss": 6.5,
@@ -2766,7 +2792,7 @@
 						"\u003c2.36-9+deb12u3"
 					],
 					"publishedDate": "2023-09-18T17:15:00Z",
-					"discoveredDate": "2023-10-04T10:54:22Z",
+					"discoveredDate": "2023-10-10T03:58:27Z",
 					"fixDate": "2023-10-03T20:19:54Z",
 					"layerTime": "2023-09-20T04:55:40Z",
 					"layerInstruction": "ADD file:a1398394375faab8dd9e1e8d584eea96c750fb57ae4ffd2b14624f1cf263561b in / "
@@ -2782,17 +2808,17 @@
 					"packageVersion": "2.36-9+deb12u1",
 					"link": "https://security-tracker.debian.org/tracker/CVE-2023-4806",
 					"riskFactors": [
-						"Attack vector: network",
-						"DoS - High",
 						"Has fix",
 						"Medium severity",
-						"Recent vulnerability"
+						"Recent vulnerability",
+						"Attack vector: network",
+						"DoS - High"
 					],
 					"impactedVersions": [
 						"\u003c2.36-9+deb12u3"
 					],
 					"publishedDate": "2023-09-18T17:15:00Z",
-					"discoveredDate": "2023-10-04T10:54:22Z",
+					"discoveredDate": "2023-10-10T03:58:27Z",
 					"fixDate": "2023-10-03T20:19:54Z",
 					"layerTime": "2023-09-20T04:55:40Z",
 					"layerInstruction": "ADD file:a1398394375faab8dd9e1e8d584eea96c750fb57ae4ffd2b14624f1cf263561b in / "
@@ -2816,7 +2842,7 @@
 						"*"
 					],
 					"publishedDate": "2023-04-29T00:15:00Z",
-					"discoveredDate": "2023-10-04T10:54:22Z",
+					"discoveredDate": "2023-10-10T03:58:27Z",
 					"layerTime": "2023-09-20T04:55:40Z",
 					"layerInstruction": "ADD file:a1398394375faab8dd9e1e8d584eea96c750fb57ae4ffd2b14624f1cf263561b in / "
 				},
@@ -2837,7 +2863,7 @@
 						"*"
 					],
 					"publishedDate": "2017-02-07T15:59:00Z",
-					"discoveredDate": "2023-10-04T10:54:22Z",
+					"discoveredDate": "2023-10-10T03:58:27Z",
 					"layerTime": "2023-09-20T04:55:40Z",
 					"layerInstruction": "ADD file:a1398394375faab8dd9e1e8d584eea96c750fb57ae4ffd2b14624f1cf263561b in / "
 				},
@@ -2859,7 +2885,7 @@
 						"*"
 					],
 					"publishedDate": "2023-09-13T09:15:00Z",
-					"discoveredDate": "2023-10-04T10:54:22Z",
+					"discoveredDate": "2023-10-10T03:58:27Z",
 					"layerTime": "2023-09-20T04:55:40Z",
 					"layerInstruction": "ADD file:a1398394375faab8dd9e1e8d584eea96c750fb57ae4ffd2b14624f1cf263561b in / "
 				},
@@ -2874,35 +2900,14 @@
 					"packageVersion": "1:4.13+dfsg1-1",
 					"link": "https://security-tracker.debian.org/tracker/CVE-2023-29383",
 					"riskFactors": [
-						"Attack complexity: low",
-						"Recent vulnerability"
+						"Recent vulnerability",
+						"Attack complexity: low"
 					],
 					"impactedVersions": [
 						"*"
 					],
 					"publishedDate": "2023-04-14T22:15:00Z",
-					"discoveredDate": "2023-10-04T10:54:22Z",
-					"layerTime": "2023-09-20T04:55:40Z",
-					"layerInstruction": "ADD file:a1398394375faab8dd9e1e8d584eea96c750fb57ae4ffd2b14624f1cf263561b in / "
-				},
-				{
-					"id": "CVE-2023-4911",
-					"status": "fixed in 2.36-9+deb12u3",
-					"description": "A buffer overflow was discovered in the GNU C Library\\'s dynamic loader ld.so while processing the GLIBC_TUNABLES environment variable. This issue could allow a local attacker to use maliciously crafted GLIBC_TUNABLES environment variables when launching binaries with SUID permission to execute code with elevated privileges.",
-					"severity": "low",
-					"packageName": "glibc",
-					"packageVersion": "2.36-9+deb12u1",
-					"link": "https://security-tracker.debian.org/tracker/CVE-2023-4911",
-					"riskFactors": [
-						"Has fix",
-						"Recent vulnerability"
-					],
-					"impactedVersions": [
-						"\u003c2.36-9+deb12u3"
-					],
-					"publishedDate": "2023-10-03T18:15:00Z",
-					"discoveredDate": "2023-10-04T10:54:22Z",
-					"fixDate": "2023-10-03T20:19:54Z",
+					"discoveredDate": "2023-10-10T03:58:27Z",
 					"layerTime": "2023-09-20T04:55:40Z",
 					"layerInstruction": "ADD file:a1398394375faab8dd9e1e8d584eea96c750fb57ae4ffd2b14624f1cf263561b in / "
 				},
@@ -2921,19 +2926,19 @@
 						"*"
 					],
 					"publishedDate": "2023-06-17T00:00:00Z",
-					"discoveredDate": "2023-10-04T10:54:22Z",
+					"discoveredDate": "2023-10-10T03:58:27Z",
 					"layerTime": "2023-09-20T04:55:40Z",
 					"layerInstruction": "ADD file:a1398394375faab8dd9e1e8d584eea96c750fb57ae4ffd2b14624f1cf263561b in / "
 				}
 			],
 			"vulnerabilityDistribution": {
 				"critical": 0,
-				"high": 0,
+				"high": 1,
 				"medium": 2,
-				"low": 6,
+				"low": 5,
 				"total": 8
 			},
-			"vulnerabilityScanPassed": true,
+			"vulnerabilityScanPassed": false,
 			"history": [
 				{
 					"created": "2023-09-20T04:55:40Z",
@@ -2980,7 +2985,7 @@
 					"instruction": "CMD [\"/bin/sh\" \"-c\" \"echo \\\"Hello world\\\"\"]"
 				}
 			],
-			"scanTime": "2023-10-04T10:54:31.919816799Z"
+			"scanTime": "2023-10-10T03:58:34.510675151Z"
 		}
 	],
 	"consoleURL": "https://app.eu.prismacloud.io/compute?computeState=/monitor/vulnerabilities/images/ci?search=sha256%3Aa8cb8740cf30be46e423ee701af2e975e8dd9570b2be431b82935d23c56eb141"

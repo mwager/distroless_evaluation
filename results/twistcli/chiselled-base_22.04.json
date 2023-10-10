@@ -1,7 +1,7 @@
 {
 	"results": [
 		{
-			"id": "sha256:c618d048f91d94b9d0d9e75fa7b922914301ce027df0470abad56afebf28b0ed",
+			"id": "sha256:2b005eb2be230d9f173e788b11d55607d2283cb52f264f92f346e8be4ef817ea",
 			"name": "chiselled-base_22.04:latest",
 			"distro": "Ubuntu 22.04.3 LTS",
 			"distroRelease": "jammy",
@@ -36,16 +36,16 @@
 			"vulnerabilityScanPassed": true,
 			"history": [
 				{
-					"created": "2023-09-14T11:44:51Z",
+					"created": "2023-10-04T11:38:36Z",
 					"instruction": "COPY /staging/ / # buildkit"
 				},
 				{
-					"created": "2023-09-14T11:44:51Z",
+					"created": "2023-10-04T11:38:36Z",
 					"instruction": "CMD [\"/bin/sh\" \"-c\" \"echo \\\"Hello world\\\"\"]"
 				}
 			],
-			"scanTime": "2023-09-26T03:39:29.143408267Z"
+			"scanTime": "2023-10-10T04:02:14.480857679Z"
 		}
 	],
-	"consoleURL": "https://app.eu.prismacloud.io/compute?computeState=/monitor/vulnerabilities/images/ci?search=sha256%3Ac618d048f91d94b9d0d9e75fa7b922914301ce027df0470abad56afebf28b0ed"
+	"consoleURL": "https://app.eu.prismacloud.io/compute?computeState=/monitor/vulnerabilities/images/ci?search=sha256%3A2b005eb2be230d9f173e788b11d55607d2283cb52f264f92f346e8be4ef817ea"
 }

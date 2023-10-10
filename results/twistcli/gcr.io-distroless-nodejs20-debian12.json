@@ -1,27 +1,14 @@
 {
 	"results": [
 		{
-			"id": "sha256:b6c2df9aba47142460afe8e846da43aed1edebe652b48a0cbdee931b46b0c9fa",
+			"id": "sha256:9b3022d20678ae51bcfb4cc2d3f079db9aace04c536a210a53092f9563c54f1c",
 			"name": "gcr.io-distroless-nodejs20-debian12:latest",
 			"distro": "Distroless (based on Debian GNU/Linux 12)",
-			"distroRelease": "12.1",
+			"distroRelease": "bookworm",
 			"collections": [
 				"All"
 			],
 			"packages": [
-				{
-					"type": "os",
-					"name": "tzdata",
-					"version": "2023c-5"
-				},
-				{
-					"type": "os",
-					"name": "base-files",
-					"version": "12.4+deb12u1",
-					"licenses": [
-						"GPL"
-					]
-				},
 				{
 					"type": "os",
 					"name": "netbase",
@@ -32,35 +19,43 @@
 				},
 				{
 					"type": "os",
-					"name": "nodejs",
-					"version": "20.6.1"
+					"name": "tzdata",
+					"version": "2023c-5"
+				},
+				{
+					"type": "os",
+					"name": "base-files",
+					"version": "12.4+deb12u2",
+					"licenses": [
+						"GPL"
+					]
 				},
 				{
 					"type": "os",
 					"name": "glibc",
-					"version": "2.36-9+deb12u1",
+					"version": "2.36-9+deb12u3",
 					"licenses": [
 						"LGPL-2.1"
 					]
 				},
 				{
 					"type": "os",
-					"name": "openssl",
-					"version": "3.0.9-1",
-					"licenses": [
-						"Apache-2.0"
-					]
+					"name": "gcc-12",
+					"version": "12.2.0-14"
 				},
 				{
 					"type": "os",
-					"name": "gcc-12",
-					"version": "12.2.0-14"
+					"name": "openssl",
+					"version": "3.0.11-1~deb12u1",
+					"licenses": [
+						"Apache-2.0"
+					]
 				}
 			],
 			"applications": [
 				{
 					"name": "node",
-					"version": "20.6.1",
+					"version": "20.8.0",
 					"path": "/nodejs/bin/node"
 				}
 			],
@@ -84,64 +79,35 @@
 			"complianceScanPassed": true,
 			"vulnerabilities": [
 				{
-					"id": "CVE-2023-32558",
-					"cvss": 7.5,
-					"vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:N",
-					"description": "The use of the deprecated API `process.binding()` can bypass the permission model through path traversal.   This vulnerability affects all users using the experimental permission model in Node.js 20.x.  Please note that at the time this CVE was issued, the permission model is an experimental feature of Node.js.",
-					"severity": "high",
-					"packageName": "node",
-					"packageVersion": "20.6.1",
-					"link": "https://nvd.nist.gov/vuln/detail/CVE-2023-32558",
+					"id": "CVE-2023-4039",
+					"status": "open",
+					"cvss": 4.8,
+					"vector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:N",
+					"description": "  A failure in the -fstack-protector feature in GCC-based toolchains  that target AArch64 allows an attacker to exploit an existing buffer  overflow in dynamically-sized local variables in your application  without this being detected. This stack-protector failure only applies  to C99-style dynamically-sized local variables or those created using  alloca(). The stack-protector operates as intended for statically-sized  local variables.  The default behavior when the stack-protector  detects an overflow is to terminate your application, resulting in  controlled loss of availability. An attacker who can exploit a buffer  overflow without triggering the stack-protector might be able to change  program flow control to cause an uncontrolled loss of availability or to  go further and affect confidentiality or integrity.      ",
+					"severity": "low",
+					"packageName": "gcc-12",
+					"packageVersion": "12.2.0-14",
+					"link": "https://security-tracker.debian.org/tracker/CVE-2023-4039",
 					"riskFactors": [
-						"Attack complexity: low",
 						"Attack vector: network",
-						"Exploit exists - POC",
-						"High severity",
 						"Recent vulnerability"
 					],
 					"impactedVersions": [
-						"\u003c=20.6.1",
-						"\u003e=20.0.0"
+						"*"
 					],
-					"publishedDate": "2023-09-12T02:15:00Z",
-					"discoveredDate": "2023-09-26T03:38:53Z",
-					"layerTime": "1970-01-01T00:00:00Z",
-					"packagePath": "/nodejs/bin/node"
-				},
-				{
-					"id": "CVE-2023-32005",
-					"cvss": 5.3,
-					"vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N",
-					"description": "A vulnerability has been identified in Node.js version 20, affecting users of the experimental permission model when the --allow-fs-read flag is used with a non-* argument.  This flaw arises from an inadequate permission model that fails to restrict file stats through the `fs.statfs` API. As a result, malicious actors can retrieve stats from files that they do not have explicit read access to.  This vulnerability affects all users using the experimental permission model in Node.js 20.  Please note that at the time this CVE was issued, the permission model is an experimental feature of Node.js.",
-					"severity": "medium",
-					"packageName": "node",
-					"packageVersion": "20.6.1",
-					"link": "https://nvd.nist.gov/vuln/detail/CVE-2023-32005",
-					"riskFactors": [
-						"Attack complexity: low",
-						"Attack vector: network",
-						"Exploit exists - POC",
-						"Medium severity",
-						"Recent vulnerability"
-					],
-					"impactedVersions": [
-						"\u003c=20.6.1",
-						"\u003e=20.0.0"
-					],
-					"publishedDate": "2023-09-12T02:15:00Z",
-					"discoveredDate": "2023-09-26T03:38:53Z",
-					"layerTime": "1970-01-01T00:00:00Z",
-					"packagePath": "/nodejs/bin/node"
+					"publishedDate": "2023-09-13T09:15:00Z",
+					"discoveredDate": "2023-10-10T04:01:43Z",
+					"layerTime": "1970-01-01T00:00:00Z"
 				}
 			],
 			"vulnerabilityDistribution": {
 				"critical": 0,
-				"high": 1,
-				"medium": 1,
-				"low": 0,
-				"total": 2
+				"high": 0,
+				"medium": 0,
+				"low": 1,
+				"total": 1
 			},
-			"vulnerabilityScanPassed": false,
+			"vulnerabilityScanPassed": true,
 			"history": [
 				{
 					"created": "0001-01-01T00:00:00Z"
@@ -193,8 +159,8 @@
 					"instruction": "CMD [\"/bin/sh\" \"-c\" \"echo \\\"Hello world\\\"\"]"
 				}
 			],
-			"scanTime": "2023-09-26T03:38:57.137102444Z"
+			"scanTime": "2023-10-10T04:01:47.198630049Z"
 		}
 	],
-	"consoleURL": "https://app.eu.prismacloud.io/compute?computeState=/monitor/vulnerabilities/images/ci?search=sha256%3Ab6c2df9aba47142460afe8e846da43aed1edebe652b48a0cbdee931b46b0c9fa"
+	"consoleURL": "https://app.eu.prismacloud.io/compute?computeState=/monitor/vulnerabilities/images/ci?search=sha256%3A9b3022d20678ae51bcfb4cc2d3f079db9aace04c536a210a53092f9563c54f1c"
 }

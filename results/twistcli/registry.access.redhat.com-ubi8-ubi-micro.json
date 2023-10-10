@@ -104,7 +104,7 @@
 					"instruction": "CMD [\"/bin/sh\" \"-c\" \"echo \\\"Hello world\\\"\"]"
 				}
 			],
-			"scanTime": "2023-09-26T03:39:34.888163179Z"
+			"scanTime": "2023-10-10T04:02:18.290346621Z"
 		}
 	],
 	"consoleURL": "https://app.eu.prismacloud.io/compute?computeState=/monitor/vulnerabilities/images/ci?search=sha256%3A69ac6dbda1477efdcdab40d6282726df24c8feb3b213ce10ae1ceac1f77298c5"

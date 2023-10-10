@@ -94,10 +94,32 @@ def execute_command(command):
         print("ERROR fetching cve data: ", e)
 
 
+def fetchExploitFromTwistcliVuln(vul):
+    if not "riskFactors" in vul:
+        return False
+
+    for r in vul["riskFactors"]:
+        if "Exploit exists" in r:
+            return True
+    return False
+
+def imageIsUsingComponentReduction(imagename):
+    if "alpine" in imagename:
+        return True
+    if "distroless" in imagename:
+        return True
+    if "chiselled-base_22.04" in imagename:
+        return True
+    if "ubi-micro" in imagename:
+        return True
+    if "chainguard" in imagename:
+        return True
+
 # Fetch exploits using searchsploit
 def fetch_exploits(cve_id):
     try:
-        CMD = "cd && sudo searchsploit --json --www --cve " + cve_id
+        # installed via clone: https://gitlab.com/exploit-database/exploitdb.git
+        CMD = "cd && sudo /home/vagrant/exploitdb/searchsploit --json --www --cve " + cve_id
         # os.system(CMD)
         # content = readFile("out.json", True)
         # return content
@@ -178,23 +200,91 @@ def readTwistcliFile(path):
 
     return results
 
+def normalizeImageName(name):
+    return name.replace("_", "\\_").replace('gcr.io-distroless-', 'distroless-').replace('cgr.dev-chainguard-', 'chainguard-').replace('registry.access.redhat.com-', 'redhat-').replace('-nonroot-amd64-debian11:latest', '').replace(':latest', '').replace('\_latest', ':latest')
+
 # print a table for inclusion into latex
+# image vs. all vulns found
 def printImageTable(data):
-    # TODO order first!
-
-
+    unordered = []
 
     print("\\begin{tabular}{||l|l|l|l|l|l||}")
     print("Image & total & critical & high & medium & low \\\\")
 
     for image in data:
         distribution = image["vulnerabilityDistribution"]
+        imagename = normalizeImageName(image["meta"]["name"])
+        unordered.append([imagename, distribution["total"], distribution["critical"], distribution["high"], distribution["medium"], distribution["low"]])
 
-        imagename = (image["meta"]["name"]).replace("_", "\\_").replace('gcr.io-distroless-', 'distroless-').replace('cgr.dev-chainguard-', 'chainguard-').replace('registry.access.redhat.com-', 'redhat-')
+    ordered = sorted(unordered, key=lambda x: (x[0], x[1]))
 
-        print(imagename + " & " + str(distribution["total"]) + ' & ' + str(distribution["critical"]) + ' & ' + str(distribution["high"]) + ' & ' + str(distribution["medium"]) + ' & ' + str(distribution["low"]) + '\\\\')
+    for item in ordered:
+        imagename = item[0]
+        distribution = item[1:6]
+
+        print(imagename + " & " + str(distribution[0]) + ' & ' + str(distribution[1]) + ' & ' + str(distribution[2]) + ' & ' + str(distribution[3]) + ' & ' + str(distribution[4]) + '\\\\')
 
     print("\end{tabular}")
+
+    # data = [
+    #     {"baseImage": "node:latest", "vulnCountTotal": 46},
+    #     {"baseImage": "distroless:node", "vulnCountTotal": 3}
+    # ]
+
+    x = []
+    y = []
+    for item in ordered:
+        x.append(item[0])
+        y.append(item[1])
+
+    fig = px.bar(x=x, y=y)
+    fig.update_xaxes(title_text='Base images')
+    fig.update_yaxes(title_text='Total amount of vulnerabilities')
+    fig.write_image("images/total_over_image.png")
+
+    x = []
+    y = []
+    for item in ordered:
+        x.append(item[0])
+        y.append(item[2])
+
+    fig = px.bar(x=x, y=y)
+    fig.update_xaxes(title_text='Base images')
+    fig.update_yaxes(title_text='Amount of critical vulnerabilities')
+    fig.write_image("images/critical_over_image.png")
+
+    x = []
+    y = []
+    for item in ordered:
+        x.append(item[0])
+        y.append(item[3])
+
+    fig = px.bar(x=x, y=y)
+    fig.update_xaxes(title_text='Base images')
+    fig.update_yaxes(title_text='Amount of high vulnerabilities')
+    fig.write_image("images/high_over_image.png")
+
+    x = []
+    y = []
+    for item in ordered:
+        x.append(item[0])
+        y.append(item[4])
+
+    fig = px.bar(x=x, y=y)
+    fig.update_xaxes(title_text='Base images')
+    fig.update_yaxes(title_text='Amount of medium vulnerabilities')
+    fig.write_image("images/medium_over_image.png")
+
+    x = []
+    y = []
+    for item in ordered:
+        x.append(item[0])
+        y.append(item[5])
+
+    fig = px.bar(x=x, y=y)
+    fig.update_xaxes(title_text='Base images')
+    fig.update_yaxes(title_text='Amount of low vulnerabilities')
+    fig.write_image("images/low_over_image.png")
 
 # Class is just used for unit testing when this script is executed directly (python3 helpers.py)
 class TestHelpers(unittest.TestCase):

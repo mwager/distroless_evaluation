@@ -17,6 +17,8 @@ Vagrant.configure("2") do |config|
   # config.vm.box = "base"
 	config.vm.box = "ubuntu/focal64"
 
+  # "vagrant destroy & up" did fix the disk size issues :)
+  #config.disksize.size = '30GB'
 
 
   # Disable automatic box update checking. If you disable this, then
@@ -73,8 +75,10 @@ Vagrant.configure("2") do |config|
   # Enable provisioning with a shell script. Additional provisioners such as
   # Ansible, Chef, Docker, Puppet and Salt are also available. Please see the
   # documentation for more information about their specific syntax and use.
-  # config.vm.provision "shell", inline: <<-SHELL
-  #   apt-get update
-  #   apt-get install -y apache2
-  # SHELL
+  config.vm.provision "shell", inline: <<-SHELL
+    sudo apt-get update
+    apt-get install -y python3-pip ca-certificates curl gnupg
+    pip3 install plotly pandas kaleido
+    #git clone https://gitlab.com/exploit-database/exploitdb.git
+  SHELL
 end

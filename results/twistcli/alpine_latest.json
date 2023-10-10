@@ -1,10 +1,10 @@
 {
 	"results": [
 		{
-			"id": "sha256:bd946adf45c46eaae19a6c4f9f6f5def08567af7d8fa195f177cb3de8b4f92e8",
+			"id": "sha256:9bc627595dab3e5d656370183607098560bae8ce6f0641a5a9391169f5a702a3",
 			"name": "alpine_latest:latest",
 			"distro": "Alpine Linux v3.18",
-			"distroRelease": "3.18.3",
+			"distroRelease": "3.18.4",
 			"collections": [
 				"All"
 			],
@@ -31,6 +31,14 @@
 					"version": "2.4-r1",
 					"licenses": [
 						"MIT"
+					]
+				},
+				{
+					"type": "os",
+					"name": "ca-certificates",
+					"version": "20230506-r0",
+					"licenses": [
+						"MPL-2.0 AND MIT"
 					]
 				},
 				{
@@ -68,17 +76,9 @@
 				{
 					"type": "os",
 					"name": "openssl",
-					"version": "3.1.2-r0",
+					"version": "3.1.3-r0",
 					"licenses": [
 						"Apache-2.0"
-					]
-				},
-				{
-					"type": "os",
-					"name": "ca-certificates",
-					"version": "20230506-r0",
-					"licenses": [
-						"MPL-2.0 AND MIT"
 					]
 				}
 			],
@@ -117,20 +117,20 @@
 			"vulnerabilityScanPassed": true,
 			"history": [
 				{
-					"created": "2023-08-07T19:20:20Z",
-					"instruction": "ADD file:32ff5e7a78b890996ee4681cc0a26185d3e9acdb4eb1e2aaccb2411f922fed6b in / "
+					"created": "2023-09-28T21:19:27Z",
+					"instruction": "ADD file:756183bba9c7f4593c2b216e98e4208b9163c4c962ea0837ef88bd917609d001 in / "
 				},
 				{
-					"created": "2023-08-07T19:20:20Z",
+					"created": "2023-09-28T21:19:27Z",
 					"instruction": "CMD [\"/bin/sh\"]"
 				},
 				{
-					"created": "2023-08-07T19:20:20Z",
+					"created": "2023-09-28T21:19:27Z",
 					"instruction": "CMD [\"/bin/sh\" \"-c\" \"echo \\\"Hello world\\\"\"]"
 				}
 			],
-			"scanTime": "2023-09-26T03:37:30.268212676Z"
+			"scanTime": "2023-10-10T03:59:33.134983699Z"
 		}
 	],
-	"consoleURL": "https://app.eu.prismacloud.io/compute?computeState=/monitor/vulnerabilities/images/ci?search=sha256%3Abd946adf45c46eaae19a6c4f9f6f5def08567af7d8fa195f177cb3de8b4f92e8"
+	"consoleURL": "https://app.eu.prismacloud.io/compute?computeState=/monitor/vulnerabilities/images/ci?search=sha256%3A9bc627595dab3e5d656370183607098560bae8ce6f0641a5a9391169f5a702a3"
 }

@@ -10,27 +10,9 @@
 			"packages": [
 				{
 					"type": "jar",
-					"name": "jsse",
-					"version": "1.8.0_382",
-					"path": "/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jsse.jar"
-				},
-				{
-					"type": "jar",
-					"name": "rt",
-					"version": "1.8.0_382",
-					"path": "/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/rt.jar"
-				},
-				{
-					"type": "jar",
 					"name": "com.sun_sunec",
 					"version": "1.8.0_382",
 					"path": "/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/ext/sunec.jar"
-				},
-				{
-					"type": "jar",
-					"name": "com.sun_sunjce_provider",
-					"version": "1.8.0_382",
-					"path": "/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/ext/sunjce_provider.jar"
 				},
 				{
 					"type": "jar",
@@ -61,6 +43,24 @@
 					"name": "resources",
 					"version": "1.8.0_382",
 					"path": "/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/resources.jar"
+				},
+				{
+					"type": "jar",
+					"name": "rt",
+					"version": "1.8.0_382",
+					"path": "/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/rt.jar"
+				},
+				{
+					"type": "jar",
+					"name": "com.sun_sunjce_provider",
+					"version": "1.8.0_382",
+					"path": "/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/ext/sunjce_provider.jar"
+				},
+				{
+					"type": "jar",
+					"name": "jsse",
+					"version": "1.8.0_382",
+					"path": "/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jsse.jar"
 				}
 			],
 			"applications": [
@@ -120,7 +120,7 @@
 					"instruction": "CMD [\"/bin/sh\" \"-c\" \"echo \\\"Hello world\\\"\"]"
 				}
 			],
-			"scanTime": "2023-09-26T03:39:26.482488248Z"
+			"scanTime": "2023-10-10T04:02:12.144060229Z"
 		}
 	],
 	"consoleURL": "https://app.eu.prismacloud.io/compute?computeState=/monitor/vulnerabilities/images/ci?search=sha256%3Aff65c3b6ad4010c9928e38c8b2c79307c6897f883afa821b4c36141e8f8d01ba"

@@ -1,22 +1,14 @@
 {
 	"results": [
 		{
-			"id": "sha256:7adf9538ef09c350f68ab6e34999bcd5780d441de8f28823ea91ba61c3758339",
+			"id": "sha256:3ba29d6fa4982c74a8a3b4aedb20a9e4d6fb81be681797e8263e9476201c5051",
 			"name": "gcr.io-distroless-base-debian12:latest",
 			"distro": "Distroless (based on Debian GNU/Linux 12)",
-			"distroRelease": "12.1",
+			"distroRelease": "bookworm",
 			"collections": [
 				"All"
 			],
 			"packages": [
-				{
-					"type": "os",
-					"name": "base-files",
-					"version": "12.4+deb12u1",
-					"licenses": [
-						"GPL"
-					]
-				},
 				{
 					"type": "os",
 					"name": "netbase",
@@ -32,18 +24,26 @@
 				},
 				{
 					"type": "os",
-					"name": "glibc",
-					"version": "2.36-9+deb12u1",
+					"name": "base-files",
+					"version": "12.4+deb12u2",
 					"licenses": [
-						"LGPL-2.1"
+						"GPL"
 					]
 				},
 				{
 					"type": "os",
 					"name": "openssl",
-					"version": "3.0.9-1",
+					"version": "3.0.11-1~deb12u1",
 					"licenses": [
 						"Apache-2.0"
+					]
+				},
+				{
+					"type": "os",
+					"name": "glibc",
+					"version": "2.36-9+deb12u3",
+					"licenses": [
+						"LGPL-2.1"
 					]
 				}
 			],
@@ -112,8 +112,8 @@
 					"instruction": "CMD [\"/bin/sh\" \"-c\" \"echo \\\"Hello world\\\"\"]"
 				}
 			],
-			"scanTime": "2023-09-26T03:37:45.537508331Z"
+			"scanTime": "2023-10-10T04:00:01.050684772Z"
 		}
 	],
-	"consoleURL": "https://app.eu.prismacloud.io/compute?computeState=/monitor/vulnerabilities/images/ci?search=sha256%3A7adf9538ef09c350f68ab6e34999bcd5780d441de8f28823ea91ba61c3758339"
+	"consoleURL": "https://app.eu.prismacloud.io/compute?computeState=/monitor/vulnerabilities/images/ci?search=sha256%3A3ba29d6fa4982c74a8a3b4aedb20a9e4d6fb81be681797e8263e9476201c5051"
 }

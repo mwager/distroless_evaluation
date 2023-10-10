@@ -1,0 +1,2339 @@
+{
+	"results": [
+		{
+			"id": "sha256:437c9c51f53e0c15f0f77dc20417c3638c1d7aae4da6115d1d1df1e5177633c6",
+			"name": "php_fpm-buster:latest",
+			"distro": "Debian GNU/Linux 10 (buster)",
+			"distroRelease": "buster",
+			"collections": [
+				"All"
+			],
+			"packages": [
+				{
+					"type": "os",
+					"name": "findutils",
+					"version": "4.6.0+git+20190209-2",
+					"licenses": [
+						"GPL-3"
+					]
+				},
+				{
+					"type": "os",
+					"name": "mawk",
+					"version": "1.3.3-17",
+					"licenses": [
+						"GPL-2"
+					]
+				},
+				{
+					"type": "os",
+					"name": "sed",
+					"version": "4.7-1",
+					"licenses": [
+						"GPL-3"
+					]
+				},
+				{
+					"type": "os",
+					"name": "init-system-helpers",
+					"version": "1.56+nmu1",
+					"licenses": [
+						"BSD-3-clause"
+					]
+				},
+				{
+					"type": "os",
+					"name": "pkg-config",
+					"version": "0.29-6",
+					"licenses": [
+						"GPL"
+					]
+				},
+				{
+					"type": "os",
+					"name": "re2c",
+					"version": "1.1.1-1"
+				},
+				{
+					"type": "os",
+					"name": "tzdata",
+					"version": "2021a-0+deb10u11"
+				},
+				{
+					"type": "os",
+					"name": "libtasn1-6",
+					"version": "4.13-3+deb10u1",
+					"licenses": [
+						"LGPL"
+					]
+				},
+				{
+					"type": "os",
+					"name": "base-files",
+					"version": "10.3+deb10u13",
+					"licenses": [
+						"GPL"
+					]
+				},
+				{
+					"type": "os",
+					"name": "debianutils",
+					"version": "4.8.6.1",
+					"licenses": [
+						"GPL"
+					]
+				},
+				{
+					"type": "os",
+					"name": "hostname",
+					"version": "3.21",
+					"licenses": [
+						"GPL-2"
+					]
+				},
+				{
+					"type": "os",
+					"name": "dash",
+					"version": "0.5.10.2-5",
+					"licenses": [
+						"GPL"
+					]
+				},
+				{
+					"type": "os",
+					"name": "bash",
+					"version": "5.0-4",
+					"licenses": [
+						"GPL-3"
+					]
+				},
+				{
+					"type": "os",
+					"name": "diffutils",
+					"version": "1:3.7-3",
+					"licenses": [
+						"GPL"
+					]
+				},
+				{
+					"type": "os",
+					"name": "tar",
+					"version": "1.30+dfsg-6",
+					"licenses": [
+						"GPL-3"
+					]
+				},
+				{
+					"type": "os",
+					"name": "grep",
+					"version": "3.3-1",
+					"licenses": [
+						"GPL-3+"
+					]
+				},
+				{
+					"type": "os",
+					"name": "autoconf",
+					"version": "2.69-11",
+					"licenses": [
+						"GPL-3+"
+					]
+				},
+				{
+					"type": "os",
+					"name": "gzip",
+					"version": "1.9-3+deb10u1",
+					"licenses": [
+						"GPL"
+					]
+				},
+				{
+					"type": "os",
+					"name": "debconf",
+					"version": "1.5.71+deb10u1",
+					"licenses": [
+						"BSD-2-clause"
+					]
+				},
+				{
+					"type": "os",
+					"name": "libxml2",
+					"version": "2.9.4+dfsg1-7+deb10u6",
+					"licenses": [
+						"MIT-1"
+					]
+				},
+				{
+					"type": "os",
+					"name": "adduser",
+					"version": "3.118",
+					"licenses": [
+						"GPL-2"
+					]
+				},
+				{
+					"type": "os",
+					"name": "base-passwd",
+					"version": "3.5.46",
+					"licenses": [
+						"GPL-2"
+					]
+				},
+				{
+					"type": "os",
+					"name": "coreutils",
+					"version": "8.30-3",
+					"licenses": [
+						"GPL-3"
+					]
+				},
+				{
+					"type": "os",
+					"name": "patch",
+					"version": "2.7.6-3+deb10u1",
+					"licenses": [
+						"GPL"
+					]
+				},
+				{
+					"type": "os",
+					"name": "libgcrypt20",
+					"version": "1.8.4-5+deb10u1",
+					"licenses": [
+						"LGPL"
+					]
+				},
+				{
+					"type": "os",
+					"name": "m4",
+					"version": "1.4.18-2",
+					"licenses": [
+						"GPL"
+					]
+				},
+				{
+					"type": "os",
+					"name": "debian-archive-keyring",
+					"version": "2019.1+deb10u1",
+					"licenses": [
+						"GPL"
+					]
+				},
+				{
+					"type": "os",
+					"name": "ca-certificates",
+					"version": "20200601~deb10u2",
+					"licenses": [
+						"GPL-2+"
+					]
+				},
+				{
+					"type": "os",
+					"name": "libssh2",
+					"version": "1.8.0-2.1",
+					"licenses": [
+						"BSD3"
+					]
+				},
+				{
+					"type": "os",
+					"name": "icu",
+					"version": "63.1-6+deb10u3"
+				},
+				{
+					"type": "os",
+					"name": "linux",
+					"version": "4.19.282-1",
+					"licenses": [
+						"GPL-2"
+					]
+				},
+				{
+					"type": "os",
+					"name": "apt",
+					"version": "1.8.2.3",
+					"licenses": [
+						"GPLv2+"
+					]
+				},
+				{
+					"type": "os",
+					"name": "libpsl",
+					"version": "0.20.2-2",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "os",
+					"name": "keyutils",
+					"version": "1.6-6",
+					"licenses": [
+						"GPL-2+"
+					]
+				},
+				{
+					"type": "os",
+					"name": "bzip2",
+					"version": "1.0.6-9.2~deb10u2",
+					"licenses": [
+						"BSD-variant"
+					]
+				},
+				{
+					"type": "os",
+					"name": "libzstd",
+					"version": "1.3.8+dfsg-3+deb10u2",
+					"licenses": [
+						"BSD-3-clause and GPL-2"
+					]
+				},
+				{
+					"type": "os",
+					"name": "libsodium",
+					"version": "1.0.17-1",
+					"licenses": [
+						"BSD-2-clause"
+					]
+				},
+				{
+					"type": "os",
+					"name": "openssl",
+					"version": "1.1.1n-0+deb10u5"
+				},
+				{
+					"type": "os",
+					"name": "mpfr4",
+					"version": "4.0.2-1",
+					"licenses": [
+						"LGPL-3"
+					]
+				},
+				{
+					"type": "os",
+					"name": "sysvinit",
+					"version": "2.93-8",
+					"licenses": [
+						"GPL-2+"
+					]
+				},
+				{
+					"type": "os",
+					"name": "cyrus-sasl2",
+					"version": "2.1.27+dfsg-1+deb10u2",
+					"licenses": [
+						"BSD-4-clause"
+					]
+				},
+				{
+					"type": "os",
+					"name": "libunistring",
+					"version": "0.9.10-1",
+					"licenses": [
+						"LGPL-3+ or GPL-2+"
+					]
+				},
+				{
+					"type": "os",
+					"name": "sqlite3",
+					"version": "3.27.2-3+deb10u2",
+					"licenses": [
+						"GPL-2+"
+					]
+				},
+				{
+					"type": "os",
+					"name": "isl",
+					"version": "0.20-2",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "os",
+					"name": "ncurses",
+					"version": "6.1+20181013-2+deb10u3"
+				},
+				{
+					"type": "os",
+					"name": "gcc-defaults",
+					"version": "1.181",
+					"licenses": [
+						"GPL"
+					]
+				},
+				{
+					"type": "os",
+					"name": "libsemanage",
+					"version": "2.8-2",
+					"licenses": [
+						"LGPL"
+					]
+				},
+				{
+					"type": "os",
+					"name": "make-dfsg",
+					"version": "4.2.1-1.2",
+					"licenses": [
+						"GPL-3+"
+					]
+				},
+				{
+					"type": "os",
+					"name": "p11-kit",
+					"version": "0.23.15-2+deb10u1",
+					"licenses": [
+						"BSD-3-Clause"
+					]
+				},
+				{
+					"type": "os",
+					"name": "libidn2",
+					"version": "2.0.5-1+deb10u1",
+					"licenses": [
+						"GPL-3+"
+					]
+				},
+				{
+					"type": "os",
+					"name": "rtmpdump",
+					"version": "2.4+20151223.gitfa8646d.1-2",
+					"licenses": [
+						"GPL-2"
+					]
+				},
+				{
+					"type": "os",
+					"name": "gnutls28",
+					"version": "3.6.7-4+deb10u10",
+					"licenses": [
+						"LGPL"
+					]
+				},
+				{
+					"type": "os",
+					"name": "shadow",
+					"version": "1:4.5-1.1",
+					"licenses": [
+						"GPL-2"
+					]
+				},
+				{
+					"type": "os",
+					"name": "audit",
+					"version": "1:2.8.4-3",
+					"licenses": [
+						"GPL-2"
+					]
+				},
+				{
+					"type": "os",
+					"name": "zlib",
+					"version": "1:1.2.11.dfsg-1+deb10u2"
+				},
+				{
+					"type": "os",
+					"name": "readline",
+					"version": "7.0-5",
+					"licenses": [
+						"GPL-3"
+					]
+				},
+				{
+					"type": "os",
+					"name": "lz4",
+					"version": "1.8.3-1+deb10u1",
+					"licenses": [
+						"BSD-2-clause"
+					]
+				},
+				{
+					"type": "os",
+					"name": "glibc",
+					"version": "2.28-10+deb10u2",
+					"licenses": [
+						"LGPL-2.1"
+					]
+				},
+				{
+					"type": "os",
+					"name": "dpkg",
+					"version": "1.19.8",
+					"licenses": [
+						"GPL-2+"
+					]
+				},
+				{
+					"type": "os",
+					"name": "pam",
+					"version": "1.3.1-5",
+					"licenses": [
+						"GPL"
+					]
+				},
+				{
+					"type": "os",
+					"name": "gmp",
+					"version": "2:6.1.2+dfsg-4+deb10u1",
+					"licenses": [
+						"LGPL-3"
+					]
+				},
+				{
+					"type": "os",
+					"name": "perl",
+					"version": "5.28.1-6+deb10u1",
+					"licenses": [
+						"GPL-1+ or Artistic"
+					]
+				},
+				{
+					"type": "os",
+					"name": "acl",
+					"version": "2.2.53-4",
+					"licenses": [
+						"GPL-2+"
+					]
+				},
+				{
+					"type": "os",
+					"name": "gnupg2",
+					"version": "2.2.12-1+deb10u2",
+					"licenses": [
+						"GPL-3+"
+					]
+				},
+				{
+					"type": "os",
+					"name": "libseccomp",
+					"version": "2.3.3-4",
+					"licenses": [
+						"LGPL-2.1"
+					]
+				},
+				{
+					"type": "os",
+					"name": "libgpg-error",
+					"version": "1.35-1",
+					"licenses": [
+						"LGPL-2.1+"
+					]
+				},
+				{
+					"type": "os",
+					"name": "libffi",
+					"version": "3.2.1-9",
+					"licenses": [
+						"GPL"
+					]
+				},
+				{
+					"type": "os",
+					"name": "attr",
+					"version": "1:2.4.48-4",
+					"licenses": [
+						"GPL-2+"
+					]
+				},
+				{
+					"type": "os",
+					"name": "cdebconf",
+					"version": "0.249"
+				},
+				{
+					"type": "os",
+					"name": "nettle",
+					"version": "3.4.1-1+deb10u1",
+					"licenses": [
+						"LGPL-2.1+"
+					]
+				},
+				{
+					"type": "os",
+					"name": "openldap",
+					"version": "2.4.47+dfsg-3+deb10u7"
+				},
+				{
+					"type": "os",
+					"name": "libsigsegv",
+					"version": "2.12-2",
+					"licenses": [
+						"GPL-2+"
+					]
+				},
+				{
+					"type": "os",
+					"name": "libcap-ng",
+					"version": "0.7.9-2",
+					"licenses": [
+						"LGPL-2.1"
+					]
+				},
+				{
+					"type": "os",
+					"name": "util-linux",
+					"version": "2.33.1-0.1",
+					"licenses": [
+						"GPL-2+"
+					]
+				},
+				{
+					"type": "os",
+					"name": "file",
+					"version": "1:5.35-4+deb10u2",
+					"licenses": [
+						"BSD-2-Clause-alike"
+					]
+				},
+				{
+					"type": "os",
+					"name": "curl",
+					"version": "7.64.0-4+deb10u6",
+					"licenses": [
+						"BSD-3-Clause"
+					]
+				},
+				{
+					"type": "os",
+					"name": "libselinux",
+					"version": "2.8-1",
+					"licenses": [
+						"LGPL-2.1"
+					]
+				},
+				{
+					"type": "os",
+					"name": "argon2",
+					"version": "0~20171227-0.2",
+					"licenses": [
+						"Apache-2.0"
+					]
+				},
+				{
+					"type": "os",
+					"name": "libsepol",
+					"version": "2.8-1",
+					"licenses": [
+						"LGPL"
+					]
+				},
+				{
+					"type": "os",
+					"name": "gcc-8",
+					"version": "8.3.0-6",
+					"licenses": [
+						"GPL"
+					]
+				},
+				{
+					"type": "os",
+					"name": "e2fsprogs",
+					"version": "1.44.5-1+deb10u3",
+					"licenses": [
+						"GPL-2"
+					]
+				},
+				{
+					"type": "os",
+					"name": "db5.3",
+					"version": "5.3.28+dfsg1-0.5"
+				},
+				{
+					"type": "os",
+					"name": "systemd",
+					"version": "241-7~deb10u9",
+					"licenses": [
+						"LGPL-2.1+"
+					]
+				},
+				{
+					"type": "os",
+					"name": "libonig",
+					"version": "6.9.1-1",
+					"licenses": [
+						"BSD-2-clause"
+					]
+				},
+				{
+					"type": "os",
+					"name": "xz-utils",
+					"version": "5.2.4-1+deb10u1",
+					"licenses": [
+						"GPL-2+"
+					]
+				},
+				{
+					"type": "os",
+					"name": "gdbm",
+					"version": "1.18.1-4",
+					"licenses": [
+						"GPL-3+"
+					]
+				},
+				{
+					"type": "os",
+					"name": "glib2.0",
+					"version": "2.58.3-2+deb10u4",
+					"licenses": [
+						"LGPL"
+					]
+				},
+				{
+					"type": "os",
+					"name": "krb5",
+					"version": "1.17-3+deb10u5",
+					"licenses": [
+						"GPL-2"
+					]
+				},
+				{
+					"type": "os",
+					"name": "mpclib3",
+					"version": "1.1.0-1",
+					"licenses": [
+						"LGPL-2.1"
+					]
+				},
+				{
+					"type": "os",
+					"name": "nghttp2",
+					"version": "1.36.0-2+deb10u1",
+					"licenses": [
+						"MIT"
+					]
+				},
+				{
+					"type": "os",
+					"name": "pcre3",
+					"version": "2:8.39-12"
+				},
+				{
+					"type": "os",
+					"name": "binutils",
+					"version": "2.31.1-16",
+					"licenses": [
+						"GPL"
+					]
+				}
+			],
+			"applications": [
+				{
+					"name": "php",
+					"version": "8.2.7",
+					"path": "/usr/local/bin/php"
+				},
+				{
+					"name": "php",
+					"version": "8.2.7",
+					"path": "/usr/local/sbin/php-fpm"
+				}
+			],
+			"compliances": [
+				{
+					"id": 41,
+					"title": "(CIS_Docker_v1.5.0 - 4.1) Image should be created with a non-root user",
+					"severity": "high",
+					"description": "It is a good practice to run the container as a non-root user, if possible. Though user\nnamespace mapping is now available, if a user is already defined in the container image, the\ncontainer is run as that user by default and specific user namespace remapping is not\nrequired",
+					"layerTime": "1970-01-01T00:00:00Z",
+					"category": "Docker"
+				}
+			],
+			"complianceDistribution": {
+				"critical": 0,
+				"high": 1,
+				"medium": 0,
+				"low": 0,
+				"total": 1
+			},
+			"complianceScanPassed": true,
+			"vulnerabilities": [
+				{
+					"id": "CVE-2023-3824",
+					"status": "fixed in 8.2.8, 8.1.22, 8.0.30",
+					"cvss": 9.8,
+					"vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+					"description": "In PHP version 8.0.* before 8.0.30,u00a0 8.1.* before 8.1.22, and 8.2.* before 8.2.8, when loading phar file, while reading PHAR directory entries, insufficient length checking may lead to a stack buffer overflow, leading potentially to memory corruption or RCE.u00a0  ",
+					"severity": "critical",
+					"packageName": "php",
+					"packageVersion": "8.2.7",
+					"link": "https://nvd.nist.gov/vuln/detail/CVE-2023-3824",
+					"riskFactors": [
+						"Attack complexity: low",
+						"Attack vector: network",
+						"Critical severity",
+						"DoS - High",
+						"Has fix",
+						"Recent vulnerability"
+					],
+					"impactedVersions": [
+						"\u003c8.2.8,8.2",
+						"\u003e=8.2.0,8.2"
+					],
+					"publishedDate": "2023-08-11T06:15:00Z",
+					"discoveredDate": "2023-10-10T03:58:50Z",
+					"fixDate": "2023-08-21T22:40:23Z",
+					"layerTime": "2023-06-13T11:39:10Z",
+					"packagePath": "/usr/local/sbin/php-fpm",
+					"layerInstruction": "RUN set -eux; \t\tsavedAptMark=\"$(apt-mark showmanual)\"; \tapt-get update; \tapt-get install -y --no-install-recommends \t\tlibargon2-dev \t\tlibcurl4-openssl-dev \t\tlibonig-dev \t\tlibreadline-dev \t\tlibsodium-dev \t\tlibsqlite3-dev \t\tlibssl-dev \t\tlibxml2-dev \t\tzlib1g-dev \t; \t\texport \t\tCFLAGS=\"$PHP_CFLAGS\" \t\tCPPFLAGS=\"$PHP_CPPFLAGS\" \t\tLDFLAGS=\"$PHP_LDFLAGS\" \t; \tdocker-php-source extract; \tcd /usr/src/php; \tgnuArch=\"$(dpkg-architecture --query DEB_BUILD_GNU_TYPE)\"; \tdebMultiarch=\"$(dpkg-architecture --query DEB_BUILD_MULTIARCH)\"; \tif [ ! -d /usr/include/curl ]; then \t\tln -sT \"/usr/include/$debMultiarch/curl\" /usr/local/include/curl; \tfi; \t./configure \t\t--build=\"$gnuArch\" \t\t--with-config-file-path=\"$PHP_INI_DIR\" \t\t--with-config-file-scan-dir=\"$PHP_INI_DIR/conf.d\" \t\t\t\t--enable-option-checking=fatal \t\t\t\t--with-mhash \t\t\t\t--with-pic \t\t\t\t--enable-ftp \t\t--enable-mbstring \t\t--enable-mysqlnd \t\t--with-password-argon2 \t\t--with-sodium=shared \t\t--with-pdo-sqlite=/usr \t\t--with-sqlite3=/usr \t\t\t\t--with-curl \t\t--with-iconv \t\t--with-openssl \t\t--with-readline \t\t--with-zlib \t\t\t\t--disable-phpdbg \t\t\t\t--with-pear \t\t\t\t$(test \"$gnuArch\" = 's390x-linux-gnu' \u0026\u0026 echo '--without-pcre-jit') \t\t--with-libdir=\"lib/$debMultiarch\" \t\t\t\t--disable-cgi \t\t\t\t--enable-fpm \t\t--with-fpm-user=www-data \t\t--with-fpm-group=www-data \t; \tmake -j \"$(nproc)\"; \tfind -type f -name '*.a' -delete; \tmake install; \tfind \t\t/usr/local \t\t-type f \t\t-perm '/0111' \t\t-exec sh -euxc ' \t\t\tstrip --strip-all \"$@\" || : \t\t' -- '{}' + \t; \tmake clean; \t\tcp -v php.ini-* \"$PHP_INI_DIR/\"; \t\tcd /; \tdocker-php-source delete; \t\tapt-mark auto '.*' \u003e /dev/null; \t[ -z \"$savedAptMark\" ] || apt-mark manual $savedAptMark; \tfind /usr/local -type f -executable -exec ldd '{}' ';' \t\t| awk '/=\u003e/ { print $(NF-1) }' \t\t| sort -u \t\t| xargs -r dpkg-query --search \t\t| cut -d: -f1 \t\t| sort -u \t\t| xargs -r apt-mark manual \t; \tapt-get purge -y --auto-remove -o APT::AutoRemove::RecommendsImportant=false; \trm -rf /var/lib/apt/lists/*; \t\tpecl update-channels; \trm -rf /tmp/pear ~/.pearrc; \t\tphp --version"
+				},
+				{
+					"id": "CVE-2019-8457",
+					"status": "open",
+					"cvss": 9.8,
+					"vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+					"description": "SQLite3 from 3.6.0 to and including 3.27.2 is vulnerable to heap out-of-bound read in the rtreenode() function when handling invalid rtree tables.",
+					"severity": "critical",
+					"packageName": "db5.3",
+					"packageVersion": "5.3.28+dfsg1-0.5",
+					"link": "https://security-tracker.debian.org/tracker/CVE-2019-8457",
+					"riskFactors": [
+						"Critical severity",
+						"DoS - High",
+						"Attack complexity: low",
+						"Attack vector: network"
+					],
+					"impactedVersions": [
+						"*"
+					],
+					"publishedDate": "2019-05-30T16:29:00Z",
+					"discoveredDate": "2023-10-10T03:58:50Z",
+					"layerTime": "2023-06-12T23:21:32Z",
+					"layerInstruction": "ADD file:2818e508d01da2188fb234b38fb19aa1ea9eeeae92d361ecdf49318d949f51a9 in / "
+				},
+				{
+					"id": "CVE-2019-17498",
+					"status": "fixed in 1.8.0-2.1+deb10u1",
+					"cvss": 8.1,
+					"vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:H",
+					"description": "In libssh2 v1.9.0 and earlier versions, the SSH_MSG_DISCONNECT logic in packet.c has an integer overflow in a bounds check, enabling an attacker to specify an arbitrary (out-of-bounds) offset for a subsequent memory read. A crafted SSH server may be able to disclose sensitive information or cause a denial of service condition on the client system when a user connects to the server.",
+					"severity": "high",
+					"packageName": "libssh2",
+					"packageVersion": "1.8.0-2.1",
+					"link": "https://security-tracker.debian.org/tracker/CVE-2019-17498",
+					"riskFactors": [
+						"Exploit exists - POC",
+						"Has fix",
+						"High severity",
+						"Attack complexity: low",
+						"Attack vector: network",
+						"DoS - High"
+					],
+					"impactedVersions": [
+						"\u003c1.8.0-2.1+deb10u1"
+					],
+					"publishedDate": "2019-10-21T22:15:00Z",
+					"discoveredDate": "2023-10-10T03:58:50Z",
+					"fixDate": "2023-09-08T13:53:43Z",
+					"layerTime": "2023-06-13T11:02:40Z",
+					"layerInstruction": "RUN set -eux; \tapt-get update; \tapt-get install -y --no-install-recommends \t\t$PHPIZE_DEPS \t\tca-certificates \t\tcurl \t\txz-utils \t; \trm -rf /var/lib/apt/lists/*"
+				},
+				{
+					"id": "CVE-2019-13115",
+					"status": "fixed in 1.8.0-2.1+deb10u1",
+					"cvss": 8.1,
+					"vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:H",
+					"description": "In libssh2 before 1.9.0, kex_method_diffie_hellman_group_exchange_sha256_key_exchange in kex.c has an integer overflow that could lead to an out-of-bounds read in the way packets are read from the server. A remote attacker who compromises a SSH server may be able to disclose sensitive information or cause a denial of service condition on the client system when a user connects to the server. This is related to an _libssh2_check_length mistake, and is different from the various issues fixed in 1.8.1, such as CVE-2019-3855.",
+					"severity": "high",
+					"packageName": "libssh2",
+					"packageVersion": "1.8.0-2.1",
+					"link": "https://security-tracker.debian.org/tracker/CVE-2019-13115",
+					"riskFactors": [
+						"Attack complexity: low",
+						"Attack vector: network",
+						"DoS - High",
+						"Has fix",
+						"High severity"
+					],
+					"impactedVersions": [
+						"\u003c1.8.0-2.1+deb10u1"
+					],
+					"publishedDate": "2019-07-16T18:15:00Z",
+					"discoveredDate": "2023-10-10T03:58:50Z",
+					"fixDate": "2023-09-08T13:53:43Z",
+					"layerTime": "2023-06-13T11:02:40Z",
+					"layerInstruction": "RUN set -eux; \tapt-get update; \tapt-get install -y --no-install-recommends \t\t$PHPIZE_DEPS \t\tca-certificates \t\tcurl \t\txz-utils \t; \trm -rf /var/lib/apt/lists/*"
+				},
+				{
+					"id": "CVE-2018-12886",
+					"status": "open",
+					"cvss": 8.1,
+					"vector": "CVSS:3.0/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H",
+					"description": "stack_protect_prologue in cfgexpand.c and stack_protect_epilogue in function.c in GNU Compiler Collection (GCC) 4.1 through 8 (under certain circumstances) generate instruction sequences when targeting ARM targets that spill the address of the stack protector guard, which allows an attacker to bypass the protection of -fstack-protector, -fstack-protector-all, -fstack-protector-strong, and -fstack-protector-explicit against stack overflow by controlling what the stack canary is compared against.",
+					"severity": "high",
+					"packageName": "gcc-8",
+					"packageVersion": "8.3.0-6",
+					"link": "https://security-tracker.debian.org/tracker/CVE-2018-12886",
+					"riskFactors": [
+						"High severity",
+						"Attack vector: network",
+						"DoS - High"
+					],
+					"impactedVersions": [
+						"*"
+					],
+					"publishedDate": "2019-05-22T19:29:00Z",
+					"discoveredDate": "2023-10-10T03:58:50Z",
+					"layerTime": "2023-06-12T23:21:32Z",
+					"layerInstruction": "ADD file:2818e508d01da2188fb234b38fb19aa1ea9eeeae92d361ecdf49318d949f51a9 in / "
+				},
+				{
+					"id": "CVE-2023-3823",
+					"status": "fixed in 8.2.8, 8.1.22, 8.0.30",
+					"cvss": 7.5,
+					"vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N",
+					"description": "In PHP versions 8.0.* before 8.0.30, 8.1.* before 8.1.22, and 8.2.* before 8.2.8 various XML functions rely on libxml global state to track configuration variables, like whether external entities are loaded. This state is assumed to be unchanged unless the user explicitly changes it by calling appropriate function. However, since the state is process-global, other modules - such asu00a0ImageMagick - may also use this library within the same process, and change that global state for their internal purposes, and leave it in a state where external entities loading is enabled. This can lead to the situation where external XML is parsed with external entities loaded, which can lead to disclosure of any local files accessible to PHP. This vulnerable state may persist in the same process across many requests, until the process is shut down.u00a0  ",
+					"severity": "high",
+					"packageName": "php",
+					"packageVersion": "8.2.7",
+					"link": "https://nvd.nist.gov/vuln/detail/CVE-2023-3823",
+					"riskFactors": [
+						"Attack complexity: low",
+						"Attack vector: network",
+						"Has fix",
+						"High severity",
+						"Recent vulnerability"
+					],
+					"impactedVersions": [
+						"\u003c8.2.8,8.2",
+						"\u003e=8.2.0,8.2"
+					],
+					"publishedDate": "2023-08-11T06:15:00Z",
+					"discoveredDate": "2023-10-10T03:58:50Z",
+					"fixDate": "2023-08-23T02:52:37Z",
+					"layerTime": "2023-06-13T11:39:10Z",
+					"packagePath": "/usr/local/sbin/php-fpm",
+					"layerInstruction": "RUN set -eux; \t\tsavedAptMark=\"$(apt-mark showmanual)\"; \tapt-get update; \tapt-get install -y --no-install-recommends \t\tlibargon2-dev \t\tlibcurl4-openssl-dev \t\tlibonig-dev \t\tlibreadline-dev \t\tlibsodium-dev \t\tlibsqlite3-dev \t\tlibssl-dev \t\tlibxml2-dev \t\tzlib1g-dev \t; \t\texport \t\tCFLAGS=\"$PHP_CFLAGS\" \t\tCPPFLAGS=\"$PHP_CPPFLAGS\" \t\tLDFLAGS=\"$PHP_LDFLAGS\" \t; \tdocker-php-source extract; \tcd /usr/src/php; \tgnuArch=\"$(dpkg-architecture --query DEB_BUILD_GNU_TYPE)\"; \tdebMultiarch=\"$(dpkg-architecture --query DEB_BUILD_MULTIARCH)\"; \tif [ ! -d /usr/include/curl ]; then \t\tln -sT \"/usr/include/$debMultiarch/curl\" /usr/local/include/curl; \tfi; \t./configure \t\t--build=\"$gnuArch\" \t\t--with-config-file-path=\"$PHP_INI_DIR\" \t\t--with-config-file-scan-dir=\"$PHP_INI_DIR/conf.d\" \t\t\t\t--enable-option-checking=fatal \t\t\t\t--with-mhash \t\t\t\t--with-pic \t\t\t\t--enable-ftp \t\t--enable-mbstring \t\t--enable-mysqlnd \t\t--with-password-argon2 \t\t--with-sodium=shared \t\t--with-pdo-sqlite=/usr \t\t--with-sqlite3=/usr \t\t\t\t--with-curl \t\t--with-iconv \t\t--with-openssl \t\t--with-readline \t\t--with-zlib \t\t\t\t--disable-phpdbg \t\t\t\t--with-pear \t\t\t\t$(test \"$gnuArch\" = 's390x-linux-gnu' \u0026\u0026 echo '--without-pcre-jit') \t\t--with-libdir=\"lib/$debMultiarch\" \t\t\t\t--disable-cgi \t\t\t\t--enable-fpm \t\t--with-fpm-user=www-data \t\t--with-fpm-group=www-data \t; \tmake -j \"$(nproc)\"; \tfind -type f -name '*.a' -delete; \tmake install; \tfind \t\t/usr/local \t\t-type f \t\t-perm '/0111' \t\t-exec sh -euxc ' \t\t\tstrip --strip-all \"$@\" || : \t\t' -- '{}' + \t; \tmake clean; \t\tcp -v php.ini-* \"$PHP_INI_DIR/\"; \t\tcd /; \tdocker-php-source delete; \t\tapt-mark auto '.*' \u003e /dev/null; \t[ -z \"$savedAptMark\" ] || apt-mark manual $savedAptMark; \tfind /usr/local -type f -executable -exec ldd '{}' ';' \t\t| awk '/=\u003e/ { print $(NF-1) }' \t\t| sort -u \t\t| xargs -r dpkg-query --search \t\t| cut -d: -f1 \t\t| sort -u \t\t| xargs -r apt-mark manual \t; \tapt-get purge -y --auto-remove -o APT::AutoRemove::RecommendsImportant=false; \trm -rf /var/lib/apt/lists/*; \t\tpecl update-channels; \trm -rf /tmp/pear ~/.pearrc; \t\tphp --version"
+				},
+				{
+					"id": "CVE-2023-29499",
+					"status": "fixed in 2.58.3-2+deb10u5",
+					"cvss": 7.5,
+					"vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+					"description": "A flaw was found in GLib. GVariant deserialization fails to validate that the input conforms to the expected format, leading to denial of service.",
+					"severity": "high",
+					"packageName": "glib2.0",
+					"packageVersion": "2.58.3-2+deb10u4",
+					"link": "https://security-tracker.debian.org/tracker/CVE-2023-29499",
+					"riskFactors": [
+						"DoS - High",
+						"Has fix",
+						"High severity",
+						"Recent vulnerability",
+						"Attack complexity: low",
+						"Attack vector: network"
+					],
+					"impactedVersions": [
+						"\u003c2.58.3-2+deb10u5"
+					],
+					"publishedDate": "2023-09-14T20:15:00Z",
+					"discoveredDate": "2023-10-10T03:58:50Z",
+					"fixDate": "2023-09-25T19:46:23Z",
+					"layerTime": "2023-06-13T11:02:40Z",
+					"layerInstruction": "RUN set -eux; \tapt-get update; \tapt-get install -y --no-install-recommends \t\t$PHPIZE_DEPS \t\tca-certificates \t\tcurl \t\txz-utils \t; \trm -rf /var/lib/apt/lists/*"
+				},
+				{
+					"id": "CVE-2020-22218",
+					"status": "fixed in 1.8.0-2.1+deb10u1",
+					"cvss": 7.5,
+					"vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+					"description": "An issue was discovered in function _libssh2_packet_add in libssh2 1.10.0 allows attackers to access out of bounds memory.",
+					"severity": "high",
+					"packageName": "libssh2",
+					"packageVersion": "1.8.0-2.1",
+					"link": "https://security-tracker.debian.org/tracker/CVE-2020-22218",
+					"riskFactors": [
+						"High severity",
+						"Recent vulnerability",
+						"Attack complexity: low",
+						"Attack vector: network",
+						"DoS - High",
+						"Has fix"
+					],
+					"impactedVersions": [
+						"\u003c1.8.0-2.1+deb10u1"
+					],
+					"publishedDate": "2023-08-22T19:16:00Z",
+					"discoveredDate": "2023-10-10T03:58:50Z",
+					"fixDate": "2023-09-08T13:53:43Z",
+					"layerTime": "2023-06-13T11:02:40Z",
+					"layerInstruction": "RUN set -eux; \tapt-get update; \tapt-get install -y --no-install-recommends \t\t$PHPIZE_DEPS \t\tca-certificates \t\tcurl \t\txz-utils \t; \trm -rf /var/lib/apt/lists/*"
+				},
+				{
+					"id": "CVE-2020-1751",
+					"status": "open",
+					"cvss": 7,
+					"vector": "CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H",
+					"description": "An out-of-bounds write vulnerability was found in glibc before 2.31 when handling signal trampolines on PowerPC. Specifically, the backtrace function did not properly check the array bounds when storing the frame address, resulting in a denial of service or potential code execution. The highest threat from this vulnerability is to system availability.",
+					"severity": "high",
+					"packageName": "glibc",
+					"packageVersion": "2.28-10+deb10u2",
+					"link": "https://security-tracker.debian.org/tracker/CVE-2020-1751",
+					"riskFactors": [
+						"High severity",
+						"DoS - High"
+					],
+					"impactedVersions": [
+						"*"
+					],
+					"publishedDate": "2020-04-17T19:15:00Z",
+					"discoveredDate": "2023-10-10T03:58:50Z",
+					"layerTime": "2023-06-12T23:21:32Z",
+					"layerInstruction": "ADD file:2818e508d01da2188fb234b38fb19aa1ea9eeeae92d361ecdf49318d949f51a9 in / "
+				},
+				{
+					"id": "CVE-2020-19189",
+					"status": "fixed in 6.1+20181013-2+deb10u4",
+					"cvss": 6.5,
+					"vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H",
+					"description": "Buffer Overflow vulnerability in postprocess_terminfo function in tinfo/parse_entry.c:997 in ncurses 6.1 allows remote attackers to cause a denial of service via crafted command.",
+					"severity": "medium",
+					"packageName": "ncurses",
+					"packageVersion": "6.1+20181013-2+deb10u3",
+					"link": "https://security-tracker.debian.org/tracker/CVE-2020-19189",
+					"riskFactors": [
+						"Has fix",
+						"Medium severity",
+						"Recent vulnerability",
+						"Attack complexity: low",
+						"Attack vector: network",
+						"DoS - High"
+					],
+					"impactedVersions": [
+						"\u003c6.1+20181013-2+deb10u4"
+					],
+					"publishedDate": "2023-08-22T19:16:00Z",
+					"discoveredDate": "2023-10-10T03:58:50Z",
+					"fixDate": "2023-09-28T16:00:42Z",
+					"layerTime": "2023-06-12T23:21:32Z",
+					"layerInstruction": "ADD file:2818e508d01da2188fb234b38fb19aa1ea9eeeae92d361ecdf49318d949f51a9 in / "
+				},
+				{
+					"id": "CVE-2023-32665",
+					"status": "fixed in 2.58.3-2+deb10u5",
+					"cvss": 5.5,
+					"vector": "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H",
+					"description": "A flaw was found in GLib. GVariant deserialization is vulnerable to an exponential blowup issue where a crafted GVariant can cause excessive processing, leading to denial of service.",
+					"severity": "medium",
+					"packageName": "glib2.0",
+					"packageVersion": "2.58.3-2+deb10u4",
+					"link": "https://security-tracker.debian.org/tracker/CVE-2023-32665",
+					"riskFactors": [
+						"Attack complexity: low",
+						"DoS - High",
+						"Has fix",
+						"Medium severity",
+						"Recent vulnerability"
+					],
+					"impactedVersions": [
+						"\u003c2.58.3-2+deb10u5"
+					],
+					"publishedDate": "2023-09-14T20:15:00Z",
+					"discoveredDate": "2023-10-10T03:58:50Z",
+					"fixDate": "2023-09-25T19:46:23Z",
+					"layerTime": "2023-06-13T11:02:40Z",
+					"layerInstruction": "RUN set -eux; \tapt-get update; \tapt-get install -y --no-install-recommends \t\t$PHPIZE_DEPS \t\tca-certificates \t\tcurl \t\txz-utils \t; \trm -rf /var/lib/apt/lists/*"
+				},
+				{
+					"id": "CVE-2023-32611",
+					"status": "fixed in 2.58.3-2+deb10u5",
+					"cvss": 5.5,
+					"vector": "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H",
+					"description": "A flaw was found in GLib. GVariant deserialization is vulnerable to a slowdown issue where a crafted GVariant can cause excessive processing, leading to denial of service.",
+					"severity": "medium",
+					"packageName": "glib2.0",
+					"packageVersion": "2.58.3-2+deb10u4",
+					"link": "https://security-tracker.debian.org/tracker/CVE-2023-32611",
+					"riskFactors": [
+						"Attack complexity: low",
+						"DoS - High",
+						"Has fix",
+						"Medium severity",
+						"Recent vulnerability"
+					],
+					"impactedVersions": [
+						"\u003c2.58.3-2+deb10u5"
+					],
+					"publishedDate": "2023-09-14T20:15:00Z",
+					"discoveredDate": "2023-10-10T03:58:50Z",
+					"fixDate": "2023-09-25T19:46:23Z",
+					"layerTime": "2023-06-13T11:02:40Z",
+					"layerInstruction": "RUN set -eux; \tapt-get update; \tapt-get install -y --no-install-recommends \t\t$PHPIZE_DEPS \t\tca-certificates \t\tcurl \t\txz-utils \t; \trm -rf /var/lib/apt/lists/*"
+				},
+				{
+					"id": "CVE-2022-4415",
+					"status": "open",
+					"cvss": 5.5,
+					"vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N",
+					"description": "A vulnerability was found in systemd. This security flaw can cause a local information leak due to systemd-coredump not respecting the fs.suid_dumpable kernel setting.",
+					"severity": "medium",
+					"packageName": "systemd",
+					"packageVersion": "241-7~deb10u9",
+					"link": "https://security-tracker.debian.org/tracker/CVE-2022-4415",
+					"riskFactors": [
+						"Attack complexity: low",
+						"Medium severity"
+					],
+					"impactedVersions": [
+						"*"
+					],
+					"publishedDate": "2023-01-11T15:15:00Z",
+					"discoveredDate": "2023-10-10T03:58:50Z",
+					"layerTime": "2023-06-12T23:21:32Z",
+					"layerInstruction": "ADD file:2818e508d01da2188fb234b38fb19aa1ea9eeeae92d361ecdf49318d949f51a9 in / "
+				},
+				{
+					"id": "CVE-2022-3821",
+					"status": "fixed in 241-7~deb10u10",
+					"cvss": 5.5,
+					"vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H",
+					"description": "An off-by-one Error issue was discovered in Systemd in format_timespan() function of time-util.c. An attacker could supply specific values for time and accuracy that leads to buffer overrun in format_timespan(), leading to a Denial of Service.",
+					"severity": "medium",
+					"packageName": "systemd",
+					"packageVersion": "241-7~deb10u9",
+					"link": "https://security-tracker.debian.org/tracker/CVE-2022-3821",
+					"riskFactors": [
+						"DoS - High",
+						"Has fix",
+						"Medium severity",
+						"Attack complexity: low"
+					],
+					"impactedVersions": [
+						"\u003c241-7~deb10u10"
+					],
+					"publishedDate": "2022-11-08T22:15:00Z",
+					"discoveredDate": "2023-10-10T03:58:50Z",
+					"fixDate": "2023-06-30T00:29:30Z",
+					"layerTime": "2023-06-12T23:21:32Z",
+					"layerInstruction": "ADD file:2818e508d01da2188fb234b38fb19aa1ea9eeeae92d361ecdf49318d949f51a9 in / "
+				},
+				{
+					"id": "CVE-2023-3817",
+					"status": "fixed in 1.1.1n-0+deb10u6",
+					"cvss": 5.3,
+					"vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L",
+					"description": "Issue summary: Checking excessively long DH keys or parameters may be very slow.  Impact summary: Applications that use the functions DH_check(), DH_check_ex() or EVP_PKEY_param_check() to check a DH key or DH parameters may experience long delays. Where the key or parameters that are being checked have been obtained from an untrusted source this may lead to a Denial of Service.  The function DH_check() performs various checks on DH parameters. After fixing CVE-2023-3446 it was discovered that a large q parameter value can also trigger an overly long computation during some of these checks. A correct q value, if present, cannot be larger than the modulus p parameter, thus it is unnecessary to perform these checks if q is larger than p.  An application that calls DH_check() and supplies a key or parameters obtained from an untrusted source could be vulnerable to a Denial of Service attack.  The function DH_check() is itself called by a number of other OpenSSL functions. An application calling any of those other functions may similarly be affected. The other functions affected by this are DH_check_ex() and EVP_PKEY_param_check().  Also vulnerable are the OpenSSL dhparam and pkeyparam command line applications when using the \\\"-check\\\" option.  The OpenSSL SSL/TLS implementation is not affected by this issue.  The OpenSSL 3.0 and 3.1 FIPS providers are not affected by this issue.",
+					"severity": "medium",
+					"packageName": "openssl",
+					"packageVersion": "1.1.1n-0+deb10u5",
+					"link": "https://security-tracker.debian.org/tracker/CVE-2023-3817",
+					"riskFactors": [
+						"DoS - Low",
+						"Has fix",
+						"Medium severity",
+						"Recent vulnerability",
+						"Attack complexity: low",
+						"Attack vector: network"
+					],
+					"impactedVersions": [
+						"\u003c1.1.1n-0+deb10u6"
+					],
+					"publishedDate": "2023-07-31T16:15:00Z",
+					"discoveredDate": "2023-10-10T03:58:50Z",
+					"fixDate": "2023-08-15T23:21:12Z",
+					"layerTime": "2023-06-13T11:02:40Z",
+					"layerInstruction": "RUN set -eux; \tapt-get update; \tapt-get install -y --no-install-recommends \t\t$PHPIZE_DEPS \t\tca-certificates \t\tcurl \t\txz-utils \t; \trm -rf /var/lib/apt/lists/*"
+				},
+				{
+					"id": "CVE-2023-3446",
+					"status": "fixed in 1.1.1n-0+deb10u6",
+					"cvss": 5.3,
+					"vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L",
+					"description": "Issue summary: Checking excessively long DH keys or parameters may be very slow.  Impact summary: Applications that use the functions DH_check(), DH_check_ex() or EVP_PKEY_param_check() to check a DH key or DH parameters may experience long delays. Where the key or parameters that are being checked have been obtained from an untrusted source this may lead to a Denial of Service.  The function DH_check() performs various checks on DH parameters. One of those checks confirms that the modulus (\\'p\\' parameter) is not too large. Trying to use a very large modulus is slow and OpenSSL will not normally use a modulus which is over 10,000 bits in length.  However the DH_check() function checks numerous aspects of the key or parameters that have been supplied. Some of those checks use the supplied modulus value even if it has already been found to be too large.  An application that calls DH_check() and supplies a key or parameters obtained from an untrusted source could be vulernable to a Denial of Service attack.  The function DH_check() is itself called by a number of other OpenSSL functions. An application calling any of those other functions may similarly be affected. The other functions affected by this are DH_check_ex() and EVP_PKEY_param_check().  Also vulnerable are the OpenSSL dhparam and pkeyparam command line applications when using the \\'-check\\' option.  The OpenSSL SSL/TLS imp",
+					"severity": "medium",
+					"packageName": "openssl",
+					"packageVersion": "1.1.1n-0+deb10u5",
+					"link": "https://security-tracker.debian.org/tracker/CVE-2023-3446",
+					"riskFactors": [
+						"Attack vector: network",
+						"DoS - Low",
+						"Has fix",
+						"Medium severity",
+						"Recent vulnerability",
+						"Attack complexity: low"
+					],
+					"impactedVersions": [
+						"\u003c1.1.1n-0+deb10u6"
+					],
+					"publishedDate": "2023-07-19T12:15:00Z",
+					"discoveredDate": "2023-10-10T03:58:50Z",
+					"fixDate": "2023-08-15T23:21:12Z",
+					"layerTime": "2023-06-13T11:02:40Z",
+					"layerInstruction": "RUN set -eux; \tapt-get update; \tapt-get install -y --no-install-recommends \t\t$PHPIZE_DEPS \t\tca-certificates \t\tcurl \t\txz-utils \t; \trm -rf /var/lib/apt/lists/*"
+				},
+				{
+					"id": "CVE-2019-19012",
+					"status": "open",
+					"cvss": 9.8,
+					"vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+					"description": "An integer overflow in the search_in_range function in regexec.c in Oniguruma 6.x before 6.9.4_rc2 leads to an out-of-bounds read, in which the offset of this read is under the control of an attacker. (This only affects the 32-bit compiled version). Remote attackers can cause a denial-of-service or information disclosure, or possibly have unspecified other impact, via a crafted regular expression.",
+					"severity": "low",
+					"packageName": "libonig",
+					"packageVersion": "6.9.1-1",
+					"link": "https://security-tracker.debian.org/tracker/CVE-2019-19012",
+					"riskFactors": [
+						"Attack vector: network",
+						"DoS - High",
+						"Exploit exists - POC",
+						"Attack complexity: low"
+					],
+					"impactedVersions": [
+						"*"
+					],
+					"publishedDate": "2019-11-17T18:15:00Z",
+					"discoveredDate": "2023-10-10T03:58:50Z",
+					"layerTime": "2023-06-13T11:39:10Z",
+					"layerInstruction": "RUN set -eux; \t\tsavedAptMark=\"$(apt-mark showmanual)\"; \tapt-get update; \tapt-get install -y --no-install-recommends \t\tlibargon2-dev \t\tlibcurl4-openssl-dev \t\tlibonig-dev \t\tlibreadline-dev \t\tlibsodium-dev \t\tlibsqlite3-dev \t\tlibssl-dev \t\tlibxml2-dev \t\tzlib1g-dev \t; \t\texport \t\tCFLAGS=\"$PHP_CFLAGS\" \t\tCPPFLAGS=\"$PHP_CPPFLAGS\" \t\tLDFLAGS=\"$PHP_LDFLAGS\" \t; \tdocker-php-source extract; \tcd /usr/src/php; \tgnuArch=\"$(dpkg-architecture --query DEB_BUILD_GNU_TYPE)\"; \tdebMultiarch=\"$(dpkg-architecture --query DEB_BUILD_MULTIARCH)\"; \tif [ ! -d /usr/include/curl ]; then \t\tln -sT \"/usr/include/$debMultiarch/curl\" /usr/local/include/curl; \tfi; \t./configure \t\t--build=\"$gnuArch\" \t\t--with-config-file-path=\"$PHP_INI_DIR\" \t\t--with-config-file-scan-dir=\"$PHP_INI_DIR/conf.d\" \t\t\t\t--enable-option-checking=fatal \t\t\t\t--with-mhash \t\t\t\t--with-pic \t\t\t\t--enable-ftp \t\t--enable-mbstring \t\t--enable-mysqlnd \t\t--with-password-argon2 \t\t--with-sodium=shared \t\t--with-pdo-sqlite=/usr \t\t--with-sqlite3=/usr \t\t\t\t--with-curl \t\t--with-iconv \t\t--with-openssl \t\t--with-readline \t\t--with-zlib \t\t\t\t--disable-phpdbg \t\t\t\t--with-pear \t\t\t\t$(test \"$gnuArch\" = 's390x-linux-gnu' \u0026\u0026 echo '--without-pcre-jit') \t\t--with-libdir=\"lib/$debMultiarch\" \t\t\t\t--disable-cgi \t\t\t\t--enable-fpm \t\t--with-fpm-user=www-data \t\t--with-fpm-group=www-data \t; \tmake -j \"$(nproc)\"; \tfind -type f -name '*.a' -delete; \tmake install; \tfind \t\t/usr/local \t\t-type f \t\t-perm '/0111' \t\t-exec sh -euxc ' \t\t\tstrip --strip-all \"$@\" || : \t\t' -- '{}' + \t; \tmake clean; \t\tcp -v php.ini-* \"$PHP_INI_DIR/\"; \t\tcd /; \tdocker-php-source delete; \t\tapt-mark auto '.*' \u003e /dev/null; \t[ -z \"$savedAptMark\" ] || apt-mark manual $savedAptMark; \tfind /usr/local -type f -executable -exec ldd '{}' ';' \t\t| awk '/=\u003e/ { print $(NF-1) }' \t\t| sort -u \t\t| xargs -r dpkg-query --search \t\t| cut -d: -f1 \t\t| sort -u \t\t| xargs -r apt-mark manual \t; \tapt-get purge -y --auto-remove -o APT::AutoRemove::RecommendsImportant=false; \trm -rf /var/lib/apt/lists/*; \t\tpecl update-channels; \trm -rf /tmp/pear ~/.pearrc; \t\tphp --version"
+				},
+				{
+					"id": "CVE-2019-13224",
+					"status": "open",
+					"cvss": 9.8,
+					"vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+					"description": "A use-after-free in onig_new_deluxe() in regext.c in Oniguruma 6.9.2 allows attackers to potentially cause information disclosure, denial of service, or possibly code execution by providing a crafted regular expression. The attacker provides a pair of a regex pattern and a string, with a multi-byte encoding that gets handled by onig_new_deluxe(). Oniguruma issues often affect Ruby, as well as common optional libraries for PHP and Rust.",
+					"severity": "low",
+					"packageName": "libonig",
+					"packageVersion": "6.9.1-1",
+					"link": "https://security-tracker.debian.org/tracker/CVE-2019-13224",
+					"riskFactors": [
+						"Attack complexity: low",
+						"Attack vector: network",
+						"DoS - High"
+					],
+					"impactedVersions": [
+						"*"
+					],
+					"publishedDate": "2019-07-10T14:15:00Z",
+					"discoveredDate": "2023-10-10T03:58:50Z",
+					"layerTime": "2023-06-13T11:39:10Z",
+					"layerInstruction": "RUN set -eux; \t\tsavedAptMark=\"$(apt-mark showmanual)\"; \tapt-get update; \tapt-get install -y --no-install-recommends \t\tlibargon2-dev \t\tlibcurl4-openssl-dev \t\tlibonig-dev \t\tlibreadline-dev \t\tlibsodium-dev \t\tlibsqlite3-dev \t\tlibssl-dev \t\tlibxml2-dev \t\tzlib1g-dev \t; \t\texport \t\tCFLAGS=\"$PHP_CFLAGS\" \t\tCPPFLAGS=\"$PHP_CPPFLAGS\" \t\tLDFLAGS=\"$PHP_LDFLAGS\" \t; \tdocker-php-source extract; \tcd /usr/src/php; \tgnuArch=\"$(dpkg-architecture --query DEB_BUILD_GNU_TYPE)\"; \tdebMultiarch=\"$(dpkg-architecture --query DEB_BUILD_MULTIARCH)\"; \tif [ ! -d /usr/include/curl ]; then \t\tln -sT \"/usr/include/$debMultiarch/curl\" /usr/local/include/curl; \tfi; \t./configure \t\t--build=\"$gnuArch\" \t\t--with-config-file-path=\"$PHP_INI_DIR\" \t\t--with-config-file-scan-dir=\"$PHP_INI_DIR/conf.d\" \t\t\t\t--enable-option-checking=fatal \t\t\t\t--with-mhash \t\t\t\t--with-pic \t\t\t\t--enable-ftp \t\t--enable-mbstring \t\t--enable-mysqlnd \t\t--with-password-argon2 \t\t--with-sodium=shared \t\t--with-pdo-sqlite=/usr \t\t--with-sqlite3=/usr \t\t\t\t--with-curl \t\t--with-iconv \t\t--with-openssl \t\t--with-readline \t\t--with-zlib \t\t\t\t--disable-phpdbg \t\t\t\t--with-pear \t\t\t\t$(test \"$gnuArch\" = 's390x-linux-gnu' \u0026\u0026 echo '--without-pcre-jit') \t\t--with-libdir=\"lib/$debMultiarch\" \t\t\t\t--disable-cgi \t\t\t\t--enable-fpm \t\t--with-fpm-user=www-data \t\t--with-fpm-group=www-data \t; \tmake -j \"$(nproc)\"; \tfind -type f -name '*.a' -delete; \tmake install; \tfind \t\t/usr/local \t\t-type f \t\t-perm '/0111' \t\t-exec sh -euxc ' \t\t\tstrip --strip-all \"$@\" || : \t\t' -- '{}' + \t; \tmake clean; \t\tcp -v php.ini-* \"$PHP_INI_DIR/\"; \t\tcd /; \tdocker-php-source delete; \t\tapt-mark auto '.*' \u003e /dev/null; \t[ -z \"$savedAptMark\" ] || apt-mark manual $savedAptMark; \tfind /usr/local -type f -executable -exec ldd '{}' ';' \t\t| awk '/=\u003e/ { print $(NF-1) }' \t\t| sort -u \t\t| xargs -r dpkg-query --search \t\t| cut -d: -f1 \t\t| sort -u \t\t| xargs -r apt-mark manual \t; \tapt-get purge -y --auto-remove -o APT::AutoRemove::RecommendsImportant=false; \trm -rf /var/lib/apt/lists/*; \t\tpecl update-channels; \trm -rf /tmp/pear ~/.pearrc; \t\tphp --version"
+				},
+				{
+					"id": "CVE-2023-27534",
+					"status": "open",
+					"cvss": 8.8,
+					"vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+					"description": "A path traversal vulnerability exists in curl \u003c8.0.0 SFTP implementation causes the tilde (~) character to be wrongly replaced when used as a prefix in the first path element, in addition to its intended use as the first element to indicate a path relative to the user\\'s home directory. Attackers can exploit this flaw to bypass filtering or execute arbitrary code by crafting a path like /~2/foo while accessing a server with a specific user.",
+					"severity": "low",
+					"packageName": "curl",
+					"packageVersion": "7.64.0-4+deb10u6",
+					"link": "https://security-tracker.debian.org/tracker/CVE-2023-27534",
+					"riskFactors": [
+						"Attack vector: network",
+						"DoS - High",
+						"Exploit exists - POC",
+						"Remote execution",
+						"Attack complexity: low"
+					],
+					"impactedVersions": [
+						"*"
+					],
+					"publishedDate": "2023-03-30T20:15:00Z",
+					"discoveredDate": "2023-10-10T03:58:50Z",
+					"layerTime": "2023-06-13T11:02:40Z",
+					"layerInstruction": "RUN set -eux; \tapt-get update; \tapt-get install -y --no-install-recommends \t\t$PHPIZE_DEPS \t\tca-certificates \t\tcurl \t\txz-utils \t; \trm -rf /var/lib/apt/lists/*"
+				},
+				{
+					"id": "CVE-2023-31484",
+					"status": "open",
+					"cvss": 8.1,
+					"vector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H",
+					"description": "CPAN.pm before 2.35 does not verify TLS certificates when downloading distributions over HTTPS.",
+					"severity": "low",
+					"packageName": "perl",
+					"packageVersion": "5.28.1-6+deb10u1",
+					"link": "https://security-tracker.debian.org/tracker/CVE-2023-31484",
+					"riskFactors": [
+						"Attack vector: network",
+						"DoS - High",
+						"Recent vulnerability"
+					],
+					"impactedVersions": [
+						"*"
+					],
+					"publishedDate": "2023-04-29T00:15:00Z",
+					"discoveredDate": "2023-10-10T03:58:50Z",
+					"layerTime": "2023-06-12T23:21:32Z",
+					"layerInstruction": "ADD file:2818e508d01da2188fb234b38fb19aa1ea9eeeae92d361ecdf49318d949f51a9 in / "
+				},
+				{
+					"id": "CVE-2019-17543",
+					"status": "open",
+					"cvss": 8.1,
+					"vector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H",
+					"description": "LZ4 before 1.9.2 has a heap-based buffer overflow in LZ4_write32 (related to LZ4_compress_destSize), affecting applications that call LZ4_compress_fast with a large input. (This issue can also lead to data corruption.) NOTE: the vendor states \\\"only a few specific / uncommon usages of the API are at risk.\\\"",
+					"severity": "low",
+					"packageName": "lz4",
+					"packageVersion": "1.8.3-1+deb10u1",
+					"link": "https://security-tracker.debian.org/tracker/CVE-2019-17543",
+					"riskFactors": [
+						"Attack vector: network",
+						"DoS - High"
+					],
+					"impactedVersions": [
+						"*"
+					],
+					"publishedDate": "2019-10-14T02:15:00Z",
+					"discoveredDate": "2023-10-10T03:58:50Z",
+					"layerTime": "2023-06-12T23:21:32Z",
+					"layerInstruction": "ADD file:2818e508d01da2188fb234b38fb19aa1ea9eeeae92d361ecdf49318d949f51a9 in / "
+				},
+				{
+					"id": "CVE-2023-29491",
+					"status": "open",
+					"cvss": 7.8,
+					"vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+					"description": "ncurses before 6.4 20230408, when used by a setuid application, allows local users to trigger security-relevant memory corruption via malformed data in a terminfo database file that is found in $HOME/.terminfo or reached via the TERMINFO or TERM environment variable.",
+					"severity": "low",
+					"packageName": "ncurses",
+					"packageVersion": "6.1+20181013-2+deb10u3",
+					"link": "https://security-tracker.debian.org/tracker/CVE-2023-29491",
+					"riskFactors": [
+						"Attack complexity: low",
+						"DoS - High",
+						"Recent vulnerability"
+					],
+					"impactedVersions": [
+						"*"
+					],
+					"publishedDate": "2023-04-14T01:15:00Z",
+					"discoveredDate": "2023-10-10T03:58:50Z",
+					"layerTime": "2023-06-12T23:21:32Z",
+					"layerInstruction": "ADD file:2818e508d01da2188fb234b38fb19aa1ea9eeeae92d361ecdf49318d949f51a9 in / "
+				},
+				{
+					"id": "CVE-2022-1304",
+					"status": "open",
+					"cvss": 7.8,
+					"vector": "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+					"description": "An out-of-bounds read/write vulnerability was found in e2fsprogs 1.46.5. This issue leads to a segmentation fault and possibly arbitrary code execution via a specially crafted filesystem.",
+					"severity": "low",
+					"packageName": "e2fsprogs",
+					"packageVersion": "1.44.5-1+deb10u3",
+					"link": "https://security-tracker.debian.org/tracker/CVE-2022-1304",
+					"riskFactors": [
+						"Attack complexity: low",
+						"DoS - High",
+						"Remote execution"
+					],
+					"impactedVersions": [
+						"*"
+					],
+					"publishedDate": "2022-04-14T21:15:00Z",
+					"discoveredDate": "2023-10-10T03:58:50Z",
+					"layerTime": "2023-06-12T23:21:32Z",
+					"layerInstruction": "ADD file:2818e508d01da2188fb234b38fb19aa1ea9eeeae92d361ecdf49318d949f51a9 in / "
+				},
+				{
+					"id": "CVE-2020-16156",
+					"status": "open",
+					"cvss": 7.8,
+					"vector": "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+					"description": "CPAN 2.28 allows Signature Verification Bypass.",
+					"severity": "low",
+					"packageName": "perl",
+					"packageVersion": "5.28.1-6+deb10u1",
+					"link": "https://security-tracker.debian.org/tracker/CVE-2020-16156",
+					"riskFactors": [
+						"Attack complexity: low",
+						"DoS - High"
+					],
+					"impactedVersions": [
+						"*"
+					],
+					"publishedDate": "2021-12-13T18:15:00Z",
+					"discoveredDate": "2023-10-10T03:58:50Z",
+					"layerTime": "2023-06-12T23:21:32Z",
+					"layerInstruction": "ADD file:2818e508d01da2188fb234b38fb19aa1ea9eeeae92d361ecdf49318d949f51a9 in / "
+				},
+				{
+					"id": "CVE-2019-3844",
+					"status": "open",
+					"cvss": 7.8,
+					"vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+					"description": "It was discovered that a systemd service that uses DynamicUser property can get new privileges through the execution of SUID binaries, which would allow to create binaries owned by the service transient group with the setgid bit set. A local attacker may use this flaw to access resources that will be owned by a potentially different service in the future, when the GID will be recycled.",
+					"severity": "low",
+					"packageName": "systemd",
+					"packageVersion": "241-7~deb10u9",
+					"link": "https://security-tracker.debian.org/tracker/CVE-2019-3844",
+					"riskFactors": [
+						"Attack complexity: low",
+						"DoS - High"
+					],
+					"impactedVersions": [
+						"*"
+					],
+					"publishedDate": "2019-04-26T21:29:00Z",
+					"discoveredDate": "2023-10-10T03:58:50Z",
+					"layerTime": "2023-06-12T23:21:32Z",
+					"layerInstruction": "ADD file:2818e508d01da2188fb234b38fb19aa1ea9eeeae92d361ecdf49318d949f51a9 in / "
+				},
+				{
+					"id": "CVE-2019-3843",
+					"status": "open",
+					"cvss": 7.8,
+					"vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+					"description": "It was discovered that a systemd service that uses DynamicUser property can create a SUID/SGID binary that would be allowed to run as the transient service UID/GID even after the service is terminated. A local attacker may use this flaw to access resources that will be owned by a potentially different service in the future, when the UID/GID will be recycled.",
+					"severity": "low",
+					"packageName": "systemd",
+					"packageVersion": "241-7~deb10u9",
+					"link": "https://security-tracker.debian.org/tracker/CVE-2019-3843",
+					"riskFactors": [
+						"Attack complexity: low",
+						"DoS - High"
+					],
+					"impactedVersions": [
+						"*"
+					],
+					"publishedDate": "2019-04-26T21:29:00Z",
+					"discoveredDate": "2023-10-10T03:58:50Z",
+					"layerTime": "2023-06-12T23:21:32Z",
+					"layerInstruction": "ADD file:2818e508d01da2188fb234b38fb19aa1ea9eeeae92d361ecdf49318d949f51a9 in / "
+				},
+				{
+					"id": "CVE-2023-2953",
+					"status": "open",
+					"cvss": 7.5,
+					"vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+					"description": "A vulnerability was found in openldap. This security flaw causes a null pointer dereference in ber_memalloc_x() function.",
+					"severity": "low",
+					"packageName": "openldap",
+					"packageVersion": "2.4.47+dfsg-3+deb10u7",
+					"link": "https://security-tracker.debian.org/tracker/CVE-2023-2953",
+					"riskFactors": [
+						"Attack complexity: low",
+						"Attack vector: network",
+						"DoS - High",
+						"Recent vulnerability"
+					],
+					"impactedVersions": [
+						"*"
+					],
+					"publishedDate": "2023-05-30T22:15:00Z",
+					"discoveredDate": "2023-10-10T03:58:50Z",
+					"layerTime": "2023-06-13T11:02:40Z",
+					"layerInstruction": "RUN set -eux; \tapt-get update; \tapt-get install -y --no-install-recommends \t\t$PHPIZE_DEPS \t\tca-certificates \t\tcurl \t\txz-utils \t; \trm -rf /var/lib/apt/lists/*"
+				},
+				{
+					"id": "CVE-2022-2309",
+					"status": "open",
+					"cvss": 7.5,
+					"vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+					"description": "NULL Pointer Dereference allows attackers to cause a denial of service (or application crash). This only applies when lxml is used together with libxml2 2.9.10 through 2.9.14. libxml2 2.9.9 and earlier are not affected. It allows triggering crashes through forged input data, given a vulnerable code sequence in the application. The vulnerability is caused by the iterwalk function (also used by the canonicalize function). Such code shouldn\\'t be in wide-spread use, given that parsing + iterwalk would usually be replaced with the more efficient iterparse function. However, an XML converter that serialises to C14N would also be vulnerable, for example, and there are legitimate use cases for this code sequence. If untrusted input is received (also remotely) and processed via iterwalk function, a crash can be triggered.",
+					"severity": "low",
+					"packageName": "libxml2",
+					"packageVersion": "2.9.4+dfsg1-7+deb10u6",
+					"link": "https://security-tracker.debian.org/tracker/CVE-2022-2309",
+					"riskFactors": [
+						"Attack vector: network",
+						"DoS - High",
+						"Exploit exists - POC",
+						"Attack complexity: low"
+					],
+					"impactedVersions": [
+						"*"
+					],
+					"publishedDate": "2022-07-05T10:15:00Z",
+					"discoveredDate": "2023-10-10T03:58:50Z",
+					"layerTime": "2023-06-13T11:39:10Z",
+					"layerInstruction": "RUN set -eux; \t\tsavedAptMark=\"$(apt-mark showmanual)\"; \tapt-get update; \tapt-get install -y --no-install-recommends \t\tlibargon2-dev \t\tlibcurl4-openssl-dev \t\tlibonig-dev \t\tlibreadline-dev \t\tlibsodium-dev \t\tlibsqlite3-dev \t\tlibssl-dev \t\tlibxml2-dev \t\tzlib1g-dev \t; \t\texport \t\tCFLAGS=\"$PHP_CFLAGS\" \t\tCPPFLAGS=\"$PHP_CPPFLAGS\" \t\tLDFLAGS=\"$PHP_LDFLAGS\" \t; \tdocker-php-source extract; \tcd /usr/src/php; \tgnuArch=\"$(dpkg-architecture --query DEB_BUILD_GNU_TYPE)\"; \tdebMultiarch=\"$(dpkg-architecture --query DEB_BUILD_MULTIARCH)\"; \tif [ ! -d /usr/include/curl ]; then \t\tln -sT \"/usr/include/$debMultiarch/curl\" /usr/local/include/curl; \tfi; \t./configure \t\t--build=\"$gnuArch\" \t\t--with-config-file-path=\"$PHP_INI_DIR\" \t\t--with-config-file-scan-dir=\"$PHP_INI_DIR/conf.d\" \t\t\t\t--enable-option-checking=fatal \t\t\t\t--with-mhash \t\t\t\t--with-pic \t\t\t\t--enable-ftp \t\t--enable-mbstring \t\t--enable-mysqlnd \t\t--with-password-argon2 \t\t--with-sodium=shared \t\t--with-pdo-sqlite=/usr \t\t--with-sqlite3=/usr \t\t\t\t--with-curl \t\t--with-iconv \t\t--with-openssl \t\t--with-readline \t\t--with-zlib \t\t\t\t--disable-phpdbg \t\t\t\t--with-pear \t\t\t\t$(test \"$gnuArch\" = 's390x-linux-gnu' \u0026\u0026 echo '--without-pcre-jit') \t\t--with-libdir=\"lib/$debMultiarch\" \t\t\t\t--disable-cgi \t\t\t\t--enable-fpm \t\t--with-fpm-user=www-data \t\t--with-fpm-group=www-data \t; \tmake -j \"$(nproc)\"; \tfind -type f -name '*.a' -delete; \tmake install; \tfind \t\t/usr/local \t\t-type f \t\t-perm '/0111' \t\t-exec sh -euxc ' \t\t\tstrip --strip-all \"$@\" || : \t\t' -- '{}' + \t; \tmake clean; \t\tcp -v php.ini-* \"$PHP_INI_DIR/\"; \t\tcd /; \tdocker-php-source delete; \t\tapt-mark auto '.*' \u003e /dev/null; \t[ -z \"$savedAptMark\" ] || apt-mark manual $savedAptMark; \tfind /usr/local -type f -executable -exec ldd '{}' ';' \t\t| awk '/=\u003e/ { print $(NF-1) }' \t\t| sort -u \t\t| xargs -r dpkg-query --search \t\t| cut -d: -f1 \t\t| sort -u \t\t| xargs -r apt-mark manual \t; \tapt-get purge -y --auto-remove -o APT::AutoRemove::RecommendsImportant=false; \trm -rf /var/lib/apt/lists/*; \t\tpecl update-channels; \trm -rf /tmp/pear ~/.pearrc; \t\tphp --version"
+				},
+				{
+					"id": "CVE-2021-33560",
+					"status": "open",
+					"cvss": 7.5,
+					"vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N",
+					"description": "Libgcrypt before 1.8.8 and 1.9.x before 1.9.3 mishandles ElGamal encryption because it lacks exponent blinding to address a side-channel attack against mpi_powm, and the window size is not chosen appropriately. This, for example, affects use of ElGamal in OpenPGP.",
+					"severity": "low",
+					"packageName": "libgcrypt20",
+					"packageVersion": "1.8.4-5+deb10u1",
+					"link": "https://security-tracker.debian.org/tracker/CVE-2021-33560",
+					"riskFactors": [
+						"Attack complexity: low",
+						"Attack vector: network"
+					],
+					"impactedVersions": [
+						"*"
+					],
+					"publishedDate": "2021-06-08T11:15:00Z",
+					"discoveredDate": "2023-10-10T03:58:50Z",
+					"layerTime": "2023-06-12T23:21:32Z",
+					"layerInstruction": "ADD file:2818e508d01da2188fb234b38fb19aa1ea9eeeae92d361ecdf49318d949f51a9 in / "
+				},
+				{
+					"id": "CVE-2021-31239",
+					"status": "open",
+					"cvss": 7.5,
+					"vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+					"description": "An issue found in SQLite SQLite3 v.3.35.4 that allows a remote attacker to cause a denial of service via the appendvfs.c function.",
+					"severity": "low",
+					"packageName": "sqlite3",
+					"packageVersion": "3.27.2-3+deb10u2",
+					"link": "https://security-tracker.debian.org/tracker/CVE-2021-31239",
+					"riskFactors": [
+						"Attack complexity: low",
+						"Attack vector: network",
+						"DoS - High",
+						"Exploit exists - POC",
+						"Recent vulnerability"
+					],
+					"impactedVersions": [
+						"*"
+					],
+					"publishedDate": "2023-05-09T02:15:00Z",
+					"discoveredDate": "2023-10-10T03:58:50Z",
+					"layerTime": "2023-06-13T11:39:10Z",
+					"layerInstruction": "RUN set -eux; \t\tsavedAptMark=\"$(apt-mark showmanual)\"; \tapt-get update; \tapt-get install -y --no-install-recommends \t\tlibargon2-dev \t\tlibcurl4-openssl-dev \t\tlibonig-dev \t\tlibreadline-dev \t\tlibsodium-dev \t\tlibsqlite3-dev \t\tlibssl-dev \t\tlibxml2-dev \t\tzlib1g-dev \t; \t\texport \t\tCFLAGS=\"$PHP_CFLAGS\" \t\tCPPFLAGS=\"$PHP_CPPFLAGS\" \t\tLDFLAGS=\"$PHP_LDFLAGS\" \t; \tdocker-php-source extract; \tcd /usr/src/php; \tgnuArch=\"$(dpkg-architecture --query DEB_BUILD_GNU_TYPE)\"; \tdebMultiarch=\"$(dpkg-architecture --query DEB_BUILD_MULTIARCH)\"; \tif [ ! -d /usr/include/curl ]; then \t\tln -sT \"/usr/include/$debMultiarch/curl\" /usr/local/include/curl; \tfi; \t./configure \t\t--build=\"$gnuArch\" \t\t--with-config-file-path=\"$PHP_INI_DIR\" \t\t--with-config-file-scan-dir=\"$PHP_INI_DIR/conf.d\" \t\t\t\t--enable-option-checking=fatal \t\t\t\t--with-mhash \t\t\t\t--with-pic \t\t\t\t--enable-ftp \t\t--enable-mbstring \t\t--enable-mysqlnd \t\t--with-password-argon2 \t\t--with-sodium=shared \t\t--with-pdo-sqlite=/usr \t\t--with-sqlite3=/usr \t\t\t\t--with-curl \t\t--with-iconv \t\t--with-openssl \t\t--with-readline \t\t--with-zlib \t\t\t\t--disable-phpdbg \t\t\t\t--with-pear \t\t\t\t$(test \"$gnuArch\" = 's390x-linux-gnu' \u0026\u0026 echo '--without-pcre-jit') \t\t--with-libdir=\"lib/$debMultiarch\" \t\t\t\t--disable-cgi \t\t\t\t--enable-fpm \t\t--with-fpm-user=www-data \t\t--with-fpm-group=www-data \t; \tmake -j \"$(nproc)\"; \tfind -type f -name '*.a' -delete; \tmake install; \tfind \t\t/usr/local \t\t-type f \t\t-perm '/0111' \t\t-exec sh -euxc ' \t\t\tstrip --strip-all \"$@\" || : \t\t' -- '{}' + \t; \tmake clean; \t\tcp -v php.ini-* \"$PHP_INI_DIR/\"; \t\tcd /; \tdocker-php-source delete; \t\tapt-mark auto '.*' \u003e /dev/null; \t[ -z \"$savedAptMark\" ] || apt-mark manual $savedAptMark; \tfind /usr/local -type f -executable -exec ldd '{}' ';' \t\t| awk '/=\u003e/ { print $(NF-1) }' \t\t| sort -u \t\t| xargs -r dpkg-query --search \t\t| cut -d: -f1 \t\t| sort -u \t\t| xargs -r apt-mark manual \t; \tapt-get purge -y --auto-remove -o APT::AutoRemove::RecommendsImportant=false; \trm -rf /var/lib/apt/lists/*; \t\tpecl update-channels; \trm -rf /tmp/pear ~/.pearrc; \t\tphp --version"
+				},
+				{
+					"id": "CVE-2020-11080",
+					"status": "open",
+					"cvss": 7.5,
+					"vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+					"description": "In nghttp2 before version 1.41.0, the overly large HTTP/2 SETTINGS frame payload causes denial of service. The proof of concept attack involves a malicious client constructing a SETTINGS frame with a length of 14,400 bytes (2400 individual settings entries) over and over again. The attack causes the CPU to spike at 100%. nghttp2 v1.41.0 fixes this vulnerability. There is a workaround to this vulnerability. Implement nghttp2_on_frame_recv_callback callback, and if received frame is SETTINGS frame and the number of settings entries are large (e.g., \u003e 32), then drop the connection.",
+					"severity": "low",
+					"packageName": "nghttp2",
+					"packageVersion": "1.36.0-2+deb10u1",
+					"link": "https://security-tracker.debian.org/tracker/CVE-2020-11080",
+					"riskFactors": [
+						"Attack complexity: low",
+						"Attack vector: network",
+						"DoS - High"
+					],
+					"impactedVersions": [
+						"*"
+					],
+					"publishedDate": "2020-06-03T23:15:00Z",
+					"discoveredDate": "2023-10-10T03:58:50Z",
+					"layerTime": "2023-06-13T11:02:40Z",
+					"layerInstruction": "RUN set -eux; \tapt-get update; \tapt-get install -y --no-install-recommends \t\t$PHPIZE_DEPS \t\tca-certificates \t\tcurl \t\txz-utils \t; \trm -rf /var/lib/apt/lists/*"
+				},
+				{
+					"id": "CVE-2019-19603",
+					"status": "open",
+					"cvss": 7.5,
+					"vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+					"description": "SQLite 3.30.1 mishandles certain SELECT statements with a nonexistent VIEW, leading to an application crash.",
+					"severity": "low",
+					"packageName": "sqlite3",
+					"packageVersion": "3.27.2-3+deb10u2",
+					"link": "https://security-tracker.debian.org/tracker/CVE-2019-19603",
+					"riskFactors": [
+						"Attack complexity: low",
+						"Attack vector: network",
+						"DoS - High"
+					],
+					"impactedVersions": [
+						"*"
+					],
+					"publishedDate": "2019-12-09T19:15:00Z",
+					"discoveredDate": "2023-10-10T03:58:50Z",
+					"layerTime": "2023-06-13T11:39:10Z",
+					"layerInstruction": "RUN set -eux; \t\tsavedAptMark=\"$(apt-mark showmanual)\"; \tapt-get update; \tapt-get install -y --no-install-recommends \t\tlibargon2-dev \t\tlibcurl4-openssl-dev \t\tlibonig-dev \t\tlibreadline-dev \t\tlibsodium-dev \t\tlibsqlite3-dev \t\tlibssl-dev \t\tlibxml2-dev \t\tzlib1g-dev \t; \t\texport \t\tCFLAGS=\"$PHP_CFLAGS\" \t\tCPPFLAGS=\"$PHP_CPPFLAGS\" \t\tLDFLAGS=\"$PHP_LDFLAGS\" \t; \tdocker-php-source extract; \tcd /usr/src/php; \tgnuArch=\"$(dpkg-architecture --query DEB_BUILD_GNU_TYPE)\"; \tdebMultiarch=\"$(dpkg-architecture --query DEB_BUILD_MULTIARCH)\"; \tif [ ! -d /usr/include/curl ]; then \t\tln -sT \"/usr/include/$debMultiarch/curl\" /usr/local/include/curl; \tfi; \t./configure \t\t--build=\"$gnuArch\" \t\t--with-config-file-path=\"$PHP_INI_DIR\" \t\t--with-config-file-scan-dir=\"$PHP_INI_DIR/conf.d\" \t\t\t\t--enable-option-checking=fatal \t\t\t\t--with-mhash \t\t\t\t--with-pic \t\t\t\t--enable-ftp \t\t--enable-mbstring \t\t--enable-mysqlnd \t\t--with-password-argon2 \t\t--with-sodium=shared \t\t--with-pdo-sqlite=/usr \t\t--with-sqlite3=/usr \t\t\t\t--with-curl \t\t--with-iconv \t\t--with-openssl \t\t--with-readline \t\t--with-zlib \t\t\t\t--disable-phpdbg \t\t\t\t--with-pear \t\t\t\t$(test \"$gnuArch\" = 's390x-linux-gnu' \u0026\u0026 echo '--without-pcre-jit') \t\t--with-libdir=\"lib/$debMultiarch\" \t\t\t\t--disable-cgi \t\t\t\t--enable-fpm \t\t--with-fpm-user=www-data \t\t--with-fpm-group=www-data \t; \tmake -j \"$(nproc)\"; \tfind -type f -name '*.a' -delete; \tmake install; \tfind \t\t/usr/local \t\t-type f \t\t-perm '/0111' \t\t-exec sh -euxc ' \t\t\tstrip --strip-all \"$@\" || : \t\t' -- '{}' + \t; \tmake clean; \t\tcp -v php.ini-* \"$PHP_INI_DIR/\"; \t\tcd /; \tdocker-php-source delete; \t\tapt-mark auto '.*' \u003e /dev/null; \t[ -z \"$savedAptMark\" ] || apt-mark manual $savedAptMark; \tfind /usr/local -type f -executable -exec ldd '{}' ';' \t\t| awk '/=\u003e/ { print $(NF-1) }' \t\t| sort -u \t\t| xargs -r dpkg-query --search \t\t| cut -d: -f1 \t\t| sort -u \t\t| xargs -r apt-mark manual \t; \tapt-get purge -y --auto-remove -o APT::AutoRemove::RecommendsImportant=false; \trm -rf /var/lib/apt/lists/*; \t\tpecl update-channels; \trm -rf /tmp/pear ~/.pearrc; \t\tphp --version"
+				},
+				{
+					"id": "CVE-2019-19246",
+					"status": "open",
+					"cvss": 7.5,
+					"vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+					"description": "Oniguruma through 6.9.3, as used in PHP 7.3.x and other products, has a heap-based buffer over-read in str_lower_case_match in regexec.c.",
+					"severity": "low",
+					"packageName": "libonig",
+					"packageVersion": "6.9.1-1",
+					"link": "https://security-tracker.debian.org/tracker/CVE-2019-19246",
+					"riskFactors": [
+						"Attack complexity: low",
+						"Attack vector: network",
+						"DoS - High"
+					],
+					"impactedVersions": [
+						"*"
+					],
+					"publishedDate": "2019-11-25T17:15:00Z",
+					"discoveredDate": "2023-10-10T03:58:50Z",
+					"layerTime": "2023-06-13T11:39:10Z",
+					"layerInstruction": "RUN set -eux; \t\tsavedAptMark=\"$(apt-mark showmanual)\"; \tapt-get update; \tapt-get install -y --no-install-recommends \t\tlibargon2-dev \t\tlibcurl4-openssl-dev \t\tlibonig-dev \t\tlibreadline-dev \t\tlibsodium-dev \t\tlibsqlite3-dev \t\tlibssl-dev \t\tlibxml2-dev \t\tzlib1g-dev \t; \t\texport \t\tCFLAGS=\"$PHP_CFLAGS\" \t\tCPPFLAGS=\"$PHP_CPPFLAGS\" \t\tLDFLAGS=\"$PHP_LDFLAGS\" \t; \tdocker-php-source extract; \tcd /usr/src/php; \tgnuArch=\"$(dpkg-architecture --query DEB_BUILD_GNU_TYPE)\"; \tdebMultiarch=\"$(dpkg-architecture --query DEB_BUILD_MULTIARCH)\"; \tif [ ! -d /usr/include/curl ]; then \t\tln -sT \"/usr/include/$debMultiarch/curl\" /usr/local/include/curl; \tfi; \t./configure \t\t--build=\"$gnuArch\" \t\t--with-config-file-path=\"$PHP_INI_DIR\" \t\t--with-config-file-scan-dir=\"$PHP_INI_DIR/conf.d\" \t\t\t\t--enable-option-checking=fatal \t\t\t\t--with-mhash \t\t\t\t--with-pic \t\t\t\t--enable-ftp \t\t--enable-mbstring \t\t--enable-mysqlnd \t\t--with-password-argon2 \t\t--with-sodium=shared \t\t--with-pdo-sqlite=/usr \t\t--with-sqlite3=/usr \t\t\t\t--with-curl \t\t--with-iconv \t\t--with-openssl \t\t--with-readline \t\t--with-zlib \t\t\t\t--disable-phpdbg \t\t\t\t--with-pear \t\t\t\t$(test \"$gnuArch\" = 's390x-linux-gnu' \u0026\u0026 echo '--without-pcre-jit') \t\t--with-libdir=\"lib/$debMultiarch\" \t\t\t\t--disable-cgi \t\t\t\t--enable-fpm \t\t--with-fpm-user=www-data \t\t--with-fpm-group=www-data \t; \tmake -j \"$(nproc)\"; \tfind -type f -name '*.a' -delete; \tmake install; \tfind \t\t/usr/local \t\t-type f \t\t-perm '/0111' \t\t-exec sh -euxc ' \t\t\tstrip --strip-all \"$@\" || : \t\t' -- '{}' + \t; \tmake clean; \t\tcp -v php.ini-* \"$PHP_INI_DIR/\"; \t\tcd /; \tdocker-php-source delete; \t\tapt-mark auto '.*' \u003e /dev/null; \t[ -z \"$savedAptMark\" ] || apt-mark manual $savedAptMark; \tfind /usr/local -type f -executable -exec ldd '{}' ';' \t\t| awk '/=\u003e/ { print $(NF-1) }' \t\t| sort -u \t\t| xargs -r dpkg-query --search \t\t| cut -d: -f1 \t\t| sort -u \t\t| xargs -r apt-mark manual \t; \tapt-get purge -y --auto-remove -o APT::AutoRemove::RecommendsImportant=false; \trm -rf /var/lib/apt/lists/*; \t\tpecl update-channels; \trm -rf /tmp/pear ~/.pearrc; \t\tphp --version"
+				},
+				{
+					"id": "CVE-2019-19204",
+					"status": "open",
+					"cvss": 7.5,
+					"vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+					"description": "An issue was discovered in Oniguruma 6.x before 6.9.4_rc2. In the function fetch_interval_quantifier (formerly known as fetch_range_quantifier) in regparse.c, PFETCH is called without checking PEND. This leads to a heap-based buffer over-read.",
+					"severity": "low",
+					"packageName": "libonig",
+					"packageVersion": "6.9.1-1",
+					"link": "https://security-tracker.debian.org/tracker/CVE-2019-19204",
+					"riskFactors": [
+						"DoS - High",
+						"Exploit exists - POC",
+						"Attack complexity: low",
+						"Attack vector: network"
+					],
+					"impactedVersions": [
+						"*"
+					],
+					"publishedDate": "2019-11-21T21:15:00Z",
+					"discoveredDate": "2023-10-10T03:58:50Z",
+					"layerTime": "2023-06-13T11:39:10Z",
+					"layerInstruction": "RUN set -eux; \t\tsavedAptMark=\"$(apt-mark showmanual)\"; \tapt-get update; \tapt-get install -y --no-install-recommends \t\tlibargon2-dev \t\tlibcurl4-openssl-dev \t\tlibonig-dev \t\tlibreadline-dev \t\tlibsodium-dev \t\tlibsqlite3-dev \t\tlibssl-dev \t\tlibxml2-dev \t\tzlib1g-dev \t; \t\texport \t\tCFLAGS=\"$PHP_CFLAGS\" \t\tCPPFLAGS=\"$PHP_CPPFLAGS\" \t\tLDFLAGS=\"$PHP_LDFLAGS\" \t; \tdocker-php-source extract; \tcd /usr/src/php; \tgnuArch=\"$(dpkg-architecture --query DEB_BUILD_GNU_TYPE)\"; \tdebMultiarch=\"$(dpkg-architecture --query DEB_BUILD_MULTIARCH)\"; \tif [ ! -d /usr/include/curl ]; then \t\tln -sT \"/usr/include/$debMultiarch/curl\" /usr/local/include/curl; \tfi; \t./configure \t\t--build=\"$gnuArch\" \t\t--with-config-file-path=\"$PHP_INI_DIR\" \t\t--with-config-file-scan-dir=\"$PHP_INI_DIR/conf.d\" \t\t\t\t--enable-option-checking=fatal \t\t\t\t--with-mhash \t\t\t\t--with-pic \t\t\t\t--enable-ftp \t\t--enable-mbstring \t\t--enable-mysqlnd \t\t--with-password-argon2 \t\t--with-sodium=shared \t\t--with-pdo-sqlite=/usr \t\t--with-sqlite3=/usr \t\t\t\t--with-curl \t\t--with-iconv \t\t--with-openssl \t\t--with-readline \t\t--with-zlib \t\t\t\t--disable-phpdbg \t\t\t\t--with-pear \t\t\t\t$(test \"$gnuArch\" = 's390x-linux-gnu' \u0026\u0026 echo '--without-pcre-jit') \t\t--with-libdir=\"lib/$debMultiarch\" \t\t\t\t--disable-cgi \t\t\t\t--enable-fpm \t\t--with-fpm-user=www-data \t\t--with-fpm-group=www-data \t; \tmake -j \"$(nproc)\"; \tfind -type f -name '*.a' -delete; \tmake install; \tfind \t\t/usr/local \t\t-type f \t\t-perm '/0111' \t\t-exec sh -euxc ' \t\t\tstrip --strip-all \"$@\" || : \t\t' -- '{}' + \t; \tmake clean; \t\tcp -v php.ini-* \"$PHP_INI_DIR/\"; \t\tcd /; \tdocker-php-source delete; \t\tapt-mark auto '.*' \u003e /dev/null; \t[ -z \"$savedAptMark\" ] || apt-mark manual $savedAptMark; \tfind /usr/local -type f -executable -exec ldd '{}' ';' \t\t| awk '/=\u003e/ { print $(NF-1) }' \t\t| sort -u \t\t| xargs -r dpkg-query --search \t\t| cut -d: -f1 \t\t| sort -u \t\t| xargs -r apt-mark manual \t; \tapt-get purge -y --auto-remove -o APT::AutoRemove::RecommendsImportant=false; \trm -rf /var/lib/apt/lists/*; \t\tpecl update-channels; \trm -rf /tmp/pear ~/.pearrc; \t\tphp --version"
+				},
+				{
+					"id": "CVE-2019-19203",
+					"status": "open",
+					"cvss": 7.5,
+					"vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+					"description": "An issue was discovered in Oniguruma 6.x before 6.9.4_rc2. In the function gb18030_mbc_enc_len in file gb18030.c, a UChar pointer is dereferenced without checking if it passed the end of the matched string. This leads to a heap-based buffer over-read.",
+					"severity": "low",
+					"packageName": "libonig",
+					"packageVersion": "6.9.1-1",
+					"link": "https://security-tracker.debian.org/tracker/CVE-2019-19203",
+					"riskFactors": [
+						"Attack complexity: low",
+						"Attack vector: network",
+						"DoS - High",
+						"Exploit exists - POC"
+					],
+					"impactedVersions": [
+						"*"
+					],
+					"publishedDate": "2019-11-21T21:15:00Z",
+					"discoveredDate": "2023-10-10T03:58:50Z",
+					"layerTime": "2023-06-13T11:39:10Z",
+					"layerInstruction": "RUN set -eux; \t\tsavedAptMark=\"$(apt-mark showmanual)\"; \tapt-get update; \tapt-get install -y --no-install-recommends \t\tlibargon2-dev \t\tlibcurl4-openssl-dev \t\tlibonig-dev \t\tlibreadline-dev \t\tlibsodium-dev \t\tlibsqlite3-dev \t\tlibssl-dev \t\tlibxml2-dev \t\tzlib1g-dev \t; \t\texport \t\tCFLAGS=\"$PHP_CFLAGS\" \t\tCPPFLAGS=\"$PHP_CPPFLAGS\" \t\tLDFLAGS=\"$PHP_LDFLAGS\" \t; \tdocker-php-source extract; \tcd /usr/src/php; \tgnuArch=\"$(dpkg-architecture --query DEB_BUILD_GNU_TYPE)\"; \tdebMultiarch=\"$(dpkg-architecture --query DEB_BUILD_MULTIARCH)\"; \tif [ ! -d /usr/include/curl ]; then \t\tln -sT \"/usr/include/$debMultiarch/curl\" /usr/local/include/curl; \tfi; \t./configure \t\t--build=\"$gnuArch\" \t\t--with-config-file-path=\"$PHP_INI_DIR\" \t\t--with-config-file-scan-dir=\"$PHP_INI_DIR/conf.d\" \t\t\t\t--enable-option-checking=fatal \t\t\t\t--with-mhash \t\t\t\t--with-pic \t\t\t\t--enable-ftp \t\t--enable-mbstring \t\t--enable-mysqlnd \t\t--with-password-argon2 \t\t--with-sodium=shared \t\t--with-pdo-sqlite=/usr \t\t--with-sqlite3=/usr \t\t\t\t--with-curl \t\t--with-iconv \t\t--with-openssl \t\t--with-readline \t\t--with-zlib \t\t\t\t--disable-phpdbg \t\t\t\t--with-pear \t\t\t\t$(test \"$gnuArch\" = 's390x-linux-gnu' \u0026\u0026 echo '--without-pcre-jit') \t\t--with-libdir=\"lib/$debMultiarch\" \t\t\t\t--disable-cgi \t\t\t\t--enable-fpm \t\t--with-fpm-user=www-data \t\t--with-fpm-group=www-data \t; \tmake -j \"$(nproc)\"; \tfind -type f -name '*.a' -delete; \tmake install; \tfind \t\t/usr/local \t\t-type f \t\t-perm '/0111' \t\t-exec sh -euxc ' \t\t\tstrip --strip-all \"$@\" || : \t\t' -- '{}' + \t; \tmake clean; \t\tcp -v php.ini-* \"$PHP_INI_DIR/\"; \t\tcd /; \tdocker-php-source delete; \t\tapt-mark auto '.*' \u003e /dev/null; \t[ -z \"$savedAptMark\" ] || apt-mark manual $savedAptMark; \tfind /usr/local -type f -executable -exec ldd '{}' ';' \t\t| awk '/=\u003e/ { print $(NF-1) }' \t\t| sort -u \t\t| xargs -r dpkg-query --search \t\t| cut -d: -f1 \t\t| sort -u \t\t| xargs -r apt-mark manual \t; \tapt-get purge -y --auto-remove -o APT::AutoRemove::RecommendsImportant=false; \trm -rf /var/lib/apt/lists/*; \t\tpecl update-channels; \trm -rf /tmp/pear ~/.pearrc; \t\tphp --version"
+				},
+				{
+					"id": "CVE-2019-16163",
+					"status": "open",
+					"cvss": 7.5,
+					"vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+					"description": "Oniguruma before 6.9.3 allows Stack Exhaustion in regcomp.c because of recursion in regparse.c.",
+					"severity": "low",
+					"packageName": "libonig",
+					"packageVersion": "6.9.1-1",
+					"link": "https://security-tracker.debian.org/tracker/CVE-2019-16163",
+					"riskFactors": [
+						"Attack complexity: low",
+						"Attack vector: network",
+						"DoS - High"
+					],
+					"impactedVersions": [
+						"*"
+					],
+					"publishedDate": "2019-09-09T17:15:00Z",
+					"discoveredDate": "2023-10-10T03:58:50Z",
+					"layerTime": "2023-06-13T11:39:10Z",
+					"layerInstruction": "RUN set -eux; \t\tsavedAptMark=\"$(apt-mark showmanual)\"; \tapt-get update; \tapt-get install -y --no-install-recommends \t\tlibargon2-dev \t\tlibcurl4-openssl-dev \t\tlibonig-dev \t\tlibreadline-dev \t\tlibsodium-dev \t\tlibsqlite3-dev \t\tlibssl-dev \t\tlibxml2-dev \t\tzlib1g-dev \t; \t\texport \t\tCFLAGS=\"$PHP_CFLAGS\" \t\tCPPFLAGS=\"$PHP_CPPFLAGS\" \t\tLDFLAGS=\"$PHP_LDFLAGS\" \t; \tdocker-php-source extract; \tcd /usr/src/php; \tgnuArch=\"$(dpkg-architecture --query DEB_BUILD_GNU_TYPE)\"; \tdebMultiarch=\"$(dpkg-architecture --query DEB_BUILD_MULTIARCH)\"; \tif [ ! -d /usr/include/curl ]; then \t\tln -sT \"/usr/include/$debMultiarch/curl\" /usr/local/include/curl; \tfi; \t./configure \t\t--build=\"$gnuArch\" \t\t--with-config-file-path=\"$PHP_INI_DIR\" \t\t--with-config-file-scan-dir=\"$PHP_INI_DIR/conf.d\" \t\t\t\t--enable-option-checking=fatal \t\t\t\t--with-mhash \t\t\t\t--with-pic \t\t\t\t--enable-ftp \t\t--enable-mbstring \t\t--enable-mysqlnd \t\t--with-password-argon2 \t\t--with-sodium=shared \t\t--with-pdo-sqlite=/usr \t\t--with-sqlite3=/usr \t\t\t\t--with-curl \t\t--with-iconv \t\t--with-openssl \t\t--with-readline \t\t--with-zlib \t\t\t\t--disable-phpdbg \t\t\t\t--with-pear \t\t\t\t$(test \"$gnuArch\" = 's390x-linux-gnu' \u0026\u0026 echo '--without-pcre-jit') \t\t--with-libdir=\"lib/$debMultiarch\" \t\t\t\t--disable-cgi \t\t\t\t--enable-fpm \t\t--with-fpm-user=www-data \t\t--with-fpm-group=www-data \t; \tmake -j \"$(nproc)\"; \tfind -type f -name '*.a' -delete; \tmake install; \tfind \t\t/usr/local \t\t-type f \t\t-perm '/0111' \t\t-exec sh -euxc ' \t\t\tstrip --strip-all \"$@\" || : \t\t' -- '{}' + \t; \tmake clean; \t\tcp -v php.ini-* \"$PHP_INI_DIR/\"; \t\tcd /; \tdocker-php-source delete; \t\tapt-mark auto '.*' \u003e /dev/null; \t[ -z \"$savedAptMark\" ] || apt-mark manual $savedAptMark; \tfind /usr/local -type f -executable -exec ldd '{}' ';' \t\t| awk '/=\u003e/ { print $(NF-1) }' \t\t| sort -u \t\t| xargs -r dpkg-query --search \t\t| cut -d: -f1 \t\t| sort -u \t\t| xargs -r apt-mark manual \t; \tapt-get purge -y --auto-remove -o APT::AutoRemove::RecommendsImportant=false; \trm -rf /var/lib/apt/lists/*; \t\tpecl update-channels; \trm -rf /tmp/pear ~/.pearrc; \t\tphp --version"
+				},
+				{
+					"id": "CVE-2019-15847",
+					"status": "open",
+					"cvss": 7.5,
+					"vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N",
+					"description": "The POWER9 backend in GNU Compiler Collection (GCC) before version 10 could optimize multiple calls of the __builtin_darn intrinsic into a single call, thus reducing the entropy of the random number generator. This occurred because a volatile operation was not specified. For example, within a single execution of a program, the output of every __builtin_darn() call may be the same.",
+					"severity": "low",
+					"packageName": "gcc-8",
+					"packageVersion": "8.3.0-6",
+					"link": "https://security-tracker.debian.org/tracker/CVE-2019-15847",
+					"riskFactors": [
+						"Attack complexity: low",
+						"Attack vector: network"
+					],
+					"impactedVersions": [
+						"*"
+					],
+					"publishedDate": "2019-09-02T23:15:00Z",
+					"discoveredDate": "2023-10-10T03:58:50Z",
+					"layerTime": "2023-06-12T23:21:32Z",
+					"layerInstruction": "ADD file:2818e508d01da2188fb234b38fb19aa1ea9eeeae92d361ecdf49318d949f51a9 in / "
+				},
+				{
+					"id": "CVE-2019-14855",
+					"status": "open",
+					"cvss": 7.5,
+					"vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N",
+					"description": "A flaw was found in the way certificate signatures could be forged using collisions found in the SHA-1 algorithm. An attacker could use this weakness to create forged certificate signatures. This issue affects GnuPG versions before 2.2.18.",
+					"severity": "low",
+					"packageName": "gnupg2",
+					"packageVersion": "2.2.12-1+deb10u2",
+					"link": "https://security-tracker.debian.org/tracker/CVE-2019-14855",
+					"riskFactors": [
+						"Attack complexity: low",
+						"Attack vector: network"
+					],
+					"impactedVersions": [
+						"*"
+					],
+					"publishedDate": "2020-03-20T16:15:00Z",
+					"discoveredDate": "2023-10-10T03:58:50Z",
+					"layerTime": "2023-06-12T23:21:32Z",
+					"layerInstruction": "ADD file:2818e508d01da2188fb234b38fb19aa1ea9eeeae92d361ecdf49318d949f51a9 in / "
+				},
+				{
+					"id": "CVE-2019-12290",
+					"status": "open",
+					"cvss": 7.5,
+					"vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:N",
+					"description": "GNU libidn2 before 2.2.0 fails to perform the roundtrip checks specified in RFC3490 Section 4.2 when converting A-labels to U-labels. This makes it possible in some circumstances for one domain to impersonate another. By creating a malicious domain that matches a target domain except for the inclusion of certain punycoded Unicode characters (that would be discarded when converted first to a Unicode label and then back to an ASCII label), arbitrary domains can be impersonated.",
+					"severity": "low",
+					"packageName": "libidn2",
+					"packageVersion": "2.0.5-1+deb10u1",
+					"link": "https://security-tracker.debian.org/tracker/CVE-2019-12290",
+					"riskFactors": [
+						"Attack complexity: low",
+						"Attack vector: network"
+					],
+					"impactedVersions": [
+						"*"
+					],
+					"publishedDate": "2019-10-22T16:15:00Z",
+					"discoveredDate": "2023-10-10T03:58:50Z",
+					"layerTime": "2023-06-12T23:21:32Z",
+					"layerInstruction": "ADD file:2818e508d01da2188fb234b38fb19aa1ea9eeeae92d361ecdf49318d949f51a9 in / "
+				},
+				{
+					"id": "CVE-2017-16932",
+					"status": "open",
+					"cvss": 7.5,
+					"vector": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+					"description": "parser.c in libxml2 before 2.9.5 does not prevent infinite recursion in parameter entities.",
+					"severity": "low",
+					"packageName": "libxml2",
+					"packageVersion": "2.9.4+dfsg1-7+deb10u6",
+					"link": "https://security-tracker.debian.org/tracker/CVE-2017-16932",
+					"riskFactors": [
+						"Attack complexity: low",
+						"Attack vector: network",
+						"DoS - High"
+					],
+					"impactedVersions": [
+						"*"
+					],
+					"publishedDate": "2018-01-29T00:00:00Z",
+					"discoveredDate": "2023-10-10T03:58:50Z",
+					"layerTime": "2023-06-13T11:39:10Z",
+					"layerInstruction": "RUN set -eux; \t\tsavedAptMark=\"$(apt-mark showmanual)\"; \tapt-get update; \tapt-get install -y --no-install-recommends \t\tlibargon2-dev \t\tlibcurl4-openssl-dev \t\tlibonig-dev \t\tlibreadline-dev \t\tlibsodium-dev \t\tlibsqlite3-dev \t\tlibssl-dev \t\tlibxml2-dev \t\tzlib1g-dev \t; \t\texport \t\tCFLAGS=\"$PHP_CFLAGS\" \t\tCPPFLAGS=\"$PHP_CPPFLAGS\" \t\tLDFLAGS=\"$PHP_LDFLAGS\" \t; \tdocker-php-source extract; \tcd /usr/src/php; \tgnuArch=\"$(dpkg-architecture --query DEB_BUILD_GNU_TYPE)\"; \tdebMultiarch=\"$(dpkg-architecture --query DEB_BUILD_MULTIARCH)\"; \tif [ ! -d /usr/include/curl ]; then \t\tln -sT \"/usr/include/$debMultiarch/curl\" /usr/local/include/curl; \tfi; \t./configure \t\t--build=\"$gnuArch\" \t\t--with-config-file-path=\"$PHP_INI_DIR\" \t\t--with-config-file-scan-dir=\"$PHP_INI_DIR/conf.d\" \t\t\t\t--enable-option-checking=fatal \t\t\t\t--with-mhash \t\t\t\t--with-pic \t\t\t\t--enable-ftp \t\t--enable-mbstring \t\t--enable-mysqlnd \t\t--with-password-argon2 \t\t--with-sodium=shared \t\t--with-pdo-sqlite=/usr \t\t--with-sqlite3=/usr \t\t\t\t--with-curl \t\t--with-iconv \t\t--with-openssl \t\t--with-readline \t\t--with-zlib \t\t\t\t--disable-phpdbg \t\t\t\t--with-pear \t\t\t\t$(test \"$gnuArch\" = 's390x-linux-gnu' \u0026\u0026 echo '--without-pcre-jit') \t\t--with-libdir=\"lib/$debMultiarch\" \t\t\t\t--disable-cgi \t\t\t\t--enable-fpm \t\t--with-fpm-user=www-data \t\t--with-fpm-group=www-data \t; \tmake -j \"$(nproc)\"; \tfind -type f -name '*.a' -delete; \tmake install; \tfind \t\t/usr/local \t\t-type f \t\t-perm '/0111' \t\t-exec sh -euxc ' \t\t\tstrip --strip-all \"$@\" || : \t\t' -- '{}' + \t; \tmake clean; \t\tcp -v php.ini-* \"$PHP_INI_DIR/\"; \t\tcd /; \tdocker-php-source delete; \t\tapt-mark auto '.*' \u003e /dev/null; \t[ -z \"$savedAptMark\" ] || apt-mark manual $savedAptMark; \tfind /usr/local -type f -executable -exec ldd '{}' ';' \t\t| awk '/=\u003e/ { print $(NF-1) }' \t\t| sort -u \t\t| xargs -r dpkg-query --search \t\t| cut -d: -f1 \t\t| sort -u \t\t| xargs -r apt-mark manual \t; \tapt-get purge -y --auto-remove -o APT::AutoRemove::RecommendsImportant=false; \trm -rf /var/lib/apt/lists/*; \t\tpecl update-channels; \trm -rf /tmp/pear ~/.pearrc; \t\tphp --version"
+				},
+				{
+					"id": "CVE-2023-36054",
+					"status": "open",
+					"cvss": 6.5,
+					"vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H",
+					"description": "lib/kadm5/kadm_rpc_xdr.c in MIT Kerberos 5 (aka krb5) before 1.20.2 and 1.21.x before 1.21.1 frees an uninitialized pointer. A remote authenticated user can trigger a kadmind crash. This occurs because _xdr_kadm5_principal_ent_rec does not validate the relationship between n_key_data and the key_data array count.",
+					"severity": "low",
+					"packageName": "krb5",
+					"packageVersion": "1.17-3+deb10u5",
+					"link": "https://security-tracker.debian.org/tracker/CVE-2023-36054",
+					"riskFactors": [
+						"Recent vulnerability",
+						"Attack complexity: low",
+						"Attack vector: network",
+						"DoS - High"
+					],
+					"impactedVersions": [
+						"*"
+					],
+					"publishedDate": "2023-08-07T19:15:00Z",
+					"discoveredDate": "2023-10-10T03:58:50Z",
+					"layerTime": "2023-06-13T11:02:40Z",
+					"layerInstruction": "RUN set -eux; \tapt-get update; \tapt-get install -y --no-install-recommends \t\t$PHPIZE_DEPS \t\tca-certificates \t\tcurl \t\txz-utils \t; \trm -rf /var/lib/apt/lists/*"
+				},
+				{
+					"id": "CVE-2019-13225",
+					"status": "open",
+					"cvss": 6.5,
+					"vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H",
+					"description": "A NULL Pointer Dereference in match_at() in regexec.c in Oniguruma 6.9.2 allows attackers to potentially cause denial of service by providing a crafted regular expression. Oniguruma issues often affect Ruby, as well as common optional libraries for PHP and Rust.",
+					"severity": "low",
+					"packageName": "libonig",
+					"packageVersion": "6.9.1-1",
+					"link": "https://security-tracker.debian.org/tracker/CVE-2019-13225",
+					"riskFactors": [
+						"Attack complexity: low",
+						"Attack vector: network",
+						"DoS - High"
+					],
+					"impactedVersions": [
+						"*"
+					],
+					"publishedDate": "2019-07-10T14:15:00Z",
+					"discoveredDate": "2023-10-10T03:58:50Z",
+					"layerTime": "2023-06-13T11:39:10Z",
+					"layerInstruction": "RUN set -eux; \t\tsavedAptMark=\"$(apt-mark showmanual)\"; \tapt-get update; \tapt-get install -y --no-install-recommends \t\tlibargon2-dev \t\tlibcurl4-openssl-dev \t\tlibonig-dev \t\tlibreadline-dev \t\tlibsodium-dev \t\tlibsqlite3-dev \t\tlibssl-dev \t\tlibxml2-dev \t\tzlib1g-dev \t; \t\texport \t\tCFLAGS=\"$PHP_CFLAGS\" \t\tCPPFLAGS=\"$PHP_CPPFLAGS\" \t\tLDFLAGS=\"$PHP_LDFLAGS\" \t; \tdocker-php-source extract; \tcd /usr/src/php; \tgnuArch=\"$(dpkg-architecture --query DEB_BUILD_GNU_TYPE)\"; \tdebMultiarch=\"$(dpkg-architecture --query DEB_BUILD_MULTIARCH)\"; \tif [ ! -d /usr/include/curl ]; then \t\tln -sT \"/usr/include/$debMultiarch/curl\" /usr/local/include/curl; \tfi; \t./configure \t\t--build=\"$gnuArch\" \t\t--with-config-file-path=\"$PHP_INI_DIR\" \t\t--with-config-file-scan-dir=\"$PHP_INI_DIR/conf.d\" \t\t\t\t--enable-option-checking=fatal \t\t\t\t--with-mhash \t\t\t\t--with-pic \t\t\t\t--enable-ftp \t\t--enable-mbstring \t\t--enable-mysqlnd \t\t--with-password-argon2 \t\t--with-sodium=shared \t\t--with-pdo-sqlite=/usr \t\t--with-sqlite3=/usr \t\t\t\t--with-curl \t\t--with-iconv \t\t--with-openssl \t\t--with-readline \t\t--with-zlib \t\t\t\t--disable-phpdbg \t\t\t\t--with-pear \t\t\t\t$(test \"$gnuArch\" = 's390x-linux-gnu' \u0026\u0026 echo '--without-pcre-jit') \t\t--with-libdir=\"lib/$debMultiarch\" \t\t\t\t--disable-cgi \t\t\t\t--enable-fpm \t\t--with-fpm-user=www-data \t\t--with-fpm-group=www-data \t; \tmake -j \"$(nproc)\"; \tfind -type f -name '*.a' -delete; \tmake install; \tfind \t\t/usr/local \t\t-type f \t\t-perm '/0111' \t\t-exec sh -euxc ' \t\t\tstrip --strip-all \"$@\" || : \t\t' -- '{}' + \t; \tmake clean; \t\tcp -v php.ini-* \"$PHP_INI_DIR/\"; \t\tcd /; \tdocker-php-source delete; \t\tapt-mark auto '.*' \u003e /dev/null; \t[ -z \"$savedAptMark\" ] || apt-mark manual $savedAptMark; \tfind /usr/local -type f -executable -exec ldd '{}' ';' \t\t| awk '/=\u003e/ { print $(NF-1) }' \t\t| sort -u \t\t| xargs -r dpkg-query --search \t\t| cut -d: -f1 \t\t| sort -u \t\t| xargs -r apt-mark manual \t; \tapt-get purge -y --auto-remove -o APT::AutoRemove::RecommendsImportant=false; \trm -rf /var/lib/apt/lists/*; \t\tpecl update-channels; \trm -rf /tmp/pear ~/.pearrc; \t\tphp --version"
+				},
+				{
+					"id": "CVE-2016-2781",
+					"status": "open",
+					"cvss": 6.5,
+					"vector": "CVSS:3.0/AV:L/AC:L/PR:L/UI:N/S:C/C:N/I:H/A:N",
+					"description": "chroot in GNU coreutils, when used with --userspec, allows local users to escape to the parent session via a crafted TIOCSTI ioctl call, which pushes characters to the terminal\\'s input buffer.",
+					"severity": "low",
+					"packageName": "coreutils",
+					"packageVersion": "8.30-3",
+					"link": "https://security-tracker.debian.org/tracker/CVE-2016-2781",
+					"riskFactors": [
+						"Attack complexity: low"
+					],
+					"impactedVersions": [
+						"*"
+					],
+					"publishedDate": "2017-02-07T15:59:00Z",
+					"discoveredDate": "2023-10-10T03:58:50Z",
+					"layerTime": "2023-06-12T23:21:32Z",
+					"layerInstruction": "ADD file:2818e508d01da2188fb234b38fb19aa1ea9eeeae92d361ecdf49318d949f51a9 in / "
+				},
+				{
+					"id": "CVE-2019-13627",
+					"status": "open",
+					"cvss": 6.3,
+					"vector": "CVSS:3.1/AV:L/AC:H/PR:N/UI:R/S:U/C:H/I:H/A:N",
+					"description": "It was discovered that there was a ECDSA timing attack in the libgcrypt20 cryptographic library. Version affected: 1.8.4-5, 1.7.6-2+deb9u3, and 1.6.3-2+deb8u4. Versions fixed: 1.8.5-2 and 1.6.3-2+deb8u7.",
+					"severity": "low",
+					"packageName": "libgcrypt20",
+					"packageVersion": "1.8.4-5+deb10u1",
+					"link": "https://security-tracker.debian.org/tracker/CVE-2019-13627",
+					"impactedVersions": [
+						"*"
+					],
+					"publishedDate": "2019-09-25T15:15:00Z",
+					"discoveredDate": "2023-10-10T03:58:50Z",
+					"layerTime": "2023-06-12T23:21:32Z",
+					"layerInstruction": "ADD file:2818e508d01da2188fb234b38fb19aa1ea9eeeae92d361ecdf49318d949f51a9 in / "
+				},
+				{
+					"id": "CVE-2016-3709",
+					"status": "open",
+					"cvss": 6.1,
+					"vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N",
+					"description": "Possible cross-site scripting vulnerability in libxml after commit 960f0e2.",
+					"severity": "low",
+					"packageName": "libxml2",
+					"packageVersion": "2.9.4+dfsg1-7+deb10u6",
+					"link": "https://security-tracker.debian.org/tracker/CVE-2016-3709",
+					"riskFactors": [
+						"Attack complexity: low",
+						"Attack vector: network"
+					],
+					"impactedVersions": [
+						"*"
+					],
+					"publishedDate": "2022-07-28T17:15:00Z",
+					"discoveredDate": "2023-10-10T03:58:50Z",
+					"layerTime": "2023-06-13T11:39:10Z",
+					"layerInstruction": "RUN set -eux; \t\tsavedAptMark=\"$(apt-mark showmanual)\"; \tapt-get update; \tapt-get install -y --no-install-recommends \t\tlibargon2-dev \t\tlibcurl4-openssl-dev \t\tlibonig-dev \t\tlibreadline-dev \t\tlibsodium-dev \t\tlibsqlite3-dev \t\tlibssl-dev \t\tlibxml2-dev \t\tzlib1g-dev \t; \t\texport \t\tCFLAGS=\"$PHP_CFLAGS\" \t\tCPPFLAGS=\"$PHP_CPPFLAGS\" \t\tLDFLAGS=\"$PHP_LDFLAGS\" \t; \tdocker-php-source extract; \tcd /usr/src/php; \tgnuArch=\"$(dpkg-architecture --query DEB_BUILD_GNU_TYPE)\"; \tdebMultiarch=\"$(dpkg-architecture --query DEB_BUILD_MULTIARCH)\"; \tif [ ! -d /usr/include/curl ]; then \t\tln -sT \"/usr/include/$debMultiarch/curl\" /usr/local/include/curl; \tfi; \t./configure \t\t--build=\"$gnuArch\" \t\t--with-config-file-path=\"$PHP_INI_DIR\" \t\t--with-config-file-scan-dir=\"$PHP_INI_DIR/conf.d\" \t\t\t\t--enable-option-checking=fatal \t\t\t\t--with-mhash \t\t\t\t--with-pic \t\t\t\t--enable-ftp \t\t--enable-mbstring \t\t--enable-mysqlnd \t\t--with-password-argon2 \t\t--with-sodium=shared \t\t--with-pdo-sqlite=/usr \t\t--with-sqlite3=/usr \t\t\t\t--with-curl \t\t--with-iconv \t\t--with-openssl \t\t--with-readline \t\t--with-zlib \t\t\t\t--disable-phpdbg \t\t\t\t--with-pear \t\t\t\t$(test \"$gnuArch\" = 's390x-linux-gnu' \u0026\u0026 echo '--without-pcre-jit') \t\t--with-libdir=\"lib/$debMultiarch\" \t\t\t\t--disable-cgi \t\t\t\t--enable-fpm \t\t--with-fpm-user=www-data \t\t--with-fpm-group=www-data \t; \tmake -j \"$(nproc)\"; \tfind -type f -name '*.a' -delete; \tmake install; \tfind \t\t/usr/local \t\t-type f \t\t-perm '/0111' \t\t-exec sh -euxc ' \t\t\tstrip --strip-all \"$@\" || : \t\t' -- '{}' + \t; \tmake clean; \t\tcp -v php.ini-* \"$PHP_INI_DIR/\"; \t\tcd /; \tdocker-php-source delete; \t\tapt-mark auto '.*' \u003e /dev/null; \t[ -z \"$savedAptMark\" ] || apt-mark manual $savedAptMark; \tfind /usr/local -type f -executable -exec ldd '{}' ';' \t\t| awk '/=\u003e/ { print $(NF-1) }' \t\t| sort -u \t\t| xargs -r dpkg-query --search \t\t| cut -d: -f1 \t\t| sort -u \t\t| xargs -r apt-mark manual \t; \tapt-get purge -y --auto-remove -o APT::AutoRemove::RecommendsImportant=false; \trm -rf /var/lib/apt/lists/*; \t\tpecl update-channels; \trm -rf /tmp/pear ~/.pearrc; \t\tphp --version"
+				},
+				{
+					"id": "CVE-2023-4813",
+					"status": "open",
+					"cvss": 5.9,
+					"vector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H",
+					"description": "A flaw was found in glibc. In an uncommon situation, the gaih_inet function may use memory that has been freed, resulting in an application crash. This issue is only exploitable when the getaddrinfo function is called and the hosts database in /etc/nsswitch.conf is configured with SUCCESS=continue or SUCCESS=merge.",
+					"severity": "low",
+					"packageName": "glibc",
+					"packageVersion": "2.28-10+deb10u2",
+					"link": "https://security-tracker.debian.org/tracker/CVE-2023-4813",
+					"riskFactors": [
+						"DoS - High",
+						"Recent vulnerability",
+						"Attack vector: network"
+					],
+					"impactedVersions": [
+						"*"
+					],
+					"publishedDate": "2023-09-12T22:15:00Z",
+					"discoveredDate": "2023-10-10T03:58:50Z",
+					"layerTime": "2023-06-12T23:21:32Z",
+					"layerInstruction": "ADD file:2818e508d01da2188fb234b38fb19aa1ea9eeeae92d361ecdf49318d949f51a9 in / "
+				},
+				{
+					"id": "CVE-2023-4806",
+					"status": "open",
+					"cvss": 5.9,
+					"vector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H",
+					"description": "A flaw was found in glibc. In an extremely rare situation, the getaddrinfo function may access memory that has been freed, resulting in an application crash. This issue is only exploitable when a NSS module implements only the _nss_*_gethostbyname2_r and _nss_*_getcanonname_r hooks without implementing the _nss_*_gethostbyname3_r hook. The resolved name should return a large number of IPv6 and IPv4, and the call to the getaddrinfo function should have the AF_INET6 address family with AI_CANONNAME, AI_ALL and AI_V4MAPPED as flags.",
+					"severity": "low",
+					"packageName": "glibc",
+					"packageVersion": "2.28-10+deb10u2",
+					"link": "https://security-tracker.debian.org/tracker/CVE-2023-4806",
+					"riskFactors": [
+						"DoS - High",
+						"Recent vulnerability",
+						"Attack vector: network"
+					],
+					"impactedVersions": [
+						"*"
+					],
+					"publishedDate": "2023-09-18T17:15:00Z",
+					"discoveredDate": "2023-10-10T03:58:50Z",
+					"layerTime": "2023-06-12T23:21:32Z",
+					"layerInstruction": "ADD file:2818e508d01da2188fb234b38fb19aa1ea9eeeae92d361ecdf49318d949f51a9 in / "
+				},
+				{
+					"id": "CVE-2023-28321",
+					"status": "open",
+					"cvss": 5.9,
+					"vector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:H/A:N",
+					"description": "An improper certificate validation vulnerability exists in curl \u003cv8.1.0 in the way it supports matching of wildcard patterns when listed as \\\"Subject Alternative Name\\\" in TLS server certificates. curl can be built to use its own name matching function for TLS rather than one provided by a TLS library. This private wildcard matching function would match IDN (International Domain Name) hosts incorrectly and could as a result accept patterns that otherwise should mismatch. IDN hostnames are converted to puny code before used for certificate checks. Puny coded names always start with `xn--` and should not be allowed to pattern match, but the wildcard check in curl could still check for `x*`, which would match even though the IDN name most likely contained nothing even resembling an `x`.",
+					"severity": "low",
+					"packageName": "curl",
+					"packageVersion": "7.64.0-4+deb10u6",
+					"link": "https://security-tracker.debian.org/tracker/CVE-2023-28321",
+					"riskFactors": [
+						"Attack vector: network",
+						"Exploit exists - POC",
+						"Recent vulnerability"
+					],
+					"impactedVersions": [
+						"*"
+					],
+					"publishedDate": "2023-05-26T21:15:00Z",
+					"discoveredDate": "2023-10-10T03:58:50Z",
+					"layerTime": "2023-06-13T11:02:40Z",
+					"layerInstruction": "RUN set -eux; \tapt-get update; \tapt-get install -y --no-install-recommends \t\t$PHPIZE_DEPS \t\tca-certificates \t\tcurl \t\txz-utils \t; \trm -rf /var/lib/apt/lists/*"
+				},
+				{
+					"id": "CVE-2021-3997",
+					"status": "open",
+					"cvss": 5.5,
+					"vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H",
+					"description": "A flaw was found in systemd. An uncontrolled recursion in systemd-tmpfiles may lead to a denial of service at boot time when too many nested directories are created in /tmp.",
+					"severity": "low",
+					"packageName": "systemd",
+					"packageVersion": "241-7~deb10u9",
+					"link": "https://security-tracker.debian.org/tracker/CVE-2021-3997",
+					"riskFactors": [
+						"Attack complexity: low",
+						"DoS - High"
+					],
+					"impactedVersions": [
+						"*"
+					],
+					"publishedDate": "2022-08-23T20:15:00Z",
+					"discoveredDate": "2023-10-10T03:58:50Z",
+					"layerTime": "2023-06-12T23:21:32Z",
+					"layerInstruction": "ADD file:2818e508d01da2188fb234b38fb19aa1ea9eeeae92d361ecdf49318d949f51a9 in / "
+				},
+				{
+					"id": "CVE-2020-13631",
+					"status": "open",
+					"cvss": 5.5,
+					"vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:H/A:N",
+					"description": "SQLite before 3.32.0 allows a virtual table to be renamed to the name of one of its shadow tables, related to alter.c and build.c.",
+					"severity": "low",
+					"packageName": "sqlite3",
+					"packageVersion": "3.27.2-3+deb10u2",
+					"link": "https://security-tracker.debian.org/tracker/CVE-2020-13631",
+					"riskFactors": [
+						"Attack complexity: low"
+					],
+					"impactedVersions": [
+						"*"
+					],
+					"publishedDate": "2020-05-27T15:15:00Z",
+					"discoveredDate": "2023-10-10T03:58:50Z",
+					"layerTime": "2023-06-13T11:39:10Z",
+					"layerInstruction": "RUN set -eux; \t\tsavedAptMark=\"$(apt-mark showmanual)\"; \tapt-get update; \tapt-get install -y --no-install-recommends \t\tlibargon2-dev \t\tlibcurl4-openssl-dev \t\tlibonig-dev \t\tlibreadline-dev \t\tlibsodium-dev \t\tlibsqlite3-dev \t\tlibssl-dev \t\tlibxml2-dev \t\tzlib1g-dev \t; \t\texport \t\tCFLAGS=\"$PHP_CFLAGS\" \t\tCPPFLAGS=\"$PHP_CPPFLAGS\" \t\tLDFLAGS=\"$PHP_LDFLAGS\" \t; \tdocker-php-source extract; \tcd /usr/src/php; \tgnuArch=\"$(dpkg-architecture --query DEB_BUILD_GNU_TYPE)\"; \tdebMultiarch=\"$(dpkg-architecture --query DEB_BUILD_MULTIARCH)\"; \tif [ ! -d /usr/include/curl ]; then \t\tln -sT \"/usr/include/$debMultiarch/curl\" /usr/local/include/curl; \tfi; \t./configure \t\t--build=\"$gnuArch\" \t\t--with-config-file-path=\"$PHP_INI_DIR\" \t\t--with-config-file-scan-dir=\"$PHP_INI_DIR/conf.d\" \t\t\t\t--enable-option-checking=fatal \t\t\t\t--with-mhash \t\t\t\t--with-pic \t\t\t\t--enable-ftp \t\t--enable-mbstring \t\t--enable-mysqlnd \t\t--with-password-argon2 \t\t--with-sodium=shared \t\t--with-pdo-sqlite=/usr \t\t--with-sqlite3=/usr \t\t\t\t--with-curl \t\t--with-iconv \t\t--with-openssl \t\t--with-readline \t\t--with-zlib \t\t\t\t--disable-phpdbg \t\t\t\t--with-pear \t\t\t\t$(test \"$gnuArch\" = 's390x-linux-gnu' \u0026\u0026 echo '--without-pcre-jit') \t\t--with-libdir=\"lib/$debMultiarch\" \t\t\t\t--disable-cgi \t\t\t\t--enable-fpm \t\t--with-fpm-user=www-data \t\t--with-fpm-group=www-data \t; \tmake -j \"$(nproc)\"; \tfind -type f -name '*.a' -delete; \tmake install; \tfind \t\t/usr/local \t\t-type f \t\t-perm '/0111' \t\t-exec sh -euxc ' \t\t\tstrip --strip-all \"$@\" || : \t\t' -- '{}' + \t; \tmake clean; \t\tcp -v php.ini-* \"$PHP_INI_DIR/\"; \t\tcd /; \tdocker-php-source delete; \t\tapt-mark auto '.*' \u003e /dev/null; \t[ -z \"$savedAptMark\" ] || apt-mark manual $savedAptMark; \tfind /usr/local -type f -executable -exec ldd '{}' ';' \t\t| awk '/=\u003e/ { print $(NF-1) }' \t\t| sort -u \t\t| xargs -r dpkg-query --search \t\t| cut -d: -f1 \t\t| sort -u \t\t| xargs -r apt-mark manual \t; \tapt-get purge -y --auto-remove -o APT::AutoRemove::RecommendsImportant=false; \trm -rf /var/lib/apt/lists/*; \t\tpecl update-channels; \trm -rf /tmp/pear ~/.pearrc; \t\tphp --version"
+				},
+				{
+					"id": "CVE-2019-19645",
+					"status": "open",
+					"cvss": 5.5,
+					"vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H",
+					"description": "alter.c in SQLite through 3.30.1 allows attackers to trigger infinite recursion via certain types of self-referential views in conjunction with ALTER TABLE statements.",
+					"severity": "low",
+					"packageName": "sqlite3",
+					"packageVersion": "3.27.2-3+deb10u2",
+					"link": "https://security-tracker.debian.org/tracker/CVE-2019-19645",
+					"riskFactors": [
+						"DoS - High",
+						"Attack complexity: low"
+					],
+					"impactedVersions": [
+						"*"
+					],
+					"publishedDate": "2019-12-09T16:15:00Z",
+					"discoveredDate": "2023-10-10T03:58:50Z",
+					"layerTime": "2023-06-13T11:39:10Z",
+					"layerInstruction": "RUN set -eux; \t\tsavedAptMark=\"$(apt-mark showmanual)\"; \tapt-get update; \tapt-get install -y --no-install-recommends \t\tlibargon2-dev \t\tlibcurl4-openssl-dev \t\tlibonig-dev \t\tlibreadline-dev \t\tlibsodium-dev \t\tlibsqlite3-dev \t\tlibssl-dev \t\tlibxml2-dev \t\tzlib1g-dev \t; \t\texport \t\tCFLAGS=\"$PHP_CFLAGS\" \t\tCPPFLAGS=\"$PHP_CPPFLAGS\" \t\tLDFLAGS=\"$PHP_LDFLAGS\" \t; \tdocker-php-source extract; \tcd /usr/src/php; \tgnuArch=\"$(dpkg-architecture --query DEB_BUILD_GNU_TYPE)\"; \tdebMultiarch=\"$(dpkg-architecture --query DEB_BUILD_MULTIARCH)\"; \tif [ ! -d /usr/include/curl ]; then \t\tln -sT \"/usr/include/$debMultiarch/curl\" /usr/local/include/curl; \tfi; \t./configure \t\t--build=\"$gnuArch\" \t\t--with-config-file-path=\"$PHP_INI_DIR\" \t\t--with-config-file-scan-dir=\"$PHP_INI_DIR/conf.d\" \t\t\t\t--enable-option-checking=fatal \t\t\t\t--with-mhash \t\t\t\t--with-pic \t\t\t\t--enable-ftp \t\t--enable-mbstring \t\t--enable-mysqlnd \t\t--with-password-argon2 \t\t--with-sodium=shared \t\t--with-pdo-sqlite=/usr \t\t--with-sqlite3=/usr \t\t\t\t--with-curl \t\t--with-iconv \t\t--with-openssl \t\t--with-readline \t\t--with-zlib \t\t\t\t--disable-phpdbg \t\t\t\t--with-pear \t\t\t\t$(test \"$gnuArch\" = 's390x-linux-gnu' \u0026\u0026 echo '--without-pcre-jit') \t\t--with-libdir=\"lib/$debMultiarch\" \t\t\t\t--disable-cgi \t\t\t\t--enable-fpm \t\t--with-fpm-user=www-data \t\t--with-fpm-group=www-data \t; \tmake -j \"$(nproc)\"; \tfind -type f -name '*.a' -delete; \tmake install; \tfind \t\t/usr/local \t\t-type f \t\t-perm '/0111' \t\t-exec sh -euxc ' \t\t\tstrip --strip-all \"$@\" || : \t\t' -- '{}' + \t; \tmake clean; \t\tcp -v php.ini-* \"$PHP_INI_DIR/\"; \t\tcd /; \tdocker-php-source delete; \t\tapt-mark auto '.*' \u003e /dev/null; \t[ -z \"$savedAptMark\" ] || apt-mark manual $savedAptMark; \tfind /usr/local -type f -executable -exec ldd '{}' ';' \t\t| awk '/=\u003e/ { print $(NF-1) }' \t\t| sort -u \t\t| xargs -r dpkg-query --search \t\t| cut -d: -f1 \t\t| sort -u \t\t| xargs -r apt-mark manual \t; \tapt-get purge -y --auto-remove -o APT::AutoRemove::RecommendsImportant=false; \trm -rf /var/lib/apt/lists/*; \t\tpecl update-channels; \trm -rf /tmp/pear ~/.pearrc; \t\tphp --version"
+				},
+				{
+					"id": "CVE-2016-9318",
+					"status": "open",
+					"cvss": 5.5,
+					"vector": "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:N",
+					"description": "libxml2 2.9.4 and earlier, as used in XMLSec 1.2.23 and earlier and other products, does not offer a flag directly indicating that the current document may be read but other files may not be opened, which makes it easier for remote attackers to conduct XML External Entity (XXE) attacks via a crafted document.",
+					"severity": "low",
+					"packageName": "libxml2",
+					"packageVersion": "2.9.4+dfsg1-7+deb10u6",
+					"link": "https://security-tracker.debian.org/tracker/CVE-2016-9318",
+					"riskFactors": [
+						"Attack complexity: low"
+					],
+					"impactedVersions": [
+						"*"
+					],
+					"publishedDate": "2016-11-16T00:59:00Z",
+					"discoveredDate": "2023-10-10T03:58:50Z",
+					"layerTime": "2023-06-13T11:39:10Z",
+					"layerInstruction": "RUN set -eux; \t\tsavedAptMark=\"$(apt-mark showmanual)\"; \tapt-get update; \tapt-get install -y --no-install-recommends \t\tlibargon2-dev \t\tlibcurl4-openssl-dev \t\tlibonig-dev \t\tlibreadline-dev \t\tlibsodium-dev \t\tlibsqlite3-dev \t\tlibssl-dev \t\tlibxml2-dev \t\tzlib1g-dev \t; \t\texport \t\tCFLAGS=\"$PHP_CFLAGS\" \t\tCPPFLAGS=\"$PHP_CPPFLAGS\" \t\tLDFLAGS=\"$PHP_LDFLAGS\" \t; \tdocker-php-source extract; \tcd /usr/src/php; \tgnuArch=\"$(dpkg-architecture --query DEB_BUILD_GNU_TYPE)\"; \tdebMultiarch=\"$(dpkg-architecture --query DEB_BUILD_MULTIARCH)\"; \tif [ ! -d /usr/include/curl ]; then \t\tln -sT \"/usr/include/$debMultiarch/curl\" /usr/local/include/curl; \tfi; \t./configure \t\t--build=\"$gnuArch\" \t\t--with-config-file-path=\"$PHP_INI_DIR\" \t\t--with-config-file-scan-dir=\"$PHP_INI_DIR/conf.d\" \t\t\t\t--enable-option-checking=fatal \t\t\t\t--with-mhash \t\t\t\t--with-pic \t\t\t\t--enable-ftp \t\t--enable-mbstring \t\t--enable-mysqlnd \t\t--with-password-argon2 \t\t--with-sodium=shared \t\t--with-pdo-sqlite=/usr \t\t--with-sqlite3=/usr \t\t\t\t--with-curl \t\t--with-iconv \t\t--with-openssl \t\t--with-readline \t\t--with-zlib \t\t\t\t--disable-phpdbg \t\t\t\t--with-pear \t\t\t\t$(test \"$gnuArch\" = 's390x-linux-gnu' \u0026\u0026 echo '--without-pcre-jit') \t\t--with-libdir=\"lib/$debMultiarch\" \t\t\t\t--disable-cgi \t\t\t\t--enable-fpm \t\t--with-fpm-user=www-data \t\t--with-fpm-group=www-data \t; \tmake -j \"$(nproc)\"; \tfind -type f -name '*.a' -delete; \tmake install; \tfind \t\t/usr/local \t\t-type f \t\t-perm '/0111' \t\t-exec sh -euxc ' \t\t\tstrip --strip-all \"$@\" || : \t\t' -- '{}' + \t; \tmake clean; \t\tcp -v php.ini-* \"$PHP_INI_DIR/\"; \t\tcd /; \tdocker-php-source delete; \t\tapt-mark auto '.*' \u003e /dev/null; \t[ -z \"$savedAptMark\" ] || apt-mark manual $savedAptMark; \tfind /usr/local -type f -executable -exec ldd '{}' ';' \t\t| awk '/=\u003e/ { print $(NF-1) }' \t\t| sort -u \t\t| xargs -r dpkg-query --search \t\t| cut -d: -f1 \t\t| sort -u \t\t| xargs -r apt-mark manual \t; \tapt-get purge -y --auto-remove -o APT::AutoRemove::RecommendsImportant=false; \trm -rf /var/lib/apt/lists/*; \t\tpecl update-channels; \trm -rf /tmp/pear ~/.pearrc; \t\tphp --version"
+				},
+				{
+					"id": "CVE-2020-14155",
+					"status": "open",
+					"cvss": 5.3,
+					"vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L",
+					"description": "libpcre in PCRE before 8.44 allows an integer overflow via a large number after a ",
+					"severity": "low",
+					"packageName": "pcre3",
+					"packageVersion": "2:8.39-12",
+					"link": "https://security-tracker.debian.org/tracker/CVE-2020-14155",
+					"riskFactors": [
+						"Attack complexity: low",
+						"Attack vector: network",
+						"DoS - Low"
+					],
+					"impactedVersions": [
+						"*"
+					],
+					"publishedDate": "2020-06-15T17:15:00Z",
+					"discoveredDate": "2023-10-10T03:58:50Z",
+					"layerTime": "2023-06-12T23:21:32Z",
+					"layerInstruction": "ADD file:2818e508d01da2188fb234b38fb19aa1ea9eeeae92d361ecdf49318d949f51a9 in / "
+				},
+				{
+					"id": "CVE-2019-19924",
+					"status": "open",
+					"cvss": 5.3,
+					"vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N",
+					"description": "SQLite 3.30.1 mishandles certain parser-tree rewriting, related to expr.c, vdbeaux.c, and window.c. This is caused by incorrect sqlite3WindowRewrite() error handling.",
+					"severity": "low",
+					"packageName": "sqlite3",
+					"packageVersion": "3.27.2-3+deb10u2",
+					"link": "https://security-tracker.debian.org/tracker/CVE-2019-19924",
+					"riskFactors": [
+						"Attack complexity: low",
+						"Attack vector: network"
+					],
+					"impactedVersions": [
+						"*"
+					],
+					"publishedDate": "2019-12-24T16:15:00Z",
+					"discoveredDate": "2023-10-10T03:58:50Z",
+					"layerTime": "2023-06-13T11:39:10Z",
+					"layerInstruction": "RUN set -eux; \t\tsavedAptMark=\"$(apt-mark showmanual)\"; \tapt-get update; \tapt-get install -y --no-install-recommends \t\tlibargon2-dev \t\tlibcurl4-openssl-dev \t\tlibonig-dev \t\tlibreadline-dev \t\tlibsodium-dev \t\tlibsqlite3-dev \t\tlibssl-dev \t\tlibxml2-dev \t\tzlib1g-dev \t; \t\texport \t\tCFLAGS=\"$PHP_CFLAGS\" \t\tCPPFLAGS=\"$PHP_CPPFLAGS\" \t\tLDFLAGS=\"$PHP_LDFLAGS\" \t; \tdocker-php-source extract; \tcd /usr/src/php; \tgnuArch=\"$(dpkg-architecture --query DEB_BUILD_GNU_TYPE)\"; \tdebMultiarch=\"$(dpkg-architecture --query DEB_BUILD_MULTIARCH)\"; \tif [ ! -d /usr/include/curl ]; then \t\tln -sT \"/usr/include/$debMultiarch/curl\" /usr/local/include/curl; \tfi; \t./configure \t\t--build=\"$gnuArch\" \t\t--with-config-file-path=\"$PHP_INI_DIR\" \t\t--with-config-file-scan-dir=\"$PHP_INI_DIR/conf.d\" \t\t\t\t--enable-option-checking=fatal \t\t\t\t--with-mhash \t\t\t\t--with-pic \t\t\t\t--enable-ftp \t\t--enable-mbstring \t\t--enable-mysqlnd \t\t--with-password-argon2 \t\t--with-sodium=shared \t\t--with-pdo-sqlite=/usr \t\t--with-sqlite3=/usr \t\t\t\t--with-curl \t\t--with-iconv \t\t--with-openssl \t\t--with-readline \t\t--with-zlib \t\t\t\t--disable-phpdbg \t\t\t\t--with-pear \t\t\t\t$(test \"$gnuArch\" = 's390x-linux-gnu' \u0026\u0026 echo '--without-pcre-jit') \t\t--with-libdir=\"lib/$debMultiarch\" \t\t\t\t--disable-cgi \t\t\t\t--enable-fpm \t\t--with-fpm-user=www-data \t\t--with-fpm-group=www-data \t; \tmake -j \"$(nproc)\"; \tfind -type f -name '*.a' -delete; \tmake install; \tfind \t\t/usr/local \t\t-type f \t\t-perm '/0111' \t\t-exec sh -euxc ' \t\t\tstrip --strip-all \"$@\" || : \t\t' -- '{}' + \t; \tmake clean; \t\tcp -v php.ini-* \"$PHP_INI_DIR/\"; \t\tcd /; \tdocker-php-source delete; \t\tapt-mark auto '.*' \u003e /dev/null; \t[ -z \"$savedAptMark\" ] || apt-mark manual $savedAptMark; \tfind /usr/local -type f -executable -exec ldd '{}' ';' \t\t| awk '/=\u003e/ { print $(NF-1) }' \t\t| sort -u \t\t| xargs -r dpkg-query --search \t\t| cut -d: -f1 \t\t| sort -u \t\t| xargs -r apt-mark manual \t; \tapt-get purge -y --auto-remove -o APT::AutoRemove::RecommendsImportant=false; \trm -rf /var/lib/apt/lists/*; \t\tpecl update-channels; \trm -rf /tmp/pear ~/.pearrc; \t\tphp --version"
+				},
+				{
+					"id": "CVE-2018-7169",
+					"status": "open",
+					"cvss": 5.3,
+					"vector": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N",
+					"description": "An issue was discovered in shadow 4.5. newgidmap (in shadow-utils) is setuid and allows an unprivileged user to be placed in a user namespace where setgroups(2) is permitted. This allows an attacker to remove themselves from a supplementary group, which may allow access to certain filesystem paths if the administrator has used \\\"group blacklisting\\\" (e.g., chmod g-rwx) to restrict access to paths. This flaw effectively reverts a security feature in the kernel (in particular, the /proc/self/setgroups knob) to prevent this sort of privilege escalation.",
+					"severity": "low",
+					"packageName": "shadow",
+					"packageVersion": "1:4.5-1.1",
+					"link": "https://security-tracker.debian.org/tracker/CVE-2018-7169",
+					"riskFactors": [
+						"Attack complexity: low",
+						"Attack vector: network"
+					],
+					"impactedVersions": [
+						"*"
+					],
+					"publishedDate": "2018-02-15T20:29:00Z",
+					"discoveredDate": "2023-10-10T03:58:50Z",
+					"layerTime": "2023-06-12T23:21:32Z",
+					"layerInstruction": "ADD file:2818e508d01da2188fb234b38fb19aa1ea9eeeae92d361ecdf49318d949f51a9 in / "
+				},
+				{
+					"id": "CVE-2023-4039",
+					"status": "open",
+					"cvss": 4.8,
+					"vector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:N",
+					"description": "  A failure in the -fstack-protector feature in GCC-based toolchains  that target AArch64 allows an attacker to exploit an existing buffer  overflow in dynamically-sized local variables in your application  without this being detected. This stack-protector failure only applies  to C99-style dynamically-sized local variables or those created using  alloca(). The stack-protector operates as intended for statically-sized  local variables.  The default behavior when the stack-protector  detects an overflow is to terminate your application, resulting in  controlled loss of availability. An attacker who can exploit a buffer  overflow without triggering the stack-protector might be able to change  program flow control to cause an uncontrolled loss of availability or to  go further and affect confidentiality or integrity.      ",
+					"severity": "low",
+					"packageName": "gcc-8",
+					"packageVersion": "8.3.0-6",
+					"link": "https://security-tracker.debian.org/tracker/CVE-2023-4039",
+					"riskFactors": [
+						"Attack vector: network",
+						"Recent vulnerability"
+					],
+					"impactedVersions": [
+						"*"
+					],
+					"publishedDate": "2023-09-13T09:15:00Z",
+					"discoveredDate": "2023-10-10T03:58:50Z",
+					"layerTime": "2023-06-12T23:21:32Z",
+					"layerInstruction": "ADD file:2818e508d01da2188fb234b38fb19aa1ea9eeeae92d361ecdf49318d949f51a9 in / "
+				},
+				{
+					"id": "CVE-2023-28322",
+					"status": "open",
+					"cvss": 3.7,
+					"vector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:N/A:N",
+					"description": "An information disclosure vulnerability exists in curl \u003cv8.1.0 when doing HTTP(S) transfers, libcurl might erroneously use the read callback (`CURLOPT_READFUNCTION`) to ask for data to send, even when the `CURLOPT_POSTFIELDS` option has been set, if the same handle previously wasused to issue a `PUT` request which used that callback. This flaw may surprise the application and cause it to misbehave and either send off the wrong data or use memory after free or similar in the second transfer. The problem exists in the logic for a reused handle when it is (expected to be) changed from a PUT to a POST.",
+					"severity": "low",
+					"packageName": "curl",
+					"packageVersion": "7.64.0-4+deb10u6",
+					"link": "https://security-tracker.debian.org/tracker/CVE-2023-28322",
+					"riskFactors": [
+						"Attack vector: network",
+						"Exploit exists - POC",
+						"Recent vulnerability"
+					],
+					"impactedVersions": [
+						"*"
+					],
+					"publishedDate": "2023-05-26T21:15:00Z",
+					"discoveredDate": "2023-10-10T03:58:50Z",
+					"layerTime": "2023-06-13T11:02:40Z",
+					"layerInstruction": "RUN set -eux; \tapt-get update; \tapt-get install -y --no-install-recommends \t\t$PHPIZE_DEPS \t\tca-certificates \t\tcurl \t\txz-utils \t; \trm -rf /var/lib/apt/lists/*"
+				},
+				{
+					"id": "CVE-2023-29383",
+					"status": "open",
+					"cvss": 3.3,
+					"vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:L/A:N",
+					"description": "In Shadow 4.13, it is possible to inject control characters into fields provided to the SUID program chfn (change finger). Although it is not possible to exploit this directly (e.g., adding a new user fails because \\n is in the block list), it is possible to misrepresent the /etc/passwd file when viewed. Use of \\r manipulations and Unicode characters to work around blocking of the : character make it possible to give the impression that a new user has been added. In other words, an adversary may be able to convince a system administrator to take the system offline (an indirect, social-engineered denial of service) by demonstrating that \\\"cat /etc/passwd\\\" shows a rogue user account.",
+					"severity": "low",
+					"packageName": "shadow",
+					"packageVersion": "1:4.5-1.1",
+					"link": "https://security-tracker.debian.org/tracker/CVE-2023-29383",
+					"riskFactors": [
+						"Attack complexity: low",
+						"Recent vulnerability"
+					],
+					"impactedVersions": [
+						"*"
+					],
+					"publishedDate": "2023-04-14T22:15:00Z",
+					"discoveredDate": "2023-10-10T03:58:50Z",
+					"layerTime": "2023-06-12T23:21:32Z",
+					"layerInstruction": "ADD file:2818e508d01da2188fb234b38fb19aa1ea9eeeae92d361ecdf49318d949f51a9 in / "
+				},
+				{
+					"id": "CVE-2021-36087",
+					"status": "open",
+					"cvss": 3.3,
+					"vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:L",
+					"description": "The CIL compiler in SELinux 3.2 has a heap-based buffer over-read in ebitmap_match_any (called indirectly from cil_check_neverallow). This occurs because there is sometimes a lack of checks for invalid statements in an optional block.",
+					"severity": "low",
+					"packageName": "libsepol",
+					"packageVersion": "2.8-1",
+					"link": "https://security-tracker.debian.org/tracker/CVE-2021-36087",
+					"riskFactors": [
+						"Attack complexity: low",
+						"DoS - Low"
+					],
+					"impactedVersions": [
+						"*"
+					],
+					"publishedDate": "2021-07-01T03:15:00Z",
+					"discoveredDate": "2023-10-10T03:58:50Z",
+					"layerTime": "2023-06-12T23:21:32Z",
+					"layerInstruction": "ADD file:2818e508d01da2188fb234b38fb19aa1ea9eeeae92d361ecdf49318d949f51a9 in / "
+				},
+				{
+					"id": "CVE-2021-36086",
+					"status": "open",
+					"cvss": 3.3,
+					"vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:L",
+					"description": "The CIL compiler in SELinux 3.2 has a use-after-free in cil_reset_classpermission (called from cil_reset_classperms_set and cil_reset_classperms_list).",
+					"severity": "low",
+					"packageName": "libsepol",
+					"packageVersion": "2.8-1",
+					"link": "https://security-tracker.debian.org/tracker/CVE-2021-36086",
+					"riskFactors": [
+						"DoS - Low",
+						"Attack complexity: low"
+					],
+					"impactedVersions": [
+						"*"
+					],
+					"publishedDate": "2021-07-01T03:15:00Z",
+					"discoveredDate": "2023-10-10T03:58:50Z",
+					"layerTime": "2023-06-12T23:21:32Z",
+					"layerInstruction": "ADD file:2818e508d01da2188fb234b38fb19aa1ea9eeeae92d361ecdf49318d949f51a9 in / "
+				},
+				{
+					"id": "CVE-2021-36085",
+					"status": "open",
+					"cvss": 3.3,
+					"vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:L",
+					"description": "The CIL compiler in SELinux 3.2 has a use-after-free in __cil_verify_classperms (called from __verify_map_perm_classperms and hashtab_map).",
+					"severity": "low",
+					"packageName": "libsepol",
+					"packageVersion": "2.8-1",
+					"link": "https://security-tracker.debian.org/tracker/CVE-2021-36085",
+					"riskFactors": [
+						"DoS - Low",
+						"Attack complexity: low"
+					],
+					"impactedVersions": [
+						"*"
+					],
+					"publishedDate": "2021-07-01T03:15:00Z",
+					"discoveredDate": "2023-10-10T03:58:50Z",
+					"layerTime": "2023-06-12T23:21:32Z",
+					"layerInstruction": "ADD file:2818e508d01da2188fb234b38fb19aa1ea9eeeae92d361ecdf49318d949f51a9 in / "
+				},
+				{
+					"id": "CVE-2021-36084",
+					"status": "open",
+					"cvss": 3.3,
+					"vector": "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:L",
+					"description": "The CIL compiler in SELinux 3.2 has a use-after-free in __cil_verify_classperms (called from __cil_verify_classpermission and __cil_pre_verify_helper).",
+					"severity": "low",
+					"packageName": "libsepol",
+					"packageVersion": "2.8-1",
+					"link": "https://security-tracker.debian.org/tracker/CVE-2021-36084",
+					"riskFactors": [
+						"Attack complexity: low",
+						"DoS - Low"
+					],
+					"impactedVersions": [
+						"*"
+					],
+					"publishedDate": "2021-07-01T03:15:00Z",
+					"discoveredDate": "2023-10-10T03:58:50Z",
+					"layerTime": "2023-06-12T23:21:32Z",
+					"layerInstruction": "ADD file:2818e508d01da2188fb234b38fb19aa1ea9eeeae92d361ecdf49318d949f51a9 in / "
+				},
+				{
+					"id": "CVE-2023-4641",
+					"status": "open",
+					"description": "a flaw was found in shadow-utils. when asking for a new password, shadow-utils asks the password twice. if the password fails on the second attempt, shadow-utils fails in cleaning the buffer used to store the first entry. this may allow an attacker with enough access to retrieve the password from the memory.",
+					"severity": "low",
+					"packageName": "shadow",
+					"packageVersion": "1:4.5-1.1",
+					"link": "https://security-tracker.debian.org/tracker/CVE-2023-4641",
+					"riskFactors": [
+						"Recent vulnerability"
+					],
+					"impactedVersions": [
+						"*"
+					],
+					"publishedDate": "2023-06-17T00:00:00Z",
+					"discoveredDate": "2023-10-10T03:58:50Z",
+					"layerTime": "2023-06-12T23:21:32Z",
+					"layerInstruction": "ADD file:2818e508d01da2188fb234b38fb19aa1ea9eeeae92d361ecdf49318d949f51a9 in / "
+				}
+			],
+			"vulnerabilityDistribution": {
+				"critical": 2,
+				"high": 7,
+				"medium": 7,
+				"low": 47,
+				"total": 63
+			},
+			"vulnerabilityScanPassed": false,
+			"history": [
+				{
+					"created": "2023-06-12T23:21:32Z",
+					"instruction": "ADD file:2818e508d01da2188fb234b38fb19aa1ea9eeeae92d361ecdf49318d949f51a9 in / "
+				},
+				{
+					"created": "2023-06-12T23:21:32Z",
+					"instruction": "CMD [\"bash\"]"
+				},
+				{
+					"created": "2023-06-13T11:02:18Z",
+					"instruction": "RUN set -eux; \t{ \t\techo 'Package: php*'; \t\techo 'Pin: release *'; \t\techo 'Pin-Priority: -1'; \t} \u003e /etc/apt/preferences.d/no-debian-php"
+				},
+				{
+					"created": "2023-06-13T11:02:18Z",
+					"instruction": "ENV PHPIZE_DEPS=autoconf \t\tdpkg-dev \t\tfile \t\tg++ \t\tgcc \t\tlibc-dev \t\tmake \t\tpkg-config \t\tre2c"
+				},
+				{
+					"created": "2023-06-13T11:02:40Z",
+					"instruction": "RUN set -eux; \tapt-get update; \tapt-get install -y --no-install-recommends \t\t$PHPIZE_DEPS \t\tca-certificates \t\tcurl \t\txz-utils \t; \trm -rf /var/lib/apt/lists/*"
+				},
+				{
+					"created": "2023-06-13T11:02:41Z",
+					"instruction": "ENV PHP_INI_DIR=/usr/local/etc/php"
+				},
+				{
+					"created": "2023-06-13T11:02:41Z",
+					"instruction": "RUN set -eux; \tmkdir -p \"$PHP_INI_DIR/conf.d\"; \t[ ! -d /var/www/html ]; \tmkdir -p /var/www/html; \tchown www-data:www-data /var/www/html; \tchmod 1777 /var/www/html"
+				},
+				{
+					"created": "2023-06-13T11:02:41Z",
+					"instruction": "ENV PHP_CFLAGS=-fstack-protector-strong -fpic -fpie -O2 -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64"
+				},
+				{
+					"created": "2023-06-13T11:02:41Z",
+					"instruction": "ENV PHP_CPPFLAGS=-fstack-protector-strong -fpic -fpie -O2 -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64"
+				},
+				{
+					"created": "2023-06-13T11:02:41Z",
+					"instruction": "ENV PHP_LDFLAGS=-Wl,-O1 -pie"
+				},
+				{
+					"created": "2023-06-13T11:29:26Z",
+					"instruction": "ENV GPG_KEYS=39B641343D8C104B2B146DC3F9C39DC0B9698544 E60913E4DF209907D8E30D96659A97C9CF2A795A 1198C0117593497A5EC5C199286AF1F9897469DC"
+				},
+				{
+					"created": "2023-06-13T11:29:26Z",
+					"instruction": "ENV PHP_VERSION=8.2.7"
+				},
+				{
+					"created": "2023-06-13T11:29:26Z",
+					"instruction": "ENV PHP_URL=https://www.php.net/distributions/php-8.2.7.tar.xz PHP_ASC_URL=https://www.php.net/distributions/php-8.2.7.tar.xz.asc"
+				},
+				{
+					"created": "2023-06-13T11:29:26Z",
+					"instruction": "ENV PHP_SHA256=4b9fb3dcd7184fe7582d7e44544ec7c5153852a2528de3b6754791258ffbdfa0"
+				},
+				{
+					"created": "2023-06-13T11:29:37Z",
+					"instruction": "RUN set -eux; \t\tsavedAptMark=\"$(apt-mark showmanual)\"; \tapt-get update; \tapt-get install -y --no-install-recommends gnupg; \trm -rf /var/lib/apt/lists/*; \t\tmkdir -p /usr/src; \tcd /usr/src; \t\tcurl -fsSL -o php.tar.xz \"$PHP_URL\"; \t\tif [ -n \"$PHP_SHA256\" ]; then \t\techo \"$PHP_SHA256 *php.tar.xz\" | sha256sum -c -; \tfi; \t\tif [ -n \"$PHP_ASC_URL\" ]; then \t\tcurl -fsSL -o php.tar.xz.asc \"$PHP_ASC_URL\"; \t\texport GNUPGHOME=\"$(mktemp -d)\"; \t\tfor key in $GPG_KEYS; do \t\t\tgpg --batch --keyserver keyserver.ubuntu.com --recv-keys \"$key\"; \t\tdone; \t\tgpg --batch --verify php.tar.xz.asc php.tar.xz; \t\tgpgconf --kill all; \t\trm -rf \"$GNUPGHOME\"; \tfi; \t\tapt-mark auto '.*' \u003e /dev/null; \tapt-mark manual $savedAptMark \u003e /dev/null; \tapt-get purge -y --auto-remove -o APT::AutoRemove::RecommendsImportant=false"
+				},
+				{
+					"created": "2023-06-13T11:29:37Z",
+					"instruction": "COPY file:ce57c04b70896f77cc11eb2766417d8a1240fcffe5bba92179ec78c458844110 in /usr/local/bin/ "
+				},
+				{
+					"created": "2023-06-13T11:39:10Z",
+					"instruction": "RUN set -eux; \t\tsavedAptMark=\"$(apt-mark showmanual)\"; \tapt-get update; \tapt-get install -y --no-install-recommends \t\tlibargon2-dev \t\tlibcurl4-openssl-dev \t\tlibonig-dev \t\tlibreadline-dev \t\tlibsodium-dev \t\tlibsqlite3-dev \t\tlibssl-dev \t\tlibxml2-dev \t\tzlib1g-dev \t; \t\texport \t\tCFLAGS=\"$PHP_CFLAGS\" \t\tCPPFLAGS=\"$PHP_CPPFLAGS\" \t\tLDFLAGS=\"$PHP_LDFLAGS\" \t; \tdocker-php-source extract; \tcd /usr/src/php; \tgnuArch=\"$(dpkg-architecture --query DEB_BUILD_GNU_TYPE)\"; \tdebMultiarch=\"$(dpkg-architecture --query DEB_BUILD_MULTIARCH)\"; \tif [ ! -d /usr/include/curl ]; then \t\tln -sT \"/usr/include/$debMultiarch/curl\" /usr/local/include/curl; \tfi; \t./configure \t\t--build=\"$gnuArch\" \t\t--with-config-file-path=\"$PHP_INI_DIR\" \t\t--with-config-file-scan-dir=\"$PHP_INI_DIR/conf.d\" \t\t\t\t--enable-option-checking=fatal \t\t\t\t--with-mhash \t\t\t\t--with-pic \t\t\t\t--enable-ftp \t\t--enable-mbstring \t\t--enable-mysqlnd \t\t--with-password-argon2 \t\t--with-sodium=shared \t\t--with-pdo-sqlite=/usr \t\t--with-sqlite3=/usr \t\t\t\t--with-curl \t\t--with-iconv \t\t--with-openssl \t\t--with-readline \t\t--with-zlib \t\t\t\t--disable-phpdbg \t\t\t\t--with-pear \t\t\t\t$(test \"$gnuArch\" = 's390x-linux-gnu' \u0026\u0026 echo '--without-pcre-jit') \t\t--with-libdir=\"lib/$debMultiarch\" \t\t\t\t--disable-cgi \t\t\t\t--enable-fpm \t\t--with-fpm-user=www-data \t\t--with-fpm-group=www-data \t; \tmake -j \"$(nproc)\"; \tfind -type f -name '*.a' -delete; \tmake install; \tfind \t\t/usr/local \t\t-type f \t\t-perm '/0111' \t\t-exec sh -euxc ' \t\t\tstrip --strip-all \"$@\" || : \t\t' -- '{}' + \t; \tmake clean; \t\tcp -v php.ini-* \"$PHP_INI_DIR/\"; \t\tcd /; \tdocker-php-source delete; \t\tapt-mark auto '.*' \u003e /dev/null; \t[ -z \"$savedAptMark\" ] || apt-mark manual $savedAptMark; \tfind /usr/local -type f -executable -exec ldd '{}' ';' \t\t| awk '/=\u003e/ { print $(NF-1) }' \t\t| sort -u \t\t| xargs -r dpkg-query --search \t\t| cut -d: -f1 \t\t| sort -u \t\t| xargs -r apt-mark manual \t; \tapt-get purge -y --auto-remove -o APT::AutoRemove::RecommendsImportant=false; \trm -rf /var/lib/apt/lists/*; \t\tpecl update-channels; \trm -rf /tmp/pear ~/.pearrc; \t\tphp --version"
+				},
+				{
+					"created": "2023-06-13T11:39:10Z",
+					"instruction": "COPY multi:869bde9dbeae74886a05c9e2107b3e3b4877116db8c6d9adbaff2719f9fb5262 in /usr/local/bin/ "
+				},
+				{
+					"created": "2023-06-13T11:39:11Z",
+					"instruction": "RUN docker-php-ext-enable sodium"
+				},
+				{
+					"created": "2023-06-13T11:39:11Z",
+					"instruction": "ENTRYPOINT [\"docker-php-entrypoint\"]"
+				},
+				{
+					"created": "2023-06-13T11:39:11Z",
+					"instruction": "WORKDIR /var/www/html"
+				},
+				{
+					"created": "2023-06-13T11:39:11Z",
+					"instruction": "RUN set -eux; \tcd /usr/local/etc; \tif [ -d php-fpm.d ]; then \t\tsed 's!=NONE/!=!g' php-fpm.conf.default | tee php-fpm.conf \u003e /dev/null; \t\tcp php-fpm.d/www.conf.default php-fpm.d/www.conf; \telse \t\tmkdir php-fpm.d; \t\tcp php-fpm.conf.default php-fpm.d/www.conf; \t\t{ \t\t\techo '[global]'; \t\t\techo 'include=etc/php-fpm.d/*.conf'; \t\t} | tee php-fpm.conf; \tfi; \t{ \t\techo '[global]'; \t\techo 'error_log = /proc/self/fd/2'; \t\techo; echo '; https://github.com/docker-library/php/pull/725#issuecomment-443540114'; echo 'log_limit = 8192'; \t\techo; \t\techo '[www]'; \t\techo '; php-fpm closes STDOUT on startup, so sending logs to /proc/self/fd/1 does not work.'; \t\techo '; https://bugs.php.net/bug.php?id=73886'; \t\techo 'access.log = /proc/self/fd/2'; \t\techo; \t\techo 'clear_env = no'; \t\techo; \t\techo '; Ensure worker stdout and stderr are sent to the main error log.'; \t\techo 'catch_workers_output = yes'; \t\techo 'decorate_workers_output = no'; \t} | tee php-fpm.d/docker.conf; \t{ \t\techo '[global]'; \t\techo 'daemonize = no'; \t\techo; \t\techo '[www]'; \t\techo 'listen = 9000'; \t} | tee php-fpm.d/zz-docker.conf; \tmkdir -p \"$PHP_INI_DIR/conf.d\"; \t{ \t\techo '; https://github.com/docker-library/php/issues/878#issuecomment-938595965'; \t\techo 'fastcgi.logging = Off'; \t} \u003e \"$PHP_INI_DIR/conf.d/docker-fpm.ini\""
+				},
+				{
+					"created": "2023-06-13T11:39:11Z",
+					"instruction": "STOPSIGNAL SIGQUIT"
+				},
+				{
+					"created": "2023-06-13T11:39:11Z",
+					"instruction": "EXPOSE 9000"
+				},
+				{
+					"created": "2023-06-13T11:39:11Z",
+					"instruction": "CMD [\"php-fpm\"]"
+				},
+				{
+					"created": "2023-06-13T11:39:11Z",
+					"instruction": "CMD [\"/bin/sh\" \"-c\" \"echo \\\"Hello world\\\"\"]"
+				}
+			],
+			"scanTime": "2023-10-10T03:59:00.007609946Z"
+		}
+	],
+	"consoleURL": "https://app.eu.prismacloud.io/compute?computeState=/monitor/vulnerabilities/images/ci?search=sha256%3A437c9c51f53e0c15f0f77dc20417c3638c1d7aae4da6115d1d1df1e5177633c6"
+}

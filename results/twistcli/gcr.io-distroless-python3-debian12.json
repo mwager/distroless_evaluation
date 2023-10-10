@@ -1,14 +1,27 @@
 {
 	"results": [
 		{
-			"id": "sha256:0401372b4f11f5e88d94719b1b530fc91d1ea64c2d67cd97418f78e82d42da67",
+			"id": "sha256:8588bdf7fc6ce0164f0ecc6d8ebb1eb5dba1f5e4d5631dd16e3fa3a376fbb0b1",
 			"name": "gcr.io-distroless-python3-debian12:latest",
 			"distro": "Distroless (based on Debian GNU/Linux 12)",
-			"distroRelease": "12.1",
+			"distroRelease": "bookworm",
 			"collections": [
 				"All"
 			],
 			"packages": [
+				{
+					"type": "os",
+					"name": "dash",
+					"version": "0.5.12-2",
+					"licenses": [
+						"BSD-3-Clause"
+					]
+				},
+				{
+					"type": "os",
+					"name": "tzdata",
+					"version": "2023c-5"
+				},
 				{
 					"type": "os",
 					"name": "netbase",
@@ -19,23 +32,10 @@
 				},
 				{
 					"type": "os",
-					"name": "tzdata",
-					"version": "2023c-5"
-				},
-				{
-					"type": "os",
 					"name": "base-files",
-					"version": "12.4+deb12u1",
+					"version": "12.4+deb12u2",
 					"licenses": [
 						"GPL"
-					]
-				},
-				{
-					"type": "os",
-					"name": "dash",
-					"version": "0.5.12-2",
-					"licenses": [
-						"BSD-3-Clause"
 					]
 				},
 				{
@@ -48,27 +48,40 @@
 				},
 				{
 					"type": "os",
-					"name": "openssl",
-					"version": "3.0.9-1",
+					"name": "keyutils",
+					"version": "1.6.3-2",
 					"licenses": [
-						"Apache-2.0"
+						"GPL-2+"
 					]
 				},
 				{
 					"type": "os",
-					"name": "ncurses",
-					"version": "6.4-4",
+					"name": "db5.3",
+					"version": "5.3.28+dfsg2-1",
 					"licenses": [
-						"MIT/X11"
+						"BSD-3-clause"
 					]
 				},
 				{
 					"type": "os",
-					"name": "libnsl",
-					"version": "1.3.0-2",
+					"name": "xz-utils",
+					"version": "5.4.1-0.2",
 					"licenses": [
-						"LGPL-2.1+"
+						"GPL-2+"
 					]
+				},
+				{
+					"type": "os",
+					"name": "sqlite3",
+					"version": "3.40.1-2",
+					"licenses": [
+						"GPL-2+"
+					]
+				},
+				{
+					"type": "os",
+					"name": "python3-stdlib-extensions",
+					"version": "3.11.2-3"
 				},
 				{
 					"type": "os",
@@ -77,10 +90,10 @@
 				},
 				{
 					"type": "os",
-					"name": "db5.3",
-					"version": "5.3.28+dfsg2-1",
+					"name": "python3.11",
+					"version": "3.11.2-6",
 					"licenses": [
-						"BSD-3-clause"
+						"GPL-2"
 					]
 				},
 				{
@@ -93,90 +106,8 @@
 				},
 				{
 					"type": "os",
-					"name": "python3-stdlib-extensions",
-					"version": "3.11.2-3"
-				},
-				{
-					"type": "os",
-					"name": "xz-utils",
-					"version": "5.4.1-0.2",
-					"licenses": [
-						"GPL-2+"
-					]
-				},
-				{
-					"type": "os",
-					"name": "python3.11",
-					"version": "3.11.2-6",
-					"licenses": [
-						"GPL-2"
-					]
-				},
-				{
-					"type": "os",
-					"name": "zlib",
-					"version": "1:1.2.13.dfsg-1"
-				},
-				{
-					"type": "os",
-					"name": "readline",
-					"version": "8.2-1.3",
-					"licenses": [
-						"GPL-3+"
-					]
-				},
-				{
-					"type": "os",
-					"name": "krb5",
-					"version": "1.20.1-2",
-					"licenses": [
-						"GPL-2"
-					]
-				},
-				{
-					"type": "os",
-					"name": "libffi",
-					"version": "3.4.4-1",
-					"licenses": [
-						"GPL-2+"
-					]
-				},
-				{
-					"type": "os",
-					"name": "bzip2",
-					"version": "1.0.8-5",
-					"licenses": [
-						"BSD-variant"
-					]
-				},
-				{
-					"type": "os",
-					"name": "glibc",
-					"version": "2.36-9+deb12u1",
-					"licenses": [
-						"LGPL-2.1"
-					]
-				},
-				{
-					"type": "os",
-					"name": "keyutils",
-					"version": "1.6.3-2",
-					"licenses": [
-						"GPL-2+"
-					]
-				},
-				{
-					"type": "os",
 					"name": "libxcrypt",
 					"version": "1:4.4.33-2"
-				},
-				{
-					"type": "os",
-					"name": "libtirpc",
-					"version": "1.3.3+ds-1",
-					"licenses": [
-						"BSD-3-Clause"
-					]
 				},
 				{
 					"type": "os",
@@ -188,8 +119,77 @@
 				},
 				{
 					"type": "os",
-					"name": "sqlite3",
-					"version": "3.40.1-2",
+					"name": "openssl",
+					"version": "3.0.11-1~deb12u1",
+					"licenses": [
+						"Apache-2.0"
+					]
+				},
+				{
+					"type": "os",
+					"name": "libnsl",
+					"version": "1.3.0-2",
+					"licenses": [
+						"LGPL-2.1+"
+					]
+				},
+				{
+					"type": "os",
+					"name": "libtirpc",
+					"version": "1.3.3+ds-1",
+					"licenses": [
+						"BSD-3-Clause"
+					]
+				},
+				{
+					"type": "os",
+					"name": "readline",
+					"version": "8.2-1.3",
+					"licenses": [
+						"GPL-3+"
+					]
+				},
+				{
+					"type": "os",
+					"name": "ncurses",
+					"version": "6.4-4",
+					"licenses": [
+						"MIT/X11"
+					]
+				},
+				{
+					"type": "os",
+					"name": "krb5",
+					"version": "1.20.1-2+deb12u1",
+					"licenses": [
+						"GPL-2"
+					]
+				},
+				{
+					"type": "os",
+					"name": "glibc",
+					"version": "2.36-9+deb12u3",
+					"licenses": [
+						"LGPL-2.1"
+					]
+				},
+				{
+					"type": "os",
+					"name": "zlib",
+					"version": "1:1.2.13.dfsg-1"
+				},
+				{
+					"type": "os",
+					"name": "bzip2",
+					"version": "1.0.8-5",
+					"licenses": [
+						"BSD-variant"
+					]
+				},
+				{
+					"type": "os",
+					"name": "libffi",
+					"version": "3.4.4-1",
 					"licenses": [
 						"GPL-2+"
 					]
@@ -213,12 +213,123 @@
 				"total": 1
 			},
 			"complianceScanPassed": true,
+			"vulnerabilities": [
+				{
+					"id": "CVE-2023-40217",
+					"status": "open",
+					"cvss": 5.3,
+					"vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N",
+					"description": "An issue was discovered in Python before 3.8.18, 3.9.x before 3.9.18, 3.10.x before 3.10.13, and 3.11.x before 3.11.5. It primarily affects servers (such as HTTP servers) that use TLS client authentication. If a TLS server-side socket is created, receives data into the socket buffer, and then is closed quickly, there is a brief window where the SSLSocket instance will detect the socket as \\\"not connected\\\" and won\\'t initiate a handshake, but buffered data will still be readable from the socket buffer. This data will not be authenticated if the server-side TLS peer is expecting client certificate authentication, and is indistinguishable from valid TLS stream data. Data is limited in size to the amount that will fit in the buffer. (The TLS connection cannot directly be used for data exfiltration because the vulnerable code path requires that the connection be closed on initialization of the SSLSocket.)",
+					"severity": "medium",
+					"packageName": "python3.11",
+					"packageVersion": "3.11.2-6",
+					"link": "https://security-tracker.debian.org/tracker/CVE-2023-40217",
+					"riskFactors": [
+						"Attack complexity: low",
+						"Attack vector: network",
+						"Medium severity",
+						"Recent vulnerability"
+					],
+					"impactedVersions": [
+						"*"
+					],
+					"publishedDate": "2023-08-25T01:15:00Z",
+					"discoveredDate": "2023-10-10T04:00:11Z",
+					"layerTime": "1970-01-01T00:00:00Z"
+				},
+				{
+					"id": "CVE-2023-41105",
+					"status": "open",
+					"cvss": 7.5,
+					"vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:N",
+					"description": "An issue was discovered in Python 3.11 through 3.11.4. If a path containing \\'\\0\\' bytes is passed to os.path.normpath(), the path will be truncated unexpectedly at the first \\'\\0\\' byte. There are plausible cases in which an application would have rejected a filename for security reasons in Python 3.10.x or earlier, but that filename is no longer rejected in Python 3.11.x.",
+					"severity": "low",
+					"packageName": "python3.11",
+					"packageVersion": "3.11.2-6",
+					"link": "https://security-tracker.debian.org/tracker/CVE-2023-41105",
+					"riskFactors": [
+						"Attack vector: network",
+						"Recent vulnerability",
+						"Attack complexity: low"
+					],
+					"impactedVersions": [
+						"*"
+					],
+					"publishedDate": "2023-08-23T07:15:00Z",
+					"discoveredDate": "2023-10-10T04:00:11Z",
+					"layerTime": "1970-01-01T00:00:00Z"
+				},
+				{
+					"id": "CVE-2023-24329",
+					"status": "open",
+					"cvss": 7.5,
+					"vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:N",
+					"description": "An issue in the urllib.parse component of Python before 3.11.4 allows attackers to bypass blocklisting methods by supplying a URL that starts with blank characters.",
+					"severity": "low",
+					"packageName": "python3.11",
+					"packageVersion": "3.11.2-6",
+					"link": "https://security-tracker.debian.org/tracker/CVE-2023-24329",
+					"riskFactors": [
+						"Attack complexity: low",
+						"Attack vector: network"
+					],
+					"impactedVersions": [
+						"*"
+					],
+					"publishedDate": "2023-02-17T15:15:00Z",
+					"discoveredDate": "2023-10-10T04:00:11Z",
+					"layerTime": "1970-01-01T00:00:00Z"
+				},
+				{
+					"id": "CVE-2023-27043",
+					"status": "open",
+					"cvss": 5.3,
+					"vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N",
+					"description": "The email module of Python through 3.11.3 incorrectly parses e-mail addresses that contain a special character. The wrong portion of an RFC2822 header is identified as the value of the addr-spec. In some applications, an attacker can bypass a protection mechanism in which application access is granted only after verifying receipt of e-mail to a specific domain (e.g., only @company.example.com addresses may be used for signup). This occurs in email/_parseaddr.py in recent versions of Python.",
+					"severity": "low",
+					"packageName": "python3.11",
+					"packageVersion": "3.11.2-6",
+					"link": "https://security-tracker.debian.org/tracker/CVE-2023-27043",
+					"riskFactors": [
+						"Recent vulnerability",
+						"Attack complexity: low",
+						"Attack vector: network"
+					],
+					"impactedVersions": [
+						"*"
+					],
+					"publishedDate": "2023-04-19T00:15:00Z",
+					"discoveredDate": "2023-10-10T04:00:11Z",
+					"layerTime": "1970-01-01T00:00:00Z"
+				},
+				{
+					"id": "CVE-2023-4039",
+					"status": "open",
+					"cvss": 4.8,
+					"vector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:N",
+					"description": "  A failure in the -fstack-protector feature in GCC-based toolchains  that target AArch64 allows an attacker to exploit an existing buffer  overflow in dynamically-sized local variables in your application  without this being detected. This stack-protector failure only applies  to C99-style dynamically-sized local variables or those created using  alloca(). The stack-protector operates as intended for statically-sized  local variables.  The default behavior when the stack-protector  detects an overflow is to terminate your application, resulting in  controlled loss of availability. An attacker who can exploit a buffer  overflow without triggering the stack-protector might be able to change  program flow control to cause an uncontrolled loss of availability or to  go further and affect confidentiality or integrity.      ",
+					"severity": "low",
+					"packageName": "gcc-12",
+					"packageVersion": "12.2.0-14",
+					"link": "https://security-tracker.debian.org/tracker/CVE-2023-4039",
+					"riskFactors": [
+						"Attack vector: network",
+						"Recent vulnerability"
+					],
+					"impactedVersions": [
+						"*"
+					],
+					"publishedDate": "2023-09-13T09:15:00Z",
+					"discoveredDate": "2023-10-10T04:00:11Z",
+					"layerTime": "1970-01-01T00:00:00Z"
+				}
+			],
 			"vulnerabilityDistribution": {
 				"critical": 0,
 				"high": 0,
-				"medium": 0,
-				"low": 0,
-				"total": 0
+				"medium": 1,
+				"low": 4,
+				"total": 5
 			},
 			"vulnerabilityScanPassed": true,
 			"history": [
@@ -353,8 +464,8 @@
 					"instruction": "CMD [\"/bin/sh\" \"-c\" \"echo \\\"Hello world\\\"\"]"
 				}
 			],
-			"scanTime": "2023-09-26T03:37:52.28785808Z"
+			"scanTime": "2023-10-10T04:00:13.816713529Z"
 		}
 	],
-	"consoleURL": "https://app.eu.prismacloud.io/compute?computeState=/monitor/vulnerabilities/images/ci?search=sha256%3A0401372b4f11f5e88d94719b1b530fc91d1ea64c2d67cd97418f78e82d42da67"
+	"consoleURL": "https://app.eu.prismacloud.io/compute?computeState=/monitor/vulnerabilities/images/ci?search=sha256%3A8588bdf7fc6ce0164f0ecc6d8ebb1eb5dba1f5e4d5631dd16e3fa3a376fbb0b1"
 }

@@ -1,10 +1,10 @@
 {
 	"results": [
 		{
-			"id": "sha256:360e36a2fc962227b06fb722a6e981a854834a8ee7905912e0831f795f03dd4e",
+			"id": "sha256:d23955df3bfc1558f5d9e891ef3b362d50ee01a6108771bf37f84f8034d79fc1",
 			"name": "gcr.io-distroless-nodejs18-debian12:latest",
 			"distro": "Distroless (based on Debian GNU/Linux 12)",
-			"distroRelease": "12.1",
+			"distroRelease": "bookworm",
 			"collections": [
 				"All"
 			],
@@ -19,34 +19,21 @@
 				},
 				{
 					"type": "os",
-					"name": "nodejs",
-					"version": "18.17.1"
-				},
-				{
-					"type": "os",
 					"name": "tzdata",
 					"version": "2023c-5"
 				},
 				{
 					"type": "os",
 					"name": "base-files",
-					"version": "12.4+deb12u1",
+					"version": "12.4+deb12u2",
 					"licenses": [
 						"GPL"
 					]
 				},
 				{
 					"type": "os",
-					"name": "openssl",
-					"version": "3.0.9-1",
-					"licenses": [
-						"Apache-2.0"
-					]
-				},
-				{
-					"type": "os",
 					"name": "glibc",
-					"version": "2.36-9+deb12u1",
+					"version": "2.36-9+deb12u3",
 					"licenses": [
 						"LGPL-2.1"
 					]
@@ -55,12 +42,20 @@
 					"type": "os",
 					"name": "gcc-12",
 					"version": "12.2.0-14"
+				},
+				{
+					"type": "os",
+					"name": "openssl",
+					"version": "3.0.11-1~deb12u1",
+					"licenses": [
+						"Apache-2.0"
+					]
 				}
 			],
 			"applications": [
 				{
 					"name": "node",
-					"version": "18.17.1",
+					"version": "18.18.0",
 					"path": "/nodejs/bin/node"
 				}
 			],
@@ -82,12 +77,35 @@
 				"total": 1
 			},
 			"complianceScanPassed": true,
+			"vulnerabilities": [
+				{
+					"id": "CVE-2023-4039",
+					"status": "open",
+					"cvss": 4.8,
+					"vector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:N",
+					"description": "  A failure in the -fstack-protector feature in GCC-based toolchains  that target AArch64 allows an attacker to exploit an existing buffer  overflow in dynamically-sized local variables in your application  without this being detected. This stack-protector failure only applies  to C99-style dynamically-sized local variables or those created using  alloca(). The stack-protector operates as intended for statically-sized  local variables.  The default behavior when the stack-protector  detects an overflow is to terminate your application, resulting in  controlled loss of availability. An attacker who can exploit a buffer  overflow without triggering the stack-protector might be able to change  program flow control to cause an uncontrolled loss of availability or to  go further and affect confidentiality or integrity.      ",
+					"severity": "low",
+					"packageName": "gcc-12",
+					"packageVersion": "12.2.0-14",
+					"link": "https://security-tracker.debian.org/tracker/CVE-2023-4039",
+					"riskFactors": [
+						"Attack vector: network",
+						"Recent vulnerability"
+					],
+					"impactedVersions": [
+						"*"
+					],
+					"publishedDate": "2023-09-13T09:15:00Z",
+					"discoveredDate": "2023-10-10T04:01:22Z",
+					"layerTime": "1970-01-01T00:00:00Z"
+				}
+			],
 			"vulnerabilityDistribution": {
 				"critical": 0,
 				"high": 0,
 				"medium": 0,
-				"low": 0,
-				"total": 0
+				"low": 1,
+				"total": 1
 			},
 			"vulnerabilityScanPassed": true,
 			"history": [
@@ -141,8 +159,8 @@
 					"instruction": "CMD [\"/bin/sh\" \"-c\" \"echo \\\"Hello world\\\"\"]"
 				}
 			],
-			"scanTime": "2023-09-26T03:38:38.371146946Z"
+			"scanTime": "2023-10-10T04:01:26.768863799Z"
 		}
 	],
-	"consoleURL": "https://app.eu.prismacloud.io/compute?computeState=/monitor/vulnerabilities/images/ci?search=sha256%3A360e36a2fc962227b06fb722a6e981a854834a8ee7905912e0831f795f03dd4e"
+	"consoleURL": "https://app.eu.prismacloud.io/compute?computeState=/monitor/vulnerabilities/images/ci?search=sha256%3Ad23955df3bfc1558f5d9e891ef3b362d50ee01a6108771bf37f84f8034d79fc1"
 }
