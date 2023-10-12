@@ -100,7 +100,6 @@ BASE_IMAGES = [
 
 # ]
 
-
 def main():
     execute_command("rm -rf /src/results/twistcli/*.json")
     execute_command("rm -rf /src/Dockerfiles/*.dockerfile")
@@ -126,7 +125,7 @@ CMD echo "Hello world"
 
         # Scan:
         twistCliFilepath = '/src/results/twistcli/' + baseImageNormalized + '.json'
-        cmd = 'sudo /usr/bin/twistcli images scan --output-file ' + twistCliFilepath + ' --address https://europe-west3.cloud.twistlock.com/eu-158157 --publish=false -u 24e642d2-b443-4cee-8df6-902e134b02df -p 8S3MbzChSmsuaQo2oWC9tj+DJWY= ' +  baseImageNormalized
+        cmd = 'sudo /usr/bin/twistcli images scan --output-file ' + twistCliFilepath + ' --address '+PRISMA_URI+' --publish=false -u '+ PRISMA_KEY + '-p '+ PRISMA_SEC + ' ' +  baseImageNormalized
         print(cmd)
 
         try:
