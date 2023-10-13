@@ -75,6 +75,30 @@ def fetch_cve_data(cve_id):
         response.json()
         return None
 
+def fetchEPSS(cve):
+    try:
+        headers = {'content-type': 'application/json', 'apiKey': "11b20c32-c8ea-4ef7-b74b-48094a8a750b"}
+        url = f'https://api.first.org/data/v1/epss?cve={cve}'
+        print(url)
+        response = requests.get(url, headers=headers)
+
+        # CVE_ID could be "PRISMA-123" ...
+        if response.status_code != 200:
+            print("!!!!! ERROR - EPSS STATUS CODE ", cve, response.status_code)
+            return None
+
+        jsonData = response.json()
+
+        # if not "data" in jsonData or len(jsonData["data"]) == 0:
+        #     print("!!!!!!!!!!!!!", jsonData)
+
+        return jsonData["data"][0]
+    except requests.exceptions.RequestException as error:
+        print(f'Failed to fetch EPSS data for {cve}: {error}')
+        return None
+    except Exception as e:
+        print("ERROR fetching EPSS data: ", e)
+
 def execute_command(command):
     try:
         # Run the command and capture stdout and stderr
@@ -285,6 +309,22 @@ def printImageTable(data):
     fig.update_xaxes(title_text='Base images')
     fig.update_yaxes(title_text='Amount of low vulnerabilities')
     fig.write_image("images/low_over_image.png")
+
+def genrateEPSSChart(data):
+    for image in data:
+        for vul in image["vulns"]:
+            CVE = vul["id"]
+
+            if vul["epss"]:
+                epss = vul["epss"]["epss"] #* 100
+                percentile = vul["epss"]["percentile"]
+                print(epss, percentile, CVE, vul["severity"])
+            else:
+                a = 9
+                # print(0, CVE, vul["severity"])
+
+    # TODO: if not vul["epss"]: percentage = 0
+    return 0
 
 # Class is just used for unit testing when this script is executed directly (python3 helpers.py)
 class TestHelpers(unittest.TestCase):

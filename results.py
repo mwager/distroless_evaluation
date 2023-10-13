@@ -2,7 +2,7 @@
 This file will analyse results/FINAL.json ...
 """
 import json
-from helpers import prettyPrint, die, readFile, printImageTable, imageIsUsingComponentReduction
+from helpers import prettyPrint, die, readFile, printImageTable, imageIsUsingComponentReduction, genrateEPSSChart
 
 exploitAndImpactData = {}
 data = readFile('results/FINAL.json', True)
@@ -42,6 +42,9 @@ def weCanIgnoreThisVulnForManualAnalysis(vul):
 
 # printImageTable(data)
 # die("OK")
+
+genrateEPSSChart(data)
+die("epss chart generated.")
 
 for image in data:
     IMAGENAME = image["meta"]["name"] + ' ' + image["meta"]["distro"]

@@ -4,7 +4,7 @@ to the scanner findings like CVE metadata or public exploit information.
 
 Finally it will write a file called FINAL.json which can be used for final analysis
 """
-from helpers import die, readFile, writeFile, prettyPrint, readTwistcliFile, fetch_cve_data, fetch_exploits, fetchExploitFromTwistcliVuln
+from helpers import die, readFile, writeFile, prettyPrint, readTwistcliFile, fetch_cve_data, fetch_exploits, fetchExploitFromTwistcliVuln, fetchEPSS
 import glob, json
 import time, requests
 import csv
@@ -70,9 +70,14 @@ for filepath in files:
         #if (vul["severity"] == "critical" or vul["severity"] == "high"):
 
 
-        print(">>>>>>>>> TYPE TODO: eigener filter rt und os!!!!!!!!!!....", vul["TYPE"], CVE, vul["imageFoundIn"], vul["severity"])
+        # twistcli provides exploit info! Additional analyse will be manually
+        vul["exploit"] = fetchExploitFromTwistcliVuln(vul)
+        vul["epss"] = fetchEPSS(CVE)
+        print("EPSS", vul["epss"])
+        time.sleep(1)
 
 
+        # =================================================================================
         # fetch additional CVE meta data
         # cveData = fetch_cve_data(CVE)
         # if (cveData):
@@ -81,23 +86,16 @@ for filepath in files:
         # # we need to sleep a bit to prevent rate limits with NVD CVE API
         # time.sleep(1)
 
-        # twistcli provides exploit info! Additional analyse will be manually
-        vul["exploit"] = fetchExploitFromTwistcliVuln(vul)
-
+        # All not needed as we are just using the EPSS SCORE!
         # black market exploits
-        bmExploit = findBlackMarketExploit(CVE)
-        if bmExploit:
-            # never found :/
-            print("YYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYY", bmExploit)
-            vul["blackMaketExploit"] = bmExploit
+        # bmExploit = findBlackMarketExploit(CVE)
+        # if bmExploit:
+        #     # never found :/
+        #     print("YYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYY", bmExploit)
+        #     vul["blackMaketExploit"] = bmExploit
 
         # SYM exploits in the wild
-        #TODO: use web scraping here: https://www.broadcom.com/support/security-center/attacksignatures
-
-
-
-
-
+        #use web scraping here: https://www.broadcom.com/support/security-center/attacksignatures
 
         # search exploits available for CVE
         # try:
@@ -118,6 +116,7 @@ for filepath in files:
         # if known:
         #     vul["knownExploit"] = known
         #     print("\nGOT knownExploit", vul["knownExploit"], CVE)
+        # =================================================================================
 
     FINAL.append(data)
 
