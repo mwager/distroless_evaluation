@@ -128,16 +128,22 @@ def fetchExploitFromTwistcliVuln(vul):
     return False
 
 def imageIsUsingComponentReduction(imagename):
+    # we ignore this as it is bullshit.
+    if "piotrkardasz" in imagename:
+        return False
     if "alpine" in imagename:
         return True
     if "distroless" in imagename:
         return True
     if "chiselled-base_22.04" in imagename:
         return True
+    if "ubuntu-jre" in imagename:
+        return True
     if "ubi-micro" in imagename:
         return True
     if "chainguard" in imagename:
         return True
+
 
 # Fetch exploits using searchsploit
 def fetch_exploits(cve_id):
@@ -311,20 +317,98 @@ def printImageTable(data):
     fig.write_image("images/low_over_image.png")
 
 def genrateEPSSChart(data):
+    unordered = []
+    x = []
+    y = []
+
     for image in data:
         for vul in image["vulns"]:
             CVE = vul["id"]
 
             if vul["epss"]:
-                epss = vul["epss"]["epss"] #* 100
-                percentile = vul["epss"]["percentile"]
-                print(epss, percentile, CVE, vul["severity"])
+                epss = float(vul["epss"]["epss"]) * 100.0 #ist bereits 0-1 !
+                percentile = float(vul["epss"]["percentile"]) * 100.0
             else:
-                a = 9
-                # print(0, CVE, vul["severity"])
+                epss = 0.0
+                percentile = 0.0
 
-    # TODO: if not vul["epss"]: percentage = 0
-    return 0
+            unordered.append([CVE, epss, percentile])
+
+            # if vul["epss"]:
+            #     epss = vul["epss"]["epss"] #* 100
+            #     percentile = vul["epss"]["percentile"]
+            #     print(epss, percentile, CVE, vul["severity"])
+            # else:
+            #     a = 9
+            #     # print(0, CVE, vul["severity"])
+
+    # Note: if I order y and not x (CVEs) the data will be displayed wrong...
+    # so DO NOT ORDER HERE.
+    ordered = unordered#[99:300] # sorted(unordered, key=lambda x: x[1])
+
+    for item in ordered:
+        if item[1] > 3:
+            print(item)
+
+        x.append(item[0])
+        y.append(item[1])
+
+    fig = px.bar(x=x, y=y)
+    fig.update_xaxes(title_text='CVEs (total: ' + str(len(ordered)) + ')')
+    fig.update_yaxes(title_text='EPSS (in %)')
+
+    # Set the x-axis category order to 'array' to preserve the original order
+    fig.update_xaxes(categoryorder='array')
+
+    fig.write_image("images/epss.png")
+
+    # x = []
+    # y = []
+    # for item in ordered:
+    #     x.append(item[0])
+    #     y.append(item[2])
+
+    # fig = px.bar(x=x, y=y)
+    # fig.update_xaxes(title_text='CVEs (total: ' + str(len(ordered)) + ')')
+    # fig.update_yaxes(title_text='EPSS percentiles (in %)')
+    # fig.write_image("images/epss-percentiles.png")
+
+def generateRQ1Chart(data):
+    images = {
+        'with': [],
+        'without': []
+    }
+    x = []
+    y = []
+
+    for image in data:
+        distribution = image["vulnerabilityDistribution"]
+        imagename = normalizeImageName(image["meta"]["name"])
+
+
+
+        if imageIsUsingComponentReduction(image["meta"]["name"]):
+            images["with"].append(distribution["total"])
+
+            print(image["meta"]["name"], distribution["total"])
+        else:
+            images["without"].append( distribution["total"])
+
+    x.append('Using component reduction')
+    x.append('Not using component reduction')
+
+    y.append(sum(images["with"]))
+    y.append(sum(images["without"]))
+
+    print(x, y)
+
+    fig = px.bar(x=x, y=y)
+    fig.update_xaxes(title_text='')
+    fig.update_yaxes(title_text='Total amount of vulnerabilities')
+    fig.write_image("images/rq1.png")
+
+
+
 
 # Class is just used for unit testing when this script is executed directly (python3 helpers.py)
 class TestHelpers(unittest.TestCase):

@@ -70,6 +70,7 @@ BASE_IMAGES = [
     # all relevant "Ubuntu chisel" images (some of them *manually built locally* before running this script! cloned to ~/chisel: https://github.com/valentincanonical/chisel/blob/examples/examples/chiselled-base.dockerfile)
     # They have no explicit nodejs & python support as of sep 2023
     # 'ubuntu/dotnet-runtime',
+    #Distroless Java runtimes based on Ubuntu:
     'ubuntu/jre:17-22.04_edge',
     'ubuntu/jre:8-22.04_edge',
     'chiselled-base:22.04', # base image - self built like described here https://github.com/valentincanonical/chisel/blob/examples/examples/chiselled-base.dockerfile see chisel and chisseled_base in Dockerfiles/
