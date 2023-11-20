@@ -57,12 +57,12 @@ def writeChartImage(data):
 def fetch_cve_data(cve_id):
     try:
         # request API KEY to get 50 reqs within 30secs https://nvd.nist.gov/developers/request-an-api-key
-        headers = {'content-type': 'application/json', 'apiKey': "11b20c32-c8ea-4ef7-b74b-48094a8a750b"}
+        headers = {'content-type': 'application/json', 'apiKey': "6eeec2ed-69d8-458f-a542-d5c5fb959749"}
         response = requests.get(f'https://services.nvd.nist.gov/rest/json/cves/2.0?cveId={cve_id}', headers=headers)
 
         # CVE_ID could be "PRISMA-123" ...
         if response.status_code != 200:
-            print("CVE STATUS CODE ", cve_id, response.status_code)
+            print("CVE STATUS CODE ", cve_id, response.status_code, response.text)
             return None
 
         # response = requests.get(f'https://cve.circl.lu/api/cve/${cve_id}')
@@ -77,7 +77,7 @@ def fetch_cve_data(cve_id):
 
 def fetchEPSS(cve):
     try:
-        headers = {'content-type': 'application/json', 'apiKey': "11b20c32-c8ea-4ef7-b74b-48094a8a750b"}
+        headers = {'content-type': 'application/json', 'apiKey': "6eeec2ed-69d8-458f-a542-d5c5fb959749"}
         url = f'https://api.first.org/data/v1/epss?cve={cve}'
         print(url)
         response = requests.get(url, headers=headers)

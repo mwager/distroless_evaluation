@@ -1,8 +1,8 @@
 """
 This file will analyse results/FINAL.json ...
 """
-import json
-from helpers import prettyPrint, die, generateRQ1Chart, readFile, printImageTable, imageIsUsingComponentReduction, genrateEPSSChart
+import json, time
+from helpers import prettyPrint, die, generateRQ1Chart, readFile, printImageTable, imageIsUsingComponentReduction, genrateEPSSChart, fetch_cve_data
 
 exploitAndImpactData = {}
 data = readFile('results/FINAL.json', True)
@@ -29,6 +29,18 @@ amountRTBasedVulnsWithExploit = 0
 
 statsByImage = {}
 
+attackVectorsCounts = {
+    "local": 0,
+    "network": 0,
+    'adjacent': 0,
+    'physical': 0
+}
+
+attackComplexityCounts = {
+    'low': 0,
+    'high': 0
+}
+
 # for stats we are not interested in runtime issues (like nodejs, php packages etc)
 # UPDATE: we ARE interested in runtime issues. if an app is using a go image and go has a critical vuln, this IS IMPORTANT!
 # So we want to categorize based on "os" and "runtime" !!!
@@ -46,8 +58,8 @@ def weCanIgnoreThisVulnForManualAnalysis(vul):
 # genrateEPSSChart(data)
 # die("epss chart generated.")
 
-generateRQ1Chart(data)
-die("DONE")
+# generateRQ1Chart(data)
+# die("DONE")
 
 for image in data:
     IMAGENAME = image["meta"]["name"] + ' ' + image["meta"]["distro"]
@@ -104,11 +116,11 @@ for image in data:
             else:
                 amountRTBasedVulnsWithExploit += 1
 
-        if (vul["severity"] == "critical" or vul["severity"] == "high" or vul["severity"] == "important"):
-            if vul["exploit"] == True:
-                print("GOT EXPLOIT", vul["TYPE"], CVE, vul["imageFoundIn"], severity)
-            else:
-                print("WITHOUT EXPLOIT", vul["TYPE"], CVE, vul["imageFoundIn"], severity)
+        # if (vul["severity"] == "critical" or vul["severity"] == "high" or vul["severity"] == "important"):
+        #     if vul["exploit"] == True:
+        #         print("GOT EXPLOIT", vul["TYPE"], CVE, vul["imageFoundIn"], severity)
+        #     else:
+        #         print("WITHOUT EXPLOIT", vul["TYPE"], CVE, vul["imageFoundIn"], severity)
 
         if "cveDataFetched" in vul and "vulnerabilities" in vul["cveDataFetched"] and len(vul["cveDataFetched"]["vulnerabilities"]) > 0:
             vulCVSS = vul["cveDataFetched"]["vulnerabilities"][0]
@@ -117,11 +129,15 @@ for image in data:
                 if "metrics" in vulCVSS and "cvssMetricV31" in vulCVSS["metrics"]:
                     cvssMetricV31 = vulCVSS["metrics"]["cvssMetricV31"][0]
 
-                    # TODO. why is there such a diff between the twistcli severities and the cvss ones?
-                    # For now: better to trust twistcli!
-                    # problem is with twistcli, critical and high ONLY in node 16 images!!!
-                    # severity = cvssMetricV31["cvssData"]["baseSeverity"].lower()
+                    # why is there such a diff between the twistcli severities and the cvss ones?
+                    # bc twistcli uses environmental and vendor based scores!
                     severityCVSS = cvssMetricV31["cvssData"]["baseSeverity"].lower()
+
+                    attackVector = cvssMetricV31["cvssData"]["attackVector"].lower()
+                    attackComplexity = cvssMetricV31["cvssData"]["attackComplexity"].lower()
+
+                    attackVectorsCounts[attackVector] += 1
+                    attackComplexityCounts[attackComplexity] += 1
 
                     # print(cvssMetricV31)
                     exploitAndImpactData[CVE] = {
@@ -175,8 +191,6 @@ for image in data:
 
     if distribution["critical"] > 0 or distribution["high"] == 0:
         imagesCriticalOrHighVulns.append(image["meta"]["name"])
-
-
 
 
 
@@ -243,4 +257,7 @@ for image in statsByImage:
 
 
 
-print("\n\nTODO: ALLE exploits found manuell näher analysieren dann, EASY! sind nicht viele. das wird RQ2 !!!")
+print("\n==============\nattackVectorsCounts and attackComplexityCounts")
+print(attackVectorsCounts)
+print(attackComplexityCounts)
+

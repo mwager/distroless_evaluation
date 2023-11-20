@@ -79,12 +79,12 @@ for filepath in files:
 
         # =================================================================================
         # fetch additional CVE meta data
-        # cveData = fetch_cve_data(CVE)
-        # if (cveData):
-        #     #print("GOT CVE DATA!")
-        #     vul["cveDataFetched"] = cveData
-        # # we need to sleep a bit to prevent rate limits with NVD CVE API
-        # time.sleep(1)
+        cveData = fetch_cve_data(CVE)
+        if (cveData):
+            print("GOT CVE DATA!")
+            vul["cveDataFetched"] = cveData
+        # we need to sleep a bit to prevent rate limits with NVD CVE API
+        time.sleep(1)
 
         # All not needed as we are just using the EPSS SCORE!
         # black market exploits
