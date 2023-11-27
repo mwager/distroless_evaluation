@@ -17,9 +17,6 @@ PRISMA_URI = config["PrismaCloud"]["URI"]
 PRISMA_KEY = config["PrismaCloud"]["AccessKey"]
 PRISMA_SEC = config["PrismaCloud"]["Secret"]
 
-# TODO: der epos dude, interview?
-# <https://teams.microsoft.com/l/message/19:WG0O_NCxEsOwPI39mYBssH8y-zmYFYeBWIOyaefkLCg1@thread.tacv2/1690191682241?tenantId=9744600e-3e04-492e-baa1-25ec245c6f10&amp;groupId=806c092e-2cc4-446a-ad2f-61c0b53907a4&amp;parentMessageId=1689836447011&amp;teamName=Security Champions Network&amp;channelName=General&amp;createdTime=1690191682241&amp;allowXTenantAccess=false>
-
 """
 All base images relevant to the thesis
 """
