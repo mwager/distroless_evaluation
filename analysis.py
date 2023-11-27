@@ -91,7 +91,7 @@ for filepath in files:
         # bmExploit = findBlackMarketExploit(CVE)
         # if bmExploit:
         #     # never found :/
-        #     print("YYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYY", bmExploit)
+        #     print("......", bmExploit)
         #     vul["blackMaketExploit"] = bmExploit
 
         # SYM exploits in the wild
@@ -108,7 +108,6 @@ for filepath in files:
         # except:
         #     print("error fetching EDB ", CVE)
 
-        # TODO !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
         # # USE MORE:
         #https://docs.docker.com/scout/advisory-db-sources/
 

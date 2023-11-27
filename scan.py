@@ -147,10 +147,6 @@ CMD echo "Hello world"
         #     die("OOOOOOOOOOO")
         print("\n ======================================================= \n")
 
-        # TODO: generate csv oder so? hmm ne, einfach hier direkt mit den daten arbeiten!??!
-
-        # 4 calculate statistics (media, T-test whatever!)
-
     # writeFile("results/BASIC.json", json.dumps(plotData))
     # writeChartImage(plotData)
     die("done")

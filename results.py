@@ -116,11 +116,11 @@ for image in data:
             else:
                 amountRTBasedVulnsWithExploit += 1
 
-        # if (vul["severity"] == "critical" or vul["severity"] == "high" or vul["severity"] == "important"):
-        #     if vul["exploit"] == True:
-        #         print("GOT EXPLOIT", vul["TYPE"], CVE, vul["imageFoundIn"], severity)
-        #     else:
-        #         print("WITHOUT EXPLOIT", vul["TYPE"], CVE, vul["imageFoundIn"], severity)
+        if (vul["severity"] == "critical" or vul["severity"] == "high" or vul["severity"] == "important"):
+            if vul["exploit"] == True:
+                print("GOT EXPLOIT", vul["TYPE"], CVE, vul["imageFoundIn"], severity)
+            else:
+                print("WITHOUT EXPLOIT", vul["TYPE"], CVE, vul["imageFoundIn"], severity)
 
         if "cveDataFetched" in vul and "vulnerabilities" in vul["cveDataFetched"] and len(vul["cveDataFetched"]["vulnerabilities"]) > 0:
             vulCVSS = vul["cveDataFetched"]["vulnerabilities"][0]
@@ -152,7 +152,6 @@ for image in data:
         #     if vul["packageName"] == "openssl":
         #         prettyPrint(vul)
 
-        # TODO!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
         if "exploitData" in vul:
             exploits[CVE] = {}
             exploits[CVE]["exploitData"] = vul
@@ -213,11 +212,6 @@ print("# of images WITHOUT ANY CRITICAL vulns: ", imageCountNoCriticalVulns, "\n
 
 print("# of images with HIGH or CRITICAL vulns: ", str(len(imagesCriticalOrHighVulns)) + ' of '+ str(LEN) + ' ('+ str(len(imagesCriticalOrHighVulns) / LEN * 100.0) +')', imagesCriticalOrHighVulns)
 
-# TODO: eine tabelle mit den ZERO FINDINGS
-# Eine Tabelle mit den critical or high (medium/low interessiert uns für RQ1 NICHT, oder doch? evtl extra table)
-# TODO: stats mit vuln counts und image name
-# TODO: tabellen für latex :) in helpers.py einfach print dann :D
-
 print("\n==================== RQ1: ", amountTotalVulnsWithComponentReductionMethods, amountTotalVulnsWithoutComponentReductionMethods, "REDUCTION: ")
 
 
@@ -227,7 +221,7 @@ impactValues = []
 for cve in exploitAndImpactData:
     exploitableValues.append(exploitAndImpactData[cve]["exploitabilityScore"])
     impactValues.append(exploitAndImpactData[cve]["impactScore"])
-# TODO was bedeuten diese zahlen?
+
 print("\n======= exloitability und impact score max value: ", max(exploitableValues), max(impactValues))
 # print(exploitAndImpactData)
 
