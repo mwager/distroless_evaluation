@@ -2,6 +2,11 @@
 
 This is the source code related to my master thesis "Evaluating the security of software containers through reduction of potentially vulnerable components".
 
+Read the paper [here](https://mwager.de/assets/component_reduction_paper.pdf).
+
+More info at [mwager.de](https://mwager.de).
+
+
 ## Download
 
 ```
